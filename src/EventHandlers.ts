@@ -48,6 +48,32 @@ PoolManager.Donate.handler(async ({ event, context }) => {
 });
 
 PoolManager.Initialize.handler(async ({ event, context }) => {
+  // First create/update the PoolManager entity
+  let poolManager = await context.PoolManager.get(event.srcAddress);
+  if (!poolManager) {
+    poolManager = {
+      id: event.srcAddress,
+      poolCount: BigInt(1),
+      txCount: BigInt(0),
+      totalVolumeUSD: BigInt(0),
+      totalVolumeETH: BigInt(0),
+      totalFeesUSD: BigInt(0),
+      totalFeesETH: BigInt(0),
+      untrackedVolumeUSD: BigInt(0),
+      totalValueLockedUSD: BigInt(0),
+      totalValueLockedETH: BigInt(0),
+      totalValueLockedUSDUntracked: BigInt(0),
+      totalValueLockedETHUntracked: BigInt(0),
+      owner: event.srcAddress,
+    };
+  } else {
+    poolManager = {
+      ...poolManager,
+      poolCount: poolManager.poolCount + BigInt(1),
+    };
+  }
+  await context.PoolManager.set(poolManager);
+
   const entity: PoolManager_Initialize = {
     id: `${event.chainId}_${event.block.number}_${event.logIndex}`,
     event_id: event.params.id,
@@ -150,13 +176,17 @@ PoolManager.OperatorSet.handler(async ({ event, context }) => {
 });
 
 PoolManager.OwnershipTransferred.handler(async ({ event, context }) => {
-  const entity: PoolManager_OwnershipTransferred = {
-    id: `${event.chainId}_${event.block.number}_${event.logIndex}`,
-    user: event.params.user,
-    newOwner: event.params.newOwner,
+  let poolManager = await context.PoolManager.get(event.srcAddress);
+  if (!poolManager) {
+    return;
+  }
+
+  poolManager = {
+    ...poolManager,
+    owner: event.params.newOwner,
   };
 
-  context.PoolManager_OwnershipTransferred.set(entity);
+  await context.PoolManager.set(poolManager);
 });
 
 PoolManager.ProtocolFeeControllerUpdated.handler(async ({ event, context }) => {
@@ -179,21 +209,25 @@ PoolManager.ProtocolFeeUpdated.handler(async ({ event, context }) => {
 });
 
 PoolManager.Swap.handler(async ({ event, context }) => {
-  const entity: Swap = {
-    id: `${event.chainId}_${event.block.number}_${event.logIndex}`,
-    transaction: event.block.hash,
-    timestamp: BigInt(event.block.timestamp),
-    pool: event.params.id,
-    token0: "", // This needs to be populated from pool data
-    token1: "", // This needs to be populated from pool data
-    sender: event.params.sender,
-    origin: event.srcAddress,
-    amount0: event.params.amount0,
-    amount1: event.params.amount1,
-    amountUSD: BigInt(0), // This would need price calculation logic
-    sqrtPriceX96: event.params.sqrtPriceX96,
-    tick: event.params.tick,
-    logIndex: BigInt(event.logIndex),
+  let poolManager = await context.PoolManager.get(event.srcAddress);
+  if (!poolManager) {
+    return;
+  }
+
+  // Update PoolManager using immutable pattern
+  poolManager = {
+    ...poolManager,
+    txCount: poolManager.txCount + BigInt(1),
+    // Setting all ETH and USD values to 0 for now
+    totalVolumeETH: BigInt(0),
+    totalVolumeUSD: BigInt(0),
+    untrackedVolumeUSD: BigInt(0),
+    totalFeesETH: BigInt(0),
+    totalFeesUSD: BigInt(0),
+    totalValueLockedETH: BigInt(0),
+    totalValueLockedUSD: BigInt(0),
+    totalValueLockedETHUntracked: BigInt(0),
+    totalValueLockedUSDUntracked: BigInt(0),
   };
 
   let pool = await context.Pool.get(event.params.id);
@@ -241,8 +275,26 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     }
   }
 
+  const entity: Swap = {
+    id: `${event.chainId}_${event.block.number}_${event.logIndex}`,
+    transaction: event.block.hash,
+    timestamp: BigInt(event.block.timestamp),
+    pool: event.params.id,
+    token0: "", // This needs to be populated from pool data
+    token1: "", // This needs to be populated from pool data
+    sender: event.params.sender,
+    origin: event.srcAddress,
+    amount0: event.params.amount0,
+    amount1: event.params.amount1,
+    amountUSD: BigInt(0),
+    sqrtPriceX96: event.params.sqrtPriceX96,
+    tick: event.params.tick,
+    logIndex: BigInt(event.logIndex),
+  };
+
   await context.Pool.set(pool);
   await context.GlobalStats.set(stats);
+  await context.PoolManager.set(poolManager);
   await context.Swap.set(entity);
 });
 

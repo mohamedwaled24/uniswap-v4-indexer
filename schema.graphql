@@ -1,3 +1,36 @@
+type Swap {
+  id: ID!
+  transaction: String! # Instead of Transaction reference
+  timestamp: BigInt!
+  pool: String! # Instead of Pool reference
+  token0: String! # Instead of Token reference
+  token1: String! # Instead of Token reference
+  sender: String! # Instead of Bytes
+  origin: String! # Instead of Bytes
+  amount0: BigInt!
+  amount1: BigInt!
+  amountUSD: BigInt!
+  sqrtPriceX96: BigInt!
+  tick: BigInt!
+  logIndex: BigInt!
+}
+
+type PoolManager {
+  id: ID!
+  poolCount: BigInt!
+  txCount: BigInt!
+  totalVolumeUSD: BigInt!
+  totalVolumeETH: BigInt!
+  totalFeesUSD: BigInt!
+  totalFeesETH: BigInt!
+  untrackedVolumeUSD: BigInt!
+  totalValueLockedUSD: BigInt!
+  totalValueLockedETH: BigInt!
+  totalValueLockedUSDUntracked: BigInt!
+  totalValueLockedETHUntracked: BigInt!
+  owner: String!
+}
+
 type GlobalStats {
   id: ID! # chainId
   numberOfSwaps: BigInt! # total swaps on network
@@ -74,23 +107,6 @@ type PoolManager_ProtocolFeeUpdated {
   id: ID!
   event_id: String!
   protocolFee: BigInt!
-}
-
-type Swap {
-  id: ID!
-  transaction: String! # Instead of Transaction reference
-  timestamp: BigInt!
-  pool: String! # Instead of Pool reference
-  token0: String! # Instead of Token reference
-  token1: String! # Instead of Token reference
-  sender: String! # Instead of Bytes
-  origin: String! # Instead of Bytes
-  amount0: BigInt!
-  amount1: BigInt!
-  amountUSD: BigInt!
-  sqrtPriceX96: BigInt!
-  tick: BigInt!
-  logIndex: BigInt!
 }
 
 type PoolManager_Transfer {
