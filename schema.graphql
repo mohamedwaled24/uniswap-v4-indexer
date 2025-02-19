@@ -1,0 +1,149 @@
+type GlobalStats {
+  id: ID! # chainId
+  numberOfSwaps: BigInt! # total swaps on network
+  numberOfPools: BigInt! # total pools on network
+  hookedPools: BigInt! # number of pools with hooks
+  hookedSwaps: BigInt! # number of swaps through hooked pools
+}
+
+type HookStats {
+  id: ID! # hook address
+  chainId: BigInt! # Added this field
+  numberOfPools: BigInt! # number of pools using this hook
+  numberOfSwaps: BigInt! # number of swaps through pools with this hook
+  firstPoolCreatedAt: BigInt! # timestamp of first pool creation
+}
+
+type PoolManager_Approval {
+  id: ID!
+  owner: String!
+  spender: String!
+  event_id: BigInt!
+  amount: BigInt!
+}
+
+type PoolManager_Donate {
+  id: ID!
+  event_id: String!
+  sender: String!
+  amount0: BigInt!
+  amount1: BigInt!
+}
+
+type PoolManager_Initialize {
+  id: ID!
+  event_id: String!
+  currency0: String!
+  currency1: String!
+  fee: BigInt!
+  tickSpacing: BigInt!
+  hooks: String!
+  sqrtPriceX96: BigInt!
+  tick: BigInt!
+}
+
+type PoolManager_ModifyLiquidity {
+  id: ID!
+  event_id: String!
+  sender: String!
+  tickLower: BigInt!
+  tickUpper: BigInt!
+  liquidityDelta: BigInt!
+  salt: String!
+}
+
+type PoolManager_OperatorSet {
+  id: ID!
+  owner: String!
+  operator: String!
+  approved: Boolean!
+}
+
+type PoolManager_OwnershipTransferred {
+  id: ID!
+  user: String!
+  newOwner: String!
+}
+
+type PoolManager_ProtocolFeeControllerUpdated {
+  id: ID!
+  protocolFeeController: String!
+}
+
+type PoolManager_ProtocolFeeUpdated {
+  id: ID!
+  event_id: String!
+  protocolFee: BigInt!
+}
+
+type Swap {
+  id: ID!
+  transaction: String! # Instead of Transaction reference
+  timestamp: BigInt!
+  pool: String! # Instead of Pool reference
+  token0: String! # Instead of Token reference
+  token1: String! # Instead of Token reference
+  sender: String! # Instead of Bytes
+  origin: String! # Instead of Bytes
+  amount0: BigInt!
+  amount1: BigInt!
+  amountUSD: BigInt!
+  sqrtPriceX96: BigInt!
+  tick: BigInt!
+  logIndex: BigInt!
+}
+
+type PoolManager_Transfer {
+  id: ID!
+  caller: String!
+  from: String!
+  to: String!
+  event_id: BigInt!
+  amount: BigInt!
+}
+
+type PositionManager_Approval {
+  id: ID!
+  owner: String!
+  spender: String!
+  event_id: BigInt!
+}
+
+type PositionManager_ApprovalForAll {
+  id: ID!
+  owner: String!
+  operator: String!
+  approved: Boolean!
+}
+
+type PositionManager_Subscription {
+  id: ID!
+  tokenId: BigInt!
+  subscriber: String!
+}
+
+type PositionManager_Transfer {
+  id: ID!
+  from: String!
+  to: String!
+  event_id: BigInt!
+}
+
+type PositionManager_Unsubscription {
+  id: ID!
+  tokenId: BigInt!
+  subscriber: String!
+}
+
+type Pool {
+  id: ID!
+  chainId: BigInt!
+  currency0: String!
+  currency1: String!
+  fee: BigInt!
+  tickSpacing: BigInt!
+  hooks: String!
+  numberOfSwaps: BigInt! @index
+  createdAtTimestamp: BigInt!
+  createdAtBlockNumber: BigInt!
+}
