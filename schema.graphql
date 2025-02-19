@@ -1,5 +1,6 @@
 type Swap {
   id: ID!
+  chainId: BigInt!
   transaction: String! # Instead of Transaction reference
   timestamp: BigInt!
   pool: String! # Instead of Pool reference
@@ -17,6 +18,7 @@ type Swap {
 
 type PoolManager {
   id: ID!
+  chainId: BigInt!
   poolCount: BigInt!
   txCount: BigInt!
   totalVolumeUSD: BigInt!
@@ -29,4 +31,37 @@ type PoolManager {
   totalValueLockedUSDUntracked: BigInt!
   totalValueLockedETHUntracked: BigInt!
   owner: String!
+}
+
+type Pool @entity {
+  id: ID!
+  chainId: BigInt!
+  createdAtTimestamp: BigInt!
+  createdAtBlockNumber: BigInt!
+  token0: String! # Instead of Token reference
+  token1: String! # Instead of Token reference
+  feeTier: BigInt!
+  liquidity: BigInt!
+  sqrtPrice: BigInt!
+  token0Price: BigInt!
+  token1Price: BigInt!
+  tick: BigInt
+  tickSpacing: BigInt!
+  observationIndex: BigInt!
+  volumeToken0: BigInt!
+  volumeToken1: BigInt!
+  volumeUSD: BigInt!
+  untrackedVolumeUSD: BigInt!
+  feesUSD: BigInt!
+  txCount: BigInt!
+  collectedFeesToken0: BigInt!
+  collectedFeesToken1: BigInt!
+  collectedFeesUSD: BigInt!
+  totalValueLockedToken0: BigInt!
+  totalValueLockedToken1: BigInt!
+  totalValueLockedETH: BigInt!
+  totalValueLockedUSD: BigInt!
+  totalValueLockedUSDUntracked: BigInt!
+  liquidityProviderCount: BigInt!
+  hooks: String!
 }
