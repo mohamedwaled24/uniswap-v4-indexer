@@ -1,7 +1,7 @@
 /*
  * Please refer to https://docs.envio.dev for a thorough guide on all Envio indexer features
  */
-import { PoolManager, Swap, BigDecimal } from "generated";
+import { PoolManager, Swap, Token, BigDecimal } from "generated";
 
 PoolManager.Approval.handler(async ({ event, context }) => {});
 
@@ -35,14 +35,74 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
     };
   }
 
+  // Create or get token0
+  const token0Id = `${event.chainId}_${event.params.currency0}`;
+  let token0 = await context.Token.get(token0Id);
+  if (!token0) {
+    token0 = {
+      id: token0Id,
+      chainId: BigInt(event.chainId),
+      symbol: "", // Placeholder
+      name: "", // Placeholder
+      decimals: 18n,
+      totalSupply: 0n,
+      volume: new BigDecimal("0"),
+      volumeUSD: new BigDecimal("0"),
+      untrackedVolumeUSD: new BigDecimal("0"),
+      feesUSD: new BigDecimal("0"),
+      txCount: 0n,
+      poolCount: 1n,
+      totalValueLocked: new BigDecimal("0"),
+      totalValueLockedUSD: new BigDecimal("0"),
+      totalValueLockedUSDUntracked: new BigDecimal("0"),
+      derivedETH: new BigDecimal("0"),
+      whitelistPools: [],
+    };
+  } else {
+    token0 = {
+      ...token0,
+      poolCount: token0.poolCount + 1n,
+    };
+  }
+
+  // Create or get token1
+  const token1Id = `${event.chainId}_${event.params.currency1}`;
+  let token1 = await context.Token.get(token1Id);
+  if (!token1) {
+    token1 = {
+      id: token1Id,
+      chainId: BigInt(event.chainId),
+      symbol: "", // Placeholder
+      name: "", // Placeholder
+      decimals: 18n,
+      totalSupply: 0n,
+      volume: new BigDecimal("0"),
+      volumeUSD: new BigDecimal("0"),
+      untrackedVolumeUSD: new BigDecimal("0"),
+      feesUSD: new BigDecimal("0"),
+      txCount: 0n,
+      poolCount: 1n,
+      totalValueLocked: new BigDecimal("0"),
+      totalValueLockedUSD: new BigDecimal("0"),
+      totalValueLockedUSDUntracked: new BigDecimal("0"),
+      derivedETH: new BigDecimal("0"),
+      whitelistPools: [],
+    };
+  } else {
+    token1 = {
+      ...token1,
+      poolCount: token1.poolCount + 1n,
+    };
+  }
+
   // Create new pool
   const pool = {
     id: `${event.chainId}_${event.params.id}`,
     chainId: BigInt(event.chainId),
     createdAtTimestamp: BigInt(event.block.timestamp),
     createdAtBlockNumber: BigInt(event.block.number),
-    token0: event.params.currency0,
-    token1: event.params.currency1,
+    token0: token0Id,
+    token1: token1Id,
     feeTier: BigInt(event.params.fee),
     liquidity: 0n,
     sqrtPrice: event.params.sqrtPriceX96,
@@ -71,6 +131,8 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
 
   await context.Pool.set(pool);
   await context.PoolManager.set(poolManager);
+  await context.Token.set(token0);
+  await context.Token.set(token1);
 });
 
 PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {});

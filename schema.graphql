@@ -65,3 +65,23 @@ type Pool @entity {
   liquidityProviderCount: BigInt!
   hooks: String!
 }
+
+type Token @entity {
+  id: ID!
+  chainId: BigInt!
+  symbol: String!
+  name: String!
+  decimals: BigInt!
+  totalSupply: BigInt!
+  volume: BigDecimal!
+  volumeUSD: BigDecimal!
+  untrackedVolumeUSD: BigDecimal!
+  feesUSD: BigDecimal!
+  txCount: BigInt!
+  poolCount: BigInt!
+  totalValueLocked: BigDecimal!
+  totalValueLockedUSD: BigDecimal!
+  totalValueLockedUSDUntracked: BigDecimal!
+  derivedETH: BigDecimal!
+  whitelistPools: [String!]! # Changed from Pool reference to String for simplicity
+}
