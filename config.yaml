@@ -1,6 +1,9 @@
 # yaml-language-server: $schema=./node_modules/envio/evm.schema.json
 name: envio-indexer
 unordered_multichain_mode: true
+field_selection:
+  transaction_fields:
+    - "hash"
 contracts:
   - name: PoolManager
     handler: src/EventHandlers.ts

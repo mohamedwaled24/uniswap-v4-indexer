@@ -5,6 +5,7 @@ import { PoolManager, Swap, Token, BigDecimal } from "generated";
 import { getChainConfig } from "./utils/chains";
 import { getNativePriceInUSD } from "./utils/pricing";
 import { sqrtPriceX96ToTokenPrices } from "./utils/pricing";
+import { getTokenMetadata } from "./utils/tokenMetadata";
 
 PoolManager.Approval.handler(async ({ event, context }) => {});
 
@@ -54,12 +55,13 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
   const token0Id = `${event.chainId}_${event.params.currency0.toLowerCase()}`;
   let token0 = await context.Token.get(token0Id);
   if (!token0) {
+    const metadata = await getTokenMetadata(event.params.currency0);
     token0 = {
       id: token0Id,
       chainId: BigInt(event.chainId),
-      symbol: "", // Placeholder
-      name: "", // Placeholder
-      decimals: 18n,
+      symbol: metadata.symbol,
+      name: metadata.name,
+      decimals: BigInt(metadata.decimals),
       totalSupply: 0n,
       volume: new BigDecimal("0"),
       volumeUSD: new BigDecimal("0"),
@@ -84,12 +86,13 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
   const token1Id = `${event.chainId}_${event.params.currency1.toLowerCase()}`;
   let token1 = await context.Token.get(token1Id);
   if (!token1) {
+    const metadata = await getTokenMetadata(event.params.currency1);
     token1 = {
       id: token1Id,
       chainId: BigInt(event.chainId),
-      symbol: "", // Placeholder
-      name: "", // Placeholder
-      decimals: 18n,
+      symbol: metadata.symbol,
+      name: metadata.name,
+      decimals: BigInt(metadata.decimals),
       totalSupply: 0n,
       volume: new BigDecimal("0"),
       volumeUSD: new BigDecimal("0"),
@@ -270,7 +273,7 @@ PoolManager.Swap.handler(async ({ event, context }) => {
   const entity: Swap = {
     id: `${event.chainId}_${event.block.number}_${event.logIndex}`,
     chainId: BigInt(event.chainId),
-    transaction: event.block.hash,
+    transaction: event.transaction.hash,
     timestamp: BigInt(event.block.timestamp),
     pool: event.params.id,
     token0: pool.token0,
