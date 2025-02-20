@@ -1,4 +1,4 @@
-import { BigDecimal } from "generated";
+import { BigDecimal, handlerContext } from "generated";
 
 import { exponentToBigDecimal, safeDiv } from "../utils/index";
 import { Bundle, Pool, Token } from "generated";
@@ -29,55 +29,57 @@ export function sqrtPriceX96ToTokenPrices(
   return [price0, price1];
 }
 
-export function getNativePriceInUSD(
+export async function getNativePriceInUSD(
+  context: handlerContext,
+  chainId: string,
   stablecoinWrappedNativePoolId: string,
   stablecoinIsToken0: boolean
-): BigDecimal {
-  const stablecoinWrappedNativePool = Pool.load(stablecoinWrappedNativePoolId);
-  if (stablecoinWrappedNativePool !== null) {
+): Promise<BigDecimal> {
+  const poolId = `${chainId}_${stablecoinWrappedNativePoolId}`;
+  const stablecoinWrappedNativePool = await context.Pool.get(poolId);
+
+  if (stablecoinWrappedNativePool) {
     return stablecoinIsToken0
       ? stablecoinWrappedNativePool.token0Price
       : stablecoinWrappedNativePool.token1Price;
-  } else {
-    return ZERO_BD;
   }
+  return ZERO_BD;
 }
 
 /**
  * Search through graph to find derived Eth per token.
  * @todo update to be derived ETH (add stablecoin estimates)
  **/
-export function findNativePerToken(
+export async function findNativePerToken(
+  context: handlerContext,
   token: Token,
   wrappedNativeAddress: string,
   stablecoinAddresses: string[],
   minimumNativeLocked: BigDecimal
-): BigDecimal {
+): Promise<BigDecimal> {
   if (token.id == wrappedNativeAddress || token.id == ADDRESS_ZERO) {
     return ONE_BD;
   }
+
   const whiteList = token.whitelistPools;
-  // for now just take USD from pool with greatest TVL
-  // need to update this to actually detect best rate based on liquidity distribution
   let largestLiquidityETH = ZERO_BD;
   let priceSoFar = ZERO_BD;
-  const bundle = Bundle.load("1")!;
+
+  const bundle = await context.Bundle.get("1");
+  if (!bundle) return ZERO_BD;
 
   // hardcoded fix for incorrect rates
-  // if whitelist includes token - get the safe price
   if (stablecoinAddresses.includes(token.id)) {
     priceSoFar = safeDiv(ONE_BD, bundle.ethPriceUSD);
   } else {
     for (let i = 0; i < whiteList.length; ++i) {
       const poolAddress = whiteList[i];
-      const pool = Pool.load(poolAddress);
+      const pool = await context.Pool.get(poolAddress);
 
       if (pool) {
-        if (pool.liquidity.gt(ZERO_BI)) {
+        if (pool.liquidity > ZERO_BI) {
           if (pool.token0 == token.id) {
-            // whitelist token is token1
-            const token1 = Token.load(pool.token1);
-            // get the derived ETH in pool
+            const token1 = await context.Token.get(pool.token1);
             if (token1) {
               const ethLocked = pool.totalValueLockedToken1.times(
                 token1.derivedETH
@@ -87,16 +89,12 @@ export function findNativePerToken(
                 ethLocked.gt(minimumNativeLocked)
               ) {
                 largestLiquidityETH = ethLocked;
-                // token1 per our token * Eth per token1
-                priceSoFar = pool.token1Price.times(
-                  token1.derivedETH as BigDecimal
-                );
+                priceSoFar = pool.token1Price.times(token1.derivedETH);
               }
             }
           }
           if (pool.token1 == token.id) {
-            const token0 = Token.load(pool.token0);
-            // get the derived ETH in pool
+            const token0 = await context.Token.get(pool.token0);
             if (token0) {
               const ethLocked = pool.totalValueLockedToken0.times(
                 token0.derivedETH
@@ -106,10 +104,7 @@ export function findNativePerToken(
                 ethLocked.gt(minimumNativeLocked)
               ) {
                 largestLiquidityETH = ethLocked;
-                // token0 per our token * ETH per token0
-                priceSoFar = pool.token0Price.times(
-                  token0.derivedETH as BigDecimal
-                );
+                priceSoFar = pool.token0Price.times(token0.derivedETH);
               }
             }
           }
@@ -126,14 +121,17 @@ export function findNativePerToken(
  * If both are, return sum of two amounts
  * If neither is, return 0
  */
-export function getTrackedAmountUSD(
+export async function getTrackedAmountUSD(
+  context: handlerContext,
   tokenAmount0: BigDecimal,
   token0: Token,
   tokenAmount1: BigDecimal,
   token1: Token,
   whitelistTokens: string[]
-): BigDecimal {
-  const bundle = Bundle.load("1")!;
+): Promise<BigDecimal> {
+  const bundle = await context.Bundle.get("1");
+  if (!bundle) return ZERO_BD;
+
   const price0USD = token0.derivedETH.times(bundle.ethPriceUSD);
   const price1USD = token1.derivedETH.times(bundle.ethPriceUSD);
 

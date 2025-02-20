@@ -2,12 +2,24 @@
  * Please refer to https://docs.envio.dev for a thorough guide on all Envio indexer features
  */
 import { PoolManager, Swap, Token, BigDecimal } from "generated";
+import { getChainConfig } from "./utils/chains";
+import { getNativePriceInUSD } from "./utils/pricing";
+import { sqrtPriceX96ToTokenPrices } from "./utils/pricing";
 
 PoolManager.Approval.handler(async ({ event, context }) => {});
 
 PoolManager.Donate.handler(async ({ event, context }) => {});
 
 PoolManager.Initialize.handler(async ({ event, context }) => {
+  // First ensure Bundle exists with ID "1"
+  let bundle = await context.Bundle.get("1");
+  if (!bundle) {
+    await context.Bundle.set({
+      id: "1",
+      ethPriceUSD: new BigDecimal("0"),
+    });
+  }
+
   let poolManager = await context.PoolManager.get(
     `${event.chainId}_${event.srcAddress}`
   );
@@ -35,6 +47,9 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
     };
   }
 
+  // Get chain config for whitelist tokens
+  const chainConfig = getChainConfig(Number(event.chainId));
+
   // Create or get token0
   const token0Id = `${event.chainId}_${event.params.currency0.toLowerCase()}`;
   let token0 = await context.Token.get(token0Id);
@@ -56,7 +71,7 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
       totalValueLockedUSD: new BigDecimal("0"),
       totalValueLockedUSDUntracked: new BigDecimal("0"),
       derivedETH: new BigDecimal("0"),
-      whitelistPools: [],
+      whitelistPools: [], // Initialize empty array
     };
   } else {
     token0 = {
@@ -86,7 +101,7 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
       totalValueLockedUSD: new BigDecimal("0"),
       totalValueLockedUSDUntracked: new BigDecimal("0"),
       derivedETH: new BigDecimal("0"),
-      whitelistPools: [],
+      whitelistPools: [], // Initialize empty array
     };
   } else {
     token1 = {
@@ -95,7 +110,43 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
     };
   }
 
-  // Create new pool
+  // Update whitelist pools
+  if (
+    chainConfig.whitelistTokens.includes(event.params.currency0.toLowerCase())
+  ) {
+    token1 = {
+      ...token1,
+      whitelistPools: [
+        ...token1.whitelistPools,
+        `${event.chainId}_${event.params.id}`,
+      ],
+    };
+  }
+
+  if (
+    chainConfig.whitelistTokens.includes(event.params.currency1.toLowerCase())
+  ) {
+    token0 = {
+      ...token0,
+      whitelistPools: [
+        ...token0.whitelistPools,
+        `${event.chainId}_${event.params.id}`,
+      ],
+    };
+  }
+
+  // Get chain config for token details
+  const chainConfigTokenDetails = getChainConfig(Number(event.chainId));
+
+  // Calculate initial prices
+  const prices = sqrtPriceX96ToTokenPrices(
+    event.params.sqrtPriceX96,
+    token0,
+    token1,
+    chainConfigTokenDetails.nativeTokenDetails
+  );
+
+  // Create new pool with prices
   const pool = {
     id: `${event.chainId}_${event.params.id}`,
     chainId: BigInt(event.chainId),
@@ -106,8 +157,8 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
     feeTier: BigInt(event.params.fee),
     liquidity: 0n,
     sqrtPrice: event.params.sqrtPriceX96,
-    token0Price: new BigDecimal(0),
-    token1Price: new BigDecimal(0),
+    token0Price: prices[0],
+    token1Price: prices[1],
     tick: event.params.tick,
     tickSpacing: BigInt(event.params.tickSpacing),
     observationIndex: 0n,
@@ -170,11 +221,28 @@ PoolManager.Swap.handler(async ({ event, context }) => {
   }
 
   // Update pool
+  const chainConfig = getChainConfig(Number(event.chainId));
+
+  // Update pool prices
+  const token0 = await context.Token.get(pool.token0);
+  const token1 = await context.Token.get(pool.token1);
+
+  if (!token0 || !token1) return;
+
+  const prices = sqrtPriceX96ToTokenPrices(
+    event.params.sqrtPriceX96,
+    token0,
+    token1,
+    chainConfig.nativeTokenDetails
+  );
+
   pool = {
     ...pool,
     txCount: pool.txCount + 1n,
     sqrtPrice: event.params.sqrtPriceX96,
     tick: event.params.tick,
+    token0Price: prices[0],
+    token1Price: prices[1],
     volumeToken0: pool.volumeToken0.plus(
       new BigDecimal(event.params.amount0.toString())
     ),
@@ -216,6 +284,32 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     tick: event.params.tick,
     logIndex: BigInt(event.logIndex),
   };
+
+  // Update Bundle with new ETH price
+  console.log("Chain config:", {
+    // Debug log
+    chainId: event.chainId,
+    poolId: chainConfig.stablecoinWrappedNativePoolId,
+    isToken0: chainConfig.stablecoinIsToken0,
+  });
+  let bundle = await context.Bundle.get("1");
+  if (!bundle) {
+    bundle = {
+      id: "1",
+      ethPriceUSD: new BigDecimal("0"),
+    };
+  }
+
+  // Use immutability pattern
+  await context.Bundle.set({
+    ...bundle,
+    ethPriceUSD: await getNativePriceInUSD(
+      context,
+      event.chainId.toString(),
+      chainConfig.stablecoinWrappedNativePoolId,
+      chainConfig.stablecoinIsToken0
+    ),
+  });
 
   await context.Pool.set(pool);
   await context.PoolManager.set(poolManager);
