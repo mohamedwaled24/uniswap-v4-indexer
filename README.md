@@ -27,3 +27,6 @@ Contributions are welcome! Feel free to:
 - Submit pull requests to improve the indexer
 - Add documentation or examples
 - Share your use cases and feedback
+
+Please note this Indexer is being bootstrapped as a multichain indexer based off this Uniswap V4 Indexer: https://github.com/Uniswap/v4-subgraph
+Pricing and many other features are thanks to the team who built the above mentioned Indexer.
