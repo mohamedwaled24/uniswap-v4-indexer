@@ -36,7 +36,7 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
   }
 
   // Create or get token0
-  const token0Id = `${event.chainId}_${event.params.currency0}`;
+  const token0Id = `${event.chainId}_${event.params.currency0.toLowerCase()}`;
   let token0 = await context.Token.get(token0Id);
   if (!token0) {
     token0 = {
@@ -66,7 +66,7 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
   }
 
   // Create or get token1
-  const token1Id = `${event.chainId}_${event.params.currency1}`;
+  const token1Id = `${event.chainId}_${event.params.currency1.toLowerCase()}`;
   let token1 = await context.Token.get(token1Id);
   if (!token1) {
     token1 = {

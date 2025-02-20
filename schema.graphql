@@ -85,3 +85,10 @@ type Token @entity {
   derivedETH: BigDecimal!
   whitelistPools: [String!]! # Changed from Pool reference to String for simplicity
 }
+
+# stores for USD calculations
+type Bundle @entity {
+  id: ID!
+  # price of ETH in usd
+  ethPriceUSD: BigDecimal!
+}
