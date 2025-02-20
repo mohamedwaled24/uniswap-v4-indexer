@@ -8,9 +8,9 @@ type Swap {
   token1: String! # Instead of Token reference
   sender: String! # Instead of Bytes
   origin: String! # Instead of Bytes
-  amount0: BigInt!
-  amount1: BigInt!
-  amountUSD: BigInt!
+  amount0: BigDecimal!
+  amount1: BigDecimal!
+  amountUSD: BigDecimal!
   sqrtPriceX96: BigInt!
   tick: BigInt!
   logIndex: BigInt!
@@ -21,15 +21,15 @@ type PoolManager {
   chainId: BigInt!
   poolCount: BigInt!
   txCount: BigInt!
-  totalVolumeUSD: BigInt!
-  totalVolumeETH: BigInt!
-  totalFeesUSD: BigInt!
-  totalFeesETH: BigInt!
-  untrackedVolumeUSD: BigInt!
-  totalValueLockedUSD: BigInt!
-  totalValueLockedETH: BigInt!
-  totalValueLockedUSDUntracked: BigInt!
-  totalValueLockedETHUntracked: BigInt!
+  totalVolumeUSD: BigDecimal!
+  totalVolumeETH: BigDecimal!
+  totalFeesUSD: BigDecimal!
+  totalFeesETH: BigDecimal!
+  untrackedVolumeUSD: BigDecimal!
+  totalValueLockedUSD: BigDecimal!
+  totalValueLockedETH: BigDecimal!
+  totalValueLockedUSDUntracked: BigDecimal!
+  totalValueLockedETHUntracked: BigDecimal!
   owner: String!
 }
 
@@ -43,25 +43,25 @@ type Pool @entity {
   feeTier: BigInt!
   liquidity: BigInt!
   sqrtPrice: BigInt!
-  token0Price: BigInt!
-  token1Price: BigInt!
+  token0Price: BigDecimal!
+  token1Price: BigDecimal!
   tick: BigInt
   tickSpacing: BigInt!
   observationIndex: BigInt!
-  volumeToken0: BigInt!
-  volumeToken1: BigInt!
-  volumeUSD: BigInt!
-  untrackedVolumeUSD: BigInt!
-  feesUSD: BigInt!
+  volumeToken0: BigDecimal!
+  volumeToken1: BigDecimal!
+  volumeUSD: BigDecimal!
+  untrackedVolumeUSD: BigDecimal!
+  feesUSD: BigDecimal!
   txCount: BigInt!
-  collectedFeesToken0: BigInt!
-  collectedFeesToken1: BigInt!
-  collectedFeesUSD: BigInt!
-  totalValueLockedToken0: BigInt!
-  totalValueLockedToken1: BigInt!
-  totalValueLockedETH: BigInt!
-  totalValueLockedUSD: BigInt!
-  totalValueLockedUSDUntracked: BigInt!
+  collectedFeesToken0: BigDecimal!
+  collectedFeesToken1: BigDecimal!
+  collectedFeesUSD: BigDecimal!
+  totalValueLockedToken0: BigDecimal!
+  totalValueLockedToken1: BigDecimal!
+  totalValueLockedETH: BigDecimal!
+  totalValueLockedUSD: BigDecimal!
+  totalValueLockedUSDUntracked: BigDecimal!
   liquidityProviderCount: BigInt!
   hooks: String!
 }
