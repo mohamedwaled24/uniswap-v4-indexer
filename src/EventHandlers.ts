@@ -285,14 +285,18 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
     totalValueLocked: token1.totalValueLocked.plus(amount1),
   };
 
-  // Calculate ETH and USD values
-  // pool = {
-  //   ...pool,
-  //   totalValueLockedETH: pool.totalValueLockedToken0
-  //     .times(token0.derivedETH)
-  //     .plus(pool.totalValueLockedToken1.times(token1.derivedETH)),
-  //   totalValueLockedUSD: pool.totalValueLockedETH.times(bundle.ethPriceUSD),
-  // };
+  // After updating token TVLs, calculate ETH and USD values
+  pool = {
+    ...pool,
+    totalValueLockedETH: pool.totalValueLockedToken0
+      .times(token0.derivedETH)
+      .plus(pool.totalValueLockedToken1.times(token1.derivedETH)),
+  };
+
+  pool = {
+    ...pool,
+    totalValueLockedUSD: pool.totalValueLockedETH.times(bundle.ethPriceUSD),
+  };
 
   // token0 = {
   //   ...token0,
@@ -404,6 +408,20 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     token1.decimals
   ).times(new BigDecimal("-1"));
 
+  // In Swap handler, after updating token amounts
+  // const amount0Abs = amount0.lt(ZERO_BD)
+  //   ? amount0.times(new BigDecimal("-1"))
+  //   : amount0;
+  // const amount1Abs = amount1.lt(ZERO_BD)
+  //   ? amount1.times(new BigDecimal("-1"))
+  //   : amount1;
+
+  // const amount0ETH = amount0Abs.times(token0.derivedETH);
+  // const amount1ETH = amount1Abs.times(token1.derivedETH);
+  // const amount0USD = amount0ETH.times(bundle.ethPriceUSD);
+  // const amount1USD = amount1ETH.times(bundle.ethPriceUSD);
+
+  // Update pool values
   pool = {
     ...pool,
     txCount: pool.txCount + 1n,
@@ -413,8 +431,19 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     token1Price: prices[1],
     totalValueLockedToken0: pool.totalValueLockedToken0.plus(amount0),
     totalValueLockedToken1: pool.totalValueLockedToken1.plus(amount1),
-
     liquidity: event.params.liquidity,
+  };
+
+  pool = {
+    ...pool,
+    totalValueLockedETH: pool.totalValueLockedToken0
+      .times(token0.derivedETH)
+      .plus(pool.totalValueLockedToken1.times(token1.derivedETH)),
+  };
+
+  pool = {
+    ...pool,
+    totalValueLockedUSD: pool.totalValueLockedETH.times(bundle.ethPriceUSD),
   };
 
   // Update pool manager

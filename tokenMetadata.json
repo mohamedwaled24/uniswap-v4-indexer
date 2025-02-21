@@ -4533,5 +4533,20 @@
     "name": "SPECIMEN",
     "symbol": "SPECIMEN",
     "decimals": 18
+  },
+  "0x0E9163052A07a63DFdb831eBe10044Bb730569fc": {
+    "name": "Test Token",
+    "symbol": "TTOKEN",
+    "decimals": 18
+  },
+  "0x0FA19e34A3847874CC79Ee2d4C8791b7Cc8188a5": {
+    "name": "Fjord Points",
+    "symbol": "FJOINTS",
+    "decimals": 18
+  },
+  "0xA2120b9e674d3fC3875f415A7DF52e382F141225": {
+    "name": "Automata",
+    "symbol": "ATA",
+    "decimals": 18
   }
 }
