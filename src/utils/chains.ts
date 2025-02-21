@@ -12,7 +12,7 @@ export enum ChainId {
   BLAST = 81457,
   ZORA = 7777777,
   WORLD = 59144,
-  UNICHAIN = 1337,
+  UNICHAIN = 130,
 }
 
 // Native token details interface

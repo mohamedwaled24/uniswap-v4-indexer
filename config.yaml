@@ -1,6 +1,9 @@
 # yaml-language-server: $schema=./node_modules/envio/evm.schema.json
 name: envio-indexer
 unordered_multichain_mode: true
+field_selection:
+  transaction_fields:
+    - "hash"
 contracts:
   - name: PoolManager
     handler: src/EventHandlers.ts
@@ -87,15 +90,15 @@ networks:
   #     - name: PoolManager
   #       address:
   #         - 0x0575338e4c17006ae181b47900a84404247ca30f
-  # - id: 57073
-  #   start_block: 0
-  #   contracts:
-  #     - name: PositionManager
-  #       address:
-  #         - 0x1b35d13a2e2528f192637f14b05f0dc0e7deb566
-  #     - name: PoolManager
-  #       address:
-  #         - 0x360e68faccca8ca495c1b759fd9eee466db9fb32
+  # # - id: 57073
+  # #   start_block: 0
+  # #   contracts:
+  # #     - name: PositionManager
+  # #       address:
+  # #         - 0x1b35d13a2e2528f192637f14b05f0dc0e7deb566
+  # #     - name: PoolManager
+  # #       address:
+  # #         - 0x360e68faccca8ca495c1b759fd9eee466db9fb32
   # - id: 1868
   #   start_block: 0
   #   contracts:

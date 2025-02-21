@@ -36,6 +36,7 @@ type PoolManager {
 type Pool @entity {
   id: ID!
   chainId: BigInt!
+  name: String!
   createdAtTimestamp: BigInt!
   createdAtBlockNumber: BigInt!
   token0: String! # Instead of Token reference
