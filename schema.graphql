@@ -36,6 +36,7 @@ type PoolManager {
 type Pool @entity {
   id: ID!
   chainId: BigInt!
+  name: String!
   createdAtTimestamp: BigInt!
   createdAtBlockNumber: BigInt!
   token0: String! # Instead of Token reference
@@ -64,4 +65,31 @@ type Pool @entity {
   totalValueLockedUSDUntracked: BigDecimal!
   liquidityProviderCount: BigInt!
   hooks: String!
+}
+
+type Token @entity {
+  id: ID!
+  chainId: BigInt!
+  symbol: String!
+  name: String!
+  decimals: BigInt!
+  totalSupply: BigInt!
+  volume: BigDecimal!
+  volumeUSD: BigDecimal!
+  untrackedVolumeUSD: BigDecimal!
+  feesUSD: BigDecimal!
+  txCount: BigInt!
+  poolCount: BigInt!
+  totalValueLocked: BigDecimal!
+  totalValueLockedUSD: BigDecimal!
+  totalValueLockedUSDUntracked: BigDecimal!
+  derivedETH: BigDecimal!
+  whitelistPools: [String!]! # Changed from Pool reference to String for simplicity
+}
+
+# stores for USD calculations
+type Bundle @entity {
+  id: ID!
+  # price of ETH in usd
+  ethPriceUSD: BigDecimal!
 }

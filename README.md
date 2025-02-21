@@ -4,6 +4,9 @@ A public Uniswap v4 indexer built with [Envio](https://envio.dev) that can be us
 
 _Please refer to the [documentation website](https://docs.envio.dev) for a thorough guide on all [Envio](https://envio.dev) indexer features_
 
+Please note this Indexer is being bootstrapped as a multichain indexer based off this Uniswap V4 Indexer: https://github.com/Uniswap/v4-subgraph
+Pricing (especially!!) and many other features are thanks to the team who built the above mentioned Indexer.
+
 ## Overview
 
 This indexer is currently a WIP that tracks key metrics and events from Uniswap v4 pools and can be used to:
@@ -27,3 +30,6 @@ Contributions are welcome! Feel free to:
 - Submit pull requests to improve the indexer
 - Add documentation or examples
 - Share your use cases and feedback
+
+Please note this Indexer is being bootstrapped as a multichain indexer based off this Uniswap V4 Indexer: https://github.com/Uniswap/v4-subgraph
+Pricing and many other features are thanks to the team who built the above mentioned Indexer.
