@@ -4513,5 +4513,25 @@
     "name": "BankCrypto.com",
     "symbol": "BANKC",
     "decimals": 18
+  },
+  "0xF28b97E26BF8FFDF1fC063C7d6A8fb41a00E882c": {
+    "name": "OpenSea",
+    "symbol": "SEA",
+    "decimals": 18
+  },
+  "0x53f0de2611608Cd3E069d78245CEa8F3c697659e": {
+    "name": "Vive la Resistance",
+    "symbol": "REVOLUTION",
+    "decimals": 18
+  },
+  "0x777BeD8bAb88020c7732d67D80C861706eEa56E2": {
+    "name": "Awakening",
+    "symbol": "WAKEUP",
+    "decimals": 18
+  },
+  "0xe7b287777ffe8eA6c4887Dec37e51840Ac4b86BF": {
+    "name": "SPECIMEN",
+    "symbol": "SPECIMEN",
+    "decimals": 18
   }
 }

@@ -8,6 +8,9 @@ import { sqrtPriceX96ToTokenPrices } from "./utils/pricing";
 import { getTokenMetadata } from "./utils/tokenMetadata";
 import { getTrackedAmountUSD } from "./utils/pricing";
 import { findNativePerToken } from "./utils/pricing";
+import { getAmount0, getAmount1 } from "./utils/liquidityMath/liquidityAmounts";
+import { convertTokenToDecimal } from "./utils";
+import { ZERO_BD } from "./utils/constants";
 
 PoolManager.Approval.handler(async ({ event, context }) => {});
 
@@ -174,10 +177,14 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
     chainConfigTokenDetails.nativeTokenDetails
   );
 
+  const feeBps = Number(event.params.fee) / 10000; // Convert to percentage (fee is in bps)
+  const poolName = `${token0.symbol} / ${token1.symbol} - ${feeBps}%`;
+
   // Create new pool with prices
   const pool = {
     id: `${event.chainId}_${event.params.id}`,
     chainId: BigInt(event.chainId),
+    name: poolName,
     createdAtTimestamp: BigInt(event.block.timestamp),
     createdAtBlockNumber: BigInt(event.block.number),
     token0: token0Id,
@@ -214,7 +221,97 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
   await context.Token.set(token1);
 });
 
-PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {});
+PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
+  let pool = await context.Pool.get(`${event.chainId}_${event.params.id}`);
+  if (!pool) return;
+
+  let token0 = await context.Token.get(pool.token0);
+  let token1 = await context.Token.get(pool.token1);
+  if (!token0 || !token1) return;
+
+  const bundle = await context.Bundle.get("1");
+  if (!bundle) return;
+
+  const currTick = pool.tick ?? 0n;
+  const currSqrtPriceX96 = pool.sqrtPrice ?? 0n;
+
+  // Calculate the token amounts from the liquidity change
+  const amount0Raw = getAmount0(
+    event.params.tickLower,
+    event.params.tickUpper,
+    currTick,
+    event.params.liquidityDelta,
+    currSqrtPriceX96
+  );
+
+  const amount1Raw = getAmount1(
+    event.params.tickLower,
+    event.params.tickUpper,
+    currTick,
+    event.params.liquidityDelta,
+    currSqrtPriceX96
+  );
+
+  // Convert to proper decimals
+  const amount0 = convertTokenToDecimal(amount0Raw, token0.decimals);
+  const amount1 = convertTokenToDecimal(amount1Raw, token1.decimals);
+
+  // Update pool TVL
+  pool = {
+    ...pool,
+    totalValueLockedToken0: pool.totalValueLockedToken0.plus(amount0),
+    totalValueLockedToken1: pool.totalValueLockedToken1.plus(amount1),
+  };
+
+  // Only update liquidity if position is in range
+  if (
+    event.params.tickLower <= (pool.tick ?? 0n) &&
+    event.params.tickUpper > (pool.tick ?? 0n)
+  ) {
+    pool = {
+      ...pool,
+      liquidity: pool.liquidity + event.params.liquidityDelta,
+    };
+  }
+
+  // Update token TVL
+  token0 = {
+    ...token0,
+    totalValueLocked: token0.totalValueLocked.plus(amount0),
+  };
+
+  token1 = {
+    ...token1,
+    totalValueLocked: token1.totalValueLocked.plus(amount1),
+  };
+
+  // Calculate ETH and USD values
+  // pool = {
+  //   ...pool,
+  //   totalValueLockedETH: pool.totalValueLockedToken0
+  //     .times(token0.derivedETH)
+  //     .plus(pool.totalValueLockedToken1.times(token1.derivedETH)),
+  //   totalValueLockedUSD: pool.totalValueLockedETH.times(bundle.ethPriceUSD),
+  // };
+
+  // token0 = {
+  //   ...token0,
+  //   totalValueLockedUSD: token0.totalValueLocked
+  //     .times(token0.derivedETH)
+  //     .times(bundle.ethPriceUSD),
+  // };
+
+  // token1 = {
+  //   ...token1,
+  //   totalValueLockedUSD: token1.totalValueLocked
+  //     .times(token1.derivedETH)
+  //     .times(bundle.ethPriceUSD),
+  // };
+
+  await context.Pool.set(pool);
+  await context.Token.set(token0);
+  await context.Token.set(token1);
+});
 
 PoolManager.OperatorSet.handler(async ({ event, context }) => {});
 
@@ -295,6 +392,18 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     chainConfig.nativeTokenDetails
   );
 
+  // Convert amounts using proper decimal handling
+  // Unlike V3, a negative amount represents that amount is being sent to the pool and vice versa, so invert the sign
+
+  const amount0 = convertTokenToDecimal(
+    event.params.amount0,
+    token0.decimals
+  ).times(new BigDecimal("-1"));
+  const amount1 = convertTokenToDecimal(
+    event.params.amount1,
+    token1.decimals
+  ).times(new BigDecimal("-1"));
+
   pool = {
     ...pool,
     txCount: pool.txCount + 1n,
@@ -302,12 +411,9 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     tick: event.params.tick,
     token0Price: prices[0],
     token1Price: prices[1],
-    volumeToken0: pool.volumeToken0.plus(
-      new BigDecimal(event.params.amount0.toString())
-    ),
-    volumeToken1: pool.volumeToken1.plus(
-      new BigDecimal(event.params.amount1.toString())
-    ),
+    totalValueLockedToken0: pool.totalValueLockedToken0.plus(amount0),
+    totalValueLockedToken1: pool.totalValueLockedToken1.plus(amount1),
+
     liquidity: event.params.liquidity,
   };
 
@@ -336,43 +442,12 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     token1: pool.token1,
     sender: event.params.sender,
     origin: event.srcAddress,
-    amount0: new BigDecimal(event.params.amount0.toString()),
-    amount1: new BigDecimal(event.params.amount1.toString()),
+    amount0: amount0,
+    amount1: amount1,
     amountUSD: new BigDecimal(0),
     sqrtPriceX96: event.params.sqrtPriceX96,
     tick: event.params.tick,
     logIndex: BigInt(event.logIndex),
-  };
-
-  // Get absolute amounts for volume
-  let amount0Abs = entity.amount0;
-  if (amount0Abs.lt(new BigDecimal("0"))) {
-    amount0Abs = amount0Abs.times(new BigDecimal("-1"));
-  }
-  let amount1Abs = entity.amount1;
-  if (amount1Abs.lt(new BigDecimal("0"))) {
-    amount1Abs = amount1Abs.times(new BigDecimal("-1"));
-  }
-
-  // Calculate ETH and USD amounts
-  // const amount0ETH = amount0Abs.times(token0.derivedETH);
-  // const amount1ETH = amount1Abs.times(token1.derivedETH);
-  // const amount0USD = amount0ETH.times(bundle.ethPriceUSD);
-  // const amount1USD = amount1ETH.times(bundle.ethPriceUSD);
-
-  // Get tracked amount - div 2 because can't count both input and output as volume
-  const amountTotalUSDTracked = await getTrackedAmountUSD(
-    context,
-    amount0Abs,
-    token0,
-    amount1Abs,
-    token1,
-    chainConfig.whitelistTokens
-  );
-
-  entity = {
-    ...entity,
-    amountUSD: amountTotalUSDTracked.div(new BigDecimal("2")),
   };
 
   // Use immutability pattern
