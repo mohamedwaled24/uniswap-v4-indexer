@@ -6,17 +6,24 @@ import { getChainConfig } from "./utils/chains";
 import { getNativePriceInUSD } from "./utils/pricing";
 import { sqrtPriceX96ToTokenPrices } from "./utils/pricing";
 import { getTokenMetadata } from "./utils/tokenMetadata";
-import { getTrackedAmountUSD } from "./utils/pricing";
 import { findNativePerToken } from "./utils/pricing";
 import { getAmount0, getAmount1 } from "./utils/liquidityMath/liquidityAmounts";
 import { convertTokenToDecimal } from "./utils";
-import { ZERO_BD } from "./utils/constants";
 
+// TODO: Implement these handlers
 PoolManager.Approval.handler(async ({ event, context }) => {});
-
 PoolManager.Donate.handler(async ({ event, context }) => {});
+PoolManager.Transfer.handler(async ({ event, context }) => {});
+PoolManager.ProtocolFeeUpdated.handler(async ({ event, context }) => {});
+PoolManager.OwnershipTransferred.handler(async ({ event, context }) => {});
+PoolManager.ProtocolFeeControllerUpdated.handler(
+  async ({ event, context }) => {}
+);
 
 PoolManager.Initialize.handler(async ({ event, context }) => {
+  // Get chain config for whitelist tokens
+  const chainConfig = getChainConfig(Number(event.chainId));
+
   // First ensure Bundle exists with ID "1"
   let bundle = await context.Bundle.get("1");
   if (!bundle) {
@@ -53,14 +60,11 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
     };
   }
 
-  // Get chain config for whitelist tokens
-  const chainConfig = getChainConfig(Number(event.chainId));
-
   // Create or get token0
   const token0Id = `${event.chainId}_${event.params.currency0.toLowerCase()}`;
   let token0 = await context.Token.get(token0Id);
   if (!token0) {
-    const metadata = await getTokenMetadata(event.params.currency0);
+    const metadata = await getTokenMetadata(event.params.currency0); // adjust for multichain in future
     token0 = {
       id: token0Id,
       chainId: BigInt(event.chainId),
@@ -166,15 +170,12 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
     ),
   };
 
-  // Get chain config for token details
-  const chainConfigTokenDetails = getChainConfig(Number(event.chainId));
-
   // Calculate initial prices
   const prices = sqrtPriceX96ToTokenPrices(
     event.params.sqrtPriceX96,
     token0,
     token1,
-    chainConfigTokenDetails.nativeTokenDetails
+    chainConfig.nativeTokenDetails
   );
 
   const feeBps = Number(event.params.fee) / 10000; // Convert to percentage (fee is in bps)
@@ -317,29 +318,9 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
   await context.Token.set(token1);
 });
 
-PoolManager.OperatorSet.handler(async ({ event, context }) => {});
-
-PoolManager.OwnershipTransferred.handler(async ({ event, context }) => {
-  let poolManager = await context.PoolManager.get(event.srcAddress);
-  if (!poolManager) {
-    return;
-  }
-
-  poolManager = {
-    ...poolManager,
-    owner: event.params.newOwner,
-  };
-
-  await context.PoolManager.set(poolManager);
-});
-
-PoolManager.ProtocolFeeControllerUpdated.handler(
-  async ({ event, context }) => {}
-);
-
-PoolManager.ProtocolFeeUpdated.handler(async ({ event, context }) => {});
-
 PoolManager.Swap.handler(async ({ event, context }) => {
+  const chainConfig = getChainConfig(Number(event.chainId));
+
   let poolManager = await context.PoolManager.get(
     `${event.chainId}_${event.srcAddress}`
   );
@@ -349,13 +330,6 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     return;
   }
 
-  // Update pool
-  const chainConfig = getChainConfig(Number(event.chainId));
-
-  // Update pool prices
-  let token0 = await context.Token.get(pool.token0);
-  let token1 = await context.Token.get(pool.token1);
-
   let bundle = await context.Bundle.get("1");
   if (!bundle) {
     bundle = {
@@ -364,6 +338,8 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     };
   }
 
+  let token0 = await context.Token.get(pool.token0);
+  let token1 = await context.Token.get(pool.token1);
   if (!token0 || !token1) return;
 
   // Update tokens' derivedETH values first
@@ -398,7 +374,6 @@ PoolManager.Swap.handler(async ({ event, context }) => {
 
   // Convert amounts using proper decimal handling
   // Unlike V3, a negative amount represents that amount is being sent to the pool and vice versa, so invert the sign
-
   const amount0 = convertTokenToDecimal(
     event.params.amount0,
     token0.decimals
@@ -493,10 +468,6 @@ PoolManager.Swap.handler(async ({ event, context }) => {
   await context.Pool.set(pool);
   await context.PoolManager.set(poolManager);
   await context.Swap.set(entity);
-
-  // Don't forget to save the updated tokens
   await context.Token.set(token0);
   await context.Token.set(token1);
 });
-
-PoolManager.Transfer.handler(async ({ event, context }) => {});
