@@ -6,6 +6,8 @@ import { getChainConfig } from "./utils/chains";
 import { getNativePriceInUSD } from "./utils/pricing";
 import { sqrtPriceX96ToTokenPrices } from "./utils/pricing";
 import { getTokenMetadata } from "./utils/tokenMetadata";
+import { getTrackedAmountUSD } from "./utils/pricing";
+import { findNativePerToken } from "./utils/pricing";
 
 PoolManager.Approval.handler(async ({ event, context }) => {});
 
@@ -113,7 +115,7 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
     };
   }
 
-  // Update whitelist pools
+  // Update whitelist pools first
   if (
     chainConfig.whitelistTokens.includes(event.params.currency0.toLowerCase())
   ) {
@@ -137,6 +139,29 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
       ],
     };
   }
+
+  // Now update derivedETH values
+  token0 = {
+    ...token0,
+    derivedETH: await findNativePerToken(
+      context,
+      token0,
+      chainConfig.wrappedNativeAddress,
+      chainConfig.stablecoinAddresses,
+      chainConfig.minimumNativeLocked
+    ),
+  };
+
+  token1 = {
+    ...token1,
+    derivedETH: await findNativePerToken(
+      context,
+      token1,
+      chainConfig.wrappedNativeAddress,
+      chainConfig.stablecoinAddresses,
+      chainConfig.minimumNativeLocked
+    ),
+  };
 
   // Get chain config for token details
   const chainConfigTokenDetails = getChainConfig(Number(event.chainId));
@@ -227,10 +252,41 @@ PoolManager.Swap.handler(async ({ event, context }) => {
   const chainConfig = getChainConfig(Number(event.chainId));
 
   // Update pool prices
-  const token0 = await context.Token.get(pool.token0);
-  const token1 = await context.Token.get(pool.token1);
+  let token0 = await context.Token.get(pool.token0);
+  let token1 = await context.Token.get(pool.token1);
+
+  let bundle = await context.Bundle.get("1");
+  if (!bundle) {
+    bundle = {
+      id: "1",
+      ethPriceUSD: new BigDecimal("0"),
+    };
+  }
 
   if (!token0 || !token1) return;
+
+  // Update tokens' derivedETH values first
+  token0 = {
+    ...token0,
+    derivedETH: await findNativePerToken(
+      context,
+      token0,
+      chainConfig.wrappedNativeAddress,
+      chainConfig.stablecoinAddresses,
+      chainConfig.minimumNativeLocked
+    ),
+  };
+
+  token1 = {
+    ...token1,
+    derivedETH: await findNativePerToken(
+      context,
+      token1,
+      chainConfig.wrappedNativeAddress,
+      chainConfig.stablecoinAddresses,
+      chainConfig.minimumNativeLocked
+    ),
+  };
 
   const prices = sqrtPriceX96ToTokenPrices(
     event.params.sqrtPriceX96,
@@ -270,7 +326,7 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     totalValueLockedUSDUntracked: new BigDecimal(0),
   };
 
-  const entity: Swap = {
+  let entity: Swap = {
     id: `${event.chainId}_${event.block.number}_${event.logIndex}`,
     chainId: BigInt(event.chainId),
     transaction: event.transaction.hash,
@@ -288,20 +344,36 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     logIndex: BigInt(event.logIndex),
   };
 
-  // Update Bundle with new ETH price
-  console.log("Chain config:", {
-    // Debug log
-    chainId: event.chainId,
-    poolId: chainConfig.stablecoinWrappedNativePoolId,
-    isToken0: chainConfig.stablecoinIsToken0,
-  });
-  let bundle = await context.Bundle.get("1");
-  if (!bundle) {
-    bundle = {
-      id: "1",
-      ethPriceUSD: new BigDecimal("0"),
-    };
+  // Get absolute amounts for volume
+  let amount0Abs = entity.amount0;
+  if (amount0Abs.lt(new BigDecimal("0"))) {
+    amount0Abs = amount0Abs.times(new BigDecimal("-1"));
   }
+  let amount1Abs = entity.amount1;
+  if (amount1Abs.lt(new BigDecimal("0"))) {
+    amount1Abs = amount1Abs.times(new BigDecimal("-1"));
+  }
+
+  // Calculate ETH and USD amounts
+  // const amount0ETH = amount0Abs.times(token0.derivedETH);
+  // const amount1ETH = amount1Abs.times(token1.derivedETH);
+  // const amount0USD = amount0ETH.times(bundle.ethPriceUSD);
+  // const amount1USD = amount1ETH.times(bundle.ethPriceUSD);
+
+  // Get tracked amount - div 2 because can't count both input and output as volume
+  const amountTotalUSDTracked = await getTrackedAmountUSD(
+    context,
+    amount0Abs,
+    token0,
+    amount1Abs,
+    token1,
+    chainConfig.whitelistTokens
+  );
+
+  entity = {
+    ...entity,
+    amountUSD: amountTotalUSDTracked.div(new BigDecimal("2")),
+  };
 
   // Use immutability pattern
   await context.Bundle.set({
@@ -317,6 +389,10 @@ PoolManager.Swap.handler(async ({ event, context }) => {
   await context.Pool.set(pool);
   await context.PoolManager.set(poolManager);
   await context.Swap.set(entity);
+
+  // Don't forget to save the updated tokens
+  await context.Token.set(token0);
+  await context.Token.set(token1);
 });
 
 PoolManager.Transfer.handler(async ({ event, context }) => {});

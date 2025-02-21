@@ -4443,5 +4443,75 @@
     "name": "SnS8989",
     "symbol": "SnS8989",
     "decimals": 18
+  },
+  "0x3472A5A71965499acd81997a54BBA8D852C6E53d": {
+    "name": "Badger",
+    "symbol": "BADGER",
+    "decimals": 18
+  },
+  "0x4E15361FD6b4BB609Fa63C81A2be19d873717870": {
+    "name": "Fantom Token",
+    "symbol": "FTM",
+    "decimals": 18
+  },
+  "0xfcEf162803673559BbF7ed9eDa675D8C440e5fdd": {
+    "name": "ETH",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "0x5877c0884CF92220d602576E47b25500157b58c9": {
+    "name": "This is not a Token",
+    "symbol": "NoToken",
+    "decimals": 5
+  },
+  "0x66C7020C7b6C39E595290C91e1B99DdE2310ddBf": {
+    "name": "AI Coin",
+    "symbol": "AIC",
+    "decimals": 18
+  },
+  "0x84c7231e0c7a89a65bdc57049ADF179edae70e64": {
+    "name": "MEXME",
+    "symbol": "MXM",
+    "decimals": 18
+  },
+  "0x4E9623B7e5b6438542458f5EE828d65c24d3AF8c": {
+    "name": "Jerry The Turtle By Matt Furie",
+    "symbol": "JYAI",
+    "decimals": 18
+  },
+  "0xeC79F8A048bDdC58d70527AA82db1Ffb196E138C": {
+    "name": "BAS",
+    "symbol": "BAS",
+    "decimals": 3
+  },
+  "0x2fA4c0B0039DA6Ef810d541Ba8a7CB024E4FBD7a": {
+    "name": "BAS",
+    "symbol": "BAS",
+    "decimals": 3
+  },
+  "0xEB11c64c14265a3c87C1CF43d8382A95b6390d6d": {
+    "name": "MSCD",
+    "symbol": "MSCD",
+    "decimals": 18
+  },
+  "0xBc87571cE37A63ec35F572dbe9571B1cafd63D92": {
+    "name": "BITCHAIN",
+    "symbol": "BTC",
+    "decimals": 6
+  },
+  "0x94337F2ef8F1eDC1F2b4375fD87abbDD800d2d8B": {
+    "name": "Feng Huang",
+    "symbol": "FENG",
+    "decimals": 18
+  },
+  "0x806e98A0f0b433F931F5E27Ce9EAd1348113E654": {
+    "name": "Takki",
+    "symbol": "TAKKI",
+    "decimals": 9
+  },
+  "0xa593DECC9100f0014ff8EE07735F7b8EeFB7E055": {
+    "name": "BankCrypto.com",
+    "symbol": "BANKC",
+    "decimals": 18
   }
 }

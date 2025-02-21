@@ -57,7 +57,10 @@ export async function findNativePerToken(
   stablecoinAddresses: string[],
   minimumNativeLocked: BigDecimal
 ): Promise<BigDecimal> {
-  if (token.id == wrappedNativeAddress || token.id == ADDRESS_ZERO) {
+  const tokenAddress = token.id.split("_")[1];
+  const chainId = token.id.split("_")[0]; // Get chainId from token.id
+
+  if (tokenAddress == wrappedNativeAddress || tokenAddress == ADDRESS_ZERO) {
     return ONE_BD;
   }
 
@@ -68,17 +71,20 @@ export async function findNativePerToken(
   const bundle = await context.Bundle.get("1");
   if (!bundle) return ZERO_BD;
 
-  // hardcoded fix for incorrect rates
-  if (stablecoinAddresses.includes(token.id)) {
+  if (stablecoinAddresses.includes(tokenAddress)) {
     priceSoFar = safeDiv(ONE_BD, bundle.ethPriceUSD);
   } else {
     for (let i = 0; i < whiteList.length; ++i) {
       const poolAddress = whiteList[i];
+      // Pool IDs already include chainId since we store them that way in whitelistPools
       const pool = await context.Pool.get(poolAddress);
 
       if (pool) {
         if (pool.liquidity > ZERO_BI) {
-          if (pool.token0 == token.id) {
+          const poolToken0 = pool.token0.split("_")[1];
+          const poolToken1 = pool.token1.split("_")[1];
+
+          if (poolToken0 == tokenAddress) {
             const token1 = await context.Token.get(pool.token1);
             if (token1) {
               const ethLocked = pool.totalValueLockedToken1.times(
@@ -93,7 +99,7 @@ export async function findNativePerToken(
               }
             }
           }
-          if (pool.token1 == token.id) {
+          if (poolToken1 == tokenAddress) {
             const token0 = await context.Token.get(pool.token0);
             if (token0) {
               const ethLocked = pool.totalValueLockedToken0.times(
@@ -135,26 +141,30 @@ export async function getTrackedAmountUSD(
   const price0USD = token0.derivedETH.times(bundle.ethPriceUSD);
   const price1USD = token1.derivedETH.times(bundle.ethPriceUSD);
 
+  // Strip chainId prefix from token ids for whitelist comparison
+  const token0Address = token0.id.split("_")[1];
+  const token1Address = token1.id.split("_")[1];
+
   // both are whitelist tokens, return sum of both amounts
   if (
-    whitelistTokens.includes(token0.id) &&
-    whitelistTokens.includes(token1.id)
+    whitelistTokens.includes(token0Address) &&
+    whitelistTokens.includes(token1Address)
   ) {
     return tokenAmount0.times(price0USD).plus(tokenAmount1.times(price1USD));
   }
 
   // take double value of the whitelisted token amount
   if (
-    whitelistTokens.includes(token0.id) &&
-    !whitelistTokens.includes(token1.id)
+    whitelistTokens.includes(token0Address) &&
+    !whitelistTokens.includes(token1Address)
   ) {
     return tokenAmount0.times(price0USD).times(new BigDecimal("2"));
   }
 
   // take double value of the whitelisted token amount
   if (
-    !whitelistTokens.includes(token0.id) &&
-    whitelistTokens.includes(token1.id)
+    !whitelistTokens.includes(token0Address) &&
+    whitelistTokens.includes(token1Address)
   ) {
     return tokenAmount1.times(price1USD).times(new BigDecimal("2"));
   }
