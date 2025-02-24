@@ -24,15 +24,6 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
   // Get chain config for whitelist tokens
   const chainConfig = getChainConfig(Number(event.chainId));
 
-  // First ensure Bundle exists with ID "1"
-  let bundle = await context.Bundle.get("1");
-  if (!bundle) {
-    await context.Bundle.set({
-      id: "1",
-      ethPriceUSD: new BigDecimal("0"),
-    });
-  }
-
   let poolManager = await context.PoolManager.get(
     `${event.chainId}_${event.srcAddress}`
   );
@@ -53,6 +44,10 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
       totalValueLockedETHUntracked: new BigDecimal(0),
       owner: event.srcAddress,
     };
+    await context.Bundle.set({
+      id: event.chainId.toString(),
+      ethPriceUSD: new BigDecimal("0"),
+    });
   } else {
     poolManager = {
       ...poolManager,
@@ -147,29 +142,6 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
     };
   }
 
-  // Now update derivedETH values
-  token0 = {
-    ...token0,
-    derivedETH: await findNativePerToken(
-      context,
-      token0,
-      chainConfig.wrappedNativeAddress,
-      chainConfig.stablecoinAddresses,
-      chainConfig.minimumNativeLocked
-    ),
-  };
-
-  token1 = {
-    ...token1,
-    derivedETH: await findNativePerToken(
-      context,
-      token1,
-      chainConfig.wrappedNativeAddress,
-      chainConfig.stablecoinAddresses,
-      chainConfig.minimumNativeLocked
-    ),
-  };
-
   // Calculate initial prices
   const prices = sqrtPriceX96ToTokenPrices(
     event.params.sqrtPriceX96,
@@ -214,6 +186,29 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
     totalValueLockedUSDUntracked: new BigDecimal(0),
     liquidityProviderCount: 0n,
     hooks: event.params.hooks,
+  };
+
+  // Now update derivedETH values
+  token0 = {
+    ...token0,
+    derivedETH: await findNativePerToken(
+      context,
+      token0,
+      chainConfig.wrappedNativeAddress,
+      chainConfig.stablecoinAddresses,
+      chainConfig.minimumNativeLocked
+    ),
+  };
+
+  token1 = {
+    ...token1,
+    derivedETH: await findNativePerToken(
+      context,
+      token1,
+      chainConfig.wrappedNativeAddress,
+      chainConfig.stablecoinAddresses,
+      chainConfig.minimumNativeLocked
+    ),
   };
 
   await context.Pool.set(pool);

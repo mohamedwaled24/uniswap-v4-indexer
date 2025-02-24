@@ -1,7 +1,8 @@
 # yaml-language-server: $schema=./node_modules/envio/evm.schema.json
 name: envio-indexer
-unordered_multichain_mode: true
-field_selection:
+unordered_multichain_mode: true # When true, strict cross chain ordering of event processing will not be obeyed.
+rollback_on_reorg: true
+field_selection: # Additional fields available to index to augment data
   transaction_fields:
     - "hash"
 contracts:
@@ -137,4 +138,3 @@ networks:
   #     - name: PoolManager
   #       address:
   #         - 0x1F98400000000000000000000000000000000004
-rollback_on_reorg: true
