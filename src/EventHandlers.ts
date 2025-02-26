@@ -282,6 +282,8 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
     ...token1,
     totalValueLocked: token1.totalValueLocked.plus(amount1),
   };
+  // Store current pool TVL for later
+  const currentPoolTvlETH = pool.totalValueLockedETH;
 
   // After updating token TVLs, calculate ETH and USD values
   pool = {
@@ -296,20 +298,29 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
     totalValueLockedUSD: pool.totalValueLockedETH.times(bundle.ethPriceUSD),
   };
 
-  // token0 = {
-  //   ...token0,
-  //   totalValueLockedUSD: token0.totalValueLocked
-  //     .times(token0.derivedETH)
-  //     .times(bundle.ethPriceUSD),
-  // };
+  // Update PoolManager
+  let poolManager = await context.PoolManager.get(
+    `${event.chainId}_${event.srcAddress}`
+  );
+  if (!poolManager) return;
 
-  // token1 = {
-  //   ...token1,
-  //   totalValueLockedUSD: token1.totalValueLocked
-  //     .times(token1.derivedETH)
-  //     .times(bundle.ethPriceUSD),
-  // };
+  poolManager = {
+    ...poolManager,
+    txCount: poolManager.txCount + 1n,
+    // Reset and recalculate TVL
+    totalValueLockedETH: poolManager.totalValueLockedETH
+      .minus(currentPoolTvlETH)
+      .plus(pool.totalValueLockedETH),
+  };
 
+  poolManager = {
+    ...poolManager,
+    totalValueLockedUSD: poolManager.totalValueLockedETH.times(
+      bundle.ethPriceUSD
+    ),
+  };
+
+  await context.PoolManager.set(poolManager);
   await context.Pool.set(pool);
   await context.Token.set(token0);
   await context.Token.set(token1);
@@ -428,6 +439,9 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     .times(pool.feeTier.toString())
     .div(new BigDecimal("1000000"));
 
+  // Store current pool TVL values for later calculations
+  const currentPoolTvlETH = pool.totalValueLockedETH;
+
   // Update pool values
   pool = {
     ...pool,
@@ -461,19 +475,29 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     totalValueLockedUSD: pool.totalValueLockedETH.times(bundle.ethPriceUSD),
   };
 
-  // Update pool manager
+  // Update PoolManager aggregates
   poolManager = {
     ...poolManager,
     txCount: poolManager.txCount + 1n,
-    totalVolumeETH: new BigDecimal(0),
-    totalVolumeUSD: new BigDecimal(0),
-    untrackedVolumeUSD: new BigDecimal(0),
-    totalFeesETH: new BigDecimal(0),
-    totalFeesUSD: new BigDecimal(0),
-    totalValueLockedETH: new BigDecimal(0),
-    totalValueLockedUSD: new BigDecimal(0),
-    totalValueLockedETHUntracked: new BigDecimal(0),
-    totalValueLockedUSDUntracked: new BigDecimal(0),
+    totalVolumeETH: poolManager.totalVolumeETH.plus(amountTotalETHTracked),
+    totalVolumeUSD: poolManager.totalVolumeUSD.plus(amountTotalUSDTracked),
+    untrackedVolumeUSD: poolManager.untrackedVolumeUSD.plus(
+      amountTotalUSDUntracked
+    ),
+    totalFeesETH: poolManager.totalFeesETH.plus(feesETH),
+    totalFeesUSD: poolManager.totalFeesUSD.plus(feesUSD),
+    // Reset and recalculate TVL
+    totalValueLockedETH: poolManager.totalValueLockedETH
+      .minus(currentPoolTvlETH)
+      .plus(pool.totalValueLockedETH),
+  };
+
+  // Then calculate USD value based on the updated ETH value
+  poolManager = {
+    ...poolManager,
+    totalValueLockedUSD: poolManager.totalValueLockedETH.times(
+      bundle.ethPriceUSD
+    ),
   };
 
   let entity: Swap = {

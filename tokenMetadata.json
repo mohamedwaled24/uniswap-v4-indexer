@@ -5038,5 +5038,15 @@
     "name": "Pepes",
     "symbol": "PEPES",
     "decimals": 18
+  },
+  "0x1495bc9e44Af1F8BCB62278D2bEC4540cF0C05ea": {
+    "name": "Zero1 Token",
+    "symbol": "DEAI",
+    "decimals": 18
+  },
+  "0xAB846Fb6C81370327e784Ae7CbB6d6a6af6Ff4BF": {
+    "name": "Paladin Token",
+    "symbol": "PAL",
+    "decimals": 18
   }
 }
