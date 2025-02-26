@@ -4903,5 +4903,140 @@
     "name": "Tronix",
     "symbol": "TRX",
     "decimals": 6
+  },
+  "0x27aD6f75B0A929D615C86B34D64D975c60F60Cec": {
+    "name": "SiftAI",
+    "symbol": "SIFTAI",
+    "decimals": 18
+  },
+  "0x503531DC24F24115399426324cE134f87280E9cf": {
+    "name": "Quick Memecoin",
+    "symbol": "QMEME",
+    "decimals": 18
+  },
+  "0x390d5E11D62cb14C816D0c6c0792451aa20471f6": {
+    "name": "SuperMeme",
+    "symbol": "SME",
+    "decimals": 18
+  },
+  "0x682C889BdFbB830f06B47EFc38B6f9464176cA78": {
+    "name": "$Zoomcat",
+    "symbol": "$ZOOMCAT",
+    "decimals": 18
+  },
+  "0x0f8449E01bb6d031D4516eeaebF1210188576317": {
+    "name": "Wrapped QUAI (Entangle)",
+    "symbol": "wQUAI",
+    "decimals": 18
+  },
+  "0x3BBA0139fAC740742bDC1fC66D4Bbd406be6D001": {
+    "name": "USDT",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "0x70dBbcEabc0A565Be00136f22a9c2fC252bAa6Fa": {
+    "name": "KUKAI",
+    "symbol": "KUKAI",
+    "decimals": 8
+  },
+  "0x7DD9c5Cba05E151C895FDe1CF355C9A1D5DA6429": {
+    "name": "Golem Network Token",
+    "symbol": "GLM",
+    "decimals": 18
+  },
+  "0x6B8835Baa4F0Bf1C6C08abBEaCb908F47C459901": {
+    "name": "CATT",
+    "symbol": "CATT",
+    "decimals": 18
+  },
+  "0x2a36e43109711b987E53DB2636Ad1e4c9b3D2bab": {
+    "name": "MUSIC FOR BRAZILIANS V1",
+    "symbol": "MUSIC",
+    "decimals": 18
+  },
+  "0x3670811cFf1ad6286D06897e29d3A482eAdDbA5B": {
+    "name": "GreenCoin",
+    "symbol": "GCN",
+    "decimals": 18
+  },
+  "0x1A8B74E75D3d6205FA99222a5A5B0513e9041D63": {
+    "name": "v4test7",
+    "symbol": "v4test7",
+    "decimals": 18
+  },
+  "0x75C45dA519A4594C7BdF029126dba1Ddb15f828a": {
+    "name": "Flippo",
+    "symbol": "FLIPPO",
+    "decimals": 18
+  },
+  "0x5a741d624214046F2820c2b6e67082c8849EBc9f": {
+    "name": "Somdejcoin",
+    "symbol": "SOMDEJ",
+    "decimals": 18
+  },
+  "0x7d5121505149065b562C789A0145eD750e6E8cdD": {
+    "name": "Victoria VR",
+    "symbol": "VR",
+    "decimals": 18
+  },
+  "0x738865301A9b7Dd80Dc3666dD48cF034ec42bdDa": {
+    "name": "Agoras Token",
+    "symbol": "AGRS",
+    "decimals": 8
+  },
+  "0x615FB7Debb3d7b229D884e771a9fe5e3AcCe1D1A": {
+    "name": "Sam Nujoma ",
+    "symbol": "SSN",
+    "decimals": 8
+  },
+  "0xA1394012f827933e7Daa0C61da939C354581ED67": {
+    "name": "TTToken",
+    "symbol": "TTT",
+    "decimals": 18
+  },
+  "0x058C6028bd1D24b7e45FF571D5Cb5Ff6d1D9C803": {
+    "name": "BOWLCOIN",
+    "symbol": "BOWL",
+    "decimals": 18
+  },
+  "0xcD18eD923882FF7b901dE0f42d07ceEeaF73B46d": {
+    "name": "REX",
+    "symbol": "REX",
+    "decimals": 18
+  },
+  "0x622b6330F226bF08427dcad49c9eA9694604BF2D": {
+    "name": "Est. 1905",
+    "symbol": "7AΩ∞",
+    "decimals": 18
+  },
+  "0xa7a42511aD0B2A541fe01121EaEACa674DfA1083": {
+    "name": "Skinny Penus Token",
+    "symbol": "SNP",
+    "decimals": 18
+  },
+  "0x8cea2B2De3768aB295093F46c6a5de76AAE529F7": {
+    "name": "CashCoin",
+    "symbol": "CASH",
+    "decimals": 18
+  },
+  "0xF0dC76C22139ab22618dDFb498BE1283254612B1": {
+    "name": "WrappedStar",
+    "symbol": "WSTR",
+    "decimals": 18
+  },
+  "0x1CDD2EaB61112697626F7b4bB0e23Da4FeBF7B7C": {
+    "name": "USDT",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  "0xF08cea7709A579E7895a5AFe28AeCA3562E2536b": {
+    "name": "Wrapped Arwsaa",
+    "symbol": "WAR",
+    "decimals": 18
+  },
+  "0xF1523dD3DcaB3DD82de1bef72a841F5834f85091": {
+    "name": "Pepes",
+    "symbol": "PEPES",
+    "decimals": 18
   }
 }

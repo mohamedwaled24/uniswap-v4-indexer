@@ -9,6 +9,8 @@ import { getTokenMetadata } from "./utils/tokenMetadata";
 import { findNativePerToken } from "./utils/pricing";
 import { getAmount0, getAmount1 } from "./utils/liquidityMath/liquidityAmounts";
 import { convertTokenToDecimal } from "./utils";
+import { getTrackedAmountUSD } from "./utils/pricing";
+import { safeDiv } from "./utils/index";
 
 // TODO: Implement these handlers
 PoolManager.Approval.handler(async ({ event, context }) => {});
@@ -378,18 +380,45 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     token1.decimals
   ).times(new BigDecimal("-1"));
 
-  // In Swap handler, after updating token amounts
-  // const amount0Abs = amount0.lt(ZERO_BD)
-  //   ? amount0.times(new BigDecimal("-1"))
-  //   : amount0;
-  // const amount1Abs = amount1.lt(ZERO_BD)
-  //   ? amount1.times(new BigDecimal("-1"))
-  //   : amount1;
+  // Get absolute amounts for volume
+  const amount0Abs = amount0.lt(new BigDecimal("0"))
+    ? amount0.times(new BigDecimal("-1"))
+    : amount0;
+  const amount1Abs = amount1.lt(new BigDecimal("0"))
+    ? amount1.times(new BigDecimal("-1"))
+    : amount1;
 
-  // const amount0ETH = amount0Abs.times(token0.derivedETH);
-  // const amount1ETH = amount1Abs.times(token1.derivedETH);
-  // const amount0USD = amount0ETH.times(bundle.ethPriceUSD);
-  // const amount1USD = amount1ETH.times(bundle.ethPriceUSD);
+  const amount0ETH = amount0Abs.times(token0.derivedETH);
+  const amount1ETH = amount1Abs.times(token1.derivedETH);
+  const amount0USD = amount0ETH.times(bundle.ethPriceUSD);
+  const amount1USD = amount1ETH.times(bundle.ethPriceUSD);
+
+  // Get tracked amount USD
+  const trackedAmountUSD = await getTrackedAmountUSD(
+    context,
+    amount0Abs,
+    token0,
+    amount1Abs,
+    token1,
+    chainConfig.whitelistTokens
+  );
+  const amountTotalUSDTracked = trackedAmountUSD.div(new BigDecimal("2"));
+
+  const amountTotalETHTracked = safeDiv(
+    amountTotalUSDTracked,
+    bundle.ethPriceUSD
+  );
+  const amountTotalUSDUntracked = amount0USD
+    .plus(amount1USD)
+    .div(new BigDecimal("2"));
+
+  // Calculate fees
+  const feesETH = amountTotalETHTracked
+    .times(pool.feeTier.toString())
+    .div(new BigDecimal("1000000"));
+  const feesUSD = amountTotalUSDTracked
+    .times(pool.feeTier.toString())
+    .div(new BigDecimal("1000000"));
 
   // Update pool values
   pool = {
@@ -402,6 +431,11 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     totalValueLockedToken0: pool.totalValueLockedToken0.plus(amount0),
     totalValueLockedToken1: pool.totalValueLockedToken1.plus(amount1),
     liquidity: event.params.liquidity,
+    volumeToken0: pool.volumeToken0.plus(amount0Abs),
+    volumeToken1: pool.volumeToken1.plus(amount1Abs),
+    volumeUSD: pool.volumeUSD.plus(amountTotalUSDTracked),
+    untrackedVolumeUSD: pool.untrackedVolumeUSD.plus(amountTotalUSDUntracked),
+    feesUSD: pool.feesUSD.plus(feesUSD),
   };
 
   pool = {
@@ -443,7 +477,7 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     origin: event.srcAddress,
     amount0: amount0,
     amount1: amount1,
-    amountUSD: new BigDecimal(0),
+    amountUSD: amountTotalUSDTracked,
     sqrtPriceX96: event.params.sqrtPriceX96,
     tick: event.params.tick,
     logIndex: BigInt(event.logIndex),
