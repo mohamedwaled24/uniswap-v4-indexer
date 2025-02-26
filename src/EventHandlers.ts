@@ -420,6 +420,14 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     .times(pool.feeTier.toString())
     .div(new BigDecimal("1000000"));
 
+  // Calculate collected fees in tokens
+  const feesToken0 = amount0Abs
+    .times(pool.feeTier.toString())
+    .div(new BigDecimal("1000000"));
+  const feesToken1 = amount1Abs
+    .times(pool.feeTier.toString())
+    .div(new BigDecimal("1000000"));
+
   // Update pool values
   pool = {
     ...pool,
@@ -436,6 +444,9 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     volumeUSD: pool.volumeUSD.plus(amountTotalUSDTracked),
     untrackedVolumeUSD: pool.untrackedVolumeUSD.plus(amountTotalUSDUntracked),
     feesUSD: pool.feesUSD.plus(feesUSD),
+    collectedFeesToken0: pool.collectedFeesToken0.plus(feesToken0),
+    collectedFeesToken1: pool.collectedFeesToken1.plus(feesToken1),
+    collectedFeesUSD: pool.collectedFeesUSD.plus(feesUSD),
   };
 
   pool = {
