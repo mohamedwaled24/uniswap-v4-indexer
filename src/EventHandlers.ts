@@ -61,7 +61,10 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
   const token0Id = `${event.chainId}_${event.params.currency0.toLowerCase()}`;
   let token0 = await context.Token.get(token0Id);
   if (!token0) {
-    const metadata = await getTokenMetadata(event.params.currency0); // adjust for multichain in future
+    const metadata = await getTokenMetadata(
+      event.params.currency0,
+      Number(event.chainId)
+    );
     token0 = {
       id: token0Id,
       chainId: BigInt(event.chainId),
@@ -92,7 +95,10 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
   const token1Id = `${event.chainId}_${event.params.currency1.toLowerCase()}`;
   let token1 = await context.Token.get(token1Id);
   if (!token1) {
-    const metadata = await getTokenMetadata(event.params.currency1);
+    const metadata = await getTokenMetadata(
+      event.params.currency1,
+      Number(event.chainId)
+    );
     token1 = {
       id: token1Id,
       chainId: BigInt(event.chainId),
