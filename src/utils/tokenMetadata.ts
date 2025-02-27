@@ -148,9 +148,17 @@ const saveCache = (chainId: number): void => {
   }
 };
 
+// Add this function to sanitize strings by removing null bytes and other problematic characters
+function sanitizeString(str: string): string {
+  if (!str) return "";
+
+  // Remove null bytes and other control characters that might cause issues with PostgreSQL
+  return str.replace(/[\u0000-\u001F\u007F-\u009F]/g, "").trim();
+}
+
 export async function getTokenMetadata(
   address: string,
-  chainId: number = 1
+  chainId: number
 ): Promise<TokenMetadata> {
   // Load cache for this chain
   const metadataCache = loadCache(chainId);
@@ -203,7 +211,7 @@ export async function getTokenMetadata(
   }
 }
 
-// Add this function to batch token metadata calls
+// Update the fetchTokenMetadataMulticall function to sanitize name and symbol
 async function fetchTokenMetadataMulticall(
   address: string,
   chainId: number
@@ -240,11 +248,13 @@ async function fetchTokenMetadataMulticall(
   // Process name with fallbacks
   let name = "unknown";
   if (nameResult !== null) {
-    name = nameResult;
+    name = sanitizeString(nameResult);
   } else if (nameBytes32Result !== null) {
-    name = new TextDecoder().decode(
-      new Uint8Array(
-        Buffer.from(nameBytes32Result.slice(2), "hex").filter((n) => n !== 0)
+    name = sanitizeString(
+      new TextDecoder().decode(
+        new Uint8Array(
+          Buffer.from(nameBytes32Result.slice(2), "hex").filter((n) => n !== 0)
+        )
       )
     );
   }
@@ -252,18 +262,22 @@ async function fetchTokenMetadataMulticall(
   // Process symbol with fallbacks
   let symbol = "UNKNOWN";
   if (symbolResult !== null) {
-    symbol = symbolResult;
+    symbol = sanitizeString(symbolResult);
   } else if (symbolBytes32Result !== null) {
-    symbol = new TextDecoder().decode(
-      new Uint8Array(
-        Buffer.from(symbolBytes32Result.slice(2), "hex").filter((n) => n !== 0)
+    symbol = sanitizeString(
+      new TextDecoder().decode(
+        new Uint8Array(
+          Buffer.from(symbolBytes32Result.slice(2), "hex").filter(
+            (n) => n !== 0
+          )
+        )
       )
     );
   }
 
   return {
-    name,
-    symbol,
+    name: name || "unknown",
+    symbol: symbol || "UNKNOWN",
     decimals: typeof decimalsResult === "number" ? decimalsResult : 18,
   };
 }

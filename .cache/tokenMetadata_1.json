@@ -105,8 +105,8 @@
     "decimals": 18
   },
   "0xa8dD5f7752b72CD9831009374C6F41A4c16E8592": {
-    "name": " ",
-    "symbol": " ",
+    "name": "",
+    "symbol": "",
     "decimals": 18
   },
   "0xAF4ffA7335B67a7D9F1F7Da8F9DCD71B192d76D0": {
@@ -485,7 +485,7 @@
     "decimals": 9
   },
   "0x6cB52086c435405379D028991B2f885BBDe05d44": {
-    "name": "Coin USD Tradable ",
+    "name": "Coin USD Tradable",
     "symbol": "USDTC",
     "decimals": 6
   },
@@ -1635,7 +1635,7 @@
     "decimals": 6
   },
   "0x1274048C583c092F9c168C2EfE76C425aA98Da3D": {
-    "name": " Bankrupt & Hope",
+    "name": "Bankrupt & Hope",
     "symbol": "BH",
     "decimals": 18
   },
@@ -2010,7 +2010,7 @@
     "decimals": 18
   },
   "0xA493d3efBDaB67e0EFd77371746404Ef2F41E745": {
-    "name": "Hershy's Pizza ",
+    "name": "Hershy's Pizza",
     "symbol": "hershyspizza",
     "decimals": 18
   },
@@ -2165,7 +2165,7 @@
     "decimals": 18
   },
   "0x1f6f2A2BfdaDD9629e4C1109e70175209298F669": {
-    "name": "Haulage Partner ",
+    "name": "Haulage Partner",
     "symbol": "iHLGP",
     "decimals": 3
   },
@@ -2225,7 +2225,7 @@
     "decimals": 18
   },
   "0x01616656a8503bB2611dD468dF80d5616029B10D": {
-    "name": "Haulage Partner ",
+    "name": "Haulage Partner",
     "symbol": "HLGP",
     "decimals": 4
   },
@@ -2260,7 +2260,7 @@
     "decimals": 18
   },
   "0x8c9532a60E0E7C6BbD2B2c1303F63aCE1c3E9811": {
-    "name": "Renzo Restaked LST ",
+    "name": "Renzo Restaked LST",
     "symbol": "pzETH",
     "decimals": 18
   },
@@ -2576,7 +2576,7 @@
   },
   "0x6c3fE25a4de7FA243c653cfE1F165bf11D99704E": {
     "name": "HILO",
-    "symbol": "HILO ",
+    "symbol": "HILO",
     "decimals": 18
   },
   "0x59044217Fb222d3b1E7aea8712a075E6397a48Dc": {
@@ -2590,7 +2590,7 @@
     "decimals": 18
   },
   "0xE7B9f06C193980C314038974c0c3CAE8902058F3": {
-    "name": "Haulage Token ",
+    "name": "Haulage Token",
     "symbol": "HAUL",
     "decimals": 18
   },
@@ -4026,7 +4026,7 @@
   },
   "0xc167fa9535747AB1f929c5583d2AD98F213D1169": {
     "name": "Haulage Partner Coin",
-    "symbol": "HAUL ",
+    "symbol": "HAUL",
     "decimals": 18
   },
   "0x853d955aCEf822Db058eb8505911ED77F175b99e": {
@@ -4425,7 +4425,7 @@
     "decimals": 18
   },
   "0x274965AA39D5d5927Ec7769cD7bbf355A769F3e1": {
-    "name": "scorpion moon ",
+    "name": "scorpion moon",
     "symbol": "ScorpionM",
     "decimals": 8
   },
@@ -4985,7 +4985,7 @@
     "decimals": 8
   },
   "0x615FB7Debb3d7b229D884e771a9fe5e3AcCe1D1A": {
-    "name": "Sam Nujoma ",
+    "name": "Sam Nujoma",
     "symbol": "SSN",
     "decimals": 8
   },
@@ -5047,6 +5047,26 @@
   "0xAB846Fb6C81370327e784Ae7CbB6d6a6af6Ff4BF": {
     "name": "Paladin Token",
     "symbol": "PAL",
+    "decimals": 18
+  },
+  "0xB8C67071BbA397D862cE7b720c734A7c35426ed4": {
+    "name": "LaoGouih",
+    "symbol": "LaoGou",
+    "decimals": 16
+  },
+  "0xbdF43ecAdC5ceF51B7D1772F722E40596BC1788B": {
+    "name": "SEI",
+    "symbol": "SEI",
+    "decimals": 18
+  },
+  "0x58b6A8A3302369DAEc383334672404Ee733aB239": {
+    "name": "Livepeer Token",
+    "symbol": "LPT",
+    "decimals": 18
+  },
+  "0xCa14007Eff0dB1f8135f4C25B34De49AB0d42766": {
+    "name": "StarkNet Token",
+    "symbol": "STRK",
     "decimals": 18
   }
 }

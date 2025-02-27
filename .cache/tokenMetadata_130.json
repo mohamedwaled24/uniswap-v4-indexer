@@ -335,7 +335,7 @@
     "decimals": 18
   },
   "0xe78f6589CAbb160ff0e0bC69864f9cA3763B7A99": {
-    "name": "Bonx ",
+    "name": "Bonx",
     "symbol": "BONX",
     "decimals": 18
   },
@@ -640,7 +640,7 @@
     "decimals": 18
   },
   "0x513cDAbb37Da5bce41d4D8Cc3d6C46607E72ea9B": {
-    "name": "UNIDOLLAR ",
+    "name": "UNIDOLLAR",
     "symbol": "UNIUSD",
     "decimals": 18
   },
@@ -815,13 +815,13 @@
     "decimals": 18
   },
   "0xAAf21D4c3D1E204456cf6C1172A380c1e20fE3f6": {
-    "name": "AI Robert ",
+    "name": "AI Robert",
     "symbol": "AIR",
     "decimals": 18
   },
   "0x37De48ed6FB8bb39d6EfB6f9d077f22E9Bd85031": {
-    "name": "Bitcoin mining robots robot 🤖 ",
-    "symbol": "BMR robot 🤖 ",
+    "name": "Bitcoin mining robots robot 🤖",
+    "symbol": "BMR robot 🤖",
     "decimals": 18
   },
   "0x98d0709457A1Db7321B52bfEabf054C6Ecf33Ef7": {
@@ -845,7 +845,7 @@
     "decimals": 18
   },
   "0x61176aB1C1e6e80c666d097d5990A979b7643E5A": {
-    "name": "Ai Bitcoin ",
+    "name": "Ai Bitcoin",
     "symbol": "AIBTC",
     "decimals": 18
   },
@@ -855,7 +855,7 @@
     "decimals": 18
   },
   "0xF39aCa427fbFA547CDA737D41266AC7B81FEc82e": {
-    "name": "Bitcoin virtual ",
+    "name": "Bitcoin virtual",
     "symbol": "BTCV",
     "decimals": 18
   },
@@ -877,6 +877,21 @@
   "0x18c21dF4e1824e7eb68889059585FC3Aa3F117D8": {
     "name": "Bitcoin",
     "symbol": "BTC",
+    "decimals": 18
+  },
+  "0x5625c23662456125F2e7cEe9CcD5A0211281EC3D": {
+    "name": "WolFi",
+    "symbol": "WOLF",
+    "decimals": 18
+  },
+  "0x1bECd52dED27D0f8739FD092B47d093A376ECF2F": {
+    "name": "Veritas",
+    "symbol": "VPT",
+    "decimals": 9
+  },
+  "0xb9F35387A0627497089dA60107e5c5fBa1675720": {
+    "name": "Fake Internet Money",
+    "symbol": "FIM",
     "decimals": 18
   }
 }

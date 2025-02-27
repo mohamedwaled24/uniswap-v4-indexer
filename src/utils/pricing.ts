@@ -58,7 +58,7 @@ export async function findNativePerToken(
   minimumNativeLocked: BigDecimal
 ): Promise<BigDecimal> {
   const tokenAddress = token.id.split("_")[1];
-  const chainId = token.id.split("_")[0]; // Get chainId from token.id
+  const chainId = token.id.split("_")[0]; // Make sure this is being used for Bundle lookup
 
   if (tokenAddress == wrappedNativeAddress || tokenAddress == ADDRESS_ZERO) {
     return ONE_BD;
@@ -68,7 +68,7 @@ export async function findNativePerToken(
   let largestLiquidityETH = ZERO_BD;
   let priceSoFar = ZERO_BD;
 
-  const bundle = await context.Bundle.get("1");
+  const bundle = await context.Bundle.get(chainId);
   if (!bundle) return ZERO_BD;
 
   if (stablecoinAddresses.includes(tokenAddress)) {
@@ -133,9 +133,10 @@ export async function getTrackedAmountUSD(
   token0: Token,
   tokenAmount1: BigDecimal,
   token1: Token,
+  chainId: string,
   whitelistTokens: string[]
 ): Promise<BigDecimal> {
-  const bundle = await context.Bundle.get("1");
+  const bundle = await context.Bundle.get(chainId);
   if (!bundle) return ZERO_BD;
 
   const price0USD = token0.derivedETH.times(bundle.ethPriceUSD);
