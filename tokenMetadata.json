@@ -5048,5 +5048,15 @@
     "name": "Paladin Token",
     "symbol": "PAL",
     "decimals": 18
+  },
+  "0xB8C67071BbA397D862cE7b720c734A7c35426ed4": {
+    "name": "LaoGouih",
+    "symbol": "LaoGou",
+    "decimals": 16
+  },
+  "0xbdF43ecAdC5ceF51B7D1772F722E40596BC1788B": {
+    "name": "SEI",
+    "symbol": "SEI",
+    "decimals": 18
   }
 }
