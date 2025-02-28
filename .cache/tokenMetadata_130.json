@@ -893,5 +893,75 @@
     "name": "Fake Internet Money",
     "symbol": "FIM",
     "decimals": 18
+  },
+  "0x2982de13aF148d59d1bfc3cA1e3f975D187D472E": {
+    "name": "Unity",
+    "symbol": "$Unity",
+    "decimals": 18
+  },
+  "0xAd26937FEbB6EbD3ea7773487882e5A8B126f7e5": {
+    "name": "RedStone",
+    "symbol": "RED",
+    "decimals": 9
+  },
+  "0x0800485E86126eF58C827ffa995CF9Ac23d9D011": {
+    "name": "Bitcoin Chain",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "0x62B8a9C50326a8eCEcaF51E8f364Ea2d4e37c870": {
+    "name": "Bitcoin oracle",
+    "symbol": "Btco",
+    "decimals": 18
+  },
+  "0xDa2C19aC650B50d83BD925dcB88FaA18606a4D54": {
+    "name": "Frink",
+    "symbol": "FRNK",
+    "decimals": 18
+  },
+  "0xB020790180d4ec37Fee043ccCF3Ff53F51b9793e": {
+    "name": "Toka",
+    "symbol": "TOKA",
+    "decimals": 18
+  },
+  "0x8B430FcA40A5c7ED0D9Daf48D61Aa915bCAcC24e": {
+    "name": "@CentBit_Online (Beta Test)",
+    "symbol": "@CentBit_Online",
+    "decimals": 18
+  },
+  "0xA88f454EDc87a14C293d56A2F3c81c66D1A6Cf9F": {
+    "name": "Test",
+    "symbol": "TST",
+    "decimals": 18
+  },
+  "0x885133B10f45F403F3063d8081d7A55AA65a3a0E": {
+    "name": "unich",
+    "symbol": "unic",
+    "decimals": 18
+  },
+  "0xe63D87F6A2605fEc987F1670b1825F023327E232": {
+    "name": "unich",
+    "symbol": "uni",
+    "decimals": 18
+  },
+  "0xa264F2b88C630f260AbDcAb577eAB7266A8857d5": {
+    "name": "BandToken",
+    "symbol": "BAND",
+    "decimals": 18
+  },
+  "0x57dccC17e876aA0834C277fc536D5f863FdB94c8": {
+    "name": "Pixar`s",
+    "symbol": "PIX",
+    "decimals": 18
+  },
+  "0x8eE0202dEeAfbE5E2446bb77e40f36D40880BAE8": {
+    "name": "Crystal T",
+    "symbol": "crys",
+    "decimals": 18
+  },
+  "0xC346D739bbFeA8f1EBC0A2749fDDa0a63015a13F": {
+    "name": "Uniswap Interface",
+    "symbol": "UNISWAPINT",
+    "decimals": 18
   }
 }

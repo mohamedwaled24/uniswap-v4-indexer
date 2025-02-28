@@ -1613,5 +1613,60 @@
     "name": "BitcoinBR",
     "symbol": "BTCBR",
     "decimals": 18
+  },
+  "0x1A77Af0A2CFa55F8D324716aC5853ddDbb7F4484": {
+    "name": "Aiso",
+    "symbol": "AI",
+    "decimals": 18
+  },
+  "0xaD8BcBDa64B522579523258B83386C6BC70F7805": {
+    "name": "WORLDTRADE",
+    "symbol": "WTD",
+    "decimals": 18
+  },
+  "0x1465E3e365A1EcACfE769f1a3F891d33B4e20175": {
+    "name": "VINE COIN",
+    "symbol": "VINE",
+    "decimals": 18
+  },
+  "0x9cAF0fe09a65b043a3ee4eB227Ae474dBafB0922": {
+    "name": "My favorite Cash",
+    "symbol": "MFC",
+    "decimals": 18
+  },
+  "0x72f614D4Fa7195841f563BEEc13e3B5d14148CC8": {
+    "name": "MAstralFire",
+    "symbol": "MASF",
+    "decimals": 18
+  },
+  "0x5f0Da599BB2ccCfcf6Fdfd7D81743B6020864350": {
+    "name": "Maker",
+    "symbol": "MKR",
+    "decimals": 18
+  },
+  "0x4781C5482F7a66D0F706663Bf4D73f6d3b92D4a6": {
+    "name": "MAGABABY",
+    "symbol": "MBX",
+    "decimals": 18
+  },
+  "0x947950BcC74888a40Ffa2593C5798F11Fc9124C4": {
+    "name": "SushiToken",
+    "symbol": "SUSHI",
+    "decimals": 18
+  },
+  "0xdcccdBd130bc6334FC5C5535fF275d9D1B47A148": {
+    "name": "TEST",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "0x960d9c1E998dBdd3e78d62C7DafdF6f1D40A64b4": {
+    "name": "VINE COIN",
+    "symbol": "VINE",
+    "decimals": 18
+  },
+  "0xD6135a9f246db809fe14f0108A767842014c3403": {
+    "name": "Anti Spiral",
+    "symbol": "ANTI",
+    "decimals": 18
   }
 }

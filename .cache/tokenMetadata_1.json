@@ -5068,5 +5068,180 @@
     "name": "StarkNet Token",
     "symbol": "STRK",
     "decimals": 18
+  },
+  "0x6068B2c3e9a9A30D417854482861F28118a5e12D": {
+    "name": "TOM3",
+    "symbol": "TOM3",
+    "decimals": 18
+  },
+  "0x401885c8aeD5F63F557F2803bbbFBF88840E307d": {
+    "name": "Ethereum Wrapped Hash",
+    "symbol": "wHASH",
+    "decimals": 18
+  },
+  "0xC8CbE8f14a969e33575607C4C9D631250163e999": {
+    "name": "6UO Token",
+    "symbol": "6UO",
+    "decimals": 18
+  },
+  "0xFf9F92935d39dcFDF5adaae8470cE9393c876B46": {
+    "name": "Token",
+    "symbol": "TKN",
+    "decimals": 18
+  },
+  "0x11c31dB1fb7807a8EFa1Cb36cC30b596b6493936": {
+    "name": "ViTaLiK rETaRdeD",
+    "symbol": "RETALIK",
+    "decimals": 9
+  },
+  "0xF3861ad533660A64488C02B3ECFD30Ebf6Ed5A47": {
+    "name": "Token",
+    "symbol": "TKN",
+    "decimals": 18
+  },
+  "0xAefd1C394D439bfC90EA31E6E95Cec15Fd5312B3": {
+    "name": "Ekaterinburg Token",
+    "symbol": "EKB",
+    "decimals": 18
+  },
+  "0x44DB03c9b13fAAbeCb56EC5A5D3ee98C15D08c51": {
+    "name": "wa",
+    "symbol": "WA",
+    "decimals": 18
+  },
+  "0x3c560a2C527e130a30F0Ccafb42215B25FcB1485": {
+    "name": "Flash USDT",
+    "symbol": "FUSDT",
+    "decimals": 18
+  },
+  "0xBC00382f3e63683EE29421f60f6Cb3A2c0069479": {
+    "name": "USDT5CT-2",
+    "symbol": "USDT5CT-2",
+    "decimals": 18
+  },
+  "0xC1e251AEff92BD114B5F215eB4ce6D47D7d0b15c": {
+    "name": "USDe5CT-2",
+    "symbol": "USDe5CT-2",
+    "decimals": 18
+  },
+  "0xD7CAc118c007E6427ABD693e193E90a6918ce404": {
+    "name": "weETH5CT-2",
+    "symbol": "weETH5CT-2",
+    "decimals": 18
+  },
+  "0x479657445b35fc57736C4cA7D0410AE7190CF692": {
+    "name": "wstETH5CT-2",
+    "symbol": "wstETH5CT-2",
+    "decimals": 18
+  },
+  "0x72272D7f79372dFd20d391CB539d8945594739eD": {
+    "name": "Nikoyo Token",
+    "symbol": "NIKOYO",
+    "decimals": 18
+  },
+  "0xf7e945FcE8F19302AaCc7E1418b0A0bdef89327B": {
+    "name": "Galvan",
+    "symbol": "IZE",
+    "decimals": 8
+  },
+  "0x3007083EAA95497cD6B2b809fB97B6A30bdF53D3": {
+    "name": "Psyop",
+    "symbol": "PSYOP",
+    "decimals": 18
+  },
+  "0x4CdbcfE4F091A618807Fc772Cc12522f06B3cdb6": {
+    "name": "Cicada",
+    "symbol": "CCD",
+    "decimals": 18
+  },
+  "0x3a3DA3326953E607F50f36f915328c5DACC9E592": {
+    "name": "Tether",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "0x3ed112ce225f82da03918827631703e616fa14fe": {
+    "name": "XrpMoonPepeinuHomerSimpsonDeveloper",
+    "symbol": "DOGECOIN",
+    "decimals": 9
+  },
+  "0xB3fcdFB6dB85847619E3DC20084Faba152ffeaFA": {
+    "name": "Grayscale BTC Trust",
+    "symbol": "GBTC",
+    "decimals": 18
+  },
+  "0x2f806950298eDB7b6B939B552bdEf26D3EA4FF17": {
+    "name": "OpenSea2",
+    "symbol": "SEA2",
+    "decimals": 18
+  },
+  "0x4cfbaA192c1B1E3Cd37943eb880f2E0359F55Db0": {
+    "name": "ReEntry Alliance Inc",
+    "symbol": "RAI",
+    "decimals": 8
+  },
+  "0x2073Cf5Aa113c75A5cCf4D014064eE3Ad98B03b4": {
+    "name": "OpenSea3",
+    "symbol": "SEA3",
+    "decimals": 18
+  },
+  "0x2389aE918b4e5F248d0b4E5BEB358E88F938C774": {
+    "name": "Artificial Intelligence Token",
+    "symbol": "AIT",
+    "decimals": 18
+  },
+  "0xc43C6bfeDA065fE2c4c11765Bf838789bd0BB5dE": {
+    "name": "Redstone",
+    "symbol": "RED",
+    "decimals": 18
+  },
+  "0x70c29e99cA32592C0E88bb571B87444Bb0e08e33": {
+    "name": "The Martian Dog",
+    "symbol": "MARVIN",
+    "decimals": 9
+  },
+  "0xeff49b0F56a97C7FD3B51F0eCd2Ce999a7861420": {
+    "name": "Fofar",
+    "symbol": "FOFAR",
+    "decimals": 9
+  },
+  "0x5C40F2B311B18AD839834278f1951b29d4cD4Fd9": {
+    "name": "Liberty",
+    "symbol": "LBCX",
+    "decimals": 9
+  },
+  "0x5be6e0e0bbe7711DD118B9DC3C68cCF9BB9754Ea": {
+    "name": "MUTANT ALIENS VILLAIN",
+    "symbol": "$VLN",
+    "decimals": 18
+  },
+  "0xA641b5cb8e2074FE12Da05e6aaAEa40574A9D84F": {
+    "name": "A_ON_VITALIK",
+    "symbol": "AOV",
+    "decimals": 18
+  },
+  "0xB528edBef013aff855ac3c50b381f253aF13b997": {
+    "name": "Aevo",
+    "symbol": "AEVO",
+    "decimals": 18
+  },
+  "0xDDEA4099f6a87f48e7fcfbA0b2E903F7d1896AFD": {
+    "name": "DeepSeek",
+    "symbol": "SEEK",
+    "decimals": 18
+  },
+  "0xfaeBfd3DFC1b36b8Bf918D8697A66E80E1a151Bf": {
+    "name": "USIT",
+    "symbol": "USIT",
+    "decimals": 18
+  },
+  "0x5F0E628B693018f639D10e4A4F59BD4d8B2B6B44": {
+    "name": "Whiteheart Token",
+    "symbol": "WHITE",
+    "decimals": 18
+  },
+  "0x8390a1DA07E376ef7aDd4Be859BA74Fb83aA02D5": {
+    "name": "GROK",
+    "symbol": "GROK",
+    "decimals": 9
   }
 }

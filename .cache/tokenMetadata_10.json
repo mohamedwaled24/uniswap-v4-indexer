@@ -453,5 +453,25 @@
     "name": "Infinite Trading Protocol",
     "symbol": "ITP",
     "decimals": 18
+  },
+  "0x08A6BE922404f43e3D6950E98e584fF5Ba629987": {
+    "name": "Red Stone",
+    "symbol": "RED",
+    "decimals": 18
+  },
+  "0xA4424fa67f268EDbed3Ed3892d4a6E753Db8baBe": {
+    "name": "AURA",
+    "symbol": "AURA",
+    "decimals": 18
+  },
+  "0x87C4F8a53244D95FDd67Dbafed6687877Dd1e4B4": {
+    "name": "Pipi",
+    "symbol": "Pipi",
+    "decimals": 18
+  },
+  "0xB0fFa8000886e57F86dd5264b9582b2Ad87b2b91": {
+    "name": "Wormhole Token",
+    "symbol": "W",
+    "decimals": 18
   }
 }

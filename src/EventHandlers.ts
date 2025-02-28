@@ -26,6 +26,10 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
   // Get chain config for whitelist tokens
   const chainConfig = getChainConfig(Number(event.chainId));
 
+  // Define isHookedPool at the start
+  const isHookedPool =
+    event.params.hooks !== "0x0000000000000000000000000000000000000000";
+
   let poolManager = await context.PoolManager.get(
     `${event.chainId}_${event.srcAddress}`
   );
@@ -45,6 +49,9 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
       totalValueLockedUSDUntracked: new BigDecimal(0),
       totalValueLockedETHUntracked: new BigDecimal(0),
       owner: event.srcAddress,
+      numberOfSwaps: 0n,
+      hookedPools: 0n,
+      hookedSwaps: 0n,
     };
     await context.Bundle.set({
       id: event.chainId.toString(),
@@ -55,6 +62,34 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
       ...poolManager,
       poolCount: poolManager.poolCount + 1n,
     };
+  }
+
+  // Update or create HookStats if this is a hooked pool
+  if (isHookedPool) {
+    poolManager = {
+      ...poolManager,
+      hookedPools: poolManager.hookedPools + 1n,
+    };
+
+    const hookStatsId = `${event.chainId}_${event.params.hooks}`;
+    let hookStats = await context.HookStats.get(hookStatsId);
+
+    if (!hookStats) {
+      hookStats = {
+        id: hookStatsId,
+        chainId: BigInt(event.chainId),
+        numberOfPools: 0n,
+        numberOfSwaps: 0n,
+        firstPoolCreatedAt: BigInt(event.block.timestamp),
+      };
+    }
+
+    hookStats = {
+      ...hookStats,
+      numberOfPools: hookStats.numberOfPools + 1n,
+    };
+
+    await context.HookStats.set(hookStats);
   }
 
   // Create or get token0
@@ -502,4 +537,31 @@ PoolManager.Swap.handler(async ({ event, context }) => {
   await context.Swap.set(entity);
   await context.Token.set(token0);
   await context.Token.set(token1);
+
+  const isHookedPool =
+    pool.hooks !== "0x0000000000000000000000000000000000000000";
+
+  poolManager = {
+    ...poolManager,
+    numberOfSwaps: poolManager.numberOfSwaps + 1n,
+    hookedSwaps: isHookedPool
+      ? poolManager.hookedSwaps + 1n
+      : poolManager.hookedSwaps,
+  };
+
+  await context.PoolManager.set(poolManager);
+
+  // After processing the swap, update HookStats if it's a hooked pool
+  if (isHookedPool) {
+    const hookStatsId = `${event.chainId}_${pool.hooks}`;
+    let hookStats = await context.HookStats.get(hookStatsId);
+
+    if (hookStats) {
+      hookStats = {
+        ...hookStats,
+        numberOfSwaps: hookStats.numberOfSwaps + 1n,
+      };
+      await context.HookStats.set(hookStats);
+    }
+  }
 });

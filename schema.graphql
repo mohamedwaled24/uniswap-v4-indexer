@@ -31,6 +31,9 @@ type PoolManager {
   totalValueLockedUSDUntracked: BigDecimal!
   totalValueLockedETHUntracked: BigDecimal!
   owner: String!
+  numberOfSwaps: BigInt! # total swaps on network
+  hookedPools: BigInt! # number of pools with hooks
+  hookedSwaps: BigInt! # number of swaps through hooked pools
 }
 
 type Pool @entity {
@@ -92,4 +95,12 @@ type Bundle @entity {
   id: ID!
   # price of ETH in usd
   ethPriceUSD: BigDecimal!
+}
+
+type HookStats @entity {
+  id: ID! # hook address
+  chainId: BigInt! # Added this field
+  numberOfPools: BigInt! # number of pools using this hook
+  numberOfSwaps: BigInt! # number of swaps through pools with this hook
+  firstPoolCreatedAt: BigInt! # timestamp of first pool creation
 }

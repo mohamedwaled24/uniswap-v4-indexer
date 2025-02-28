@@ -163,5 +163,10 @@
     "name": "PHARAOH",
     "symbol": "PHAR",
     "decimals": 18
+  },
+  "0xd279F65b95f552BaAac3F49098c3729FB69B00fe": {
+    "name": "CountClown",
+    "symbol": "COUNTCLOWN",
+    "decimals": 18
   }
 }

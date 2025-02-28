@@ -1098,5 +1098,155 @@
     "name": "RUB",
     "symbol": "RUB",
     "decimals": 18
+  },
+  "0x65C101E95D7DD475c7966330fa1A803205FF92aB": {
+    "name": "Hall of Legends",
+    "symbol": "HOL",
+    "decimals": 18
+  },
+  "0x61328aaB4926D9ef1030DfC298340125b7EeFaB5": {
+    "name": "onchainaustria.at",
+    "symbol": "BOCK",
+    "decimals": 18
+  },
+  "0xf7d4e7273E5015C96728A6b02f31C505eE184603": {
+    "name": "Staked ETH",
+    "symbol": "osETH",
+    "decimals": 18
+  },
+  "0xCa4e51F6AD4AFd9d1068E5899De9dd7d73F3463D": {
+    "name": "AARK Token",
+    "symbol": "AARK",
+    "decimals": 18
+  },
+  "0x0A7d48CAA47a9c595cFbd3A81674e06D1f8780e4": {
+    "name": "Democracy Currency",
+    "symbol": "DC",
+    "decimals": 0
+  },
+  "0x42087c8626223f637feA29Dd7dD6092664ef9116": {
+    "name": "NovaX",
+    "symbol": "NVX",
+    "decimals": 18
+  },
+  "0x0Ac7f4828FF0eA3cE63F287B14158c07b37EA1db": {
+    "name": "Astro Byte",
+    "symbol": "ABY",
+    "decimals": 18
+  },
+  "0xDd7389635d76b921D48158e06ba94dF528eCa1Df": {
+    "name": "Democracy Currency",
+    "symbol": "DC",
+    "decimals": 0
+  },
+  "0x54357b15bB2fD435aCEf4C7Fc9415E0796F82b3c": {
+    "name": "NEXIUM AI",
+    "symbol": "NEX",
+    "decimals": 18
+  },
+  "0xf5A27E55C748bCDdBfeA5477CB9Ae924f0f7fd2e": {
+    "name": "Standard Token",
+    "symbol": "TST",
+    "decimals": 18
+  },
+  "0x764BFC309090E7f93EDcE53E5BeFa374CDCB7b8e": {
+    "name": "GRIMACE COIN",
+    "symbol": "GRIMACE",
+    "decimals": 18
+  },
+  "0x59a9Dd8a3806b71C813A3BE83891ffa19BFB1458": {
+    "name": "USD-TEST",
+    "symbol": "USD-TEST",
+    "decimals": 18
+  },
+  "0x6b58624c220BdeF9ecAc912968eC71C312E13d5C": {
+    "name": "SHIT-TEST",
+    "symbol": "SHIT-TEST",
+    "decimals": 18
+  },
+  "0x892785f33CdeE22A30AEF750F285E18c18040c3e": {
+    "name": "USD Coin (Arb1)-LP",
+    "symbol": "S*USDC",
+    "decimals": 6
+  },
+  "0xB6CfcF89a7B22988bfC96632aC2A9D6daB60d641": {
+    "name": "Tether USD-LP",
+    "symbol": "S*USDT",
+    "decimals": 6
+  },
+  "0x354A6dA3fcde098F8389cad84b0182725c6C91dE": {
+    "name": "Compound",
+    "symbol": "COMP",
+    "decimals": 18
+  },
+  "0x915A55e36A01285A14f05dE6e81ED9cE89772f8e": {
+    "name": "Stargate Ether Vault-LP",
+    "symbol": "S*SGETH",
+    "decimals": 18
+  },
+  "0x47c031236e19d024b42f8AE6780E44A573170703": {
+    "name": "GMX Market",
+    "symbol": "GM",
+    "decimals": 18
+  },
+  "0x528A5bac7E746C9A509A1f4F6dF58A03d44279F9": {
+    "name": "GMX Liquidity Vault [WETH-USDC]",
+    "symbol": "GLV [WETH-USDC]",
+    "decimals": 18
+  },
+  "0xdF03EEd325b82bC1d4Db8b49c30ecc9E05104b96": {
+    "name": "GMX Liquidity Vault [WBTC-USDC]",
+    "symbol": "GLV [WBTC-USDC]",
+    "decimals": 18
+  },
+  "0xa6C895EB332E91c5b3D00B7baeEAae478cc502DA": {
+    "name": "SY weETH",
+    "symbol": "SY-weETH",
+    "decimals": 18
+  },
+  "0x70d95587d40A2caf56bd97485aB3Eec10Bee6336": {
+    "name": "GMX Market",
+    "symbol": "GM",
+    "decimals": 18
+  },
+  "0x450bb6774Dd8a756274E0ab4107953259d2ac541": {
+    "name": "GMX Market",
+    "symbol": "GM",
+    "decimals": 18
+  },
+  "0x7C11F78Ce78768518D743E81Fdfa2F860C6b9A77": {
+    "name": "GMX Market",
+    "symbol": "GM",
+    "decimals": 18
+  },
+  "0x09400D9DB990D5ed3f35D7be61DfAEB900Af03C9": {
+    "name": "GMX Market",
+    "symbol": "GM",
+    "decimals": 18
+  },
+  "0x7f1fa204bb700853D36994DA19F830b6Ad18455C": {
+    "name": "GMX Market",
+    "symbol": "GM",
+    "decimals": 18
+  },
+  "0x0aa6FccDa7A48fCca34119e430049e1df866734b": {
+    "name": "BenchMark",
+    "symbol": "Benchmark",
+    "decimals": 18
+  },
+  "0x4a24B101728e07A52053c13FB4dB2BcF490CAbc3": {
+    "name": "Arbius",
+    "symbol": "AIUS",
+    "decimals": 18
+  },
+  "0xD77B108d4f6cefaa0Cae9506A934e825BEccA46E": {
+    "name": "WINR",
+    "symbol": "WINR",
+    "decimals": 18
+  },
+  "0x3aabD92Fc26CD0c6cc1B0C6dBB438E9164b18a3d": {
+    "name": "CyberCash",
+    "symbol": "CASH",
+    "decimals": 18
   }
 }

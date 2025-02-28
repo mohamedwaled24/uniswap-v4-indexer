@@ -3218,5 +3218,100 @@
     "name": "Pigcoin",
     "symbol": "PIG",
     "decimals": 18
+  },
+  "0x06a5b1256cD9879D5473A45cF2bCeACF44862b16": {
+    "name": "Adalberto",
+    "symbol": "ALL",
+    "decimals": 18
+  },
+  "0x2C29ab0ceF3dCaf5C11c2Dbb7b6D9fC7F1F53fA3": {
+    "name": "CommerceCoin",
+    "symbol": "CCN",
+    "decimals": 18
+  },
+  "0xf4D35d90aac7E8c5cAf35189aB1a22DCe391164F": {
+    "name": "YUTOGAME.NETCOIN",
+    "symbol": "YGNC",
+    "decimals": 18
+  },
+  "0xC3882D10e49Ac4E9888D0C594DB723fC9cE95468": {
+    "name": "Goblin Saga Token",
+    "symbol": "GSA",
+    "decimals": 18
+  },
+  "0x7133C23F46f4dae77908c5EE70A33E57B5e2B58a": {
+    "name": "AYA Token Poly",
+    "symbol": "AYAP",
+    "decimals": 4
+  },
+  "0x95D7F2937951c6cf0376F0E88112A6d25Ba71125": {
+    "name": "EvoluçãoPro",
+    "symbol": "EVP",
+    "decimals": 8
+  },
+  "0x9b954BDd40413147E1149c3D13e24c1308385A74": {
+    "name": "DogiPakitaDopichinu",
+    "symbol": "DOPICI",
+    "decimals": 18
+  },
+  "0x9e869D3B688fc9555ab2323f234b973f3cFD3cCA": {
+    "name": "Harvestium",
+    "symbol": "HVT",
+    "decimals": 18
+  },
+  "0x9E32E0440fdDc34B1cD5b19Fc0bEbE940937E449": {
+    "name": "DUCK",
+    "symbol": "DUCK",
+    "decimals": 18
+  },
+  "0xec40CD75dAE2a13f92FF9a0f1EFfDeB3C4c5697D": {
+    "name": "BenTest",
+    "symbol": "BenTest",
+    "decimals": 8
+  },
+  "0xa926db7a4CC0cb1736D5ac60495ca8Eb7214B503": {
+    "name": "Jarvis Synthetic Singapore Dollar",
+    "symbol": "jSGD",
+    "decimals": 18
+  },
+  "0xf90D6B21C385eFB69815B61622C94CC2b1ef91C6": {
+    "name": "CGAT Token",
+    "symbol": "CGAT",
+    "decimals": 18
+  },
+  "0x29e8d4B15d9a90a03FE9518Eff8228e63C97d07E": {
+    "name": "Moonicorn",
+    "symbol": "MOONI",
+    "decimals": 18
+  },
+  "0xA6da8C8999c094432c77E7d318951D34019AF24B": {
+    "name": "tGOLD",
+    "symbol": "TXAU",
+    "decimals": 18
+  },
+  "0x678eCc1373105A17c1f9E9AB06B6EdF11C146A0f": {
+    "name": "Mundialis",
+    "symbol": "MUND",
+    "decimals": 18
+  },
+  "0xAd5A179fe2227B1d7eB2aa7e5b111d769F82e77F": {
+    "name": "Fug Coin",
+    "symbol": "FUG",
+    "decimals": 9
+  },
+  "0xA4D94019934D8333Ef880ABFFbF2FDd611C762BD": {
+    "name": "Aave Polygon USDCn",
+    "symbol": "aPolUSDCn",
+    "decimals": 6
+  },
+  "0xB53Ec4aCe420a62Cfb75aFdEba600D284777cd65": {
+    "name": "Space Token",
+    "symbol": "SPACE",
+    "decimals": 18
+  },
+  "0xf41f86376925F5771EFA4C4F916d05d75D9AA69a": {
+    "name": "IpAi",
+    "symbol": "IpAi",
+    "decimals": 18
   }
 }

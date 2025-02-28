@@ -21278,5 +21278,200 @@
     "name": "asdsa",
     "symbol": "ASDASD",
     "decimals": 8
+  },
+  "0x526728DBc96689597F85ae4cd716d4f7fCcBAE9d": {
+    "name": "Metronome Synth USD",
+    "symbol": "msUSD",
+    "decimals": 18
+  },
+  "0x98c7bEA94F953377285eBa454a638b4d46022FAD": {
+    "name": "USSI",
+    "symbol": "USSI",
+    "decimals": 8
+  },
+  "0x1ecdCCBeFA628216EbF955df2f139476f8C07c42": {
+    "name": "Lazarus",
+    "symbol": "Lazarus",
+    "decimals": 18
+  },
+  "0xfDBa840B667163761091D70E969BB70bbcE79C9D": {
+    "name": "YourToken",
+    "symbol": "YTK",
+    "decimals": 18
+  },
+  "0xBB2A93AFcF5d3af8AE28dd50d6c18556eA532c5a": {
+    "name": "Sage Market",
+    "symbol": "SAGE",
+    "decimals": 18
+  },
+  "0x349744b49C25Cf56e8004e04f1213b6f1F7D1Bb0": {
+    "name": "RadomV3",
+    "symbol": "RANDOMV3",
+    "decimals": 18
+  },
+  "0x769775d7C6768760269be14AFE48d8C8f43EEb37": {
+    "name": "fun Robots.Fun",
+    "symbol": "ROBOTS.FUN",
+    "decimals": 18
+  },
+  "0xBB6e8c1e49f04C9f6c4D6163c52990f92431FdBB": {
+    "name": "BTB Yield",
+    "symbol": "BTBY",
+    "decimals": 18
+  },
+  "0xdA54F2812eB9c2034DbF828d19608BF9b7C61121": {
+    "name": "GM",
+    "symbol": "gm",
+    "decimals": 18
+  },
+  "0x2b49416efFe7098e312C52C418a00A6A68eFFCF8": {
+    "name": "FLAUNCHO",
+    "symbol": "FLNCHO",
+    "decimals": 18
+  },
+  "0x0e102DE2a7d35c5e4Dd1b0A713356D5D01A9931C": {
+    "name": "LUMIX",
+    "symbol": "LUMIX",
+    "decimals": 18
+  },
+  "0x88A4C37cC38829a22D4eD10A78a7174C066259a4": {
+    "name": "Pet",
+    "symbol": "Patience",
+    "decimals": 18
+  },
+  "0x3d7C070ccCc950847d44c9fC755C01E3122c95d3": {
+    "name": "LUMIX",
+    "symbol": "LUMIX",
+    "decimals": 18
+  },
+  "0x133869007E5E0016985b3C0ef7f4AE32c317Efc6": {
+    "name": "Mibit",
+    "symbol": "Mibit",
+    "decimals": 18
+  },
+  "0x901F1D2BF312e6Fa1716Df603df8F86315bcb355": {
+    "name": "Links",
+    "symbol": "LINKS",
+    "decimals": 18
+  },
+  "0x14187143b45D07D4D8f430429E431D033053D1C3": {
+    "name": "HamzaTheBeliever",
+    "symbol": "HALAL",
+    "decimals": 9
+  },
+  "0xe819d1d07d1C3ad73D1456dAf492b3A609E00671": {
+    "name": "Send it to 1bil",
+    "symbol": "SEND",
+    "decimals": 18
+  },
+  "0xf1fb01e46D32f83Aee4C0120Bcd4d885b47087b0": {
+    "name": "TOES",
+    "symbol": "TOES",
+    "decimals": 18
+  },
+  "0x57eDc3F1fd42c0D48230e964b1C5184B9c89B2ed": {
+    "name": "draiftking",
+    "symbol": "DKING",
+    "decimals": 18
+  },
+  "0x08734424d04bEa277F29572fF1E25f6924D5954C": {
+    "name": "Bitcoin Accumulation",
+    "symbol": "btcacc",
+    "decimals": 18
+  },
+  "0x90Ba3CcA3082D4Ac20C83034bB3a85731F5823DF": {
+    "name": "Doog",
+    "symbol": "DOOG",
+    "decimals": 18
+  },
+  "0x214D0ecBb9A50253EDcca668fe46A8C254AA0EF4": {
+    "name": "Fomer",
+    "symbol": "$FMR",
+    "decimals": 18
+  },
+  "0x20895E16d5aE9D6e0Ca127ED093a7cBE65dCb018": {
+    "name": "BHUSKY",
+    "symbol": "BHUSKY",
+    "decimals": 18
+  },
+  "0x7D8C10A888025Df3d66AEc22B8aeF9f857a615Be": {
+    "name": "TESTJ",
+    "symbol": "TES",
+    "decimals": 18
+  },
+  "0x4498cd8Ba045E00673402353f5a4347562707e7D": {
+    "name": "RData",
+    "symbol": "RDAT",
+    "decimals": 18
+  },
+  "0x41c33029dD688Ba4a2340A31B0135F18a0D3f845": {
+    "name": "RadomV3-1",
+    "symbol": "RANDOMV3-1",
+    "decimals": 18
+  },
+  "0x1B1707B6E559BD1d964f8B1f5be218c6f1A6df7c": {
+    "name": "STIM App Token",
+    "symbol": "STIMAPP",
+    "decimals": 18
+  },
+  "0x2C24497D4086490e7EaD87CC12597fb50c2E6eD6": {
+    "name": "SynFutures",
+    "symbol": "F",
+    "decimals": 18
+  },
+  "0x0B5e8cDa37c37D0C1Cafbd7dB465D4146Ec51D63": {
+    "name": "Boosting Token",
+    "symbol": "BOOST",
+    "decimals": 18
+  },
+  "0xe2773ff439Cf0Adda721C8ae272e430f5956587E": {
+    "name": "GELE",
+    "symbol": "GELE",
+    "decimals": 18
+  },
+  "0x1240b8C5b67Af0c0A067BBEC9546627e9BaD6BFC": {
+    "name": "Something",
+    "symbol": "Something",
+    "decimals": 18
+  },
+  "0xEc42F5890A5ce12FA52306dc123959e21214FfcE": {
+    "name": "LazyPig",
+    "symbol": "LZP",
+    "decimals": 18
+  },
+  "0x2bA0FD67bF9Eb90F592bD7181863D3C7A438942B": {
+    "name": "TEST1",
+    "symbol": "TEST1",
+    "decimals": 18
+  },
+  "0x7FC2278BD7172A17bE7A1718A12F7EfCa9A7A35C": {
+    "name": "F*ck Your Idols",
+    "symbol": "FYI",
+    "decimals": 18
+  },
+  "0xDAE49C25fAd3a62a8e8bFB6dA12c46bE611f9f7a": {
+    "name": "Kryll",
+    "symbol": "KRL",
+    "decimals": 18
+  },
+  "0xf3994e12980cbde4Aa88B28E9004D1825b3F6678": {
+    "name": "dasdas",
+    "symbol": "dasdas",
+    "decimals": 18
+  },
+  "0xa4D5B9F3D47d46A59248D777B38894E727Ac3546": {
+    "name": "Vedat",
+    "symbol": "VDT",
+    "decimals": 18
+  },
+  "0xEF752e28eE2D89275633DeEAD03ae050a8D7F911": {
+    "name": "My Impossible",
+    "symbol": "MPSSBL",
+    "decimals": 18
+  },
+  "0x1B68244B100A6713ca7F540697b1bE12148a8bf9": {
+    "name": "YES",
+    "symbol": "YES",
+    "decimals": 18
   }
 }
