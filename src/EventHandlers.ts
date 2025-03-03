@@ -538,6 +538,12 @@ PoolManager.Swap.handler(async ({ event, context }) => {
       bundle.ethPriceUSD
     ),
   };
+
+  // Use for USD swap amount
+  const finalAmountUSD = amountTotalUSDTracked.gt(new BigDecimal("0"))
+    ? amountTotalUSDTracked
+    : amountTotalUSDUntracked;
+
   let entity: Swap = {
     id: `${event.chainId}_${event.block.number}_${event.logIndex}`,
     chainId: BigInt(event.chainId),
@@ -550,7 +556,7 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     origin: event.srcAddress,
     amount0: amount0,
     amount1: amount1,
-    amountUSD: amountTotalUSDTracked,
+    amountUSD: finalAmountUSD,
     sqrtPriceX96: event.params.sqrtPriceX96,
     tick: event.params.tick,
     logIndex: BigInt(event.logIndex),
