@@ -1318,5 +1318,15 @@
     "name": "Fiat24 CNH",
     "symbol": "CNH24",
     "decimals": 2
+  },
+  "0xcf1D7D1a7bBF5D11CCFe717FC6A9A45C8dD9c7bE": {
+    "name": "InterlockNetwork",
+    "symbol": "ILOCK",
+    "decimals": 18
+  },
+  "0x9134283aFaF6E1B45689EC0b0c82fF2B232BCb30": {
+    "name": "DexKit",
+    "symbol": "KIT",
+    "decimals": 18
   }
 }

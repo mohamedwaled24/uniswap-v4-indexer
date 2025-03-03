@@ -1798,5 +1798,15 @@
     "name": "YCC",
     "symbol": "YCC",
     "decimals": 18
+  },
+  "0xC72E4bAE4872a784a6Dde8E0573ED592bd4AD0A1": {
+    "name": "RaiStone",
+    "symbol": "RAI",
+    "decimals": 18
+  },
+  "0x9C67EE6D0f3f12969aBC92595b06Cc1c93a60313": {
+    "name": "DAPF Invest Token",
+    "symbol": "DAPF",
+    "decimals": 6
   }
 }

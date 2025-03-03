@@ -2,10 +2,10 @@ type Swap {
   id: ID!
   chainId: BigInt!
   transaction: String! # Instead of Transaction reference
-  timestamp: BigInt!
+  timestamp: BigInt! @index
   pool: String! # Instead of Pool reference
-  token0: String! # Instead of Token reference
-  token1: String! # Instead of Token reference
+  token0: Token! # Changed from String to Token reference
+  token1: Token! # Changed from String to Token reference
   sender: String! # Instead of Bytes
   origin: String! # Instead of Bytes
   amount0: BigDecimal!
@@ -64,7 +64,7 @@ type Pool @entity {
   totalValueLockedToken0: BigDecimal!
   totalValueLockedToken1: BigDecimal!
   totalValueLockedETH: BigDecimal!
-  totalValueLockedUSD: BigDecimal!
+  totalValueLockedUSD: BigDecimal! @index
   totalValueLockedUSDUntracked: BigDecimal!
   liquidityProviderCount: BigInt!
   hooks: String!
@@ -103,7 +103,7 @@ type HookStats @entity {
   numberOfPools: BigInt!
   numberOfSwaps: BigInt!
   firstPoolCreatedAt: BigInt!
-  totalValueLockedUSD: BigDecimal! # Total TVL across all pools using this hook
+  totalValueLockedUSD: BigDecimal! @index # Total TVL across all pools using this hook
   totalVolumeUSD: BigDecimal! # Total volume across all pools using this hook
   totalFeesUSD: BigDecimal! # Total fees across all pools using this hook
 }

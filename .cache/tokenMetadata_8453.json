@@ -21688,5 +21688,10 @@
     "name": "DeepSeek",
     "symbol": "DeepSeek",
     "decimals": 18
+  },
+  "0xDD629E5241CbC5919847783e6C96B2De4754e438": {
+    "name": "Midas US Treasury Bill Token",
+    "symbol": "mTBILL",
+    "decimals": 18
   }
 }
