@@ -963,5 +963,105 @@
     "name": "Uniswap Interface",
     "symbol": "UNISWAPINT",
     "decimals": 18
+  },
+  "0xD7bAC7e29Fe3f1197665277BeaccaE662733C7Ac": {
+    "name": "Geligi",
+    "symbol": "GLG",
+    "decimals": 18
+  },
+  "0xb0A6dF2177C792e272DEE7ab42F62a95B77Cbc10": {
+    "name": "March 8",
+    "symbol": "8mar",
+    "decimals": 18
+  },
+  "0xcf90B12ba8D0F0d749E0cf86986cF4F17a98330f": {
+    "name": "Myst",
+    "symbol": "mst",
+    "decimals": 18
+  },
+  "0x5995B03215a5093a9D80D418dcC305D85363f24a": {
+    "name": "Egypt",
+    "symbol": "eg",
+    "decimals": 18
+  },
+  "0x1833B24f2a5a24f6283974E10F1012aC9bA0b15d": {
+    "name": "Crystal",
+    "symbol": "CRY",
+    "decimals": 18
+  },
+  "0xC65653FCC10d55D9502Ab2F2391D2F0F9afeDC58": {
+    "name": "Port",
+    "symbol": "ps",
+    "decimals": 18
+  },
+  "0x5240703A109da642db367e161Ac23f10b0E62748": {
+    "name": "Anime uni",
+    "symbol": "anime",
+    "decimals": 18
+  },
+  "0xa33F18BB393456b49e5a2EbF277e215a8eD19fd2": {
+    "name": "Snow UNI",
+    "symbol": "SUNI",
+    "decimals": 18
+  },
+  "0x0C69F1fC344745dE5ACb11280f928AAb678a9d75": {
+    "name": "Pokeruni",
+    "symbol": "pok",
+    "decimals": 18
+  },
+  "0x122977A2e76E993b599B3a9496441df04Ee5A3bA": {
+    "name": "UniChild",
+    "symbol": "UChD",
+    "decimals": 18
+  },
+  "0xA86ca28dd1490e89bcdc779F8eb58f013DF8ab73": {
+    "name": "UniRubi",
+    "symbol": "rub",
+    "decimals": 18
+  },
+  "0xB077C67e3Cb192004818e0581b6Ec157a346e0f4": {
+    "name": "Meramidu Uni",
+    "symbol": "MUN",
+    "decimals": 18
+  },
+  "0xC2574E66B71faF8B06f54DC49E2013eb1Eb5DbA3": {
+    "name": "Jesus",
+    "symbol": "Jes",
+    "decimals": 18
+  },
+  "0xE3D1206Fd15702b574944C76b8323195Ab9ABe95": {
+    "name": "Skyuni",
+    "symbol": "sky",
+    "decimals": 18
+  },
+  "0xc2f822bd198D864745badFd116624F0F7bABB95d": {
+    "name": "UNIPIG",
+    "symbol": "UNIPIG",
+    "decimals": 18
+  },
+  "0xB56aCBf93d931B2c94dDF0393a9Cf09374c2c927": {
+    "name": "J Chan Dollar",
+    "symbol": "JCD",
+    "decimals": 18
+  },
+  "0x62c07c2fe0015E9a17F77c5E9686FF27bD139dda": {
+    "name": "ABAS",
+    "symbol": "ABAS",
+    "decimals": 18
+  },
+  "0x2876c22001F185C2ABC6c6c86E31E2502dBdFfCe": {
+    "name": "Zorass",
+    "symbol": "Z-R-ASS",
+    "decimals": 18
+  },
+  "0x0BACbE320FDfaEE5b377fA580E5C9E10efE6de74": {
+    "name": "OP KING",
+    "symbol": "OPKING",
+    "decimals": 18
+  },
+  "0x55bE55D5a400E5A47136c6926c6a93584C04f854": {
+    "name": "OP CLOWN",
+    "symbol": "OPCLOWN",
+    "decimals": 18
   }
 }

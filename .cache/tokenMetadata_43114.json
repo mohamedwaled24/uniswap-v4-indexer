@@ -168,5 +168,15 @@
     "name": "CountClown",
     "symbol": "COUNTCLOWN",
     "decimals": 18
+  },
+  "0x05F1938646a897008e813fb03CE7C575eAE45738": {
+    "name": "Project Ralph",
+    "symbol": "PR",
+    "decimals": 18
+  },
+  "0xeEeEEb57642040bE42185f49C52F7E9B38f8eeeE": {
+    "name": "Elk",
+    "symbol": "ELK",
+    "decimals": 18
   }
 }

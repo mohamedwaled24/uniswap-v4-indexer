@@ -1668,5 +1668,135 @@
     "name": "Anti Spiral",
     "symbol": "ANTI",
     "decimals": 18
+  },
+  "0xE0097D58b4c6429C62DB7362613a91B5a3e5DC1C": {
+    "name": "VINE COIN",
+    "symbol": "VINE",
+    "decimals": 18
+  },
+  "0xC9706C82B47682D4Ac8864b0BB4BACa64e141fA6": {
+    "name": "RUSSIA",
+    "symbol": "RUS.",
+    "decimals": 18
+  },
+  "0x9D0bF0F440403F247286634207Cd3b01575141E2": {
+    "name": "KUSD",
+    "symbol": "KUSD",
+    "decimals": 18
+  },
+  "0x6D1054C3102E842314e250b9e9C4Be327b8DaaE2": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 9
+  },
+  "0xfe7DAE490Ea7F4216d0d6ca9752C26503E3C06CB": {
+    "name": "CZ's Tokenomics",
+    "symbol": "CZT",
+    "decimals": 18
+  },
+  "0x11cd72f7A4B699c67f225ca8aBb20bC9F8DB90c7": {
+    "name": "Osaka Protocol",
+    "symbol": "OSAK",
+    "decimals": 18
+  },
+  "0x02806435d4B7c1dF6FC2df629488a1623b589396": {
+    "name": "Iotec",
+    "symbol": "IOT",
+    "decimals": 18
+  },
+  "0x9cb73F20164e399958261c289Eb5F9846f4D1404": {
+    "name": "Belt.fi 4Belt",
+    "symbol": "4Belt",
+    "decimals": 18
+  },
+  "0x524bC91Dc82d6b90EF29F76A3ECAaBAffFD490Bc": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7": {
+    "name": "Wagmi",
+    "symbol": "WAGMI",
+    "decimals": 18
+  },
+  "0x16b9a82891338f9bA80E2D6970FddA79D1eb0daE": {
+    "name": "Pancake LPs",
+    "symbol": "Cake-LP",
+    "decimals": 18
+  },
+  "0x58F876857a02D6762E0101bb5C46A8c1ED44Dc16": {
+    "name": "Pancake LPs",
+    "symbol": "Cake-LP",
+    "decimals": 18
+  },
+  "0xfD5840Cd36d94D7229439859C0112a4185BC0255": {
+    "name": "Venus USDT",
+    "symbol": "vUSDT",
+    "decimals": 8
+  },
+  "0xA40640458FBc27b6EefEdeA1E9C9E17d4ceE7a21": {
+    "name": "Anchored Coins EUR",
+    "symbol": "AEUR",
+    "decimals": 18
+  },
+  "0x4C84250e355eA4EA9FdA14e9046780049b8eec69": {
+    "name": "CZ Crazy Idea Test Token",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "0x772F317ec695ce20290b56466b3f48501ba81352": {
+    "name": "DotDot Tokenized EPX Lock",
+    "symbol": "dEPX",
+    "decimals": 18
+  },
+  "0xAf41054C1487b0e5E2B9250C0332eCBCe6CE9d71": {
+    "name": "Ellipsis X",
+    "symbol": "EPX",
+    "decimals": 18
+  },
+  "0x1E43c8Af7d99135107AA79f33edf03e1b8a28c49": {
+    "name": "Pokia",
+    "symbol": "POK",
+    "decimals": 18
+  },
+  "0x754928aF6730eAeF9dec2DE287F509C737431318": {
+    "name": "VINE COIN",
+    "symbol": "VINE",
+    "decimals": 18
+  },
+  "0x2297aEbD383787A160DD0d9F71508148769342E3": {
+    "name": "Bitcoin",
+    "symbol": "BTC.b",
+    "decimals": 8
+  },
+  "0x43359676E1A3F9FbB5de095333f8e9c1B46dFA44": {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  "0x8B9ABDD229ec0C4A28E01b91aacdC5dAAFc25C2b": {
+    "name": "Ronaldinho Coin",
+    "symbol": "STAR10",
+    "decimals": 18
+  },
+  "0x4aa9E14703Eae08077F39ED35ebc8A1F124Fcb4B": {
+    "name": "Bitcoin Brazil",
+    "symbol": "BTCBR",
+    "decimals": 18
+  },
+  "0xAF134c384A1E3e41E89AFd5C0e9d9aD4D0DC81C6": {
+    "name": "BurmCoin",
+    "symbol": "BC",
+    "decimals": 18
+  },
+  "0xfCA7EDF7dD7Df18978FeCdfa4Ea23947035bB848": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "0xF88fC5dB66F04c1a489a8e1ED8069F8d43b5063a": {
+    "name": "YCC",
+    "symbol": "YCC",
+    "decimals": 18
   }
 }

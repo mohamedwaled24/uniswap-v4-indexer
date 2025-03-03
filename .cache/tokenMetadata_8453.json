@@ -21473,5 +21473,220 @@
     "name": "YES",
     "symbol": "YES",
     "decimals": 18
+  },
+  "0x481DeB6Ab67fA37E1d6B69c7f6a3931436F51D2E": {
+    "name": "pilot",
+    "symbol": "pilot",
+    "decimals": 18
+  },
+  "0x4E74D4Db6c0726ccded4656d0BCE448876BB4C7A": {
+    "name": "Wrapped BMX Liquidity Token",
+    "symbol": "wBLT",
+    "decimals": 18
+  },
+  "0xa51aB7e78Fd361564099b3D398908E715B6d7c4e": {
+    "name": "TEST2",
+    "symbol": "TEST2",
+    "decimals": 18
+  },
+  "0x054bc22B1029f7aC46163047B1846BeACF9e87CC": {
+    "name": "Balloon",
+    "symbol": "BALLOON",
+    "decimals": 18
+  },
+  "0x0caC6DdE0Dcf3Ed3f47B085dc4643Ad0F74b6Fa8": {
+    "name": "Steerwheel",
+    "symbol": "STEER",
+    "decimals": 18
+  },
+  "0xd4E03267c8be07d8ad05d2Af818792e2a185889d": {
+    "name": "xyz",
+    "symbol": "xyz",
+    "decimals": 18
+  },
+  "0x554bba833518793056CF105E66aBEA330672c0dE": {
+    "name": "MAHA.xyz",
+    "symbol": "MAHA",
+    "decimals": 18
+  },
+  "0xc3213eF29F3F84D5C0C90C195463AF2A7dAbD9a0": {
+    "name": "Base Yield Dollar",
+    "symbol": "BYD",
+    "decimals": 18
+  },
+  "0x51b327EF80727BAC7E6e778b5b84f54F2bB5eDB2": {
+    "name": "Revania",
+    "symbol": "Revania",
+    "decimals": 18
+  },
+  "0x6295123d2ab0385626Ef6103A9Bf53A485B74C12": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "0x18b6f6049A0af4Ed2BBe0090319174EeeF89f53a": {
+    "name": "RUNNER",
+    "symbol": "RUNNER",
+    "decimals": 18
+  },
+  "0xf500395488795e3A9C3D102B5928917b3A124414": {
+    "name": "Coinbase Treasury Oracle",
+    "symbol": "CTO",
+    "decimals": 18
+  },
+  "0x91777C0b0a8c97E3C084f7628F730C64bcdb9767": {
+    "name": "mazal",
+    "symbol": "mazal",
+    "decimals": 9
+  },
+  "0xc7a387CC8aC74b9E0Fa190afC83dC90473909b72": {
+    "name": "CypherPunk Manifesto",
+    "symbol": "CYPHER",
+    "decimals": 18
+  },
+  "0x7fFd1EaB710Eb55BDCB5C5d766fCe1F559a2a966": {
+    "name": "WAGMI",
+    "symbol": "WAGMI",
+    "decimals": 18
+  },
+  "0xc6411aE28380D571999eC0454Df74Ded286BbaBA": {
+    "name": "Moonkin",
+    "symbol": "MOONKIN",
+    "decimals": 18
+  },
+  "0x550268063b5296bbFef18eF2FfD37209BbB2a776": {
+    "name": "AMERICA FUCK YEAH",
+    "symbol": "AFY",
+    "decimals": 18
+  },
+  "0x770886f8E056d8E686381B73Bd3c4e0c200Fb023": {
+    "name": "TRUMP COIN",
+    "symbol": "TRUMP",
+    "decimals": 18
+  },
+  "0x0956CB4A1D8924680FEb671d2E4a122E2114313e": {
+    "name": "BOOK OF MEME",
+    "symbol": "BOME",
+    "decimals": 6
+  },
+  "0x279fdbD86ED15AD9aee2b8677E656e865DE00b00": {
+    "name": "ELON",
+    "symbol": "ELON",
+    "decimals": 18
+  },
+  "0x7c80D9fAbC784247e182f1610e6612b66a714C14": {
+    "name": "250302 Philadelphia Eagles",
+    "symbol": "250302PE",
+    "decimals": 18
+  },
+  "0x1a07a18C1636348b46837660B250CABbf9B129cE": {
+    "name": "Duck Buck",
+    "symbol": "DBX",
+    "decimals": 18
+  },
+  "0x9D9D4502A6eE170BaedF8fd43BB1661a4108993F": {
+    "name": "MFER",
+    "symbol": "MFER",
+    "decimals": 18
+  },
+  "0xF37Cf90427432F4C7bB0Afd78139423cef943546": {
+    "name": "LuigiBrian",
+    "symbol": "LBDEX",
+    "decimals": 18
+  },
+  "0xebAeD922Ff1deF1De8f42bf284702D13069887AA": {
+    "name": "test",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "0x5ed25E305E08F58AFD7995EaC72563E6BE65A617": {
+    "name": "NEAR (Universal)",
+    "symbol": "uNEAR",
+    "decimals": 18
+  },
+  "0xaed50e698b6B50c0E4406101e60BF7328E03554C": {
+    "name": "ChatGPT",
+    "symbol": "ChatGPT",
+    "decimals": 18
+  },
+  "0x717d31A60a9e811469673429c9F8Ea24358990f1": {
+    "name": "Everyworld",
+    "symbol": "EVERY",
+    "decimals": 18
+  },
+  "0x0Cd516Aec8f6bc7a174bEF34852768dCeb10A599": {
+    "name": "LAUNCH",
+    "symbol": "LAUNCH",
+    "decimals": 18
+  },
+  "0xE35605371247cFE4Bc790Bd670e42c45775666AB": {
+    "name": "PANDA",
+    "symbol": "PANDA",
+    "decimals": 18
+  },
+  "0x8bda3A5DE55Eb12821971de66aC117f86A5197f3": {
+    "name": "MIA",
+    "symbol": "MIACBBTC",
+    "decimals": 18
+  },
+  "0x4fc3e5b260855c4Af9e285D419Fb661D942fb955": {
+    "name": "MynaWallet Coin V2",
+    "symbol": "MYNAV2",
+    "decimals": 18
+  },
+  "0xa0Bfbf67Edb2922920a69ee5b63baAf16e872A3b": {
+    "name": "MynaWallet Coin",
+    "symbol": "MYNA",
+    "decimals": 18
+  },
+  "0x62C3F11d7b3959AEAe55CE12DFE5d110245c8519": {
+    "name": "Crypto Moon",
+    "symbol": "CRYMN",
+    "decimals": 18
+  },
+  "0xd658A9ACa6375d0EFbc4Ad616582f7ae5BC5d6Fa": {
+    "name": "Love Trump",
+    "symbol": "LTP",
+    "decimals": 18
+  },
+  "0x73582df1cad3187cD0746b7A473d65c06386837e": {
+    "name": "DEUS",
+    "symbol": "DEUS",
+    "decimals": 18
+  },
+  "0xC545570406cd2b4e089Dda9c42E6dE92caB4FCC7": {
+    "name": "Crypto Strategic Reserve",
+    "symbol": "CSR",
+    "decimals": 18
+  },
+  "0x3458EA1D3B99CfbBcf6E7B653b72b6FA3938025d": {
+    "name": "TOPSOL",
+    "symbol": "TOPS",
+    "decimals": 16
+  },
+  "0x2e5d0f870238Db518ACb893E3D21726A828BFF89": {
+    "name": "X369",
+    "symbol": "X369",
+    "decimals": 18
+  },
+  "0x0f18036200325Ab5c62c7D733C511E458daad3A4": {
+    "name": "okay",
+    "symbol": "okay",
+    "decimals": 18
+  },
+  "0x83d5D441eD15737D34226b682F7427d2217f2a8f": {
+    "name": "Real Estate Metaverse",
+    "symbol": "REM",
+    "decimals": 18
+  },
+  "0xD88611A629265C9AF294FFDD2E7fa4546612273e": {
+    "name": "MPRO",
+    "symbol": "MPRO",
+    "decimals": 18
+  },
+  "0xdEc5A2263d844c51B98E1d1ddd0efbe269cd4AA2": {
+    "name": "DeepSeek",
+    "symbol": "DeepSeek",
+    "decimals": 18
   }
 }

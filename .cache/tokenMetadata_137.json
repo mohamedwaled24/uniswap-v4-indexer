@@ -3313,5 +3313,200 @@
     "name": "IpAi",
     "symbol": "IpAi",
     "decimals": 18
+  },
+  "0x7C19Bb921D87333b04FA8BBC61aaFA88603d624F": {
+    "name": "NetworkAi",
+    "symbol": "NetworAi",
+    "decimals": 18
+  },
+  "0x16CD0D048df7D470D3875Aa10330D9957ebD3F84": {
+    "name": "Domus DeFi",
+    "symbol": "DMS",
+    "decimals": 18
+  },
+  "0x9F8F660C3D76Cce53bF16599c632758B1a920C7d": {
+    "name": "Novis",
+    "symbol": "NVC",
+    "decimals": 18
+  },
+  "0x26F1f6e56C665Fb4A3d36023d83a2260d64c75ad": {
+    "name": "TestPumpZillaToken",
+    "symbol": "TPZT",
+    "decimals": 18
+  },
+  "0x9A7a6acF9519122289CEF5582e521a0294Af015c": {
+    "name": "NetworkAi",
+    "symbol": "NetworkAi",
+    "decimals": 18
+  },
+  "0xEe327F889d5947c1dc1934Bb208a1E792F953E96": {
+    "name": "Frax Ether",
+    "symbol": "frxETH",
+    "decimals": 18
+  },
+  "0x91993f2101cc758D0dEB7279d41e880F7dEFe827": {
+    "name": "Gains Network DAI",
+    "symbol": "gDAI",
+    "decimals": 18
+  },
+  "0x0266F4F08D82372CF0FcbCCc0Ff74309089c74d1": {
+    "name": "Rocket Pool ETH (PoS)",
+    "symbol": "rETH",
+    "decimals": 18
+  },
+  "0x0E9b89007eEE9c958c0EDA24eF70723C2C93dD58": {
+    "name": "Ankr Staked MATIC",
+    "symbol": "ankrMATIC",
+    "decimals": 18
+  },
+  "0xA830a38CeAC7BFe3568D229945A45121730fbb91": {
+    "name": "Bulldog Core",
+    "symbol": "BCORE",
+    "decimals": 18
+  },
+  "0xBb287E6017d3DEb0e2E65061e8684eab21060123": {
+    "name": "USDT yVault-A",
+    "symbol": "yvUSDT-A",
+    "decimals": 6
+  },
+  "0x6a5c59AB16268d2c872916054C50440B999e417C": {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "0x2297aEbD383787A160DD0d9F71508148769342E3": {
+    "name": "Bitcoin",
+    "symbol": "BTC.b",
+    "decimals": 8
+  },
+  "0xFAc83dA7cC9EBd66B35B576a83292c5B51Ab5F50": {
+    "name": "Balloon Coin",
+    "symbol": "BLN",
+    "decimals": 18
+  },
+  "0x1E4A2f01D401F5f58FE132Dd14a270ab7C110Cb3": {
+    "name": "AKASH",
+    "symbol": "AA",
+    "decimals": 18
+  },
+  "0xF56aB25f9Efa2538d5EF2245841578f4cf1d0F43": {
+    "name": "Soner Coin",
+    "symbol": "SNR",
+    "decimals": 18
+  },
+  "0xE64ceD357672e70fA5cE1fCAEc52c8F690528bcC": {
+    "name": "NESGCOIN",
+    "symbol": "NESG",
+    "decimals": 18
+  },
+  "0x32EbB69797bb71991F6F5Cd13D0A026A40F43496": {
+    "name": "Investment DAO of PAC Community",
+    "symbol": "PACDAO",
+    "decimals": 18
+  },
+  "0x47936933CedcF9688dfC4F1DEd82da5cD69556DB": {
+    "name": "Taktik",
+    "symbol": "Taktik",
+    "decimals": 18
+  },
+  "0x75EF7C474e2DF8Ed6bBF1f09Da40DAA98F78196e": {
+    "name": "Lyrax",
+    "symbol": "LXC",
+    "decimals": 18
+  },
+  "0x362f2C588c2498CDDD79bA12f1684Ae9307c48eF": {
+    "name": "SymplexToken",
+    "symbol": "SYX",
+    "decimals": 18
+  },
+  "0x07F2b71259841E47a9D869c9C8d662358b0373cB": {
+    "name": "Csalab",
+    "symbol": "CSA",
+    "decimals": 18
+  },
+  "0x0a243b11244417847933cC14F0435C494f54BD09": {
+    "name": "KRyptoken",
+    "symbol": "KRYPT",
+    "decimals": 18
+  },
+  "0xCeED2671d8634e3ee65000EDbbEe66139b132fBf": {
+    "name": "Axelar Wrapped USDT",
+    "symbol": "axlUSDT",
+    "decimals": 6
+  },
+  "0xE7a24EF0C5e95Ffb0f6684b813A78F2a3AD7D171": {
+    "name": "Curve.fi amDAI/amUSDC/amUSDT",
+    "symbol": "am3CRV",
+    "decimals": 18
+  },
+  "0x9F93ACA246F457916E49Ec923B8ed099e313f763": {
+    "name": "Tether USD Hop Token",
+    "symbol": "hUSDT",
+    "decimals": 6
+  },
+  "0x1fDeAF938267ca43388eD1FdB879eaF91e920c7A": {
+    "name": "ETH Hop Token",
+    "symbol": "hETH",
+    "decimals": 18
+  },
+  "0xdAb529f40E671A1D4bF91361c21bf9f0C9712ab7": {
+    "name": "(PoS) Binance USD",
+    "symbol": "BUSD",
+    "decimals": 18
+  },
+  "0xEad7CFe57D82Ff8ce7819f1A66917dc43D14dB8F": {
+    "name": "SmartChat",
+    "symbol": "SCT",
+    "decimals": 18
+  },
+  "0x1b9D6a5FC2382A97777FC56CEBb109BCa815C3BE": {
+    "name": "GetonCoin",
+    "symbol": "GETON",
+    "decimals": 18
+  },
+  "0xD080c31649a2C86772ad6536a3c2Ba2B3A663a1b": {
+    "name": "IpAi",
+    "symbol": "IpAi",
+    "decimals": 18
+  },
+  "0x9bb3E013c530Cbc171C120C96811Feb4B64d8B43": {
+    "name": "wememe",
+    "symbol": "WEM",
+    "decimals": 18
+  },
+  "0x843fB725F493712ca7c4aC1683E80dB898a408Ce": {
+    "name": "OUTSYDE GLOBAL BVI CORP",
+    "symbol": "OUTSYDE",
+    "decimals": 6
+  },
+  "0x038C81283f8573D2b64116ffe21E954f7b2547b9": {
+    "name": "Darkcoin",
+    "symbol": "DC",
+    "decimals": 18
+  },
+  "0xA8B777E416C29361e61104206D49316450Df8675": {
+    "name": "Beltramo Coin",
+    "symbol": "BEL",
+    "decimals": 18
+  },
+  "0x143733B8FE3e36eF09245D6a9BaA67a459ca2fE2": {
+    "name": "ZND TOKEN",
+    "symbol": "ZND",
+    "decimals": 18
+  },
+  "0x1509706a6c66CA549ff0cB464de88231DDBe213B": {
+    "name": "Aura",
+    "symbol": "AURA",
+    "decimals": 18
+  },
+  "0x19971b392740A28a1Ca3bab43C42cD7E96cCD3Fe": {
+    "name": "MaticFortune",
+    "symbol": "MFC",
+    "decimals": 18
+  },
+  "0x2e508500695D7d1bc3EaC69d0A7D71d6EDd727f3": {
+    "name": "EURC",
+    "symbol": "EURC",
+    "decimals": 18
   }
 }

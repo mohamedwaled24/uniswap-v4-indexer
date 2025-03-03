@@ -1248,5 +1248,75 @@
     "name": "CyberCash",
     "symbol": "CASH",
     "decimals": 18
+  },
+  "0x5FBc42e75598b3367bbDCCf99Edf9989D1c0C7D4": {
+    "name": "Healthcare Administration Token",
+    "symbol": "SOLVE",
+    "decimals": 8
+  },
+  "0x7FB7EDe54259Cb3D4E1EaF230C7e2b1FfC951E9A": {
+    "name": "NUMA",
+    "symbol": "NUMA",
+    "decimals": 18
+  },
+  "0x77D1F48EC3B42060DB57DAA4075644575805F35e": {
+    "name": "ZEKU-X",
+    "symbol": "ZEKUX",
+    "decimals": 18
+  },
+  "0xB6093B61544572Ab42A0E43AF08aBaFD41bf25A6": {
+    "name": "WeatherXM",
+    "symbol": "WXM",
+    "decimals": 18
+  },
+  "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812": {
+    "name": "Wrapped Mountain Protocol USD",
+    "symbol": "wUSDM",
+    "decimals": 18
+  },
+  "0xfeA31d704DEb0975dA8e77Bf13E04239e70d7c28": {
+    "name": "Ethereum Name Service",
+    "symbol": "ENS",
+    "decimals": 18
+  },
+  "0xE16e2548A576ad448FB014bBE85284D7f3542dF5": {
+    "name": "Lumoz token",
+    "symbol": "MOZ",
+    "decimals": 18
+  },
+  "0x65D51305E969ff19D96954c4A75d8e9fDe86ce07": {
+    "name": "Helping Hearts International",
+    "symbol": "HHI",
+    "decimals": 18
+  },
+  "0x619a00381840B4Ed7eC69F18D6970Ec0f50390F2": {
+    "name": "DeepSeek AI",
+    "symbol": "desp AI",
+    "decimals": 18
+  },
+  "0x371F3a08238df3A801274fbE369DAD394432E05D": {
+    "name": "Grok",
+    "symbol": "GROK AI",
+    "decimals": 18
+  },
+  "0xB299751B088336E165dA313c33e3195B8c6663A6": {
+    "name": "StarHeroes",
+    "symbol": "STAR",
+    "decimals": 18
+  },
+  "0x1EEd0953452f8BC18E8e67E55A17dB4Fdb3d674a": {
+    "name": "Burnt Hermes (Base)",
+    "symbol": "bHERMES",
+    "decimals": 18
+  },
+  "0x3A0000000000E1007cEb00351F65a1806eCd937C": {
+    "name": "Burnt Hermes: Gov + Yield + Boost",
+    "symbol": "bHERMES",
+    "decimals": 18
+  },
+  "0x7288Ac74d211735374A23707D1518DCbbc0144fd": {
+    "name": "Fiat24 CNH",
+    "symbol": "CNH24",
+    "decimals": 2
   }
 }

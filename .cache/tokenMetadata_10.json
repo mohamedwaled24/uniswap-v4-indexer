@@ -473,5 +473,10 @@
     "name": "Wormhole Token",
     "symbol": "W",
     "decimals": 18
+  },
+  "0xfDeFFc7Ad816BF7867C642dF7eBC2CC5554ec265": {
+    "name": "Beefy Velo",
+    "symbol": "BeVELO",
+    "decimals": 18
   }
 }

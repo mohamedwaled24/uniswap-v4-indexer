@@ -99,8 +99,11 @@ type Bundle @entity {
 
 type HookStats @entity {
   id: ID! # hook address
-  chainId: BigInt! # Added this field
-  numberOfPools: BigInt! # number of pools using this hook
-  numberOfSwaps: BigInt! # number of swaps through pools with this hook
-  firstPoolCreatedAt: BigInt! # timestamp of first pool creation
+  chainId: BigInt!
+  numberOfPools: BigInt!
+  numberOfSwaps: BigInt!
+  firstPoolCreatedAt: BigInt!
+  totalValueLockedUSD: BigDecimal! # Total TVL across all pools using this hook
+  totalVolumeUSD: BigDecimal! # Total volume across all pools using this hook
+  totalFeesUSD: BigDecimal! # Total fees across all pools using this hook
 }
