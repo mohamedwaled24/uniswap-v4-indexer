@@ -583,17 +583,13 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     let hookStats = await context.HookStats.get(hookStatsId);
 
     if (hookStats) {
-      // Store old TVL at the beginning
-      const oldPoolTVLUSD = pool.totalValueLockedUSD;
-
-      // Update HookStats
       hookStats = {
         ...hookStats,
         numberOfSwaps: hookStats.numberOfSwaps + 1n,
         totalVolumeUSD: hookStats.totalVolumeUSD.plus(amountTotalUSDTracked),
         totalFeesUSD: hookStats.totalFeesUSD.plus(feesUSD),
         totalValueLockedUSD: hookStats.totalValueLockedUSD
-          .minus(oldPoolTVLUSD)
+          .minus(currentPoolTvlUSD)
           .plus(pool.totalValueLockedETH.times(bundle.ethPriceUSD)),
       };
       await context.HookStats.set(hookStats);
