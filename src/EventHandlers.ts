@@ -78,7 +78,7 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
       hookStats = {
         id: hookStatsId,
         chainId: BigInt(event.chainId),
-        numberOfPools: 1n,
+        numberOfPools: 0n,
         numberOfSwaps: 0n,
         firstPoolCreatedAt: BigInt(event.block.timestamp),
         totalValueLockedUSD: new BigDecimal("0"),
@@ -615,6 +615,7 @@ PoolManager.Swap.handler(async ({ event, context }) => {
         totalValueLockedUSD: hookStats.totalValueLockedUSD
           .minus(currentPoolTvlUSD) // Remove old TVL
           .plus(pool.totalValueLockedUSD), // Add new TVL
+
       };
       await context.HookStats.set(hookStats);
     }
