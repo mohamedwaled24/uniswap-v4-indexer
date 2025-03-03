@@ -78,7 +78,7 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
       hookStats = {
         id: hookStatsId,
         chainId: BigInt(event.chainId),
-        numberOfPools: 1n,
+        numberOfPools: 0n,
         numberOfSwaps: 0n,
         firstPoolCreatedAt: BigInt(event.block.timestamp),
         totalValueLockedUSD: new BigDecimal("0"),
