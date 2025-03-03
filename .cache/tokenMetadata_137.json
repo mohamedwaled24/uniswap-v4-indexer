@@ -3518,5 +3518,30 @@
     "name": "Tether USD",
     "symbol": "USDT",
     "decimals": 18
+  },
+  "0x4D0Def42Cf57D6f27CD4983042a55dce1C9F853c": {
+    "name": "DexKit (PoS)",
+    "symbol": "KIT",
+    "decimals": 18
+  },
+  "0xe63F7C46730aC77E7Edca5A30A62c858BBC3dA91": {
+    "name": "Beltramo Coin",
+    "symbol": "BEL",
+    "decimals": 18
+  },
+  "0xdF7DEc8EACB75113864D287C00c9c0953F48a9ac": {
+    "name": "FENGSHUI COINS",
+    "symbol": "FENGSHUICOINS",
+    "decimals": 18
+  },
+  "0xcA8944eb069635110Fd6A70743E2215344D3bBd6": {
+    "name": "MSUTOKEN",
+    "symbol": "MSUT",
+    "decimals": 5
+  },
+  "0xF50f89f41130DaEe2071c1a75a811D5f2cED44C7": {
+    "name": "QuantumSatis",
+    "symbol": "QS",
+    "decimals": 5
   }
 }

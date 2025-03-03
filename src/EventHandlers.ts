@@ -83,6 +83,7 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
         firstPoolCreatedAt: BigInt(event.block.timestamp),
         totalValueLockedUSD: new BigDecimal("0"),
         totalVolumeUSD: new BigDecimal("0"),
+        untrackedVolumeUSD: new BigDecimal("0"),
         totalFeesUSD: new BigDecimal("0"),
       };
     }
@@ -220,7 +221,8 @@ PoolManager.Initialize.handler(async ({ event, context }) => {
     volumeToken1: new BigDecimal(0),
     volumeUSD: new BigDecimal(0),
     untrackedVolumeUSD: new BigDecimal(0),
-    feesUSD: new BigDecimal(0),
+    feesUSD: new BigDecimal("0"),
+    feesUSDUntracked: new BigDecimal("0"),
     txCount: 0n,
     collectedFeesToken0: new BigDecimal(0),
     collectedFeesToken1: new BigDecimal(0),
@@ -468,6 +470,10 @@ PoolManager.Swap.handler(async ({ event, context }) => {
   const feesUSD = amountTotalUSDTracked
     .times(pool.feeTier.toString())
     .div(new BigDecimal("1000000"));
+  // Calculate untracked fees
+  const feesUSDUntracked = amountTotalUSDUntracked.times(
+    new BigDecimal(pool.feeTier.toString()).div(new BigDecimal("1000000"))
+  );
   // Calculate collected fees in tokens
   const feesToken0 = amount0Abs
     .times(pool.feeTier.toString())
@@ -494,6 +500,7 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     volumeUSD: pool.volumeUSD.plus(amountTotalUSDTracked),
     untrackedVolumeUSD: pool.untrackedVolumeUSD.plus(amountTotalUSDUntracked),
     feesUSD: pool.feesUSD.plus(feesUSD),
+    feesUSDUntracked: pool.feesUSDUntracked.plus(feesUSDUntracked),
     collectedFeesToken0: pool.collectedFeesToken0.plus(feesToken0),
     collectedFeesToken1: pool.collectedFeesToken1.plus(feesToken1),
     collectedFeesUSD: pool.collectedFeesUSD.plus(feesUSD),
@@ -583,18 +590,31 @@ PoolManager.Swap.handler(async ({ event, context }) => {
     let hookStats = await context.HookStats.get(hookStatsId);
 
     if (hookStats) {
-      // Store old TVL at the beginning
-      const oldPoolTVLUSD = pool.totalValueLockedUSD;
+      // Calculate volume and fees, using untracked volume as fallback
+      const volumeToAdd = amountTotalUSDTracked.gt(new BigDecimal("0"))
+        ? amountTotalUSDTracked
+        : amountTotalUSDUntracked;
 
-      // Update HookStats
+      // Calculate fees based on the volume we're using (use the same calculation as earlier in the code)
+      const feesToAdd = amountTotalUSDTracked.gt(new BigDecimal("0"))
+        ? feesUSD
+        : amountTotalUSDUntracked.times(
+            new BigDecimal(pool.feeTier.toString()).div(
+              new BigDecimal("1000000")
+            )
+          );
+
       hookStats = {
         ...hookStats,
         numberOfSwaps: hookStats.numberOfSwaps + 1n,
-        totalVolumeUSD: hookStats.totalVolumeUSD.plus(amountTotalUSDTracked),
-        totalFeesUSD: hookStats.totalFeesUSD.plus(feesUSD),
+        totalVolumeUSD: hookStats.totalVolumeUSD.plus(volumeToAdd), // right now this is includes untracked volume
+        untrackedVolumeUSD: hookStats.untrackedVolumeUSD.plus(
+          amountTotalUSDUntracked
+        ),
+        totalFeesUSD: hookStats.totalFeesUSD.plus(feesToAdd),
         totalValueLockedUSD: hookStats.totalValueLockedUSD
-          .minus(oldPoolTVLUSD)
-          .plus(pool.totalValueLockedETH.times(bundle.ethPriceUSD)),
+          .minus(currentPoolTvlUSD) // Remove old TVL
+          .plus(pool.totalValueLockedUSD), // Add new TVL
       };
       await context.HookStats.set(hookStats);
     }

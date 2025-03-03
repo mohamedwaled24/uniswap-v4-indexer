@@ -1098,5 +1098,30 @@
     "name": "Eligant",
     "symbol": "ELI",
     "decimals": 18
+  },
+  "0xF425d95081C61B73fBd8Ba843ee5488D499c713a": {
+    "name": "PEGAZ",
+    "symbol": "PEGAZ",
+    "decimals": 18
+  },
+  "0x44A41E34470810156a0107FF27392841497B2707": {
+    "name": "VTH",
+    "symbol": "VTH",
+    "decimals": 18
+  },
+  "0xD3d092Ad5Ed8F7041E5b3E9dE78cca863081a30C": {
+    "name": "APPVIS",
+    "symbol": "APVIS",
+    "decimals": 18
+  },
+  "0x3f31402743d7b1A3cE7b7a6Aa260dF2b949a7bF8": {
+    "name": "APPVISV2V",
+    "symbol": "APVISV2V",
+    "decimals": 18
+  },
+  "0x3A5e6aF59181934E45Fc3B4bF8361478CB9F5C38": {
+    "name": "InfoCoin",
+    "symbol": "INFO",
+    "decimals": 18
   }
 }

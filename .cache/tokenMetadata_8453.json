@@ -21693,5 +21693,15 @@
     "name": "Midas US Treasury Bill Token",
     "symbol": "mTBILL",
     "decimals": 18
+  },
+  "0x4D5C5f0a0Bb0dE9Ae41F497DD7951fa5f7628524": {
+    "name": "Trump $100 Bill",
+    "symbol": "$100",
+    "decimals": 18
+  },
+  "0xC3aE39719B9C4e1C0ecc38286F2639816d0379B6": {
+    "name": "Bork Research Institute",
+    "symbol": "BORK",
+    "decimals": 18
   }
 }
