@@ -3508,5 +3508,15 @@
     "name": "EURC",
     "symbol": "EURC",
     "decimals": 18
+  },
+  "0x074fcE1813338CFA7d106190b36F2cA1bf14fC7d": {
+    "name": "MSUTOKEN",
+    "symbol": "MSUT",
+    "decimals": 5
+  },
+  "0x844A2880034580b29e58A07B6492Df65dE3FEf9C": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 18
   }
 }

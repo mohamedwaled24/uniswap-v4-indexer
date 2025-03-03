@@ -5478,5 +5478,15 @@
     "name": "Pulsar",
     "symbol": "PULSAR",
     "decimals": 18
+  },
+  "0x8fc17671D853341D9e8B001F5Fc3C892d09CB53A": {
+    "name": "BlockGames",
+    "symbol": "BLOCK",
+    "decimals": 18
+  },
+  "0x186eF81fd8E77EEC8BfFC3039e7eC41D5FC0b457": {
+    "name": "Inspect",
+    "symbol": "INSP",
+    "decimals": 18
   }
 }

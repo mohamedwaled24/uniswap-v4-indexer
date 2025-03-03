@@ -1063,5 +1063,40 @@
     "name": "OP CLOWN",
     "symbol": "OPCLOWN",
     "decimals": 18
+  },
+  "0x60F975ed730cba51483Ab9344Eea3D25de67bff2": {
+    "name": "UniReef",
+    "symbol": "Reef",
+    "decimals": 18
+  },
+  "0x634b4Fc2CC17CD2a9d2aAc27f527c97944d7465f": {
+    "name": "Electronic Unichain",
+    "symbol": "Elec",
+    "decimals": 18
+  },
+  "0x8EB29CbBDfC4D8F26700DBEa72b7BdC8703dEd94": {
+    "name": "Metropolit",
+    "symbol": "MET",
+    "decimals": 18
+  },
+  "0xbD2c3756d4de01A1EDEb1BB6E94691b784458Dc4": {
+    "name": "AstralUNI",
+    "symbol": "astral",
+    "decimals": 18
+  },
+  "0xC2FCF23F7E243B27E69Bc1cb9B0423F998E3C0F9": {
+    "name": "Cosmic",
+    "symbol": "COS",
+    "decimals": 18
+  },
+  "0x1BbbAb6d246318091CE640048dD8d5dcC04E82Fe": {
+    "name": "BULLCOIN!",
+    "symbol": "BLC20",
+    "decimals": 18
+  },
+  "0xd9401D3631d0f2F4E9156D08827BAe8B5A6b43cC": {
+    "name": "Eligant",
+    "symbol": "ELI",
+    "decimals": 18
   }
 }
