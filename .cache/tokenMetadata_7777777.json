@@ -1,0 +1,22 @@
+{
+  "0x4200000000000000000000000000000000000006": {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "0xCccCCccc7021b32EBb4e8C08314bD62F7c653EC4": {
+    "name": "USD Coin (Bridged from Ethereum)",
+    "symbol": "USDzC",
+    "decimals": 6
+  },
+  "0xa6B280B42CB0b7c4a4F789eC6cCC3a7609A1Bc39": {
+    "name": "Enjoy",
+    "symbol": "ENJOY",
+    "decimals": 18
+  },
+  "0x078540eECC8b6d89949c9C7d5e8E91eAb64f6696": {
+    "name": "Imagine",
+    "symbol": "Imagine",
+    "decimals": 18
+  }
+}
