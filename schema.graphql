@@ -57,6 +57,7 @@ type Pool @entity {
   volumeUSD: BigDecimal!
   untrackedVolumeUSD: BigDecimal!
   feesUSD: BigDecimal!
+  feesUSDUntracked: BigDecimal!
   txCount: BigInt!
   collectedFeesToken0: BigDecimal!
   collectedFeesToken1: BigDecimal!
@@ -103,7 +104,8 @@ type HookStats @entity {
   numberOfPools: BigInt!
   numberOfSwaps: BigInt!
   firstPoolCreatedAt: BigInt!
-  totalValueLockedUSD: BigDecimal! @index # Total TVL across all pools using this hook
+  totalValueLockedUSD: BigDecimal! # Total TVL across all pools using this hook
   totalVolumeUSD: BigDecimal! # Total volume across all pools using this hook
+  untrackedVolumeUSD: BigDecimal! # Untracked volume for non-whitelisted tokens
   totalFeesUSD: BigDecimal! # Total fees across all pools using this hook
 }
