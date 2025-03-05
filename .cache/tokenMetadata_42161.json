@@ -1328,5 +1328,25 @@
     "name": "DexKit",
     "symbol": "KIT",
     "decimals": 18
+  },
+  "0x25b3d618A1EdaD28239C3D18C1ea33dd740fca08": {
+    "name": "arbBTC",
+    "symbol": "arbBTC",
+    "decimals": 18
+  },
+  "0x93FA0B88C0C78e45980Fa74cdd87469311b7B3E4": {
+    "name": "XBorg",
+    "symbol": "XBG",
+    "decimals": 18
+  },
+  "0x05d35769a222AfFd6185e20F3f3676Abde56C25F": {
+    "name": "Unlimited Network Token",
+    "symbol": "UWU",
+    "decimals": 18
+  },
+  "0xB7ED8F59c8B0B963F681446FF9eb008ba9F647E6": {
+    "name": "MM",
+    "symbol": "MM",
+    "decimals": 18
   }
 }

@@ -21703,5 +21703,60 @@
     "name": "Bork Research Institute",
     "symbol": "BORK",
     "decimals": 18
+  },
+  "0x68f305Cca4D3462Ac8CAf759492Ed9d33E4DFF40": {
+    "name": "Chia Warped SPROUT",
+    "symbol": "wSPROUT",
+    "decimals": 18
+  },
+  "0x75b1f913661C3E22185AE5d10ED43f2935338274": {
+    "name": "ZSNAIL_COPPER",
+    "symbol": "ZSNLCP",
+    "decimals": 9
+  },
+  "0xA6d7Bd9298f3430F8E589095E046bc2C9Bb54cd9": {
+    "name": "Fin Stack",
+    "symbol": "FNSTK",
+    "decimals": 18
+  },
+  "0xBb45d50BdBCDd98525FcC3265F66bCA47daB172A": {
+    "name": "test",
+    "symbol": "test",
+    "decimals": 18
+  },
+  "0x17afAb690a688F72F2cc01A07534888B291B1D3D": {
+    "name": "250304 Tampa Bay Lightning",
+    "symbol": "250304TBL",
+    "decimals": 18
+  },
+  "0xA12cd3110a2496d3F87F9D9830FDdFC408f5b2E4": {
+    "name": "Nah-cat",
+    "symbol": "Ed",
+    "decimals": 18
+  },
+  "0x3d74Eb65EA668344061bfECe3509dE44C43a9E70": {
+    "name": "AnkorX | onchain harbor",
+    "symbol": "ANKOR",
+    "decimals": 18
+  },
+  "0x002fA5316517263b6c8Fb57890c7Fe0131207C27": {
+    "name": "250304 Tampa Bay Lightning",
+    "symbol": "250304TBL",
+    "decimals": 18
+  },
+  "0x9Ee3A1e8a6Ae1F0adb8Fd245131334732E124053": {
+    "name": "250304 Florida Panthers",
+    "symbol": "250304FP",
+    "decimals": 18
+  },
+  "0xF9b1997ECdFC90AF3177dF722f1f9D48159e8923": {
+    "name": "in the end we’re all just dust.",
+    "symbol": "in the end we’re all just dust.",
+    "decimals": 18
+  },
+  "0x0c03f92EFf2c17bAaB9C5D96406A69650e640B32": {
+    "name": "FedNow EUR",
+    "symbol": "EURf",
+    "decimals": 6
   }
 }
