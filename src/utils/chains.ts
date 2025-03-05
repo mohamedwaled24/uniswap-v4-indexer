@@ -13,6 +13,7 @@ export enum ChainId {
   ZORA = 7777777,
   WORLD = 59144,
   UNICHAIN = 130,
+  SONEIUM = 1868,
 }
 
 // Native token details interface
@@ -349,6 +350,29 @@ export const CHAIN_CONFIGS: { [chainId: number]: ChainConfig } = {
       symbol: "ETH",
       name: "Ethereum",
       decimals: BigInt(18),
+    },
+  },
+  [ChainId.SONEIUM]: {
+    poolManagerAddress: "0x360e68faccca8ca495c1b759fd9eee466db9fb32",
+    stablecoinWrappedNativePoolId:
+      "0x3d18457ff1dcfa8ffb14b162ae3def9eda618569ac4a6aadc827628f5981b515",
+    stablecoinIsToken0: false,
+    wrappedNativeAddress: "0x0000000000000000000000000000000000000000", // Native ETH
+    minimumNativeLocked: new BigDecimal("1"),
+    stablecoinAddresses: [
+      "0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369", // USDC
+    ],
+    whitelistTokens: [
+      "0x4200000000000000000000000000000000000006", // WETH
+      "0xba9986d2381edf1da03b0b9c1f8b00dc4aacc369", // USDC
+      "0x0000000000000000000000000000000000000000", // Native ETH
+    ],
+    tokenOverrides: [],
+    poolsToSkip: [],
+    nativeTokenDetails: {
+      symbol: "ETH",
+      name: "Ethereum",
+      decimals: 18n,
     },
   },
 };

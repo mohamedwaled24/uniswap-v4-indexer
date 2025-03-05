@@ -1123,5 +1123,10 @@
     "name": "InfoCoin",
     "symbol": "INFO",
     "decimals": 18
+  },
+  "0x1ff4eD67ED341c1FaDA91f77d269963F0062f724": {
+    "name": "Perly",
+    "symbol": "PRL",
+    "decimals": 18
   }
 }

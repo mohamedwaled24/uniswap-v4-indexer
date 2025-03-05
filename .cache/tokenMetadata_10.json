@@ -478,5 +478,10 @@
     "name": "Beefy Velo",
     "symbol": "BeVELO",
     "decimals": 18
+  },
+  "0x385719545Ef34d457A88e723504544A53F0Ad9BC": {
+    "name": "MUMMY",
+    "symbol": "MMY",
+    "decimals": 18
   }
 }

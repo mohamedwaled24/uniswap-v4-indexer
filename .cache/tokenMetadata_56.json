@@ -1808,5 +1808,10 @@
     "name": "DAPF Invest Token",
     "symbol": "DAPF",
     "decimals": 6
+  },
+  "0xBF79Ee02419DbD4bDCb386B757EC3ea734d63C56": {
+    "name": "Nuristani Crafts",
+    "symbol": "NCF",
+    "decimals": 18
   }
 }

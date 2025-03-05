@@ -5488,5 +5488,25 @@
     "name": "Inspect",
     "symbol": "INSP",
     "decimals": 18
+  },
+  "0x3f7f8b2FfdFD137f122840727236107688bd53d0": {
+    "name": "Morpheus AI",
+    "symbol": "Mrp AI",
+    "decimals": 18
+  },
+  "0x915736A04e3774e5e1345F3632eB7C01d0FC98B3": {
+    "name": "DRAGON ASIA",
+    "symbol": "DGA",
+    "decimals": 18
+  },
+  "0x1842c61Db746901A2dA0939e07599040b98DDc6f": {
+    "name": "SPRQ",
+    "symbol": "SPRQ",
+    "decimals": 18
+  },
+  "0x9cdf242Ef7975D8c68D5C1F5B6905801699b1940": {
+    "name": "WhiteRock",
+    "symbol": "WHITE",
+    "decimals": 18
   }
 }

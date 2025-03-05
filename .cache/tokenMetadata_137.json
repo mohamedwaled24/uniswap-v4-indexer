@@ -3543,5 +3543,25 @@
     "name": "QuantumSatis",
     "symbol": "QS",
     "decimals": 5
+  },
+  "0x5669d8A35F712BF377D937D71D0378d0B331B7c1": {
+    "name": "BUBBET",
+    "symbol": "BUBET",
+    "decimals": 18
+  },
+  "0xa0C27fc7b9867589a9e744858b62cF7719a33dC4": {
+    "name": "ELONAi",
+    "symbol": "ELONAi",
+    "decimals": 18
+  },
+  "0x7c28F627eA3aEc8B882b51eb1935f66e5b875714": {
+    "name": "Paint",
+    "symbol": "PAINT",
+    "decimals": 18
+  },
+  "0x0f4BaDF9e35b49ba7b01e69A0a6336C3888E39D7": {
+    "name": "Cube Token",
+    "symbol": "CUBE",
+    "decimals": 18
   }
 }
