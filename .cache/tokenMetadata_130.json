@@ -1128,5 +1128,60 @@
     "name": "Perly",
     "symbol": "PRL",
     "decimals": 18
+  },
+  "0xA05fDa28302437eaAD457E3395eBe09d5188465e": {
+    "name": "Donag",
+    "symbol": "DNFG",
+    "decimals": 18
+  },
+  "0xbe2Ec1655888287f1662b005598894F14529324f": {
+    "name": "Gravds",
+    "symbol": "GFFS",
+    "decimals": 18
+  },
+  "0xEe5f039Eb431D1414B9B888411fF154EBc8Eabf7": {
+    "name": "Monad",
+    "symbol": "mon",
+    "decimals": 18
+  },
+  "0xb1069ed13d28c585EBC14136cc974EBF0cB02799": {
+    "name": "V3 LP TEST",
+    "symbol": "V3T",
+    "decimals": 18
+  },
+  "0x3398Ae0D786E38A124773740Fe976d94302ee554": {
+    "name": "DARK",
+    "symbol": "DAR",
+    "decimals": 18
+  },
+  "0x5bE602e9D5c5784B7785429F705cAA32ce611F63": {
+    "name": "Kyoto",
+    "symbol": "KYO",
+    "decimals": 18
+  },
+  "0x5c88627Eb9E35A97495013641358Bc9d72cc2fCC": {
+    "name": "Magic 2",
+    "symbol": "MAG2",
+    "decimals": 18
+  },
+  "0x6E3932C744e43681f563B37ae3aF101615bB5e25": {
+    "name": "Magic",
+    "symbol": "MAG",
+    "decimals": 18
+  },
+  "0x98174950a4Fb89c86E3087Ad282c6AA59f5c53a3": {
+    "name": "Know",
+    "symbol": "KNO",
+    "decimals": 18
+  },
+  "0xCFA6333046536fEe9ab42467087AcDAfE97909DB": {
+    "name": "Hypr",
+    "symbol": "HYP",
+    "decimals": 18
+  },
+  "0xFaAf76eb5e751a082EB7D97922D703e33F951482": {
+    "name": "Intens",
+    "symbol": "INT",
+    "decimals": 18
   }
 }
