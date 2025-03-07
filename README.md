@@ -18,6 +18,47 @@ This indexer is currently a WIP that tracks key metrics and events from Uniswap 
 
 We are also in the process of including Hook features.
 
+## Getting Started
+
+### Prerequisites
+
+Before running the indexer, ensure you have the following installed:
+
+- Node.js (v18 or newer)
+- pnpm (v8 or newer)
+- Docker Desktop
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+   ```
+   pnpm i
+   ```
+
+### Running the Indexer
+
+Start the indexer with:
+
+```
+pnpm envio dev
+```
+
+This command will:
+
+- Start all required services using Docker
+- Initialize and run the indexer
+
+### Accessing Data
+
+Once the indexer is running, you can view and query all indexed data at:
+
+```
+http://localhost:8080
+```
+
+This will open the Hasura console where you can explore and query the indexed data using GraphQL.
+
 ## Usage
 
 You can use this indexer to power your own Uniswap v4 applications and infrastructure. The indexed data is accessible via GraphQL API.
