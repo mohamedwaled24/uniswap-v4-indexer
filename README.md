@@ -7,6 +7,10 @@ _Please refer to the [documentation website](https://docs.envio.dev) for a thoro
 Please note this Indexer is being bootstrapped as a multichain indexer based off this Uniswap V4 Indexer: https://github.com/Uniswap/v4-subgraph
 Pricing (especially!!) and many other features are thanks to the team who built the above mentioned Indexer.
 
+**Note:** This indexer currently powers [v4.xyz](https://v4.xyz), the hub for Uniswap data and hooks.
+
+![v4.xyz Dashboard](./v4.gif)
+
 ## Overview
 
 This indexer is currently a WIP that tracks key metrics and events from Uniswap v4 pools and can be used to:
