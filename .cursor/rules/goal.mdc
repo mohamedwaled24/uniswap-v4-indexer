@@ -1,0 +1,8 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Your rule content
+
+ This codebase is a modification and conversion of a subgraph into Envio's HyperIndex framework. The goal is to get all functionality and tests converted from the subgraph version to HyperIndex and thereafter extend the HyperIndex version.

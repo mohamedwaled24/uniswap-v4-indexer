@@ -2,6 +2,7 @@
 name: envio-indexer
 unordered_multichain_mode: true # When true, strict cross chain ordering of event processing will not be obeyed.
 rollback_on_reorg: false
+raw_events: ${DEBUG:-false}
 field_selection: # Additional fields available to index to augment data
   transaction_fields:
     - "hash"
@@ -28,24 +29,24 @@ contracts:
       - event: Transfer(address indexed from, address indexed to, uint256 indexed id)
       - event: Unsubscription(uint256 indexed tokenId, address indexed subscriber)
 networks:
-  - id: 1
-    start_block: 0
-    contracts:
-      - name: PositionManager
-        address:
-          - 0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e
-      - name: PoolManager
-        address:
-          - "0x000000000004444c5dc75cB358380D2e3dE08A90"
-  - id: 10
-    start_block: 0
-    contracts:
-      - name: PositionManager
-        address:
-          - 0x3C3Ea4B57a46241e54610e5f022e5c45859A1017
-      - name: PoolManager
-        address:
-          - 0x9a13F98Cb987694C9F086b1F5eB990EeA8264Ec3
+  # - id: 1
+  #   start_block: 0
+  #   contracts:
+  #     - name: PositionManager
+  #       address:
+  #         - 0xbD216513d74C8cf14cf4747E6AaA6420FF64ee9e
+  #     - name: PoolManager
+  #       address:
+  #         - "0x000000000004444c5dc75cB358380D2e3dE08A90"
+  # - id: 10
+  #   start_block: 0
+  #   contracts:
+  #     - name: PositionManager
+  #       address:
+  #         - 0x3C3Ea4B57a46241e54610e5f022e5c45859A1017
+  #     - name: PoolManager
+  #       address:
+  #         - 0x9a13F98Cb987694C9F086b1F5eB990EeA8264Ec3
   - id: 8453
     start_block: 0
     contracts:
@@ -55,43 +56,80 @@ networks:
       - name: PoolManager
         address:
           - 0x498581ff718922c3f8e6a244956af099b2652b2b
-  - id: 42161
-    start_block: 0
-    contracts:
-      - name: PositionManager
+      - name: PositionManagerFlaunch
         address:
-          - 0xd88f38f930b7952f2db2432cb002e7abbf3dd869
-      - name: PoolManager
-        address:
-          - 0x360e68faccca8ca495c1b759fd9eee466db9fb32
-  - id: 137
-    start_block: 0
-    contracts:
-      - name: PositionManager
-        address:
-          - 0x1ec2ebf4f37e7363fdfe3551602425af0b3ceef9
-      - name: PoolManager
-        address:
-          - 0x67366782805870060151383f4bbff9dab53e5cd6
-  - id: 81457
-    start_block: 0
-    contracts:
-      - name: PositionManager
-        address:
-          - 0x4ad2f4cca2682cbb5b950d660dd458a1d3f1baad
-      - name: PoolManager
-        address:
-          - 0x1631559198a9e474033433b2958dabc135ab6446
-  - id: 7777777
-    start_block: 0
-    contracts:
-      - name: PositionManager
-        address:
-          - 0xf66c7b99e2040f0d9b326b3b7c152e9663543d63
-      - name: PoolManager
-        address:
-          - 0x0575338e4c17006ae181b47900a84404247ca30f
-  # - id: 57073
+          - 0x51Bba15255406Cfe7099a42183302640ba7dAFDC
+        handler: src/handlers/hooks/flaunch.ts
+        events:
+        - event: CreatorFeeAllocationUpdated(bytes32 indexed _poolId, uint24 _allocation)
+        - event: Deposit(bytes32 indexed _poolId, address _payee, address _token, uint256 _amount)
+        - event: FairLaunchFeeCalculatorUpdated(address _feeCalculator)
+        - event: FeeCalculatorUpdated(address _feeCalculator)
+        - event: FeeDistributionUpdated((uint24,uint24,uint24,bool) _feeDistribution)
+        - event: InitialPriceUpdated(address _initialPrice)
+        - event: OwnershipHandoverCanceled(address indexed pendingOwner)
+        - event: OwnershipHandoverRequested(address indexed pendingOwner)
+        - event: OwnershipTransferred(address indexed oldOwner, address indexed newOwner)
+        - event: PoolCreated(bytes32 indexed _poolId, address _memecoin, address _memecoinTreasury, uint256 _tokenId, bool _currencyFlipped, uint256 _flaunchFee, (string,string,string,uint256,uint256,address,uint24,uint256,bytes,bytes) _params)
+        - event: PoolFeeDistributionUpdated(bytes32 indexed _poolId, (uint24,uint24,uint24,bool) _feeDistribution)
+        - event: PoolFeesDistributed(bytes32 indexed _poolId, uint256 _donateAmount, uint256 _creatorAmount, uint256 _bidWallAmount, uint256 _governanceAmount, uint256 _protocolAmount)
+        - event: PoolFeesReceived(bytes32 indexed _poolId, uint256 _amount0, uint256 _amount1)
+        - event: PoolFeesSwapped(bytes32 indexed _poolId, bool zeroForOne, uint256 _amount0, uint256 _amount1)
+        - event: PoolPremine(bytes32 indexed _poolId, int256 _premineAmount)
+        - event: PoolScheduled(bytes32 indexed _poolId, uint256 _flaunchesAt)
+        - event: PoolStateUpdated(bytes32 indexed _poolId, uint160 _sqrtPriceX96, int24 _tick, uint24 _protocolFee, uint24 _swapFee, uint128 _liquidity)
+        - event: PoolSwap(bytes32 indexed poolId, int256 flAmount0, int256 flAmount1, int256 flFee0, int256 flFee1, int256 ispAmount0, int256 ispAmount1, int256 ispFee0, int256 ispFee1, int256 uniAmount0, int256 uniAmount1, int256 uniFee0, int256 uniFee1)
+        - event: ReferralEscrowUpdated(address _referralEscrow)
+        - event: ReferrerFeePaid(bytes32 indexed _poolId, address _recipient, address _token, uint256 _amount)
+        - event: Withdrawal(address _sender, address _recipient, address _token, uint256 _amount)
+  # - id: 42161
+  #   start_block: 0
+  #   contracts:
+  #     - name: PositionManager
+  #       address:
+  #         - 0xd88f38f930b7952f2db2432cb002e7abbf3dd869
+  #     - name: PoolManager
+  #       address:
+  #         - 0x360e68faccca8ca495c1b759fd9eee466db9fb32
+  # - id: 137
+  #   start_block: 0
+  #   contracts:
+  #     - name: PositionManager
+  #       address:
+  #         - 0x1ec2ebf4f37e7363fdfe3551602425af0b3ceef9
+  #     - name: PoolManager
+  #       address:
+  #         - 0x67366782805870060151383f4bbff9dab53e5cd6
+  # - id: 81457
+  #   start_block: 0
+  #   contracts:
+  #     - name: PositionManager
+  #       address:
+  #         - 0x4ad2f4cca2682cbb5b950d660dd458a1d3f1baad
+  #     - name: PoolManager
+  #       address:
+  #         - 0x1631559198a9e474033433b2958dabc135ab6446
+  # - id: 7777777
+  #   start_block: 0
+  #   contracts:
+  #     - name: PositionManager
+  #       address:
+  #         - 0xf66c7b99e2040f0d9b326b3b7c152e9663543d63
+  #     - name: PoolManager
+  #       address:
+  #         - 0x0575338e4c17006ae181b47900a84404247ca30f
+  # # - id: 57073
+  # #   start_block: 0
+  # #   contracts:
+  # #     - name: PositionManager
+  # #       address:
+  # #         - 0x1b35d13a2e2528f192637f14b05f0dc0e7deb566
+  # #     - name: PoolManager
+  # #       address:
+  # #         - 0x360e68faccca8ca495c1b759fd9eee466db9fb32
+  # - id: 1868
+  #   hypersync_config:
+  #     url: https://1868.hypersync.xyz
   #   start_block: 0
   #   contracts:
   #     - name: PositionManager
@@ -100,43 +138,32 @@ networks:
   #     - name: PoolManager
   #       address:
   #         - 0x360e68faccca8ca495c1b759fd9eee466db9fb32
-  - id: 1868
-    hypersync_config:
-      url: https://1868.hypersync.xyz
-    start_block: 0
-    contracts:
-      - name: PositionManager
-        address:
-          - 0x1b35d13a2e2528f192637f14b05f0dc0e7deb566
-      - name: PoolManager
-        address:
-          - 0x360e68faccca8ca495c1b759fd9eee466db9fb32
-  - id: 43114
-    start_block: 0
-    contracts:
-      - name: PositionManager
-        address:
-          - 0xb74b1f14d2754acfcbbe1a221023a5cf50ab8acd
-      - name: PoolManager
-        address:
-          - 0x06380c0e0912312b5150364b9dc4542ba0dbbc85
-  - id: 56
-    start_block: 0
-    contracts:
-      - name: PositionManager
-        address:
-          - 0x7a4a5c919ae2541aed11041a1aeee68f1287f95b
-      - name: PoolManager
-        address:
-          - 0x28e2ea090877bf75740558f6bfb36a5ffee9e9df
-  - id: 130
-    hypersync_config:
-      url: https://130.hypersync.xyz
-    start_block: 0
-    contracts:
-      # - name: PositionManager
-      #   address:
-      #     -
-      - name: PoolManager
-        address:
-          - 0x1F98400000000000000000000000000000000004
+  # - id: 43114
+  #   start_block: 0
+  #   contracts:
+  #     - name: PositionManager
+  #       address:
+  #         - 0xb74b1f14d2754acfcbbe1a221023a5cf50ab8acd
+  #     - name: PoolManager
+  #       address:
+  #         - 0x06380c0e0912312b5150364b9dc4542ba0dbbc85
+  # - id: 56
+  #   start_block: 0
+  #   contracts:
+  #     - name: PositionManager
+  #       address:
+  #         - 0x7a4a5c919ae2541aed11041a1aeee68f1287f95b
+  #     - name: PoolManager
+  #       address:
+  #         - 0x28e2ea090877bf75740558f6bfb36a5ffee9e9df
+  # - id: 130
+  #   hypersync_config:
+  #     url: https://130.hypersync.xyz
+  #   start_block: 0
+  #   contracts:
+  #     # - name: PositionManager
+  #     #   address:
+  #     #     -
+  #     - name: PoolManager
+  #       address:
+  #         - 0x1F98400000000000000000000000000000000004

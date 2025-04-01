@@ -13,5 +13,25 @@
     "name": "Blast",
     "symbol": "BLAST",
     "decimals": 18
+  },
+  "0x6B173c94002eB298870A313f44F3865B97b3792f": {
+    "name": "Serhii",
+    "symbol": "SI",
+    "decimals": 6
+  },
+  "0xca21959A59069D600E87b3C787A61c228DC13358": {
+    "name": "Serhey",
+    "symbol": "SEY",
+    "decimals": 6
+  },
+  "0x53168b4e9A05B183A305dcFf9Ec65cF6CB8FcD9b": {
+    "name": "Serhii",
+    "symbol": "SI",
+    "decimals": 6
+  },
+  "0x9A4bCCA798f533E6D4b4048834b41AC6ecF955c3": {
+    "name": "Serhey",
+    "symbol": "SEY",
+    "decimals": 6
   }
 }

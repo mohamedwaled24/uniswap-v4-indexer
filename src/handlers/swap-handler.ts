@@ -236,10 +236,10 @@ PoolManager.Swap.handler(async ({ event, context }) => {
       const feesToAdd = amountTotalUSDTracked.gt(new BigDecimal("0"))
         ? feesUSD
         : amountTotalUSDUntracked.times(
-            new BigDecimal(pool.feeTier.toString()).div(
-              new BigDecimal("1000000")
-            )
-          );
+          new BigDecimal(pool.feeTier.toString()).div(
+            new BigDecimal("1000000")
+          )
+        );
 
       hookStats = {
         ...hookStats,

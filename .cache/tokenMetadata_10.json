@@ -483,5 +483,280 @@
     "name": "MUMMY",
     "symbol": "MMY",
     "decimals": 18
+  },
+  "0x79ae3f8f4f335d3D7764C9bC2bd3de97278f7Dbb": {
+    "name": "PoolToken",
+    "symbol": "PTK",
+    "decimals": 18
+  },
+  "0xA55624FA02b3f77a8430b8E66FBfC39ac4Ee26B0": {
+    "name": "Mock USDC",
+    "symbol": "mUSDC",
+    "decimals": 6
+  },
+  "0x399FE73Bb0Ee60670430FD92fE25A0Fdd308E142": {
+    "name": "CommuDAO",
+    "symbol": "CMD",
+    "decimals": 18
+  },
+  "0xd0a10Bf52775F524cb823E5586660c2746ad2e00": {
+    "name": "SATA",
+    "symbol": "SATA",
+    "decimals": 18
+  },
+  "0x746E3de0CBE79cb4CB5445D583705a041c5940a9": {
+    "name": "BonkToken",
+    "symbol": "BONK",
+    "decimals": 18
+  },
+  "0x67C10C397dD0Ba417329543c1a40eb48AAa7cd00": {
+    "name": "nUSD",
+    "symbol": "nUSD",
+    "decimals": 18
+  },
+  "0x809DC529f07651bD43A172e8dB6f4a7a0d771036": {
+    "name": "nETH",
+    "symbol": "nETH",
+    "decimals": 18
+  },
+  "0x2c6d91accC5Aa38c84653F28A80AEC69325BDd12": {
+    "name": "nUSD LP",
+    "symbol": "nUSD-LP",
+    "decimals": 18
+  },
+  "0x56900d66D74Cb14E3c86895789901C9135c95b16": {
+    "name": "DAI Hop Token",
+    "symbol": "hDAI",
+    "decimals": 18
+  },
+  "0x59bAbc14Dd73761e38E5bdA171b2298DC14da92d": {
+    "name": "SNX Debt Mirror",
+    "symbol": "dSNX",
+    "decimals": 18
+  },
+  "0x1eC50880101022C11530A069690F5446d1464592": {
+    "name": "Stablecoin Yield",
+    "symbol": "USDy",
+    "decimals": 18
+  },
+  "0xd22363e3762cA7339569F3d33EADe20127D5F98C": {
+    "name": "Stargate Ether Vault-LP",
+    "symbol": "S*SGETH",
+    "decimals": 18
+  },
+  "0x25D8039bB044dC227f741a9e381CA4cEAE2E6aE8": {
+    "name": "USD Coin Hop Token",
+    "symbol": "hUSDC",
+    "decimals": 6
+  },
+  "0x2057C8ECB70Afd7Bee667d76B4CD373A325b1a20": {
+    "name": "Tether USD Hop Token",
+    "symbol": "hUSDT",
+    "decimals": 6
+  },
+  "0xDecC0c09c3B5f6e92EF4184125D5648a66E35298": {
+    "name": "USD Coin-LP",
+    "symbol": "S*USDC",
+    "decimals": 6
+  },
+  "0x5dF7ABe3C51c01dcf6D1f1F9A0ab4dC3759869b9": {
+    "name": "SoonChain",
+    "symbol": "SOONX",
+    "decimals": 18
+  },
+  "0xcd09e72c7fd60430aF4448dAe6FdC818A58Bd278": {
+    "name": "Pepe Ascension",
+    "symbol": "PEAP",
+    "decimals": 18
+  },
+  "0x749D8Cc1fF63cb92Cc6dD64380D68ECB72b9993F": {
+    "name": "AntHive",
+    "symbol": "ANTH",
+    "decimals": 18
+  },
+  "0x5A46D210FA71F3Df8a622fb30356C6257DFfE397": {
+    "name": "JKToken",
+    "symbol": "JK",
+    "decimals": 18
+  },
+  "0x709629c39F5E7ab96Af92804440dAaf2EE724eA7": {
+    "name": "FreeToken",
+    "symbol": "FREE",
+    "decimals": 18
+  },
+  "0xc418B123885d732ED042b16e12e259741863F723": {
+    "name": "DBXen Token on Optimism",
+    "symbol": "opDXN",
+    "decimals": 18
+  },
+  "0x13B7F51BD865410c3AcC4d56083C5B56aB38D203": {
+    "name": "Synthetix Network Token Hop Token",
+    "symbol": "hSNX",
+    "decimals": 18
+  },
+  "0xe63337211DdE2569C348D9B3A0acb5637CFa8aB3": {
+    "name": "Hop SNX LP Token",
+    "symbol": "HOP-LP-SNX",
+    "decimals": 18
+  },
+  "0x755569159598f3702bdD7DFF6233A317C156d3Dd": {
+    "name": "Rocket Pool ETH Hop Token",
+    "symbol": "hrETH",
+    "decimals": 18
+  },
+  "0x6F03052743CD99ce1b29265E377e320CD24Eb632": {
+    "name": "Synth sUSD Hop Token",
+    "symbol": "hsUSD",
+    "decimals": 18
+  },
+  "0xE38faf9040c7F09958c638bBDB977083722c5156": {
+    "name": "ETH Hop Token",
+    "symbol": "hETH",
+    "decimals": 18
+  },
+  "0x9C9e5fD8bbc25984B178FdCE6117Defa39d2db39": {
+    "name": "BUSD Token",
+    "symbol": "BUSD",
+    "decimals": 18
+  },
+  "0x1c356355B69B4a7EA0a09890fD478BCfD99A9F20": {
+    "name": "QWER",
+    "symbol": "QWER",
+    "decimals": 18
+  },
+  "0x68B3fC7B775AD3453024BcF1247B1222C2B24E1d": {
+    "name": "DSA",
+    "symbol": "DSA",
+    "decimals": 18
+  },
+  "0x63c459Df58748Ba9C11E222552440C552A9160cb": {
+    "name": "Vijay",
+    "symbol": "Vijay",
+    "decimals": 18
+  },
+  "0xd8baDEFc70b649198713E07eC557fd167A15dB80": {
+    "name": "LINAY",
+    "symbol": "LINAY",
+    "decimals": 18
+  },
+  "0xedF38688b27036816A50185cAA430D5479e1C63e": {
+    "name": "Overtime DAO Token",
+    "symbol": "OVER",
+    "decimals": 18
+  },
+  "0x14778860E937f509e651192a90589dE711Fb88a9": {
+    "name": "CyberConnect",
+    "symbol": "CYBER",
+    "decimals": 18
+  },
+  "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812": {
+    "name": "Wrapped Mountain Protocol USD",
+    "symbol": "wUSDM",
+    "decimals": 18
+  },
+  "0xdFA46478F9e5EA86d57387849598dbFB2e964b02": {
+    "name": "Mai Stablecoin",
+    "symbol": "MAI",
+    "decimals": 18
+  },
+  "0x7BDd1Eac024c82b946A4EdE771Fd7976e7B24b80": {
+    "name": "nulus tkn",
+    "symbol": "NUTK",
+    "decimals": 18
+  },
+  "0x7FF7Fa94b8b66Ef313f7970d4EEbd2CB3103a2C0": {
+    "name": "Vana",
+    "symbol": "VANA",
+    "decimals": 18
+  },
+  "0x395Ae52bB17aef68C2888d941736A71dC6d4e125": {
+    "name": "PoolTogether",
+    "symbol": "POOL",
+    "decimals": 18
+  },
+  "0x81aB7E0D570b01411fcC4afd3D50eC8C241cb74b": {
+    "name": "Equalizer",
+    "symbol": "EQZ",
+    "decimals": 18
+  },
+  "0x929B939f8524c3Be977af57A4A0aD3fb1E374b50": {
+    "name": "Meta",
+    "symbol": "MTA",
+    "decimals": 18
+  },
+  "0x2E3D870790dC77A83DD1d18184Acc7439A53f475": {
+    "name": "Frax",
+    "symbol": "FRAX",
+    "decimals": 18
+  },
+  "0x484c2D6e3cDd945a8B2DF735e079178C1036578c": {
+    "name": "Staked Frax Ether",
+    "symbol": "sfrxETH",
+    "decimals": 18
+  },
+  "0x2598c30330D5771AE9F983979209486aE26dE875": {
+    "name": "Any Inu",
+    "symbol": "AI",
+    "decimals": 18
+  },
+  "0x38F9bf9dCe51833Ec7f03C9dC218197999999999": {
+    "name": "Nya",
+    "symbol": "NYA",
+    "decimals": 18
+  },
+  "0xB962150760F9A3bB00e3E9Cf48297EE20AdA4A33": {
+    "name": "xZoomerCoin",
+    "symbol": "xZOOMER",
+    "decimals": 18
+  },
+  "0x3E29D3A9316dAB217754d13b28646B76607c5f04": {
+    "name": "Alchemix ETH",
+    "symbol": "alETH",
+    "decimals": 18
+  },
+  "0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A": {
+    "name": "Alchemix USD",
+    "symbol": "alUSD",
+    "decimals": 18
+  },
+  "0x217D47011b23BB961eB6D93cA9945B7501a5BB11": {
+    "name": "Thales DAO Token",
+    "symbol": "THALES",
+    "decimals": 18
+  },
+  "0x00a35FD824c717879BF370E70AC6868b95870Dfb": {
+    "name": "IronBank",
+    "symbol": "IB",
+    "decimals": 18
+  },
+  "0xc55E93C62874D8100dBd2DfE307EDc1036ad5434": {
+    "name": "Moo BIFI",
+    "symbol": "mooBIFI",
+    "decimals": 18
+  },
+  "0xFE8B128bA8C78aabC59d4c64cEE7fF28e9379921": {
+    "name": "Balancer",
+    "symbol": "BAL",
+    "decimals": 18
+  },
+  "0xC26921B5b9ee80773774d36C84328ccb22c3a819": {
+    "name": "Wrapped OptiDoge",
+    "symbol": "wOptiDoge",
+    "decimals": 18
+  },
+  "0x9b88D293b7a791E40d36A39765FFd5A1B9b5c349": {
+    "name": "Celo native asset",
+    "symbol": "CELO",
+    "decimals": 18
+  },
+  "0x9e1028F5F1D5eDE59748FFceE5532509976840E0": {
+    "name": "Perpetual",
+    "symbol": "PERP",
+    "decimals": 18
+  },
+  "0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98": {
+    "name": "Kraken Wrapped Bitcoin",
+    "symbol": "kBTC",
+    "decimals": 8
   }
 }

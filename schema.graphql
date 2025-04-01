@@ -109,3 +109,645 @@ type HookStats @entity {
   untrackedVolumeUSD: BigDecimal! # Untracked volume for non-whitelisted tokens
   totalFeesUSD: BigDecimal! # Total fees across all pools using this hook
 }
+
+
+### WIP Hooks
+
+type Activity {
+  id: ID!
+  maker: User!
+  timestamp: BigInt!
+  txHash: Bytes!
+  token: CollectionToken!
+  amountETH: BigInt!
+  amountToken: BigInt!
+  type_: ActivityType!
+}
+
+enum ActivityType {
+  Buy
+  Sell
+}
+enum Aggregation_interval {
+  hour
+  day
+}
+
+type BidWall {
+  id: ID!
+  collectionToken: CollectionToken!
+  pool: Pool!
+  initialized: Boolean!
+  tickLower: BigInt!
+  tickUpper: BigInt!
+  amount: BigInt!
+  balance: BigInt!
+  deployedETH: BigInt!
+  closed: Boolean!
+  distributions: [BidWallDistribution!]
+}
+
+type BidWallDistribution {
+  id: ID!
+  bidWall: BidWall!
+  collectionToken: CollectionToken!
+  amount: BigInt!
+  recipient: User!
+}
+type BidWallRepositioned {
+  id: ID!
+  pool: Pool!
+  _eth: BigInt!
+  _tickLower: Int!
+  _tickUpper: Int!
+  blockNumber: BigInt!
+  blockTimestamp: BigInt!
+  transactionHash: Bytes!
+}
+
+type Collection {
+  id: ID!
+  creator: User!
+  owner: User!
+  tokenID: BigInt!
+  name: String!
+  symbol: String!
+}
+
+type CollectionFee {
+  id: ID!
+  lifetimeFees: BigInt!
+  updatedAt: BigInt!
+}
+type CollectionHolding {
+  id: ID!
+  nftAddress: Bytes!
+  tokenId: BigInt!
+  owner: User!
+}
+type CollectionMetadata {
+  id: ID!
+  name: String!
+  description: String!
+  logoHash: String!
+  symbol: String!
+  collectionToken: CollectionToken
+  collectionTokenSearch: String
+  website: String
+  discord: String
+  twitter: String
+  telegram: String
+}
+type CollectionToken {
+  id: ID!
+  collection: Collection!
+  totalSupply: BigInt!
+  pool: Pool!
+  name: String!
+  symbol: String!
+  baseURI: String!
+  metadata: CollectionMetadata
+  createdAt: BigInt!
+  creator: User!
+  owner: User!
+  marketCapETH: BigInt!
+  volumeETH: BigInt!
+  totalFeesETH: BigInt!
+  derivedETH: BigInt!
+  totalCommunityFeesETH: BigDecimal!
+  totalCreatorFeesETH: BigDecimal!
+  tokenPrice: BigInt!
+  totalHolders: BigInt!
+  creationFee: BigInt!
+  fairLaunch: FairLaunch
+  dayData: [TokenDayData!]
+  hourData: [TokenHourData!]
+  minuteData: [TokenMinuteData!]
+  secondData: [TokenSecondData!]
+  holdings: [CollectionTokenHolding!]
+  lastMinuteArchived: BigInt!
+  lastHourArchived: BigInt!
+  minuteArray: [Int!]!
+  hourArray: [Int!]!
+  secondArray: [Int!]!
+  lastMinuteRecorded: BigInt!
+  lastHourRecorded: BigInt!
+  lastSecondRecorded: BigInt!
+  lastSecondArchived: BigInt!
+  buybackBalance: String!
+  buybackProgress: String!
+  buybackRemaining: String!
+  buybackRemainingProgress: String!
+  lifetimeBuyback: String!
+  level: Int!
+  levelProgress: String!
+  priceChangePercentage: String!
+  description: String!
+  links: CollectionTokenLinks!
+  marketCap: String!
+  imageId: String!
+  userCollectionFees: [UserCollectionFee!]!
+  isTwitterVerified: Boolean
+}
+
+type CollectionTokenHolding {
+  id: ID!
+  collectionToken: CollectionToken!
+  user: User!
+  balance: BigInt!
+  balanceBefore: BigInt!
+  createdTx: Bytes!
+  createdTimestamp: BigInt!
+  updatedTx: Bytes!
+  updatedTimestamp: BigInt!
+  lastUpdatedTimestamp: BigInt!
+  price: BigInt!
+}
+
+type CollectionTokenHoldingChange {
+  id: ID!
+  collectionToken: CollectionToken!
+  owner: User!
+  counterpartEOA: Bytes!
+  balanceAfter: BigInt!
+  balanceBefore: BigInt!
+  priceBefore: BigInt!
+  priceAfter: BigInt!
+  isIncrement: Boolean!
+  createdTx: Bytes!
+  created: BigInt!
+}
+type Config {
+  id: ID!
+  locked: Boolean!
+  lockerPaused: Boolean!
+  collectionCount: BigInt!
+  volumeETH: BigInt!
+  totalUsers: BigInt!
+  totalFeesETH: BigInt!
+  feeCalculator: Bytes!
+  protocolFeeRecipient: Bytes!
+  feeDistribution: FeeDistribution!
+  latestReferralEscrow: Bytes!
+}
+type FairLaunch {
+  id: ID!
+  active: Boolean!
+  collectionToken: CollectionToken!
+  tick: Int!
+  initialSupply: BigInt!
+  ethEarned: BigInt!
+  soldInitialSupply: BigInt!
+  starts_at: BigInt!
+  ends_at: BigInt!
+}
+type FeeAllocation {
+  id: ID!
+  community: Int!
+  creator: Int!
+}
+type FeeDistribution {
+  id: ID!
+  swapFee: Int
+  referrer: Int
+  protocol: Int
+  community: Int
+  active: Boolean
+  creator: Int
+}
+type FeeExemption {
+  id: ID!
+  flatFee: Int!
+}
+"8 bytes signed integer\n"
+
+type MemecoinAction {
+  id: ID!
+  approved: Boolean!
+  activities: [MemecoinTreasuryActivity!]
+  approvedAt: BigInt
+  unapprovedAt: BigInt
+  totalActions: BigInt!
+  approvedBy: Bytes
+  unapprovedBy: Bytes
+}
+type MemecoinTreasury {
+  id: ID!
+  pool: Pool!
+  activities: [MemecoinTreasuryActivity!]
+  createdAt: BigInt!
+  totalActions: BigInt!
+  lastActionTimestamp: BigInt!
+  totalETH: BigInt!
+  totalToken: BigInt!
+}
+
+type MemecoinTreasuryActivity {
+  id: ID!
+  pool: Pool
+  treasury: MemecoinTreasury
+  action: MemecoinAction!
+  tokenDelta0: BigInt!
+  tokenDelta1: BigInt!
+  timestamp: BigInt!
+  transactionHash: Bytes!
+  blockNumber: BigInt!
+}
+type NFTLookup {
+  id: ID!
+  collectionToken: CollectionToken!
+}
+enum OrderDirection {
+  asc
+  desc
+}
+
+type Flaunch_Pool {
+  id: ID!
+  collectionToken: CollectionToken!
+  sqrtPriceX96: BigInt!
+  tick: Int!
+  liveAtTimestamp: BigInt!
+  startingMarketCap: BigInt!
+  startingMarketCapETH: BigInt
+  poolFees: PoolFees
+  bidWall: BidWall
+  feeDistribution: FeeDistribution
+  volumeETH: BigInt!
+  totalFeesETH: BigInt!
+  totalFeesToken: BigInt!
+  totalFeesTokenConverted: BigInt!
+  memecoinTreasury: MemecoinTreasury
+  totalCommunityFeesETH: BigDecimal!
+  totalCreatorFeesETH: BigDecimal!
+  ispEthIn: BigInt!
+  ispTokenOut: BigInt!
+  liquidity: BigInt!
+  tickSpacing: Int!
+  fairLaunchedEnded: Boolean!
+  feeAllocation: FeeAllocation
+  flipped: Boolean!
+  swaps: [PoolSwap!]
+}
+
+type PoolCollectionLookup {
+  id: ID!
+  collectionToken: CollectionToken!
+}
+type PoolFeeDistribution {
+  id: ID!
+  timestamp: BigInt!
+  pool: Pool!
+  amount: BigInt!
+  creatorAmount: BigInt!
+  bidWallAmount: BigInt!
+  governanceAmount: BigInt!
+  protocolAmount: BigInt!
+}
+type PoolFees {
+  id: ID!
+  ethAvailable: BigInt!
+  tokenAvailable: BigInt!
+  totalTokenIn: BigInt!
+  totalEthIn: BigInt!
+}
+type PoolPremine {
+  id: ID!
+  receiver: User!
+  pool: Pool!
+  amount: BigInt!
+}
+type PoolSwap {
+  id: ID!
+  maker: User!
+  timestamp: BigInt!
+  txHash: Bytes!
+  pool: Pool!
+  fairLaunchAmount0: BigInt
+  fairLaunchAmount1: BigInt
+  ispAmount0: BigInt
+  ispAmount1: BigInt
+  uniswapAmount0: BigInt
+  uniswapAmount1: BigInt
+  fairLaunchFee0: BigInt
+  fairLaunchFee1: BigInt
+  ispFee0: BigInt
+  ispFee1: BigInt
+  uniswapFee0: BigInt
+  uniswapFee1: BigInt
+  type_: ActivityType!
+}
+type ReferralEscrowAssigned {
+  id: ID!
+  amount: BigInt!
+  receiver: User!
+  token: CollectionToken!
+  timestamp: BigInt!
+  txHash: Bytes!
+}
+type ReferralEscrowClaimed {
+  id: ID!
+  amount: BigInt!
+  receiver: User!
+  token: CollectionToken!
+  timestamp: BigInt!
+  txHash: Bytes!
+}
+type ReferralEscrowSwapped {
+  id: ID!
+  ethOut: BigInt!
+  tokensIn: BigInt!
+  receiver: User!
+  token: CollectionToken!
+  timestamp: BigInt!
+  txHash: Bytes!
+}
+type ReferrerFee {
+  id: ID!
+  pool: Pool!
+  recipient: User!
+  txHash: Bytes!
+  isETH: Boolean!
+  token: CollectionToken
+  amount: BigInt!
+  amountInETH: BigInt!
+  timestamp: BigInt!
+}
+"A string representation of microseconds UNIX timestamp (16 digits)\n"
+
+type TokenDayData {
+  id: ID!
+  date: Int!
+  token: CollectionToken!
+  pool: Pool!
+  volumeETH: BigInt!
+  totalVolumeETH: BigInt!
+  marketCapETH: BigInt!
+  priceETH: BigInt!
+  feesETH: BigInt!
+  totalFeesETH: BigInt!
+  open_: BigInt!
+  high: BigInt!
+  low: BigInt!
+  close: BigInt!
+}
+type TokenHourData {
+  id: ID!
+  periodStartUnix: Int!
+  token: CollectionToken!
+  pool: Pool!
+  volumeETH: BigInt!
+  totalVolumeETH: BigInt!
+  marketCapETH: BigInt!
+  priceETH: BigInt!
+  feesETH: BigInt!
+  totalFeesETH: BigInt!
+  open_: BigInt!
+  high: BigInt!
+  low: BigInt!
+  close: BigInt!
+}
+type TokenMinuteData {
+  id: ID!
+  periodStartUnix: Int!
+  token: CollectionToken!
+  volumeETH: BigInt!
+  totalVolumeETH: BigInt!
+  marketCapETH: BigInt!
+  priceETH: BigInt!
+  feesETH: BigInt!
+  totalFeesETH: BigInt!
+  open_: BigInt!
+  high: BigInt!
+  low: BigInt!
+  close: BigInt!
+}
+type TokenReferralFee {
+  id: ID!
+  totalAmount: BigInt!
+  collectionToken: CollectionToken
+  isFleth: Boolean!
+  user: User!
+}
+type TokenSecondData {
+  id: ID!
+  periodStartUnix: Int!
+  token: CollectionToken!
+  volumeETH: BigInt!
+  totalVolumeETH: BigInt!
+  marketCapETH: BigInt!
+  priceETH: BigInt!
+  feesETH: BigInt!
+  totalFeesETH: BigInt!
+  open_: BigInt!
+  high: BigInt!
+  low: BigInt!
+  close: BigInt!
+}
+type User {
+  id: ID!
+  aggregates: UserAggregate
+  holdings: [CollectionTokenHolding!]
+  ownedNFTs: [Collection!]
+  createdNFTs: [Collection!]
+  referrerFees: [ReferrerFee!]
+  userFee: UserFee
+}
+
+type UserAggregate {
+  id: ID!
+  totalReferrerFeesETH: BigInt!
+  user: User!
+}
+type UserCollectionFee {
+  id: ID!
+  user: User!
+  collectionToken: CollectionToken!
+  lifetimeFees: BigInt!
+  updatedAt: BigInt!
+}
+type UserFee {
+  id: ID!
+  payee: User!
+  claimableAmount: BigInt!
+  lifetimeFees: BigInt!
+  claims: [UserFeeClaimed!]
+  updatedAt: BigInt!
+}
+
+type UserFeeClaimed {
+  id: ID!
+  payee: UserFee!
+  amount: BigInt!
+  date: BigInt!
+}
+
+###########
+
+#### REMOVE THESE - just imported
+type PositionManagerFlaunch_CreatorFeeAllocationUpdated {
+  id: ID!
+  _poolId: String!
+  _allocation: BigInt!
+}
+
+type PositionManagerFlaunch_Deposit {
+  id: ID!
+  _poolId: String!
+  _payee: String!
+  _token: String!
+  _amount: BigInt!
+}
+
+type PositionManagerFlaunch_FairLaunchFeeCalculatorUpdated {
+  id: ID!
+  _feeCalculator: String!
+}
+
+type PositionManagerFlaunch_FeeCalculatorUpdated {
+  id: ID!
+  _feeCalculator: String!
+}
+
+type PositionManagerFlaunch_FeeDistributionUpdated {
+  id: ID!
+  _feeDistribution_0: BigInt!
+  _feeDistribution_1: BigInt!
+  _feeDistribution_2: BigInt!
+  _feeDistribution_3: Boolean!
+}
+
+type PositionManagerFlaunch_InitialPriceUpdated {
+  id: ID!
+  _initialPrice: String!
+}
+
+type PositionManagerFlaunch_OwnershipHandoverCanceled {
+  id: ID!
+  pendingOwner: String!
+}
+
+type PositionManagerFlaunch_OwnershipHandoverRequested {
+  id: ID!
+  pendingOwner: String!
+}
+
+type PositionManagerFlaunch_OwnershipTransferred {
+  id: ID!
+  oldOwner: String!
+  newOwner: String!
+}
+
+type PositionManagerFlaunch_PoolCreated {
+  id: ID!
+  _poolId: String!
+  _memecoin: String!
+  _memecoinTreasury: String!
+  _tokenId: BigInt!
+  _currencyFlipped: Boolean!
+  _flaunchFee: BigInt!
+  _params_0: String!
+  _params_1: String!
+  _params_2: String!
+  _params_3: BigInt!
+  _params_4: BigInt!
+  _params_5: String!
+  _params_6: BigInt!
+  _params_7: BigInt!
+  _params_8: String!
+  _params_9: String!
+}
+
+type PositionManagerFlaunch_PoolFeeDistributionUpdated {
+  id: ID!
+  _poolId: String!
+  _feeDistribution_0: BigInt!
+  _feeDistribution_1: BigInt!
+  _feeDistribution_2: BigInt!
+  _feeDistribution_3: Boolean!
+}
+
+type PositionManagerFlaunch_PoolFeesDistributed {
+  id: ID!
+  _poolId: String!
+  _donateAmount: BigInt!
+  _creatorAmount: BigInt!
+  _bidWallAmount: BigInt!
+  _governanceAmount: BigInt!
+  _protocolAmount: BigInt!
+}
+
+type PositionManagerFlaunch_PoolFeesReceived {
+  id: ID!
+  _poolId: String!
+  _amount0: BigInt!
+  _amount1: BigInt!
+}
+
+type PositionManagerFlaunch_PoolFeesSwapped {
+  id: ID!
+  _poolId: String!
+  zeroForOne: Boolean!
+  _amount0: BigInt!
+  _amount1: BigInt!
+}
+
+type PositionManagerFlaunch_PoolPremine {
+  id: ID!
+  _poolId: String!
+  _premineAmount: BigInt!
+}
+
+type PositionManagerFlaunch_PoolScheduled {
+  id: ID!
+  _poolId: String!
+  _flaunchesAt: BigInt!
+}
+
+type PositionManagerFlaunch_PoolStateUpdated {
+  id: ID!
+  _poolId: String!
+  _sqrtPriceX96: BigInt!
+  _tick: BigInt!
+  _protocolFee: BigInt!
+  _swapFee: BigInt!
+  _liquidity: BigInt!
+}
+
+type PositionManagerFlaunch_PoolSwap {
+  id: ID!
+  poolId: String!
+  flAmount0: BigInt!
+  flAmount1: BigInt!
+  flFee0: BigInt!
+  flFee1: BigInt!
+  ispAmount0: BigInt!
+  ispAmount1: BigInt!
+  ispFee0: BigInt!
+  ispFee1: BigInt!
+  uniAmount0: BigInt!
+  uniAmount1: BigInt!
+  uniFee0: BigInt!
+  uniFee1: BigInt!
+}
+
+type PositionManagerFlaunch_ReferralEscrowUpdated {
+  id: ID!
+  _referralEscrow: String!
+}
+
+type PositionManagerFlaunch_ReferrerFeePaid {
+  id: ID!
+  _poolId: String!
+  _recipient: String!
+  _token: String!
+  _amount: BigInt!
+}
+
+type PositionManagerFlaunch_Withdrawal {
+  id: ID!
+  _sender: String!
+  _recipient: String!
+  _token: String!
+  _amount: BigInt!
+}
