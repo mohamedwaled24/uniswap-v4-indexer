@@ -6,6 +6,7 @@
     "build": "tsc --build",
     "watch": "tsc --watch",
     "mocha": "ts-mocha test/**/*.ts",
+    "test-strict": "ts-mocha -p tsconfig.json --require ts-node/register --exit test/**/*.ts",
     "codegen": "envio codegen",
     "dev": "envio dev",
     "test": "pnpm mocha",
@@ -22,7 +23,7 @@
     "mocha": "10.2.0"
   },
   "dependencies": {
-    "envio": "2.13.0"
+    "envio": "2.15.0"
   },
   "optionalDependencies": {
     "generated": "./generated"
