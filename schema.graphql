@@ -111,7 +111,7 @@ type HookStats @entity {
 }
 
 
-### WIP Hooks
+### WIP Hooks Flaunch
 
 type Activity {
   id: ID!
@@ -144,7 +144,7 @@ type BidWall {
   balance: BigInt!
   deployedETH: BigInt!
   closed: Boolean!
-  distributions: [BidWallDistribution!]
+  distributions: [BidWallDistribution!]! @derivedFrom(field: "bidWall")
 }
 
 type BidWallDistribution {
@@ -220,11 +220,11 @@ type CollectionToken {
   totalHolders: BigInt!
   creationFee: BigInt!
   fairLaunch: FairLaunch
-  dayData: [TokenDayData!]
-  hourData: [TokenHourData!]
-  minuteData: [TokenMinuteData!]
-  secondData: [TokenSecondData!]
-  holdings: [CollectionTokenHolding!]
+  dayData: [TokenDayData!]! @derivedFrom(field: "token")
+  hourData: [TokenHourData!]! @derivedFrom(field: "token")
+  minuteData: [TokenMinuteData!]! @derivedFrom(field: "token")
+  secondData: [TokenSecondData!]! @derivedFrom(field: "token")
+  holdings: [CollectionTokenHolding!]! @derivedFrom(field: "collectionToken")
   lastMinuteArchived: BigInt!
   lastHourArchived: BigInt!
   minuteArray: [Int!]!
@@ -234,20 +234,6 @@ type CollectionToken {
   lastHourRecorded: BigInt!
   lastSecondRecorded: BigInt!
   lastSecondArchived: BigInt!
-  buybackBalance: String!
-  buybackProgress: String!
-  buybackRemaining: String!
-  buybackRemainingProgress: String!
-  lifetimeBuyback: String!
-  level: Int!
-  levelProgress: String!
-  priceChangePercentage: String!
-  description: String!
-  links: CollectionTokenLinks!
-  marketCap: String!
-  imageId: String!
-  userCollectionFees: [UserCollectionFee!]!
-  isTwitterVerified: Boolean
 }
 
 type CollectionTokenHolding {
@@ -324,7 +310,7 @@ type FeeExemption {
 type MemecoinAction {
   id: ID!
   approved: Boolean!
-  activities: [MemecoinTreasuryActivity!]
+  activities: [MemecoinTreasuryActivity!]! @derivedFrom(field: "action")
   approvedAt: BigInt
   unapprovedAt: BigInt
   totalActions: BigInt!
@@ -334,7 +320,7 @@ type MemecoinAction {
 type MemecoinTreasury {
   id: ID!
   pool: Pool!
-  activities: [MemecoinTreasuryActivity!]
+  activities: [MemecoinTreasuryActivity!]! @derivedFrom(field: "treasury")
   createdAt: BigInt!
   totalActions: BigInt!
   lastActionTimestamp: BigInt!
@@ -387,7 +373,7 @@ type Flaunch_Pool {
   fairLaunchedEnded: Boolean!
   feeAllocation: FeeAllocation
   flipped: Boolean!
-  swaps: [PoolSwap!]
+  swaps: [PoolSwap!]! @derivedFrom(field: "pool")
 }
 
 type PoolCollectionLookup {
@@ -422,7 +408,7 @@ type PoolSwap {
   maker: User!
   timestamp: BigInt!
   txHash: Bytes!
-  pool: Pool!
+  pool: Flaunch_Pool!
   fairLaunchAmount0: BigInt
   fairLaunchAmount1: BigInt
   ispAmount0: BigInt
@@ -547,10 +533,10 @@ type TokenSecondData {
 type User {
   id: ID!
   aggregates: UserAggregate
-  holdings: [CollectionTokenHolding!]
-  ownedNFTs: [Collection!]
-  createdNFTs: [Collection!]
-  referrerFees: [ReferrerFee!]
+  holdings: [CollectionTokenHolding!]! @derivedFrom(field: "user")
+  ownedNFTs: [Collection!]! @derivedFrom(field: "owner")
+  createdNFTs: [Collection!]! @derivedFrom(field: "creator")
+  referrerFees: [ReferrerFee!]! @derivedFrom(field: "recipient")
   userFee: UserFee
 }
 
@@ -571,7 +557,7 @@ type UserFee {
   payee: User!
   claimableAmount: BigInt!
   lifetimeFees: BigInt!
-  claims: [UserFeeClaimed!]
+  claims: [UserFeeClaimed!]! @derivedFrom(field: "payee")
   updatedAt: BigInt!
 }
 
