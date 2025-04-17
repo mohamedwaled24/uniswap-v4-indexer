@@ -36,6 +36,13 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
   // Convert to proper decimals
   const amount0 = convertTokenToDecimal(amount0Raw, token0.decimals);
   const amount1 = convertTokenToDecimal(amount1Raw, token1.decimals);
+
+  // Calculate amountUSD based on token prices
+  const amountUSD = amount0
+    .times(token0.derivedETH)
+    .plus(amount1.times(token1.derivedETH))
+    .times(bundle.ethPriceUSD);
+
   // Update pool TVL
   pool = {
     ...pool,
@@ -95,6 +102,29 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
     ),
   };
 
+  // Create ModifyLiquidity entity
+  const modifyLiquidityId = `${event.chainId}_${event.transaction.hash}_${event.logIndex}`;
+  const modifyLiquidity = {
+    id: modifyLiquidityId,
+    chainId: BigInt(event.chainId),
+    transaction: event.transaction.hash,
+    timestamp: BigInt(event.block.timestamp),
+    pool: pool.id,
+    token0_id: token0.id,
+    token1_id: token1.id,
+    token0: token0,
+    token1: token1,
+    sender: event.params.sender,
+    origin: event.srcAddress,
+    amount: event.params.liquidityDelta,
+    amount0: amount0,
+    amount1: amount1,
+    amountUSD: amountUSD,
+    tickLower: BigInt(event.params.tickLower),
+    tickUpper: BigInt(event.params.tickUpper),
+    logIndex: BigInt(event.logIndex),
+  };
+
   // Check if this is a hooked pool and update HookStats
   const isHookedPool =
     pool.hooks !== "0x0000000000000000000000000000000000000000";
@@ -115,6 +145,7 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
     }
   }
 
+  await context.ModifyLiquidity.set(modifyLiquidity);
   await context.PoolManager.set(poolManager);
   await context.Pool.set(pool);
   await context.Token.set(token0);

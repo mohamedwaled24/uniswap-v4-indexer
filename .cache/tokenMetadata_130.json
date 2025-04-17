@@ -1183,5 +1183,265 @@
     "name": "Intens",
     "symbol": "INT",
     "decimals": 18
+  },
+  "0x697146f50c3Dba4317a6f9E7F2AD234860282144": {
+    "name": "Unicorns UniChain",
+    "symbol": "UU",
+    "decimals": 18
+  },
+  "0x729A3e6c1D6041113f4F416796D5a0b5D25e928A": {
+    "name": "HORRR",
+    "symbol": "HORRR",
+    "decimals": 18
+  },
+  "0x234265f6A058FA88BBD0B2d6aFc575e80a6E4A53": {
+    "name": "T1",
+    "symbol": "T1",
+    "decimals": 18
+  },
+  "0x2f50810CD4CDdec63C3bE0261cD8EcE7be6364Ed": {
+    "name": "EvilToken",
+    "symbol": "EVIL",
+    "decimals": 18
+  },
+  "0x6836567F23A137F2ED07576826b0D2579B416b6d": {
+    "name": "Elixir",
+    "symbol": "ELX",
+    "decimals": 9
+  },
+  "0x80756FAf1e7Fec5678bf505670eF176AB5F0383a": {
+    "name": "Ethereum Name Service",
+    "symbol": "ENS",
+    "decimals": 18
+  },
+  "0x7623989D2858fD7Bf3686722C0ab6b38917720e3": {
+    "name": "meo",
+    "symbol": "meo",
+    "decimals": 18
+  },
+  "0x625A67f06A9Ec21b04Ce1Fe148b9800c54DB2BdC": {
+    "name": "UniTest",
+    "symbol": "UNIT",
+    "decimals": 18
+  },
+  "0xa980672aAFFEdb24A236c25Af297245Ef8Ff6ac0": {
+    "name": "UniTest",
+    "symbol": "UNIT",
+    "decimals": 18
+  },
+  "0x06A79ed8D897A49c1c0053Dfb9376dc0adFc7359": {
+    "name": "Kabbalistic",
+    "symbol": "KABA",
+    "decimals": 18
+  },
+  "0xb825D5A5Bf03CF8b66cA753844ca602C0103DDF6": {
+    "name": "Goblins",
+    "symbol": "GOBL",
+    "decimals": 18
+  },
+  "0x1F5CC36c6731Be3B377580B955Ad3bD962f9CF5B": {
+    "name": "Darkness",
+    "symbol": "DARK",
+    "decimals": 18
+  },
+  "0x8a7ce5C4a624Fbb014B3d03f4eAddF4F28cF1350": {
+    "name": "Cracked",
+    "symbol": "CRAC",
+    "decimals": 18
+  },
+  "0x936C0d34196B0AAA932968b8e3f299cC6c253838": {
+    "name": "Blackoid",
+    "symbol": "BLAK",
+    "decimals": 18
+  },
+  "0xC10e486661C6d460AFB3bFEE12Cdd5b93F4Bf670": {
+    "name": "Aurora",
+    "symbol": "AURA",
+    "decimals": 18
+  },
+  "0x2094ff8e12cFE8F72bC1f3023B62c5A34733236c": {
+    "name": "DSUR",
+    "symbol": "DSUR",
+    "decimals": 18
+  },
+  "0x48263707377aB91FE027b7d71AAdb8B901F4025C": {
+    "name": "BESTY",
+    "symbol": "NOTINX",
+    "decimals": 18
+  },
+  "0xDd535d70BC0F533eD79c2E05635c8b28E61F773e": {
+    "name": "Klefticoin",
+    "symbol": "Klefticoin",
+    "decimals": 18
+  },
+  "0x31D4D611E09fad4BEd01aECFbb6B7a978c1eca70": {
+    "name": "Jasminum",
+    "symbol": "JAS",
+    "decimals": 18
+  },
+  "0x534b701c987878E1382E4b5797Aa0AFEfe41af44": {
+    "name": "CyberTok",
+    "symbol": "COT",
+    "decimals": 18
+  },
+  "0x5E90eD9FEF736D4944325aE00c06392a43ab8Cfe": {
+    "name": "DMTR",
+    "symbol": "DMT",
+    "decimals": 18
+  },
+  "0xB0cd2B9FC97a85dC673deDcA628fCe7117C18358": {
+    "name": "Fabric",
+    "symbol": "FAB",
+    "decimals": 18
+  },
+  "0xE3f74783D7AD77Dc60858b6eB7D51B189b200624": {
+    "name": "Honyk",
+    "symbol": "HON",
+    "decimals": 18
+  },
+  "0xd4F13E866db48c06F666FC62b459D03A2D4ceBeC": {
+    "name": "Dragon",
+    "symbol": "DRAG",
+    "decimals": 18
+  },
+  "0x3CF49a4063A342a237Bfd1c2f052e674154FC212": {
+    "name": "Fiery",
+    "symbol": "FI",
+    "decimals": 18
+  },
+  "0x890F0dA66Bd62dB04244f3Fbf6Ae31199fB5e06b": {
+    "name": "Doggy",
+    "symbol": "DG",
+    "decimals": 18
+  },
+  "0x029a0aAa90422B9303642434cDa4b3b6B04156d0": {
+    "name": "Portal",
+    "symbol": "GREAN",
+    "decimals": 18
+  },
+  "0xf4F0FbE13608EEaAe08C535799Bd791f0872DD23": {
+    "name": "Muscular",
+    "symbol": "MUS",
+    "decimals": 18
+  },
+  "0x25BDb89a375f5c507896b26A9Cf074da6849a294": {
+    "name": "Soldier",
+    "symbol": "SOL",
+    "decimals": 18
+  },
+  "0x2747569BdA38B95Ed9A697339B41D262bcf2c3dC": {
+    "name": "Ofrock",
+    "symbol": "OFR",
+    "decimals": 18
+  },
+  "0x4752Ad0f8daE71A5fD7018cFf1900B39840520B3": {
+    "name": "Comicalon",
+    "symbol": "COMIC",
+    "decimals": 18
+  },
+  "0xd7E7164408D4219936e10657105DaA22A0FD3910": {
+    "name": "MeteorMen",
+    "symbol": "METER",
+    "decimals": 18
+  },
+  "0x140f5c43bD973aDaBc47125F50924d15c9e34710": {
+    "name": "Darknes",
+    "symbol": "DARK",
+    "decimals": 18
+  },
+  "0xf2e404A22Ca4e6A9b81b1dB10EAC4806FD9064EB": {
+    "name": "Cats",
+    "symbol": "CAT",
+    "decimals": 18
+  },
+  "0x2B304D29B785Ee94f6BbCE9D3015Ed2A06492107": {
+    "name": "Frigli",
+    "symbol": "FRIG",
+    "decimals": 18
+  },
+  "0xbE2d81A1e39E27Ae79e335249117CC3D0b338245": {
+    "name": "Falca",
+    "symbol": "FAL",
+    "decimals": 18
+  },
+  "0xe4A297Edb4D60400e7b90784118A391C1bcB4bFd": {
+    "name": "Masha",
+    "symbol": "MASH",
+    "decimals": 18
+  },
+  "0xb3b8748Ca2430504c84aF8fD965d5Ea58dD51ca0": {
+    "name": "Monkey AI",
+    "symbol": "MAI",
+    "decimals": 18
+  },
+  "0x6e34c9BA8CAC1f68AB0C2cFD0df39079FEB5D0Bc": {
+    "name": "Apocalipt",
+    "symbol": "APOCO",
+    "decimals": 18
+  },
+  "0xb5b6A023B43a09c6BEbaCF9D274579FbA21F883B": {
+    "name": "NoSQuir",
+    "symbol": "NOS",
+    "decimals": 18
+  },
+  "0x4B58CC77A9C22F0E80DB535Ae0A018Ac34bA6274": {
+    "name": "Kinds",
+    "symbol": "KIND",
+    "decimals": 18
+  },
+  "0x8907d5c069097b555E4A2e67EEf76cbd2d2bB084": {
+    "name": "Artwork",
+    "symbol": "ARK",
+    "decimals": 18
+  },
+  "0x55F5312C38bBca0D9efcBDf4A5f2be065e8e415F": {
+    "name": "LongSleek",
+    "symbol": "LONG",
+    "decimals": 18
+  },
+  "0x9A426370A41E9F3aD4334d0cE2cE7CCc89401ff2": {
+    "name": "UniPeg",
+    "symbol": "PEG",
+    "decimals": 18
+  },
+  "0x0D166B0Da32d1Eb714a57Acf4DB66E059375BF6a": {
+    "name": "AI Chain",
+    "symbol": "AIC",
+    "decimals": 18
+  },
+  "0x686113A1578655565b2f0AD5ea12B289c88f9EAC": {
+    "name": "PsyGnom",
+    "symbol": "PSG",
+    "decimals": 18
+  },
+  "0xd396581f695d306eE250e93D689c6fC13C84cc9D": {
+    "name": "Stone",
+    "symbol": "STON",
+    "decimals": 18
+  },
+  "0x03Daa17Af03917564853d12b1A8FcAECb9bfA8e8": {
+    "name": "FRESH",
+    "symbol": "FRESH",
+    "decimals": 18
+  },
+  "0x8ED67a7f2c182B4357f0EC339C51ccC66D81C418": {
+    "name": "icelamnd",
+    "symbol": "islmd",
+    "decimals": 18
+  },
+  "0xfE733694C90bc6460Cfe618E7034d36c5C780393": {
+    "name": "GRAND HILLS",
+    "symbol": "GRNDHILS",
+    "decimals": 18
+  },
+  "0x283Ce275697e51b4CEe3F6777f68863733B85682": {
+    "name": "greendeded house",
+    "symbol": "grndd",
+    "decimals": 18
+  },
+  "0x3F307595c0de359978329817F740f566E03A684C": {
+    "name": "UNI",
+    "symbol": "UNI",
+    "decimals": 18
   }
 }
