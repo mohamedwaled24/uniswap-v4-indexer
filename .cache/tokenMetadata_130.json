@@ -1443,5 +1443,360 @@
     "name": "UNI",
     "symbol": "UNI",
     "decimals": 18
+  },
+  "0xfee89BB6e969696522425dD82f09faa6F1fd823f": {
+    "name": "Banzai",
+    "symbol": "BANZAI",
+    "decimals": 18
+  },
+  "0x552c516FfB1cC971235e10988BeCD6893B0cE53B": {
+    "name": "Test Coin",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "0x4FbAFEA0914a3fF4F03436223909414624C2e661": {
+    "name": "Bufo is blushing",
+    "symbol": "BLUSH",
+    "decimals": 18
+  },
+  "0x042ac1Dd950651c648ABBF72f1766c670A60E0eC": {
+    "name": "GoldenSun",
+    "symbol": "GOLSU",
+    "decimals": 18
+  },
+  "0x069E48094120300eBa2aDb0313CAaeA9bEE6726c": {
+    "name": "FaceWave",
+    "symbol": "FACW",
+    "decimals": 18
+  },
+  "0x7996c3116BB0B0D90c61dda9EcC731d1ddB2535e": {
+    "name": "StepBack",
+    "symbol": "STEP",
+    "decimals": 18
+  },
+  "0x005b129b50c3c1c2589047D00e65FD5145155232": {
+    "name": "HamsterCook",
+    "symbol": "HAMK",
+    "decimals": 18
+  },
+  "0x8F054c8dabcD0a0163Ed22805d7e9c44BC67E699": {
+    "name": "CrackEmoji",
+    "symbol": "EMOJ",
+    "decimals": 18
+  },
+  "0xA6490240533126Ae693A79dad08ff63d32aB1c42": {
+    "name": "ComicGame",
+    "symbol": "COMGE",
+    "decimals": 18
+  },
+  "0x383Deed3D0eC20B99E9AD5266BdB8Bee6CB59eD7": {
+    "name": "Tyka",
+    "symbol": "TK",
+    "decimals": 18
+  },
+  "0x7f195711390de2Aa60B0ee9ACa2986706C339025": {
+    "name": "SLOP",
+    "symbol": "SLOP",
+    "decimals": 18
+  },
+  "0x23CAF176064B56e5D2e49fBe272686b0849b9202": {
+    "name": "Pokeloh",
+    "symbol": "POKEM",
+    "decimals": 18
+  },
+  "0x7C4c544fdfD0Fe499e00f29169732465355e6Fa4": {
+    "name": "PsyArt",
+    "symbol": "PSYA",
+    "decimals": 18
+  },
+  "0xd0D5937A9AB6583F9063F0E40172D8d1fc028222": {
+    "name": "Sceleton",
+    "symbol": "SCEL",
+    "decimals": 18
+  },
+  "0x0ca46D853942dAFF6681349Baee482474ff1F05D": {
+    "name": "DrAsian",
+    "symbol": "DRASI",
+    "decimals": 18
+  },
+  "0x2d67E1A7d83E630115a2843E43CEA9dC17B170a2": {
+    "name": "Absorb",
+    "symbol": "ABSOR",
+    "decimals": 18
+  },
+  "0xB10D795eA488eDE9735F9D077ddE842c79119508": {
+    "name": "Rogach",
+    "symbol": "ROGA",
+    "decimals": 18
+  },
+  "0x2416092f143378750bb29b79eD961ab195CcEea5": {
+    "name": "Renzo Restaked ETH",
+    "symbol": "ezETH",
+    "decimals": 18
+  },
+  "0x639AAa1707Bbd39B8E817b0C7d4fC915364550dd": {
+    "name": "Angular",
+    "symbol": "ANGUL",
+    "decimals": 18
+  },
+  "0x73e03D2b9Ba98B53Cc4bc1C25849F334a2e3a8d3": {
+    "name": "Cobra",
+    "symbol": "COBR",
+    "decimals": 18
+  },
+  "0xE00F9d4ffCd28c1DC1a72de37906DF2Ca52E3D02": {
+    "name": "Vimon",
+    "symbol": "VIMO",
+    "decimals": 18
+  },
+  "0x15898c26cbEDcbB8CabE68Cf217F33346975A2EC": {
+    "name": "PsyCat",
+    "symbol": "PCAT",
+    "decimals": 18
+  },
+  "0xb137C0cF1c1cd5eD827C228F942B9ce6c3707269": {
+    "name": "Revolution",
+    "symbol": "REVOL",
+    "decimals": 18
+  },
+  "0xf8174e36D2e5F16b2AC081Ac0ded7E21cd3C0D5B": {
+    "name": "Brunette",
+    "symbol": "BRUN",
+    "decimals": 18
+  },
+  "0x660ad77A048A61FD34574c7978426dF3A5c22d41": {
+    "name": "PirateShips",
+    "symbol": "PIRAT",
+    "decimals": 18
+  },
+  "0xB003E499E64c674e87c24c8B80eAd61CfDe0d8fd": {
+    "name": "AmericTown",
+    "symbol": "AMERIC",
+    "decimals": 18
+  },
+  "0x9B4514702c0Eb7D51ef7E10eD03599cd309C0bdC": {
+    "name": "DoorsToHeaven",
+    "symbol": "DOORS",
+    "decimals": 18
+  },
+  "0xdD2027fcA129005B6255295ceB7e281365e50B0e": {
+    "name": "PintoToken",
+    "symbol": "PTTO",
+    "decimals": 18
+  },
+  "0x7c49041595490bF3F5A9d9eb9B0182762E298DbC": {
+    "name": "Test Energy",
+    "symbol": "Test UMN Energy",
+    "decimals": 18
+  },
+  "0xeeE23db4c7D979D9b469cF0e0B5Ebddd1C494312": {
+    "name": "coin",
+    "symbol": "COIN",
+    "decimals": 18
+  },
+  "0xa9e4BD2dC5083CE85248813efe75653DAaa23922": {
+    "name": "Test Energy",
+    "symbol": "Test UMN Energy",
+    "decimals": 18
+  },
+  "0x51aef872Ecb1E88B29C06ff1D3549a9CBf78e56E": {
+    "name": "UNIKUNI",
+    "symbol": "UNIKUNI",
+    "decimals": 18
+  },
+  "0x8F39c315A3d744EFDe1bcddc9E39b05f68b4F44A": {
+    "name": "Pure Hat",
+    "symbol": "Hat",
+    "decimals": 18
+  },
+  "0x4cD45c5838dBB111dF56424cCEb5562086520d96": {
+    "name": "memebridge.xyz-Bullrun",
+    "symbol": "BULL",
+    "decimals": 18
+  },
+  "0xCb34eC4991F97BB6943Fc8C73Cd940cBAa63F0Df": {
+    "name": "unicat",
+    "symbol": "ucat",
+    "decimals": 18
+  },
+  "0x4541b12406CF42Cf3621D8fD53A36BC4C9F4b5d1": {
+    "name": "CAT2",
+    "symbol": "CAT2",
+    "decimals": 18
+  },
+  "0x03C2868c6D7fD27575426f395EE081498B1120dd": {
+    "name": "Rigo Token",
+    "symbol": "GRG",
+    "decimals": 18
+  },
+  "0x9151434b16b9763660705744891fA906F660EcC5": {
+    "name": "USD₮0",
+    "symbol": "USD₮0",
+    "decimals": 6
+  },
+  "0xdf78e4F0A8279942ca68046476919A90f2288656": {
+    "name": "Compound",
+    "symbol": "COMP",
+    "decimals": 18
+  },
+  "0xb0B69099A692eC5665E91526FB8E7743Fc566735": {
+    "name": "UniPes",
+    "symbol": "UPE",
+    "decimals": 18
+  },
+  "0xdaabE932B36bbabd9017Cc9e03E8633C42Fe7a12": {
+    "name": "Unimon Energy",
+    "symbol": "UMN",
+    "decimals": 18
+  },
+  "0x85ea0a0843169f5BcfEafD295790179964cd5320": {
+    "name": "Unimon Energy",
+    "symbol": "UMN",
+    "decimals": 18
+  },
+  "0x7eDc481366A345D7F9fCEcB207408b5f2887fF99": {
+    "name": "Unimon Energy",
+    "symbol": "UMN",
+    "decimals": 18
+  },
+  "0x2bf8de45d18ef699E11a1640a3eB8f5D92A7FCc6": {
+    "name": "Every One Money",
+    "symbol": "EOM",
+    "decimals": 18
+  },
+  "0x87F54EF1c50012Bf33BA74d3Ac5A802035E538c0": {
+    "name": "memebridge.xyz-Tiger",
+    "symbol": "TG",
+    "decimals": 18
+  },
+  "0xc02fE7317D4eb8753a02c35fe019786854A92001": {
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wstETH",
+    "decimals": 18
+  },
+  "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7": {
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "decimals": 18
+  },
+  "0xc3eACf0612346366Db554C991D7858716db09f58": {
+    "name": "KelpDao Restaked ETH",
+    "symbol": "rsETH",
+    "decimals": 18
+  },
+  "0x9ec6aD45AE0f8203d0b31C88e3a00b35C20eE2F3": {
+    "name": "UNISOCKS",
+    "symbol": "UNISOCKS",
+    "decimals": 9
+  },
+  "0x79919862484Ef7a62E1FE2519B23ddb1EE860F28": {
+    "name": "Fly",
+    "symbol": "FLY",
+    "decimals": 18
+  },
+  "0xe69A5AE114e12D02dBc995d383a258ce162151dA": {
+    "name": "Yuzu",
+    "symbol": "YUZU",
+    "decimals": 18
+  },
+  "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189": {
+    "name": "OpenUSDT",
+    "symbol": "oUSDT",
+    "decimals": 6
+  },
+  "0x0c8A5A07DBcA74C6d62B0ACCa788D7e1F05e7F94": {
+    "name": "ksss",
+    "symbol": "kss",
+    "decimals": 18
+  },
+  "0x93E8Ee1bAA61A98dF35B2BA8fBBe890B28A30f76": {
+    "name": "Rafaelo",
+    "symbol": "RFL",
+    "decimals": 18
+  },
+  "0xA5a2250b0170bdb9bd0904C0440717f00A506023": {
+    "name": "Test USDC",
+    "symbol": "tUSDC",
+    "decimals": 6
+  },
+  "0xAB2B08c32969750053425C18aA2A6C07978AfA33": {
+    "name": "Market YES Will vista market reach 10m in volume in 2025?",
+    "symbol": "YES",
+    "decimals": 18
+  },
+  "0xa9bB2Df1621fa7446f8639dcAf584269C65117Ca": {
+    "name": "Market NO Will vista market reach 10m in volume in 2025?",
+    "symbol": "NO",
+    "decimals": 18
+  },
+  "0xDA1d6f48cd483d73efA36fFbF3011bD3a304F399": {
+    "name": "Market YES Will Trump release the tariffs?",
+    "symbol": "YES",
+    "decimals": 18
+  },
+  "0xCb2F2d4e60bDBB4b9dD0BB41840e03ff1c0C04C9": {
+    "name": "Market NO Will Trump release the tariffs?",
+    "symbol": "NO",
+    "decimals": 18
+  },
+  "0xc3B3b75365Fe563454b007950b5B64f4f5096459": {
+    "name": "Market YES Will Trump release the tariffs?",
+    "symbol": "YES",
+    "decimals": 18
+  },
+  "0xd9787083C7F985a3b6914C084fe12CD516014e97": {
+    "name": "Market NO Will Trump release the tariffs?",
+    "symbol": "NO",
+    "decimals": 18
+  },
+  "0xDbd139C5c140baD878397286E2D9163DC5D4d1a2": {
+    "name": "Market YES Will Trump release the tariffs?",
+    "symbol": "YES",
+    "decimals": 18
+  },
+  "0xEf37C96456d925F2e43A53e46DF097eC9A87B269": {
+    "name": "Market NO Will Trump release the tariffs?",
+    "symbol": "NO",
+    "decimals": 18
+  },
+  "0x9055Cb744e81038AA6442f04B350B2CFf5b14C84": {
+    "name": "Shower",
+    "symbol": "Shwr",
+    "decimals": 18
+  },
+  "0xC5F2feBE9f62f45d9c63dfA1C86F82bEAD197b7D": {
+    "name": "Market YES Will Vista Market reach 1M users?",
+    "symbol": "YES*",
+    "decimals": 18
+  },
+  "0xdb1322Fc64597b3E1C1383eef337f13DA62024CB": {
+    "name": "Market NO Will Vista Market reach 1M users?",
+    "symbol": "NO*",
+    "decimals": 18
+  },
+  "0xf8141d87cF0b55F720188EEc914B7797C68B757e": {
+    "name": "test",
+    "symbol": "test",
+    "decimals": 18
+  },
+  "0x611276271cEA44Bdb61e31c12E3FBF3C068BEB99": {
+    "name": "CAT",
+    "symbol": "CAT",
+    "decimals": 18
+  },
+  "0x81B181586A98a283e20c212dEdEc00A780734ECe": {
+    "name": "CAT",
+    "symbol": "CAT",
+    "decimals": 18
+  },
+  "0x444987982fE18be5e06719CD873b3b5c301C0FE4": {
+    "name": "EGG",
+    "symbol": "EGG",
+    "decimals": 18
+  },
+  "0xE480CA1F0EA3792d78a21F521b2AF146EfD76975": {
+    "name": "PONY",
+    "symbol": "PONY",
+    "decimals": 18
   }
 }

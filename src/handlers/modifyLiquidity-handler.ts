@@ -113,7 +113,7 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
     token0_id: token0.id,
     token1_id: token1.id,
     sender: event.params.sender,
-    origin: event.srcAddress,
+    origin: event.transaction.from || "NONE",
     amount: event.params.liquidityDelta,
     amount0: amount0,
     amount1: amount1,

@@ -5,6 +5,7 @@ rollback_on_reorg: false
 field_selection: # Additional fields available to index to augment data
   transaction_fields:
     - "hash"
+    - "from"
 contracts:
   - name: PoolManager
     handler: src/EventHandlers.ts
