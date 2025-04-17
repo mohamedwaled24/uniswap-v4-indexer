@@ -648,5 +648,245 @@
     "name": "CyberConnect",
     "symbol": "CYBER",
     "decimals": 18
+  },
+  "0x57F5E098CaD7A3D1Eed53991D4d66C45C9AF7812": {
+    "name": "Wrapped Mountain Protocol USD",
+    "symbol": "wUSDM",
+    "decimals": 18
+  },
+  "0xdFA46478F9e5EA86d57387849598dbFB2e964b02": {
+    "name": "Mai Stablecoin",
+    "symbol": "MAI",
+    "decimals": 18
+  },
+  "0x7BDd1Eac024c82b946A4EdE771Fd7976e7B24b80": {
+    "name": "nulus tkn",
+    "symbol": "NUTK",
+    "decimals": 18
+  },
+  "0x7FF7Fa94b8b66Ef313f7970d4EEbd2CB3103a2C0": {
+    "name": "Vana",
+    "symbol": "VANA",
+    "decimals": 18
+  },
+  "0x395Ae52bB17aef68C2888d941736A71dC6d4e125": {
+    "name": "PoolTogether",
+    "symbol": "POOL",
+    "decimals": 18
+  },
+  "0x81aB7E0D570b01411fcC4afd3D50eC8C241cb74b": {
+    "name": "Equalizer",
+    "symbol": "EQZ",
+    "decimals": 18
+  },
+  "0x929B939f8524c3Be977af57A4A0aD3fb1E374b50": {
+    "name": "Meta",
+    "symbol": "MTA",
+    "decimals": 18
+  },
+  "0x2E3D870790dC77A83DD1d18184Acc7439A53f475": {
+    "name": "Frax",
+    "symbol": "FRAX",
+    "decimals": 18
+  },
+  "0x484c2D6e3cDd945a8B2DF735e079178C1036578c": {
+    "name": "Staked Frax Ether",
+    "symbol": "sfrxETH",
+    "decimals": 18
+  },
+  "0x2598c30330D5771AE9F983979209486aE26dE875": {
+    "name": "Any Inu",
+    "symbol": "AI",
+    "decimals": 18
+  },
+  "0x38F9bf9dCe51833Ec7f03C9dC218197999999999": {
+    "name": "Nya",
+    "symbol": "NYA",
+    "decimals": 18
+  },
+  "0xB962150760F9A3bB00e3E9Cf48297EE20AdA4A33": {
+    "name": "xZoomerCoin",
+    "symbol": "xZOOMER",
+    "decimals": 18
+  },
+  "0x3E29D3A9316dAB217754d13b28646B76607c5f04": {
+    "name": "Alchemix ETH",
+    "symbol": "alETH",
+    "decimals": 18
+  },
+  "0xCB8FA9a76b8e203D8C3797bF438d8FB81Ea3326A": {
+    "name": "Alchemix USD",
+    "symbol": "alUSD",
+    "decimals": 18
+  },
+  "0x217D47011b23BB961eB6D93cA9945B7501a5BB11": {
+    "name": "Thales DAO Token",
+    "symbol": "THALES",
+    "decimals": 18
+  },
+  "0x00a35FD824c717879BF370E70AC6868b95870Dfb": {
+    "name": "IronBank",
+    "symbol": "IB",
+    "decimals": 18
+  },
+  "0xc55E93C62874D8100dBd2DfE307EDc1036ad5434": {
+    "name": "Moo BIFI",
+    "symbol": "mooBIFI",
+    "decimals": 18
+  },
+  "0xFE8B128bA8C78aabC59d4c64cEE7fF28e9379921": {
+    "name": "Balancer",
+    "symbol": "BAL",
+    "decimals": 18
+  },
+  "0xC26921B5b9ee80773774d36C84328ccb22c3a819": {
+    "name": "Wrapped OptiDoge",
+    "symbol": "wOptiDoge",
+    "decimals": 18
+  },
+  "0x9b88D293b7a791E40d36A39765FFd5A1B9b5c349": {
+    "name": "Celo native asset",
+    "symbol": "CELO",
+    "decimals": 18
+  },
+  "0x9e1028F5F1D5eDE59748FFceE5532509976840E0": {
+    "name": "Perpetual",
+    "symbol": "PERP",
+    "decimals": 18
+  },
+  "0x73E0C0d45E048D25Fc26Fa3159b0aA04BfA4Db98": {
+    "name": "Kraken Wrapped Bitcoin",
+    "symbol": "kBTC",
+    "decimals": 8
+  },
+  "0x2ed6222CB75E353b8789bec7Bb443b7eC9022021": {
+    "name": "Kryll",
+    "symbol": "KRL",
+    "decimals": 18
+  },
+  "0x01bFF41798a0BcF287b996046Ca68b395DbC1071": {
+    "name": "USD₮0",
+    "symbol": "USD₮0",
+    "decimals": 6
+  },
+  "0xaD6D41803DC406ecA8597C1E253364910606cA5d": {
+    "name": "KURAKURA",
+    "symbol": "KURA",
+    "decimals": 18
+  },
+  "0xB521D7B5733429C4822B2E5F719c4a439b984034": {
+    "name": "AAA Bitcoin",
+    "symbol": "aaaBTC",
+    "decimals": 18
+  },
+  "0xe0BB0D3DE8c10976511e5030cA403dBf4c25165B": {
+    "name": "0xBitcoin Token",
+    "symbol": "0xBTC",
+    "decimals": 8
+  },
+  "0x4bdC50829003cc017443bF9bfb3aC82F3f0c4AD4": {
+    "name": "CLP Coin",
+    "symbol": "CLPC",
+    "decimals": 0
+  },
+  "0xc5102fE9359FD9a28f877a67E36B0F050d81a3CC": {
+    "name": "Hop",
+    "symbol": "HOP",
+    "decimals": 18
+  },
+  "0xbb304258D1623A0c97Be7feD5CdfeFb30D32A6Df": {
+    "name": "DIAIRDROP POINT",
+    "symbol": "DIAIRDROP POINT",
+    "decimals": 18
+  },
+  "0xc47da4CB96CE65a96844A01Bfae509F9d5454534": {
+    "name": "Dephaser JPY",
+    "symbol": "JPYT",
+    "decimals": 6
+  },
+  "0xFFA326a8d2eeD70F3Eb1feE7670c7A033B34FeB4": {
+    "name": "PARYS Carbon RWA",
+    "symbol": "PARYS",
+    "decimals": 18
+  },
+  "0xc45A479877e1e9Dfe9FcD4056c699575a1045dAA": {
+    "name": "Aave Optimism wstETH",
+    "symbol": "aOptwstETH",
+    "decimals": 18
+  },
+  "0x724dc807b04555b71ed48a6896b6F41593b8C637": {
+    "name": "Aave Optimism rETH",
+    "symbol": "aOptrETH",
+    "decimals": 18
+  },
+  "0x078f358208685046a11C85e8ad32895DED33A249": {
+    "name": "Aave Optimism WBTC",
+    "symbol": "aOptWBTC",
+    "decimals": 8
+  },
+  "0x6ab707Aca953eDAeFBc4fD23bA73294241490620": {
+    "name": "Aave Optimism USDT",
+    "symbol": "aOptUSDT",
+    "decimals": 6
+  },
+  "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97": {
+    "name": "Aave Optimism SUSD",
+    "symbol": "aOptSUSD",
+    "decimals": 18
+  },
+  "0x82E64f49Ed5EC1bC6e43DAD4FC8Af9bb3A2312EE": {
+    "name": "Aave Optimism DAI",
+    "symbol": "aOptDAI",
+    "decimals": 18
+  },
+  "0x625E7708f30cA75bfd92586e17077590C60eb4cD": {
+    "name": "Aave Optimism USDC",
+    "symbol": "aOptUSDC",
+    "decimals": 6
+  },
+  "0x513c7E3a9c69cA3e22550eF58AC1C0088e918FFf": {
+    "name": "Aave Optimism OP",
+    "symbol": "aOptOP",
+    "decimals": 18
+  },
+  "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530": {
+    "name": "Aave Optimism LINK",
+    "symbol": "aOptLINK",
+    "decimals": 18
+  },
+  "0xf329e36C7bF6E5E86ce2150875a84Ce77f477375": {
+    "name": "Aave Optimism AAVE",
+    "symbol": "aOptAAVE",
+    "decimals": 18
+  },
+  "0x56c07129376fF86F72739644E3f11C82396A7B12": {
+    "name": "OurToken",
+    "symbol": "OT",
+    "decimals": 18
+  },
+  "0xE8608327EBECe78579c8522757E7E2ae1Ba35E2E": {
+    "name": "Goya Token",
+    "symbol": "GOYA",
+    "decimals": 18
+  },
+  "0xEd72067B191E9Ba52efBb3C45999d03a041D60Ba": {
+    "name": "CarryToken",
+    "symbol": "CARRY",
+    "decimals": 6
+  },
+  "0xCB84D00278F4B3EC92e6De22D99dd617163C7220": {
+    "name": "IBE",
+    "symbol": "IBE",
+    "decimals": 18
+  },
+  "0x43E3437cbfe068a7e539cB19266c6a40cB0dF9a7": {
+    "name": "UCF Finance",
+    "symbol": "UCF",
+    "decimals": 18
+  },
+  "0x8c6f28f2F1A3C87F0f938b96d27520d9751ec8d9": {
+    "name": "Synth sUSD",
+    "symbol": "sUSD",
+    "decimals": 18
   }
 }

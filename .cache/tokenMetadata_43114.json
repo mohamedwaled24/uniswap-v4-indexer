@@ -343,5 +343,205 @@
     "name": "3 Exponential Growth",
     "symbol": "^3EG",
     "decimals": 6
+  },
+  "0xF14f4CE569cB3679E99d5059909E23B07bd2F387": {
+    "name": "NXUSD",
+    "symbol": "NXUSD",
+    "decimals": 18
+  },
+  "0xB715808a78F6041E46d61Cb123C9B4A27056AE9C": {
+    "name": "Benqi USDCn",
+    "symbol": "qiUSDCn",
+    "decimals": 8
+  },
+  "0xe80772Eaf6e2E18B651F160Bc9158b2A5caFCA65": {
+    "name": "USD+",
+    "symbol": "USD+",
+    "decimals": 6
+  },
+  "0x26deBD39D5eD069770406FCa10A0E4f8d2c743eB": {
+    "name": "GUNZ",
+    "symbol": "GUN",
+    "decimals": 18
+  },
+  "0x7378E6E1F8B25445c60a78CE48736227F05D6f5F": {
+    "name": "Kekius Maximus",
+    "symbol": "KEK",
+    "decimals": 18
+  },
+  "0xB8d7710f7d8349A506b75dD184F05777c82dAd0C": {
+    "name": "ArenaToken",
+    "symbol": "ARENA",
+    "decimals": 18
+  },
+  "0x59414b3089ce2AF0010e7523Dea7E2b35d776ec7": {
+    "name": "Yak Token",
+    "symbol": "YAK",
+    "decimals": 18
+  },
+  "0x721C299E6BF7D6a430d9bEA3364Ea197314bcE09": {
+    "name": "MilkyWay Token by SpaceSwap v2",
+    "symbol": "MILK2",
+    "decimals": 18
+  },
+  "0x82FE038Ea4b50f9C957da326C412ebd73462077C": {
+    "name": "Joe Hat Token",
+    "symbol": "HAT",
+    "decimals": 18
+  },
+  "0x264c1383EA520f73dd837F915ef3a732e204a493": {
+    "name": "Binance",
+    "symbol": "BNB",
+    "decimals": 18
+  },
+  "0x420FcA0121DC28039145009570975747295f2329": {
+    "name": "COQINU",
+    "symbol": "COQ",
+    "decimals": 18
+  },
+  "0xE397784960F814BA35C9Ee0BC4c9DFFdf86925f9": {
+    "name": "MSTR Token",
+    "symbol": "MSTR",
+    "decimals": 18
+  },
+  "0x1a3264F2e7b1CFC6220ec9348d33cCF02Af7aaa4": {
+    "name": "Dypius",
+    "symbol": "DYP",
+    "decimals": 18
+  },
+  "0xfB98B335551a418cD0737375a2ea0ded62Ea213b": {
+    "name": "Pendle",
+    "symbol": "PENDLE",
+    "decimals": 18
+  },
+  "0x191c10Aa4AF7C30e871E70C95dB0E4eb77237530": {
+    "name": "Aave Avalanche LINK",
+    "symbol": "aAvaLINK",
+    "decimals": 18
+  },
+  "0x321E7092a180BB43555132ec53AaA65a5bF84251": {
+    "name": "Governance OHM",
+    "symbol": "gOHM",
+    "decimals": 18
+  },
+  "0x8eBAf22B6F053dFFeaf46f4Dd9eFA95D89ba8580": {
+    "name": "Uniswap",
+    "symbol": "UNI.e",
+    "decimals": 18
+  },
+  "0x6e84a6216eA6dACC71eE8E6b0a5B7322EEbC0fDd": {
+    "name": "JoeToken",
+    "symbol": "JOE",
+    "decimals": 18
+  },
+  "0x3350289891543865F8bb41EE747f31ce5D5e3739": {
+    "name": "UNI",
+    "symbol": "UNI",
+    "decimals": 18
+  },
+  "0x8D3C8487bE36259D8eC9BD887Da95772422a4DF8": {
+    "name": "STARXCOIN",
+    "symbol": "STXC",
+    "decimals": 18
+  },
+  "0xF0FF231e3F1A50F83136717f287ADAB862f89431": {
+    "name": "USDT",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  "0x9d228444FC4B7E15A2C481b48E10247A03351FD8": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  "0x841Aef70237a88027ccb2d15C1bBAf88a669674a": {
+    "name": "xSpace Token",
+    "symbol": "xSPACE",
+    "decimals": 18
+  },
+  "0x027dbcA046ca156De9622cD1e2D907d375e53aa7": {
+    "name": "Ampleforth secured by Meter Passport",
+    "symbol": "AMPL",
+    "decimals": 9
+  },
+  "0x69260B9483F9871ca57f81A90D91E2F96c2Cd11d": {
+    "name": "GoGoPool Protocol",
+    "symbol": "GGP",
+    "decimals": 18
+  },
+  "0xf0e509144CfA602d0A5e8C75d76FF74077f52f2b": {
+    "name": "Ethereum Token",
+    "symbol": "ETH",
+    "decimals": 18
+  },
+  "0xB24CA28D4e2742907115fECda335b40dbda07a4C": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "0x543672E9CBEC728CBBa9C3Ccd99ed80aC3607FA8": {
+    "name": "USD Coin (PoS)",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "0x2AE95d92355d1C2aB073FD1F9C69D76f0E557aB4": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  "0xab933e939a9236BD439F7d29b87CE712f42bAC06": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "0x4b5fE357Eb11c735078e47526D6e853DBff18541": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "0x0dEa9EBC67871d64149f807936388877d113e6cF": {
+    "name": "Tether USDt",
+    "symbol": "USDt",
+    "decimals": 6
+  },
+  "0xBe04f76A0ba2100c3F2d6Aa1FD8484F415469573": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "0xD7F67B522F04143Fe905be883B82e019517f12F3": {
+    "name": "USD Base Coin",
+    "symbol": "USDbC",
+    "decimals": 6
+  },
+  "0xEAe5c2F6B25933deB62f754f239111413A0A25ef": {
+    "name": "TetherToken-LP",
+    "symbol": "S*USDt",
+    "decimals": 6
+  },
+  "0x1205f31718499dBf1fCa446663B532Ef87481fe1": {
+    "name": "USD Coin-LP",
+    "symbol": "S*USDC",
+    "decimals": 6
+  },
+  "0x19E1ae0eE35c0404f835521146206595d37981ae": {
+    "name": "nETH",
+    "symbol": "nETH",
+    "decimals": 18
+  },
+  "0x96E1056a8814De39c8c3Cd0176042d6ceCD807d7": {
+    "name": "Osaka Protocol",
+    "symbol": "OSAK",
+    "decimals": 18
+  },
+  "0x7a4486d49f3c224Ecf664fD403394f0Dd924cF43": {
+    "name": "SR",
+    "symbol": "SR",
+    "decimals": 18
+  },
+  "0x71C683356bb4A2f4bFef450CA771f626dDEd5a14": {
+    "name": "wrapped SANUSCOIN",
+    "symbol": "wSAC",
+    "decimals": 7
   }
 }
