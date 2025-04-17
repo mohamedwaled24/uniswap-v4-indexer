@@ -21758,5 +21758,3495 @@
     "name": "FedNow EUR",
     "symbol": "EURf",
     "decimals": 6
+  },
+  "0x7180521700cd7BC4145C8cEd462fB125ff618A78": {
+    "name": "Official Stasha",
+    "symbol": "STASHA",
+    "decimals": 18
+  },
+  "0x9dba38E9cAdcf67D1959390A8c0c1DEeE619f0f2": {
+    "name": "Toppa",
+    "symbol": "TOP",
+    "decimals": 18
+  },
+  "0xf911752Dab0e1930c2b252A7Ef2D2a8Ea872CB65": {
+    "name": "Teller Note",
+    "symbol": "TNOTE",
+    "decimals": 18
+  },
+  "0x4D6CdB612463951a75Eaf7206691CA6845135E0e": {
+    "name": "Stars10",
+    "symbol": "STARS10",
+    "decimals": 18
+  },
+  "0x5f2980134DF6B1C1be06ad82c6Ca5FE7FdE82C0F": {
+    "name": "MAGA",
+    "symbol": "MAGA",
+    "decimals": 18
+  },
+  "0x305508a2891c4c0508864Da28c64d56D60d5a2B9": {
+    "name": "Hyesos",
+    "symbol": "HYE",
+    "decimals": 18
+  },
+  "0x686015EbF044a1B8A4bE750346be00293a996071": {
+    "name": "Minds",
+    "symbol": "MINDS",
+    "decimals": 18
+  },
+  "0x100545c8F5Af98738a6608945c9E1b6973cD006d": {
+    "name": "WE LIKE GREEN",
+    "symbol": "GREEN",
+    "decimals": 18
+  },
+  "0x6dC34A479aC2906e31213ee4fF39Cf4838790996": {
+    "name": "TinyTrot",
+    "symbol": "TROT",
+    "decimals": 18
+  },
+  "0xf100E731BAD5fAEa7DE20408C105BCa3C45CDAD2": {
+    "name": "$USUAL",
+    "symbol": "Visit usualget.pro to claim",
+    "decimals": 10
+  },
+  "0x5cEe039d90B180061BBCc7407D2Be2be1e514cc7": {
+    "name": "BTMN1",
+    "symbol": "BTMN1",
+    "decimals": 18
+  },
+  "0x475a2d9b9246A00F8d426Ef50937f6e9F798ea90": {
+    "name": "Pwetty Pwease",
+    "symbol": "PWEASE",
+    "decimals": 18
+  },
+  "0x7ADe93ae178f34aa3A29d64d8E91Fb3d26c3eee5": {
+    "name": "WAGMI Inu",
+    "symbol": "WAGMI",
+    "decimals": 18
+  },
+  "0xa42f7F3e601c377A83e4aF3036E21269Fa4Bf327": {
+    "name": "250305 Calgary Flames",
+    "symbol": "250305CF",
+    "decimals": 18
+  },
+  "0x11578CC6Decab01b5485a36406805722819A744C": {
+    "name": "Ruda Bull Dog",
+    "symbol": "RudaB",
+    "decimals": 18
+  },
+  "0x49BD2B0333Fda0ACDFEBd6486Eb88f65FcC03751": {
+    "name": "250305 Philadelphia Flyers",
+    "symbol": "250305PF",
+    "decimals": 18
+  },
+  "0x7951d379eC4A42060787984ECccf872F6DD77Fd0": {
+    "name": "Greta Wif Tits",
+    "symbol": "GRIF",
+    "decimals": 18
+  },
+  "0xBe29E78B18066b3Bf7c70523371E0169350F6F53": {
+    "name": "ZORBY",
+    "symbol": "ZORBY",
+    "decimals": 18
+  },
+  "0x37a101615B2CDB762462dCf2e6BB834b7eaf875e": {
+    "name": "250305 Anaheim Ducks",
+    "symbol": "250305AD",
+    "decimals": 18
+  },
+  "0x04403F110A47FDcB192d37c57198241411EB45f3": {
+    "name": "250305 Edmonton Oilers",
+    "symbol": "250305EO",
+    "decimals": 18
+  },
+  "0x175CD9fFD8142661a14267d6B9F1301B4c1aBB18": {
+    "name": "TAMARA X, AI Game Character in Kampeni",
+    "symbol": "TAMARA X",
+    "decimals": 18
+  },
+  "0xC2cE3a4e6947bdCc92a05ca3BEDCdC5b067e414e": {
+    "name": "Baseland",
+    "symbol": "BLND",
+    "decimals": 18
+  },
+  "0xb4932d5EeADcb538d64d1f9a514ac69566A38003": {
+    "name": "PWEASE",
+    "symbol": "PWEASE",
+    "decimals": 18
+  },
+  "0xcc18b41a0f63C67F17F23388c848aeC67b583422": {
+    "name": "Day Zero Dollar",
+    "symbol": "DZUSD",
+    "decimals": 6
+  },
+  "0xfdcC3dd6671eaB0709A4C0f3F53De9a333d80798": {
+    "name": "Stable Coin",
+    "symbol": "SBC",
+    "decimals": 18
+  },
+  "0xd8eDFeccFF5303F510Fb71663ED7987eb77870c9": {
+    "name": "pov: you held (on base)",
+    "symbol": "HELD",
+    "decimals": 18
+  },
+  "0x949E7b96C3946A0A035d33094FcB58418d50c505": {
+    "name": "USD Network",
+    "symbol": "USDN",
+    "decimals": 6
+  },
+  "0xaa4e6ea82D1593FA990FC335247720358E54A6e6": {
+    "name": "Book of Base",
+    "symbol": "BOOB",
+    "decimals": 18
+  },
+  "0x88A78C5035BdC8C9A8bb5c029e6cfCDD14B822FE": {
+    "name": "Froggi",
+    "symbol": "$froggi",
+    "decimals": 9
+  },
+  "0x6F708830738Afe6F644B6483B927C74E0772F74C": {
+    "name": "250306 Toronto Maple Leafs",
+    "symbol": "250306TML",
+    "decimals": 18
+  },
+  "0xaE785d7dc927F2b3ff10918fb323Abc374d475c6": {
+    "name": "250306 Vegas Golden Knights",
+    "symbol": "250306VGK",
+    "decimals": 18
+  },
+  "0x7C81Bf9fF2080033286071996bEe7D2E54a54D7C": {
+    "name": "Token EE",
+    "symbol": "EE",
+    "decimals": 6
+  },
+  "0x494F8F26889d13008Fc88c3A24A53BdB24975ae7": {
+    "name": "COMMANDERS - SportMeme",
+    "symbol": "COMMANDERS",
+    "decimals": 18
+  },
+  "0xEef56e56a153617fF81E2002C6dB2755AA72eb31": {
+    "name": "Nanon Network",
+    "symbol": "NNN",
+    "decimals": 18
+  },
+  "0x23aee80DAff424d56C4f0dA3B43fa2a2e30FcDF5": {
+    "name": "Fwaunch",
+    "symbol": "FWAUNCH",
+    "decimals": 18
+  },
+  "0x981F95EC4D4A42f1916062250574ADb2e7E53752": {
+    "name": "My Impossible https://myimpossible.org/",
+    "symbol": "IMPOSSIBLE",
+    "decimals": 18
+  },
+  "0x1BB68c8E20c6ed121d165bfde27a284600fE6EA7": {
+    "name": "T0001",
+    "symbol": "T0001",
+    "decimals": 18
+  },
+  "0xDdF317A59409927f68BD836533F09a15B1Bb0172": {
+    "name": "AVTR",
+    "symbol": "AVATARAI",
+    "decimals": 18
+  },
+  "0x932dB4E73C95a73b3CF5493f69d1686221aCA9Db": {
+    "name": "Official Stasha Release",
+    "symbol": "STASHA",
+    "decimals": 18
+  },
+  "0x92d99BA43a2B295C656cA7299675F30feCCE0517": {
+    "name": "Grain Coin",
+    "symbol": "GRAIN",
+    "decimals": 18
+  },
+  "0xE97e3Cd1aFabeA2A91Ca8c311e3F742f60Fe245F": {
+    "name": "degen1$",
+    "symbol": "degen1$",
+    "decimals": 18
+  },
+  "0x583Fff9b8cE38c47D7c55B8d4349cC1863a144D4": {
+    "name": "VEGASKNIGHTS - SportMeme",
+    "symbol": "VEGASKNIGHTS",
+    "decimals": 18
+  },
+  "0xB874f495db788727C871A17f301046524e0d5322": {
+    "name": "MAPLELEAFS - SportMeme",
+    "symbol": "MAPLELEAFS",
+    "decimals": 18
+  },
+  "0x376ed0D61Dd898223543d521007aDfAb4fE12f18": {
+    "name": "JDANIELS - SportMeme",
+    "symbol": "JDANIELS",
+    "decimals": 18
+  },
+  "0x46288cEb1867E6F365d02C054E5cb38e31e0C415": {
+    "name": "SBARKLEY - SportMeme",
+    "symbol": "SBARKLEY",
+    "decimals": 18
+  },
+  "0x3f4B65Dd6DBedB5e1bD0D3Ec2c14a6123a2A073D": {
+    "name": "SAINRIST - SportMeme",
+    "symbol": "SAINRIST",
+    "decimals": 18
+  },
+  "0xc0634090F2Fe6c6d75e61Be2b949464aBB498973": {
+    "name": "Keeta",
+    "symbol": "KTA",
+    "decimals": 18
+  },
+  "0xc911E63720ff8d49491dfCaE73b3906BF99cdA31": {
+    "name": "MAHOMES - SportMeme",
+    "symbol": "MAHOMES",
+    "decimals": 18
+  },
+  "0x2e595257bDB24b5bdb223D97599D534cB1ECaaa1": {
+    "name": "BLUB",
+    "symbol": "BLUB",
+    "decimals": 6
+  },
+  "0x2c8279F76cF97394C7E28f757cb44A1b945dce5B": {
+    "name": "JHURTS - SportMeme",
+    "symbol": "JHURTS",
+    "decimals": 18
+  },
+  "0xd60736141eD5cAA2939541D54d8f9F56D43c572c": {
+    "name": "Coin on Base",
+    "symbol": "COIN",
+    "decimals": 18
+  },
+  "0x29F7951b9a6696a45C9D0DE3A57982960e07b783": {
+    "name": "ZACKBAUN - SportMeme",
+    "symbol": "ZACKBAUN",
+    "decimals": 18
+  },
+  "0x9CEDFc3525B0bBe6E1241bDf66DffC9f0B1Ed212": {
+    "name": "GKITTLE - SportMeme",
+    "symbol": "GKITTLE",
+    "decimals": 18
+  },
+  "0x64cc19A52f4D631eF5BE07947CABA14aE00c52Eb": {
+    "name": "Kibble",
+    "symbol": "KIBBLE",
+    "decimals": 18
+  },
+  "0xF100305e160c8039e04114Edf91de3220908F6FF": {
+    "name": "avatarv2",
+    "symbol": "AVATARV2",
+    "decimals": 18
+  },
+  "0x71f187f2c67a719D5e8BD666F31209f2249574CD": {
+    "name": "Alienbase Token",
+    "symbol": "ALB",
+    "decimals": 18
+  },
+  "0x0000206329b97DB379d5E1Bf586BbDB969C63274": {
+    "name": "USDA",
+    "symbol": "USDA",
+    "decimals": 18
+  },
+  "0x0919Ad3C26C46DC92474894Fbf08397cC61B6dF5": {
+    "name": "Token0",
+    "symbol": "TK0",
+    "decimals": 18
+  },
+  "0x65C4D99fbFce9fEcF518CDdfAD2425db5E959B66": {
+    "name": "Token1",
+    "symbol": "TK1",
+    "decimals": 18
+  },
+  "0x13136d65966586BFae6331527166A38f82326b2C": {
+    "name": "Token1",
+    "symbol": "TK1",
+    "decimals": 18
+  },
+  "0x1c93A37122971CbE3e0A15f8370994Ee510D35A5": {
+    "name": "Token0",
+    "symbol": "TK0",
+    "decimals": 18
+  },
+  "0x4B92662Af452083cFFF5c97d9172B9541D83cb8F": {
+    "name": "Token234",
+    "symbol": "TK234",
+    "decimals": 18
+  },
+  "0x807f4d2Da0E31141cf874B8BCf4827be81a7F32F": {
+    "name": "Token2324",
+    "symbol": "TK324",
+    "decimals": 18
+  },
+  "0x48e9F497E446ab527a3A8FA19E2381e77C57711c": {
+    "name": "SCAN TERMINAL",
+    "symbol": "SCAN",
+    "decimals": 18
+  },
+  "0x8b5dE128b178FaF1E4d6595288037e0AF0926B90": {
+    "name": "Base BRETTXBT",
+    "symbol": "BRETTXBT",
+    "decimals": 18
+  },
+  "0x3A4E68f7fADa92063a8Db634A28c8a5e3F42c1cC": {
+    "name": "SCAN TERMINAL",
+    "symbol": "SCAN",
+    "decimals": 18
+  },
+  "0x6B3B6F406efd04bE2c9D8692397Bd11517E2848F": {
+    "name": "FLNCHY Blue",
+    "symbol": "FLRUE",
+    "decimals": 18
+  },
+  "0xE23ef399553C9A97c27104097e6749807500D5BE": {
+    "name": "🤮🤮🤮",
+    "symbol": "🤮🤮🤮",
+    "decimals": 18
+  },
+  "0xDb5af32F95C224ef79a7510308B19A4029234B06": {
+    "name": "sCAN TERMINMAL",
+    "symbol": "SCAN",
+    "decimals": 18
+  },
+  "0x718a114F480Cc3eF16a32CC4a882C44D776aB955": {
+    "name": "Gualmar",
+    "symbol": "GLMR",
+    "decimals": 18
+  },
+  "0x26f3901aC8a79c50fb0d8289C74f0d09AdC42E29": {
+    "name": "Threshold Network Token",
+    "symbol": "T",
+    "decimals": 18
+  },
+  "0x6585a54A98fADA893904EB8A9E9CDFb927bddf39": {
+    "name": "MOONEY",
+    "symbol": "MOONEY",
+    "decimals": 18
+  },
+  "0xd9F2f3326e8Ba2d4e63EB92573FACDF4FB179946": {
+    "name": "SatelliteKeySwaps",
+    "symbol": "XSS",
+    "decimals": 18
+  },
+  "0x986a9DC325Be8dBbc0ad4FF87840F22BaBc622b2": {
+    "name": "CHIBA",
+    "symbol": "CHIBA",
+    "decimals": 18
+  },
+  "0x7641C78b103fa7a0e2D1A9005c8c41F99628fA95": {
+    "name": "Token2324",
+    "symbol": "TK324",
+    "decimals": 18
+  },
+  "0x8eCD869535C94Fbd54FF6296A13F7De560F9E3d8": {
+    "name": "Token234",
+    "symbol": "TK234",
+    "decimals": 18
+  },
+  "0x605FA500f34f4C28153afC77A82D0b71fc815151": {
+    "name": "Token2324",
+    "symbol": "TK324",
+    "decimals": 18
+  },
+  "0xd60AC315d8Fd102290a48E09Be746EbCE809dc13": {
+    "name": "Token234",
+    "symbol": "TK234",
+    "decimals": 18
+  },
+  "0x8d827B672432900e837a9419990166bbCF449496": {
+    "name": "Unicorn",
+    "symbol": "UWU",
+    "decimals": 6
+  },
+  "0x468393C57b262eaFE0CCD7ECf36A7EF643695ba5": {
+    "name": "JUHI",
+    "symbol": "JUHI",
+    "decimals": 18
+  },
+  "0x16e8398a23335A44f530b8741d731381FD5567f2": {
+    "name": "BISON",
+    "symbol": "BISON",
+    "decimals": 18
+  },
+  "0x6412AD38394D20c211bceBBA032a0ca543c25FCB": {
+    "name": "LandOfTheFlowingZorbz",
+    "symbol": "LandOfTheFlowingZorbz",
+    "decimals": 18
+  },
+  "0x0728a1e65E57445eB42743e8832AA5CD3523EF9b": {
+    "name": "Mindpalace",
+    "symbol": "AI",
+    "decimals": 18
+  },
+  "0x917F39Bb33B2483Dd19546b1E8D2f09ce481ee44": {
+    "name": "PKT",
+    "symbol": "PKT",
+    "decimals": 18
+  },
+  "0xea87169699dabd028a78d4B91544b4298086BAF6": {
+    "name": "The SWARM (by SLAMai) by Virtuals",
+    "symbol": "SWARM",
+    "decimals": 18
+  },
+  "0xDD9a54baFCe73dd284EF7b50c5eA349bA7C4Df6B": {
+    "name": "REDWINGS - SportMeme",
+    "symbol": "REDWINGS",
+    "decimals": 18
+  },
+  "0x2E2c12d79dc9eAF83F2C6799310E983E8c9662Ce": {
+    "name": "UTAHHC - SportMeme",
+    "symbol": "UTAHHC",
+    "decimals": 18
+  },
+  "0x5C7a9Ef5c8DB2B75755C65BFA5812d67b05a8f36": {
+    "name": "250307 Utah Hockey Club",
+    "symbol": "250307UHC",
+    "decimals": 18
+  },
+  "0x416427AB524c86c6d81c831a839ea7F514E3ad14": {
+    "name": "250307 Detroit Red Wings",
+    "symbol": "250307DRW",
+    "decimals": 18
+  },
+  "0x6A640c2e1d70deC2DF6bBc2053240d6Ca509022E": {
+    "name": "CANADIENS - SportMeme",
+    "symbol": "CANADIENS",
+    "decimals": 18
+  },
+  "0x4DF54C3e0e48C02d9486A20cB6223C3bd80748f3": {
+    "name": "250307 Montreal Canadiens",
+    "symbol": "250307MC",
+    "decimals": 18
+  },
+  "0x8B5EbC55302DB9675D2F3a3D80Bab1aA189f38a5": {
+    "name": "250307 Edmonton Oilers",
+    "symbol": "250307EO",
+    "decimals": 18
+  },
+  "0x9676331F7D3CcE48e566870853E9b50a02410D90": {
+    "name": "39 A DotFun",
+    "symbol": "39A",
+    "decimals": 18
+  },
+  "0x871a76b1FE674017Ad804352E604483F6dd84043": {
+    "name": "Explore North Carolina",
+    "symbol": "exnct",
+    "decimals": 18
+  },
+  "0x49e65fC2FC00195bbE9E80FAaf5cd80a866cED87": {
+    "name": "Official ELON Coin",
+    "symbol": "ELON",
+    "decimals": 18
+  },
+  "0xb105AdD6D31AF69D2A9eFE54E6C01b7539088641": {
+    "name": "Lumix",
+    "symbol": "LUMIX",
+    "decimals": 18
+  },
+  "0x3084497dCBAdD15C8ba5a3a43cA3d86Ca0AFF4b2": {
+    "name": "BURN",
+    "symbol": "BURN",
+    "decimals": 18
+  },
+  "0x5c03035428e47C04cf2e8Da4cb89Dc44E8463017": {
+    "name": "OILERS - SportMeme",
+    "symbol": "OILERS",
+    "decimals": 18
+  },
+  "0xb0Ddf543EB03dfDdb480692021f72D8FeA15151b": {
+    "name": "𝕄𝕆𝕆ℕ 𝕠𝕟 𝔹𝕒𝕤𝕖",
+    "symbol": "𝕄𝕆𝕆ℕ🌙",
+    "decimals": 36
+  },
+  "0xbdB0e1c40A76c5113A023d685b419B90b01e3D61": {
+    "name": "AI Voice Agents",
+    "symbol": "AIVA",
+    "decimals": 18
+  },
+  "0x2bc08A6583F9bb980f26114c6B513252942E946F": {
+    "name": "debtreliefai",
+    "symbol": "drai",
+    "decimals": 18
+  },
+  "0x3ec2156D4c0A9CBdAB4a016633b7BcF6a8d68Ea2": {
+    "name": "DebtReliefBot",
+    "symbol": "DRB",
+    "decimals": 18
+  },
+  "0x74A57421a829705018E79668BaE344b251DCf437": {
+    "name": "jog",
+    "symbol": "JOG",
+    "decimals": 18
+  },
+  "0xA4Ac2B5E1aD7850555e4ea1BE101c0f6417774A7": {
+    "name": "test",
+    "symbol": "TESTING",
+    "decimals": 18
+  },
+  "0xed3939b2244a90602e1557d4a21E7233dB679895": {
+    "name": "Strategic Memecoin Reserve",
+    "symbol": "SMR",
+    "decimals": 18
+  },
+  "0xD6355533E8651a29BfFf2f6Fc983c9b61AE5d763": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x6066365f18Ea42368531e0643bB3D258d053719e": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x604102F89B6F5A59c6F53AAea387536611D6843C": {
+    "name": "FIFA",
+    "symbol": "FIFA",
+    "decimals": 18
+  },
+  "0x46B42EDeD0Bf1Fa82dC35Ceb69217ae53619022c": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0xabf9BcB0001F914D0D7d72CC5761256b5aa956ff": {
+    "name": "TestToken",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "0x89bAC68Ca3453A41733E22315826Ee3D2f4Dd287": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x2A051B9d867A6D74e0425Ad241041402ef7f419b": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0xFCF20f28640d2ff2068F2E157209F4689552c399": {
+    "name": "Baby Turtl",
+    "symbol": "TORT",
+    "decimals": 18
+  },
+  "0xD879B6B1D66663b195763b588dF7f164135Da317": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x034e38a9C9C406B6561e840795964f4362805600": {
+    "name": "T",
+    "symbol": "T",
+    "decimals": 18
+  },
+  "0xc3dBEa5297Eb03cb76d43Ef18d99Ba54AEDa744E": {
+    "name": "Tw",
+    "symbol": "Tw",
+    "decimals": 18
+  },
+  "0xFaC82F104827BD67177eDC40f3eaD74d362F0354": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x8d0f6310A374423d98cB38A79aA9Ef29bAFF9134": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x2531ec1720E5d1bC82052585271D4BE3f43E392F": {
+    "name": "Based BOBR",
+    "symbol": "BOBR",
+    "decimals": 18
+  },
+  "0x3866BBC80E649aF0098bc7241D0f418ecb048ce6": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x69551451c584599cED34A340363c0999bb87F6a0": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x15dCAE900596f3c3F0FfC05Fcb2cb46988f09EB0": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0xf31f5EB7c0f6325E5A3d2bb49F15EF6aC028a591": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0xfA84C14227a4069e7250F03afcf5c32f3fF98732": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0xC73A269bBAB1453C0A52e3ff57894E3779AcB8ec": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0xE26F6c987670fE028ddcDd95ce06BaF366aD1F28": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0xA32477E6fe178011A09286DCB355Ae05eEA6b347": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0xC370b2dBeAa6c7e3c64d5aB9deA05D76f071c81e": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x02bAe75410FB4Fe5Ec511E7918644b384C7bd992": {
+    "name": "Bull Run",
+    "symbol": "BULL RUN",
+    "decimals": 18
+  },
+  "0xb497b899F6fD982cb456F2cf42AEB3784807fFD5": {
+    "name": "MSM Rary",
+    "symbol": "MSM",
+    "decimals": 18
+  },
+  "0x437cc33344a0B27A429f795ff6B469C72698B291": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0xdC035D45d973E3EC169d2276DDab16f1e407384F": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0xa229CF4F7BF8F45f2656c2394c94844E0aB0BFf6": {
+    "name": "Lane Change",
+    "symbol": "XLN",
+    "decimals": 18
+  },
+  "0x0b22B0b609f596422a161c21c8D164B7679B49cc": {
+    "name": "rockstartoshi",
+    "symbol": "RTO",
+    "decimals": 18
+  },
+  "0xD98a61AdaFd8375Bc3e598Ff85cD8Aad70eE2BF5": {
+    "name": "╰┈➤ ᏯĤƐŔƐ ŔƱ ƓᎾĪИƓƓƓ ˚₊· ͟͟͞͞➳❥",
+    "symbol": "╰┈➤ ᏯĤƐŔƐ ŔƱ ƓᎾĪИƓƓƓ ˚₊· ͟͟͞͞➳❥",
+    "decimals": 18
+  },
+  "0xDEc933e2392AD908263e70A386fbF34e703Ffe8F": {
+    "name": "Wrapped Backed Coinbase Global",
+    "symbol": "wbCOIN",
+    "decimals": 18
+  },
+  "0x800B0B75DE0E5c75259eE2c99d81B5042a95203b": {
+    "name": "Save Retail",
+    "symbol": "RETAIL",
+    "decimals": 18
+  },
+  "0xb936ab8B05808Aac75B57Ca8dF0b14F0Eea1c1AB": {
+    "name": "COCORO",
+    "symbol": "COCORO",
+    "decimals": 18
+  },
+  "0x937a1cFAF0A3d9f5Dc4D0927F72ee5e3e5F82a00": {
+    "name": "Cocoro",
+    "symbol": "Cocoro",
+    "decimals": 18
+  },
+  "0x4668E6d2265cC60ECCf7B11E5d3F652b6934a06e": {
+    "name": "꧁✧ŞƤΔŘҜ✧꧂",
+    "symbol": "꧁✧ŞƤΔŘҜ✧꧂",
+    "decimals": 18
+  },
+  "0x823D33d3647108AA85bbCB4d2Be81846c2Ea43d5": {
+    "name": "babycocoro",
+    "symbol": "BABYCOCORO",
+    "decimals": 18
+  },
+  "0xd74FaC30f53711C77eeb8ee2ec28F7c7A988F6b5": {
+    "name": "KOKORO",
+    "symbol": "KOKORO",
+    "decimals": 18
+  },
+  "0x1e964e759695a715733B6743d1BCA4199b021F51": {
+    "name": "BabyCocoro",
+    "symbol": "BABYCOCORO",
+    "decimals": 18
+  },
+  "0xA0459f64c6b3c5EFA74964f025B6108A15c0d8B8": {
+    "name": "Howard",
+    "symbol": "HOWARD",
+    "decimals": 18
+  },
+  "0x6c783D686FBa981b24F9010aA53432AC9CE174cc": {
+    "name": "Howard",
+    "symbol": "HOWARD",
+    "decimals": 18
+  },
+  "0xb3fa1554F9999339666838174fba6287cFd1c028": {
+    "name": "COCO",
+    "symbol": "COCO",
+    "decimals": 9
+  },
+  "0xAfb89a09D82FBDE58f18Ac6437B3fC81724e4dF6": {
+    "name": "The Doge NFT",
+    "symbol": "DOG",
+    "decimals": 18
+  },
+  "0x39e56a41E3DF535512E9BE64659a6b03885d1206": {
+    "name": "NAGISA",
+    "symbol": "NAGISA",
+    "decimals": 18
+  },
+  "0xdD26dA670B7C58A7797E9373e76BaaCCab66d2c9": {
+    "name": "Bitbase",
+    "symbol": "BTB",
+    "decimals": 18
+  },
+  "0x72cde57090c66c06b1FD7AF123Af6fca45527c86": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x61070cc883d1B2B519e50Eb8De5E66F1f28780D5": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x031EE3F1F0720347Ff7439365e847F449d495DDA": {
+    "name": "The Cost of Ignorance",
+    "symbol": "The Cost of Ignorance",
+    "decimals": 18
+  },
+  "0x0172A75515aE9ebce09afa44A60B4d55d3B1a690": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x5afb3756B0dCbB3d0412A9Dd76E79B7631eBEf67": {
+    "name": "Leonardo JD Vance",
+    "symbol": "LEOVANCE",
+    "decimals": 18
+  },
+  "0xb15735c0563A5DDC9fDAaC836df515B617e6B78D": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x5D2fd07f723BE5e4E6131Fc7C1437998B97F02D7": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x6F2C742929160EBE086474042CBE8F45bB652E87": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0xf3EADA512194bDCC6CbB2811056E321aD0Fb425a": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x5590Da20747a9933e47a9B4Ed9C4984BDE1f0D8B": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x9608E76F6555420ECdf471a4b751DA9047891380": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0x73aAb3029f85F31D83C37Bd345c5B146a4F73752": {
+    "name": "QRypTO",
+    "symbol": "QRP",
+    "decimals": 9
+  },
+  "0x269caE7Dc59803e5C596c95756faEeBb6030E0aF": {
+    "name": "Real MXN",
+    "symbol": "MXNe",
+    "decimals": 6
+  },
+  "0xEF308a9dbC8ceA40fb337300C306a43476f6c1e6": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0xab4C035826bD29fCdc54405f029B47f6909E4D05": {
+    "name": "Fishy Pond",
+    "symbol": "FISHY",
+    "decimals": 18
+  },
+  "0xC94049CFeF639264E8eb9B5174E26ff81C8F98e0": {
+    "name": "Jay The Bitcoiner",
+    "symbol": "JTB",
+    "decimals": 18
+  },
+  "0x1c97b40ecd569779132CDB3437addD8a34A44086": {
+    "name": "GDA",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0xa78902E551fc3704f661e5109080792AE557475E": {
+    "name": "GDA",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0x58e0E291EBF6E03EFEFF6eF628Ae34114545d0ED": {
+    "name": "Token",
+    "symbol": "TT",
+    "decimals": 18
+  },
+  "0x8f3A7cb10C9822873c43122762c175db44d36244": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0x0cFC995e5ab3b321945Bb7b2E7BBE5EF16B38968": {
+    "name": "STOP RUG",
+    "symbol": "STR",
+    "decimals": 18
+  },
+  "0x609BE5e7D6889C14c14e6c9a5Dd9862670Ddd730": {
+    "name": "STOP RUG",
+    "symbol": "STR",
+    "decimals": 18
+  },
+  "0x73ebB05a00D57c9d756a65Bb8a8cB0c2692EFB54": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0x9C0f9C90D308776b83E07F01b5079577B92DB768": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0x60EC0D9CD9c1eE46BF023083Edff378c227aDF18": {
+    "name": "Sailor Moon",
+    "symbol": "MOON",
+    "decimals": 18
+  },
+  "0x7f5373AE26c3E8FfC4c77b7255DF7eC1A9aF52a6": {
+    "name": "Axelar Wrapped USDT",
+    "symbol": "axlUSDT",
+    "decimals": 6
+  },
+  "0xC1985d7a3429cDC85E59E2E4Fcc805b857e6Ee2E": {
+    "name": "ETH Hop Token",
+    "symbol": "hETH",
+    "decimals": 18
+  },
+  "0xA61BeB4A3d02decb01039e378237032B351125B4": {
+    "name": "EURA (previously agEUR)",
+    "symbol": "EURA",
+    "decimals": 18
+  },
+  "0xdd6F89CCA6FA275030ef7A709BE37F530878E422": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0xc449A60A31E1eebFE83c42E9465fd4Dc318aE9a7": {
+    "name": "Wrapped AVAX",
+    "symbol": "WAVAX",
+    "decimals": 18
+  },
+  "0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB": {
+    "name": "Aave Base USDC",
+    "symbol": "aBasUSDC",
+    "decimals": 6
+  },
+  "0x40f23340065d17cF3d30C7cd7dEA72BCCd1B5185": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0xc1256Ae5FF1cf2719D4937adb3bbCCab2E00A2Ca": {
+    "name": "Moonwell Flagship USDC",
+    "symbol": "mwUSDC",
+    "decimals": 18
+  },
+  "0x7BfA7C4f149E7415b73bdeDfe609237e29CBF34A": {
+    "name": "Spark USDC Vault",
+    "symbol": "sparkUSDC",
+    "decimals": 18
+  },
+  "0x616a4E1db48e22028f6bbf20444Cd3b8e3273738": {
+    "name": "Seamless USDC Vault",
+    "symbol": "smUSDC",
+    "decimals": 18
+  },
+  "0xDd4f253a608F16065728Dffbc2135A4B87E7a2B4": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0x87211db1635ab2cFB04b2a1Fa1f5a54B66Fd30aD": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0x6dA44356820CE9081B7A7599f7e52170117C159e": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0xDf15F0b54E33215206494a96244CEecA8275644a": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0x1b3E5bd444B1F58476f2964961cEfA44EC0291A8": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0x3F87Fb4D159dc7ABFF68cD60c248Ffd8a2a2CfcF": {
+    "name": "Workday Coin",
+    "symbol": "WORK",
+    "decimals": 18
+  },
+  "0xEEF685343F374cAd4f023ee2605990E36CA5130E": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0xCb5f0bB271e12c0226eb7fFF4C3CA6AdEa5213b9": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0x2Cc292D87e44131a9a8D4ab747A705c531845654": {
+    "name": "GDAt",
+    "symbol": "GDAt",
+    "decimals": 18
+  },
+  "0xbD70Af112a7ef6157802B1036d2cffF5eB37D2C6": {
+    "name": "$ CARE",
+    "symbol": "CARE",
+    "decimals": 18
+  },
+  "0xe5DF6dadD74b1472699EEc2aA41B8F82fb02dAD7": {
+    "name": "Workday",
+    "symbol": "WORK",
+    "decimals": 18
+  },
+  "0x12B30d69dbd8278C1eEb0dFe513A140987c10BEE": {
+    "name": "BITETH",
+    "symbol": "BTH",
+    "decimals": 8
+  },
+  "0x0Acb8f6a6f1a8DF2b4846db0352cAaA01d854bF8": {
+    "name": "Pawsome",
+    "symbol": "PAWS",
+    "decimals": 18
+  },
+  "0xa7119575cC91a7B41c4f8dbb9bD8C3efCcA6b184": {
+    "name": "StarPaw",
+    "symbol": "STARPAW",
+    "decimals": 18
+  },
+  "0x88144b9ea94ff714147573b98165D2ACA90efB11": {
+    "name": "Chad Brain",
+    "symbol": "BRAIN",
+    "decimals": 18
+  },
+  "0x2E2cc4DfCe60257F091980631e75f5c436b71C87": {
+    "name": "Grokster",
+    "symbol": "GRK",
+    "decimals": 18
+  },
+  "0x7D94D9AA4F78A35541CddC19ADa22C7cA4D219b2": {
+    "name": "Cocoros Brother",
+    "symbol": "Neiro",
+    "decimals": 18
+  },
+  "0x14F97CeC5b3b524be2B18d74689455F07e7C4EFf": {
+    "name": "Token234",
+    "symbol": "TK234",
+    "decimals": 18
+  },
+  "0x5593536407a2d08C0090E12bC1bE339B7555C110": {
+    "name": "Token2324",
+    "symbol": "TK324",
+    "decimals": 18
+  },
+  "0x26850aDB1BA319684A5EDf83038Eecf2e9DA2809": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 18
+  },
+  "0x28f0EdB491BEbE7c2ce0755606EE29385D6ACaE8": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 18
+  },
+  "0xAd2adB213310DcAF94104eab67c109529371162E": {
+    "name": "ewon wusk",
+    "symbol": "ewon",
+    "decimals": 18
+  },
+  "0xbda2D9349B7471434bb476cF14558D58FE805CE1": {
+    "name": "BlockMinds",
+    "symbol": "BMINDS",
+    "decimals": 18
+  },
+  "0x323a835d9A86106a062a7e3eDA9008b783a2e36d": {
+    "name": "BaseKitty",
+    "symbol": "BKIT",
+    "decimals": 18
+  },
+  "0x1c6ba264D076e2B057877FBA93Ec37aa4b751DCc": {
+    "name": "Elon Coin",
+    "symbol": "ELONCOIN",
+    "decimals": 18
+  },
+  "0x6745b438dfaD081Dfe9740FDFF38d96865cF1729": {
+    "name": "GDA",
+    "symbol": "GDA",
+    "decimals": 18
+  },
+  "0xf48Ec6bb14dBf5aEB42f33Fe38cAD85c2f2f6033": {
+    "name": "Cocoro",
+    "symbol": "COCORO",
+    "decimals": 18
+  },
+  "0x2e95ea20Bda3c7202d7F319E8B49a8a33C7C4f9f": {
+    "name": "eloncoin",
+    "symbol": "ELON",
+    "decimals": 18
+  },
+  "0xFAfA9A2d80147eFd5dB14700028F4C017635a3a5": {
+    "name": "Vague Ambiguity",
+    "symbol": "VAGUE",
+    "decimals": 18
+  },
+  "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189": {
+    "name": "OpenUSDT",
+    "symbol": "oUSDT",
+    "decimals": 6
+  },
+  "0x7005c227fE4143E3CD9B43DBA2eDC6C6Ed4b04b9": {
+    "name": "Lokokok",
+    "symbol": "Loko",
+    "decimals": 18
+  },
+  "0x45059dd803D12b63198eAf8107AcB599E3392318": {
+    "name": "TEST1",
+    "symbol": "TEST1",
+    "decimals": 18
+  },
+  "0xD5908d7f9eEDe8FeeCaFD3C6EA5C0A4E9A0f6CCb": {
+    "name": "TEST2",
+    "symbol": "TEST2",
+    "decimals": 18
+  },
+  "0x2aCeddB2422e3B02C6eB224e05d1A0c8Bf3658F8": {
+    "name": "BASED LUMIX",
+    "symbol": "LUMIX",
+    "decimals": 18
+  },
+  "0x39cc08784753aad4302E1B8Cd2F5A93bf3724B23": {
+    "name": "TEST2",
+    "symbol": "TEST2",
+    "decimals": 18
+  },
+  "0xC9C7E3095541cc497B1cc72f325ec694C7007F38": {
+    "name": "TEST1",
+    "symbol": "TEST1",
+    "decimals": 18
+  },
+  "0xB9E5F8e2741d5Bb5f82130628321da77fd7e6B6E": {
+    "name": "TEST2",
+    "symbol": "TEST2",
+    "decimals": 18
+  },
+  "0xeE7B8f8156f20bDE9047f00d55aCD56C0524E1Fb": {
+    "name": "TEST1",
+    "symbol": "TEST1",
+    "decimals": 18
+  },
+  "0x056c5B548FB5F1cbeB186CEFf2733AcA390b9267": {
+    "name": "TEST2",
+    "symbol": "TEST2",
+    "decimals": 18
+  },
+  "0x760AEC2459f8eba9F4b6b4e3A44825091f7f0082": {
+    "name": "TEST1",
+    "symbol": "TEST1",
+    "decimals": 18
+  },
+  "0x17Acac883289A6Aa15fAdA359E2E53D0F27cAece": {
+    "name": "bankr mascot byte",
+    "symbol": "BYTE",
+    "decimals": 18
+  },
+  "0x4101Cd7fc629278D12DDb752d8987989a43e8296": {
+    "name": "TEST2",
+    "symbol": "TEST2",
+    "decimals": 18
+  },
+  "0xb5b7d6F8648B323b7574F2bA909A26B9eCDCC177": {
+    "name": "TEST1",
+    "symbol": "TEST1",
+    "decimals": 18
+  },
+  "0x02A7C7A61bFB48D0c4A8DED7F5f4402FFE936271": {
+    "name": "TRADR",
+    "symbol": "TRDR",
+    "decimals": 18
+  },
+  "0xa37Af68106A97fF258089B91d6E80366c08c5BC4": {
+    "name": "TEST2",
+    "symbol": "TEST2",
+    "decimals": 18
+  },
+  "0xc6FCf800a57E3965fe3D6133b0b1c2E80840BCD3": {
+    "name": "TEST1",
+    "symbol": "TEST1",
+    "decimals": 18
+  },
+  "0x2F77980446c96C2A4B55eBbb2E67c908718e287D": {
+    "name": "Mark Carney Based",
+    "symbol": "Carney",
+    "decimals": 18
+  },
+  "0xECCc7f91b31a3292aa570334924e8950cA0B22E5": {
+    "name": "Vance",
+    "symbol": "VNC",
+    "decimals": 18
+  },
+  "0x240E0815E64F9018b3b08CE89e6a9A644d2DD811": {
+    "name": "TEST2",
+    "symbol": "TEST2",
+    "decimals": 18
+  },
+  "0x3a2291ef6c4bB69b88C1eBf1F9cF66487C68f3e3": {
+    "name": "USTEST",
+    "symbol": "USTEST",
+    "decimals": 18
+  },
+  "0x14904701edF078Fe597776b2F9D1C7568731fF23": {
+    "name": "Zestronix",
+    "symbol": "Zestronix",
+    "decimals": 18
+  },
+  "0xDD32829c53053bc2991ea8761c6D82185150d445": {
+    "name": "USTEST",
+    "symbol": "USTEST",
+    "decimals": 18
+  },
+  "0xf4B7182C11e295b59BBCea734378cC42a95073Ad": {
+    "name": "TEST2",
+    "symbol": "TEST2",
+    "decimals": 18
+  },
+  "0xb68957Bf4ebA73538477535E26A3917E28945477": {
+    "name": "chief",
+    "symbol": "chel",
+    "decimals": 18
+  },
+  "0x5A44AA77405e2382d05e2B5f3d101f6fd947917b": {
+    "name": "POETRY IS ART",
+    "symbol": "POETSONBASE",
+    "decimals": 18
+  },
+  "0x4a298961fd916c43a19b67DDCD57363F91dCE46D": {
+    "name": "DOT",
+    "symbol": "DOT",
+    "decimals": 18
+  },
+  "0x5d6Cae0422A950dbd7918D1e74434A35156b3Ba4": {
+    "name": "Navigate",
+    "symbol": "NVG8",
+    "decimals": 18
+  },
+  "0x05133A1e83a0Ca834D70A3Efd743F8E320B04371": {
+    "name": "Czila Ecosystem",
+    "symbol": "CZILA",
+    "decimals": 18
+  },
+  "0x41e702701443324b0A8c8353D5e2D0640B6d0254": {
+    "name": "CLIZA",
+    "symbol": "CLIZA",
+    "decimals": 18
+  },
+  "0x9B7dA679574D8d090DD17124D5b90F30DA0c2724": {
+    "name": "CLIZAI",
+    "symbol": "CLIZA",
+    "decimals": 18
+  },
+  "0xe0f0DDBEec70B8096f927DD510222B1325195037": {
+    "name": "CLIZAI",
+    "symbol": "CLIZA",
+    "decimals": 18
+  },
+  "0x28AfF0e8F18eb07E2F1221eb50a3aE26bD02D101": {
+    "name": "Cosmic Meme",
+    "symbol": "CSMM",
+    "decimals": 18
+  },
+  "0x994ac01750047B9d35431a7Ae4Ed312ee955E030": {
+    "name": "Axelar Wrapped OP",
+    "symbol": "axlOP",
+    "decimals": 18
+  },
+  "0x9DD6d4FB166DFF605720b18c71Fd82242b1040BB": {
+    "name": "Microsoft DAO",
+    "symbol": "MS",
+    "decimals": 18
+  },
+  "0x66d5DF1dAFEf12962F2852D887d06A6260Ad3E56": {
+    "name": "PURPLE",
+    "symbol": "CTG_PURPLE",
+    "decimals": 18
+  },
+  "0x3938023aF30BaCB730941436b858DD6870A79540": {
+    "name": "FISH CAKE",
+    "symbol": "FISHCAKE",
+    "decimals": 18
+  },
+  "0x071487DA33d6E8CeC1E24Eb9a3C93B6138Fe7d98": {
+    "name": "Lil Pudgys",
+    "symbol": "PUDGY",
+    "decimals": 18
+  },
+  "0x20755Feb8C8eAb0a9F4845e5F6e5726F3614EC33": {
+    "name": "DebtRelief",
+    "symbol": "DRF",
+    "decimals": 18
+  },
+  "0x45C3F7D81694227Baae0dC764e8deb83B85D6916": {
+    "name": "Sinnsyk",
+    "symbol": "SNK",
+    "decimals": 18
+  },
+  "0xF5a0730c6A2f69630D5B11Ae1561D6f3912Fe19F": {
+    "name": "Flash",
+    "symbol": "FLASH",
+    "decimals": 18
+  },
+  "0x46D8f8Ba030c1D09ae17d2B5107dfef4B331fe0d": {
+    "name": "Book of Miggles",
+    "symbol": "BOMI",
+    "decimals": 18
+  },
+  "0x774e5CdE2fd01Ae0976Ab298E479bf190eFa6B28": {
+    "name": "PUTIPUSS",
+    "symbol": "PUTIPUSS",
+    "decimals": 18
+  },
+  "0x02B49377e97d03A69E3050Adcf6DAC00A5D665A8": {
+    "name": "catbus",
+    "symbol": "catbus",
+    "decimals": 18
+  },
+  "0x8e40ea654873389cBC51cb6318f9635d961e34CD": {
+    "name": "Grok",
+    "symbol": "GROK",
+    "decimals": 18
+  },
+  "0x00Ab4929350a670F428D62F1F5b9c07aD621876E": {
+    "name": "3V0LCOIN",
+    "symbol": "3V0L",
+    "decimals": 18
+  },
+  "0xAeE66C856fD1A2694e35aDd619a854b75a2B3D36": {
+    "name": "Chicks Token",
+    "symbol": "CHICKS",
+    "decimals": 18
+  },
+  "0xf446C88CC9750202Fed7002604215Bf29B2104a6": {
+    "name": "Bingus",
+    "symbol": "BINGUS",
+    "decimals": 18
+  },
+  "0xe2Fd4Eb4a2D04eA0C46c1d59a7dF4352f1A6bF4a": {
+    "name": "REKT",
+    "symbol": "DOGEREKT",
+    "decimals": 18
+  },
+  "0x9D50A3cE76f583Daec021be846c63152150dba35": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 18
+  },
+  "0xE3d007b81F437E646675D7FdA8e46895d514F112": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 18
+  },
+  "0x691af066530fEa6f2f354649957eC5f75989eFbb": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 18
+  },
+  "0xcBc175BD660f69995E164d2f201FD2D5A6cab1a3": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 18
+  },
+  "0x85b05706eE7090845909a488ECe22Fa9b69BB638": {
+    "name": "Bagueth",
+    "symbol": "BAG",
+    "decimals": 18
+  },
+  "0x1330822196be19F59eC2a7D47E1C480593E81CCb": {
+    "name": "Blak Armory Credits",
+    "symbol": "CREDIT",
+    "decimals": 18
+  },
+  "0x4087fA6F5473500A3A683780E824e702A45f5Af8": {
+    "name": "Knives",
+    "symbol": "KNIVES",
+    "decimals": 18
+  },
+  "0xCbe55bac039B5B6F8F57b3edF6D89A3605dcE094": {
+    "name": "test",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "0x47FBaaE1152A713aB5038ac0220977796c5e4490": {
+    "name": "bald",
+    "symbol": "BALD",
+    "decimals": 18
+  },
+  "0x21CFCFc3d8F98fC728f48341D10Ad8283F6EB7AB": {
+    "name": "True",
+    "symbol": "TRUE",
+    "decimals": 18
+  },
+  "0x46C85152bFe9f96829aA94755D9f915F9B10EF5F": {
+    "name": "cNGN",
+    "symbol": "cNGN",
+    "decimals": 6
+  },
+  "0x01D4C21e50Ec548f27bAEeB5E397CCe0595f97E8": {
+    "name": "Nebula",
+    "symbol": "gDRB",
+    "decimals": 18
+  },
+  "0xa13Daed94b60DCe5B71f70a9a889896Fc10070D6": {
+    "name": "The Groke",
+    "symbol": "Groke",
+    "decimals": 18
+  },
+  "0x199664F01704DE177E0871963d8E2BF01E964708": {
+    "name": "Sentry",
+    "symbol": "SENTRY",
+    "decimals": 18
+  },
+  "0x1bA66E02cC793589D206cD1c24cE79f488F3f524": {
+    "name": "TestToken0",
+    "symbol": "TT0",
+    "decimals": 18
+  },
+  "0x7b5E7bEaF79bF04dC33fEdF0D6e05Ad559606D93": {
+    "name": "TestToken1",
+    "symbol": "TT1",
+    "decimals": 6
+  },
+  "0xeAc150A33444d2D81f27861a56692B4BB6B8dC3E": {
+    "name": "Ascent Token",
+    "symbol": "ASC",
+    "decimals": 18
+  },
+  "0xFf782474df1736A7d2AD8b15C2C844bB0f35929a": {
+    "name": "Ascent Token",
+    "symbol": "ASC",
+    "decimals": 18
+  },
+  "0x07B73aC43f5609AB61865126A10f9FcCA4164164": {
+    "name": "TOKEN0",
+    "symbol": "T0",
+    "decimals": 18
+  },
+  "0x67342aB2F4dA5A2e00f58Fc36260a73c14f0F6D7": {
+    "name": "TOKEN1",
+    "symbol": "T1",
+    "decimals": 18
+  },
+  "0x2eabB2Be38e8A688FF176FE48E7C811DaFeFE619": {
+    "name": "WeBase",
+    "symbol": "WEBASE",
+    "decimals": 9
+  },
+  "0x34866F29b71a2516a51E40258993c947818c0035": {
+    "name": "fun LIGHT",
+    "symbol": "LIGHT",
+    "decimals": 18
+  },
+  "0x691077C8e8de54EA84eFd454630439F99bd8C92f": {
+    "name": "SuperRare",
+    "symbol": "RARE",
+    "decimals": 18
+  },
+  "0x2aC3b3495Ee8B6Fa34Bf7EEC82c38206697B69b8": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 18
+  },
+  "0xc7A7992ecb30175edC03a3BE1619eA7F478A75Ec": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 18
+  },
+  "0x6469E924eddE79F268F1Edb5bA200A0dDc17c643": {
+    "name": "Sharp AI",
+    "symbol": "SHARP",
+    "decimals": 18
+  },
+  "0x215d3783a05D9059220E76aA92c6Fd86ed67bFDB": {
+    "name": "Intellexa",
+    "symbol": "IXA",
+    "decimals": 18
+  },
+  "0xC11410469767DdC524DBE67312e376E5291a9538": {
+    "name": "TestTokens",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "0x1F9Cc8b2DA8eF29945454d4A9a1C48Dc1c34746f": {
+    "name": "FlashBack",
+    "symbol": "FBACK",
+    "decimals": 0
+  },
+  "0x7C58A5d9e340ddad568e6f5934299D284Ca599e1": {
+    "name": "Grok",
+    "symbol": "GROK",
+    "decimals": 18
+  },
+  "0x1899380d75b09337cCe40094F929bd37cda9e550": {
+    "name": "DogWifBank",
+    "symbol": "DWB",
+    "decimals": 18
+  },
+  "0xF4e73b33656403CB02B77D3F88d956F1589e2089": {
+    "name": "Owl Finance",
+    "symbol": "OWL",
+    "decimals": 18
+  },
+  "0xb1401308f43dAE1C29ca4A2C63Ca67cD67b01128": {
+    "name": "adruilux",
+    "symbol": "ADR",
+    "decimals": 18
+  },
+  "0x3A1609CEbE67C1d303954B5fb907bEF36213034B": {
+    "name": "public",
+    "symbol": "$public",
+    "decimals": 18
+  },
+  "0x6EEA56ec8789BfEA71514784C4a75ce431f4dECd": {
+    "name": "Shit Coin",
+    "symbol": "SHIT",
+    "decimals": 18
+  },
+  "0x0B018cf467697c23caC06358BcbDd33DA45F642d": {
+    "name": "DebtMferBot",
+    "symbol": "DMB",
+    "decimals": 18
+  },
+  "0x3080cE06eee2869E1b0287ad0De73f9421F977a3": {
+    "name": "$cool",
+    "symbol": "$cool",
+    "decimals": 18
+  },
+  "0xfeA55c6b9143f72Dc726E06241c58648cEC6EE3c": {
+    "name": "test111",
+    "symbol": "test111",
+    "decimals": 18
+  },
+  "0x2d131851eAc4b0F7ee90D08749660bB7A17370eC": {
+    "name": "CANUCKS - SportMeme",
+    "symbol": "CANUCKS",
+    "decimals": 18
+  },
+  "0x9d1eb28dEe9118f471400A06836C6C5cB7287F18": {
+    "name": "Public",
+    "symbol": "$Public",
+    "decimals": 18
+  },
+  "0xE744aF921B51dCb6e68248f07C8c52776b113f35": {
+    "name": "ONGKAK RACING",
+    "symbol": "ORC",
+    "decimals": 18
+  },
+  "0xBaAec0C9BADA1a04cDa9a239C63Ebc1E3D030A61": {
+    "name": "CALFLAMES - SportMeme",
+    "symbol": "CALFLAMES",
+    "decimals": 18
+  },
+  "0x2a734f51dc7826e43e11bE3c20DB0795837FaB27": {
+    "name": "TSA",
+    "symbol": "TSA",
+    "decimals": 18
+  },
+  "0x78490Eb7e58C8eb6F0273B5228ae91e633a0AcaD": {
+    "name": "Terminal of truths foundation",
+    "symbol": "TOTF",
+    "decimals": 18
+  },
+  "0xC23E4352cdBa6Fc951398bf274619C4529eAc867": {
+    "name": "Terrace",
+    "symbol": "TRC",
+    "decimals": 18
+  },
+  "0x1A5E0BC802502DDAe5b251De6b373876CC48fBEf": {
+    "name": "MB Guild on Base",
+    "symbol": "MBG",
+    "decimals": 18
+  },
+  "0x36EdE8f188161423640Ad60d6930587037CD7584": {
+    "name": "$COOK",
+    "symbol": "COOK",
+    "decimals": 18
+  },
+  "0xF1fC9580784335B2613c1392a530C1aA2A69BA3D": {
+    "name": "horse",
+    "symbol": "horse",
+    "decimals": 18
+  },
+  "0x2E6C05f1f7D1f4Eb9A088bf12257f1647682b754": {
+    "name": "Axelar Wrapped REGEN",
+    "symbol": "axlREGEN",
+    "decimals": 6
+  },
+  "0x0441dbEC3aeD9BAD5eD4a956A1cC4a406a634965": {
+    "name": "SPANKR",
+    "symbol": "SPNKR",
+    "decimals": 18
+  },
+  "0xC9643c4c42F95901f692AD7c664f0ec56d5e67e6": {
+    "name": "test",
+    "symbol": "MTK",
+    "decimals": 18
+  },
+  "0x46d70514572E500D980F04f0f3fB8Fa5d1b824A0": {
+    "name": "Ireland",
+    "symbol": "IRISH",
+    "decimals": 18
+  },
+  "0x10c844817233321Ea77d5e52F444EB078fCe6Fc4": {
+    "name": "Billi",
+    "symbol": "BILLI",
+    "decimals": 18
+  },
+  "0xE21fF4E66F2Be0ddF923488BEc1D1d0538E7F27E": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 18
+  },
+  "0xF898617A9ccCF7E5050d4549dA357c95F6912439": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 18
+  },
+  "0x043C85Af843E57F9Aaa57CdCa62bbea445Dd09C4": {
+    "name": "BUFFSABRES - SportMeme",
+    "symbol": "BUFFSABRES",
+    "decimals": 18
+  },
+  "0xeE883780888a8Ee0Cf3e6D724D64378F132bB337": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 18
+  },
+  "0xEf8E41952A87C6dE1b028C40CF6DAd67371B1e0C": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 18
+  },
+  "0x973879B365E429aDBe04Fc11241E1A74d113D3A0": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 18
+  },
+  "0xdF7D715b4beb127A9DD497cC2602b5e69684c220": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 18
+  },
+  "0x6e1461C007D591845E2BF675892F85650195A125": {
+    "name": "SEAKRAKEN - SportMeme",
+    "symbol": "SEAKRAKEN",
+    "decimals": 18
+  },
+  "0x4dd044a6be5Dd14F3800Bf59e4dc6E5350E20C00": {
+    "name": "VIKODIN",
+    "symbol": "VKDN",
+    "decimals": 18
+  },
+  "0x078B9EEd7e942048bf8167092Cc113bf99c9F92c": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 18
+  },
+  "0xFEc23A441b4F73EA8ad0e54D30fDb39Af662FF0E": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 18
+  },
+  "0xdf65A4E7DAE495Cb42F5A1E9A7f89032542684Ba": {
+    "name": "$MERV",
+    "symbol": "MERV",
+    "decimals": 18
+  },
+  "0x9a0DF5e8b4c76bC1144EBd9C1bF5Ce4ea2E69766": {
+    "name": "DEGENZ",
+    "symbol": "DEGENZ",
+    "decimals": 18
+  },
+  "0x7964138166bA5076862e7836868Ec1B6B826FA59": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 6
+  },
+  "0xc051AF2759f090d3e2E9E18861197440Ff878993": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 6
+  },
+  "0x69104A5d0708e292C25133e0a58A5cdfF9B07cE5": {
+    "name": "Escape",
+    "symbol": "ESP",
+    "decimals": 18
+  },
+  "0x9d0b588229FF3766af5a24D0Bf3822B1Ff3Ce0Db": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 6
+  },
+  "0xdFcb6e01c8a28e4c093BF5F393604CC9abF4aEc3": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 6
+  },
+  "0x065ebe246cD94aC67D1Ca0851448e9bd688310EB": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 6
+  },
+  "0x5E5bEB1057af040754311A40eA31377951Ccbf08": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 6
+  },
+  "0x1f5dd9D1A54b253828abA57a89055A7B2d7068a7": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 6
+  },
+  "0xbB23142D0c6cad8F911101b5554E1c4E8C94d83C": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 6
+  },
+  "0xc5471eEf2778a95ec92631533aB7555FCB3F9311": {
+    "name": "Anty the Anteater",
+    "symbol": "ANTY",
+    "decimals": 18
+  },
+  "0x08A6BE922404f43e3D6950E98e584fF5Ba629987": {
+    "name": "PAWS Labs",
+    "symbol": "PAWS",
+    "decimals": 18
+  },
+  "0x463dAC6D987c1811E0d83C4Ae26aBf4ff1AC9F09": {
+    "name": "Demo1",
+    "symbol": "DM1",
+    "decimals": 18
+  },
+  "0x5D036679043FCc0117b254C9510bACb54e3B2E62": {
+    "name": "Mock USDC",
+    "symbol": "mUSDC",
+    "decimals": 6
+  },
+  "0x623C030AeE4ab37cF2A50FD235d9faF99A690ac7": {
+    "name": "KREKS",
+    "symbol": "KREKS",
+    "decimals": 18
+  },
+  "0x5236868e865aA02019A8dFAFf009A44cc3d5adDf": {
+    "name": "$DRB_DAY 1",
+    "symbol": "$DRB_DAY 1",
+    "decimals": 18
+  },
+  "0xF3A3bD7aDe0CbA4208dca705cefd1cd5c3aa627a": {
+    "name": "0G",
+    "symbol": "0G",
+    "decimals": 18
+  },
+  "0xF9761E9FE7D4BdfeF4B5A09a1cD47f997fcB88e8": {
+    "name": "Web3",
+    "symbol": "Web3",
+    "decimals": 18
+  },
+  "0x8F219E405f5Aa614424822130Db7A61322AC1255": {
+    "name": "Web3",
+    "symbol": "Web3",
+    "decimals": 18
+  },
+  "0x17B1CF987268BD8EB1419AC36c432392181115Ed": {
+    "name": "Trial of Zenn",
+    "symbol": "ZENN",
+    "decimals": 18
+  },
+  "0xCa5E0dB4B1C43280C00029786d992d6E8ab57521": {
+    "name": "TOSHINME",
+    "symbol": "TOSHINME",
+    "decimals": 18
+  },
+  "0x397af86a35288f7A219febAab34F9b947d4d772D": {
+    "name": "1000x",
+    "symbol": "$1000x",
+    "decimals": 18
+  },
+  "0x3d2Bf1500F5aC00a7d870D394BC91eeB9E1DFAEB": {
+    "name": "TUITION FEE, MAKE ME RICH",
+    "symbol": "TFEE",
+    "decimals": 18
+  },
+  "0x65eda2F3357995382BDAde72919DaBCd52a821cC": {
+    "name": "Jesus Christ What a Fucking Mess",
+    "symbol": "JCWFM",
+    "decimals": 18
+  },
+  "0x77Eb290DF0a5aaB15f681085FaeA1F653A3fc9b7": {
+    "name": "Darwinia Network xRING",
+    "symbol": "xRING",
+    "decimals": 18
+  },
+  "0x166d48F5449315F90cC5543886Bf74bbe6EA3Fb0": {
+    "name": "Darwinia Commitment xKTON",
+    "symbol": "xKTON",
+    "decimals": 18
+  },
+  "0xf74F1CcEB92F90f74A4D4846689eCcB906407bf4": {
+    "name": "Nobi's Dog",
+    "symbol": "TEDDY",
+    "decimals": 18
+  },
+  "0xb9B80B7F29f5083DA9e0F06A3aB78947BB755A30": {
+    "name": "GOOHH",
+    "symbol": "GOOHH",
+    "decimals": 18
+  },
+  "0x44842529ff28FCD633b7e17295Ef7Df8D76a3F9a": {
+    "name": "Never Skip Leg Day",
+    "symbol": "NSLD",
+    "decimals": 18
+  },
+  "0xf103c3cC976ac467a8180360a2d8A45Cad09EC86": {
+    "name": "ctest",
+    "symbol": "ctest",
+    "decimals": 18
+  },
+  "0xC2f025Af693f875d0AA8c71aA1307f834F8c3520": {
+    "name": "PUMP.FUN",
+    "symbol": "PUMP",
+    "decimals": 36
+  },
+  "0xd8f69D80D45CA10cbD4883F8E603B41D4944563b": {
+    "name": "New Crypto Space",
+    "symbol": "CRYPTO",
+    "decimals": 18
+  },
+  "0x2463D76b1F3258570676747386564d2e9D60d95c": {
+    "name": "mCIC",
+    "symbol": "mCIC",
+    "decimals": 18
+  },
+  "0x96Cd0957354CC198F9fC1d4321f467CCD5f5737c": {
+    "name": "PENGUINS - SportMeme",
+    "symbol": "PENGUINS",
+    "decimals": 18
+  },
+  "0x6dd0Ce1Bf417304AE357817aA86FF06D87A5a179": {
+    "name": "pGAS",
+    "symbol": "pGAS",
+    "decimals": 18
+  },
+  "0x819CAd67Bba6d03d8e37a8e3bf9DE5B380Cf2600": {
+    "name": "Theranos",
+    "symbol": "NOS",
+    "decimals": 18
+  },
+  "0x1DF3bF0436528807367143a77796A4EB4F879781": {
+    "name": "Barron Trump",
+    "symbol": "Barron",
+    "decimals": 18
+  },
+  "0x655a18f3094e4Dc20A720ff3043e70FA630d26E4": {
+    "name": "STLBLUES - SportMeme",
+    "symbol": "STLBLUES",
+    "decimals": 18
+  },
+  "0xe3eECd66Db9dffB514a303630B464381697f6c57": {
+    "name": "SJSHARKS - SportMeme",
+    "symbol": "SJSHARKS",
+    "decimals": 18
+  },
+  "0x797842C6fDEa671c5295F67f6A42702378C6AB97": {
+    "name": "BLUEJACKETS - SportMeme",
+    "symbol": "BLUEJACKETS",
+    "decimals": 18
+  },
+  "0xCC7d1cAc5Da4F61eBA2b3FB698BB735DD2f54b80": {
+    "name": "NJDEVILS - SportMeme",
+    "symbol": "NJDEVILS",
+    "decimals": 18
+  },
+  "0x386328Caf27949a6B919a95684b939923EA5939B": {
+    "name": "te",
+    "symbol": "tes",
+    "decimals": 18
+  },
+  "0xB61F02aae1f7EEC1F28b9898742c78AA2Ff18ac5": {
+    "name": "Test",
+    "symbol": "tst",
+    "decimals": 18
+  },
+  "0x2b5050F01d64FBb3e4Ac44dc07f0732BFb5ecadF": {
+    "name": "QR coin",
+    "symbol": "QR",
+    "decimals": 18
+  },
+  "0x0C086BE335105d5aA5aaa1d420A7E33A21cff993": {
+    "name": "V4",
+    "symbol": "V4",
+    "decimals": 18
+  },
+  "0x290f057A2C59b95D8027aa4Abf31782676502071": {
+    "name": "cliza",
+    "symbol": "CLIZA",
+    "decimals": 18
+  },
+  "0x134b78E87F8531F6f46319a6b2871544b4204359": {
+    "name": "Lotion",
+    "symbol": "LOTION",
+    "decimals": 18
+  },
+  "0xD59ad41dEEaEe1dABA7bdB9b3e67cb71b894f341": {
+    "name": "Conan",
+    "symbol": "CONAN",
+    "decimals": 18
+  },
+  "0xB84D3D5F94f4824a76026FC7bF2606162B364305": {
+    "name": "TEST",
+    "symbol": "TEST",
+    "decimals": 9
+  },
+  "0xc4730f86d1F86cE0712a7b17EE919Db7dEFad7FE": {
+    "name": "Page",
+    "symbol": "PAGE",
+    "decimals": 8
+  },
+  "0xCc0701499c1845994485808B1bBb9F8f775a0f02": {
+    "name": "Tuition fee coin",
+    "symbol": "TFEE2",
+    "decimals": 18
+  },
+  "0x2e4d9b95795B6F3db6609AF05091b4D9f06a9751": {
+    "name": "Watching Eye",
+    "symbol": "weye",
+    "decimals": 18
+  },
+  "0x0922Be8F5f88c8bc1B6EC60634B402cF8b0a112E": {
+    "name": "HELLA",
+    "symbol": "HELLA",
+    "decimals": 18
+  },
+  "0xcbEF7CD36795F1f4519C822e90068F990CFA5748": {
+    "name": "Last comment standing",
+    "symbol": "Last comment standing",
+    "decimals": 18
+  },
+  "0x8170bf19453327552Bb410b3AA31a749CD6fdb63": {
+    "name": "MyToken",
+    "symbol": "MTK",
+    "decimals": 18
+  },
+  "0x88f1f488EeaA866F0741ad0786AaC463221E8015": {
+    "name": "BASEU",
+    "symbol": "BASEU",
+    "decimals": 18
+  },
+  "0x2273945c59B01Bf00ecc4fc1adFbF2B84B9277A0": {
+    "name": "The Phantom Riddler",
+    "symbol": "RIDDLER",
+    "decimals": 18
+  },
+  "0xdD2027fcA129005B6255295ceB7e281365e50B0e": {
+    "name": "PintoToken",
+    "symbol": "PTTO",
+    "decimals": 18
+  },
+  "0x544852AE2453C7beA6254E3ec8148A219a4Eec34": {
+    "name": "ALTY Token",
+    "symbol": "ALTY",
+    "decimals": 18
+  },
+  "0x1a3DEA3a782846167040560eF4a0E4ADDA781792": {
+    "name": "GOOGLE ON BASE",
+    "symbol": "GOOGLE",
+    "decimals": 18
+  },
+  "0x1C2757c1FeF1038428b5bEF062495ce94BBe92b2": {
+    "name": "Midas Basis Trading Token",
+    "symbol": "mBASIS",
+    "decimals": 18
+  },
+  "0xcd3EaCcDfA8977838c9BA95777B5D14647920a3D": {
+    "name": "GrokCat",
+    "symbol": "GRCAT",
+    "decimals": 8
+  },
+  "0xf7e0e8C4CbC7e5D05E6B52CC90260B9818BE56D7": {
+    "name": "ALPHA",
+    "symbol": "ALPHA",
+    "decimals": 18
+  },
+  "0x4739262455DB7fE2D7f08f342D6793f4A499Db5d": {
+    "name": "NSLD",
+    "symbol": "NSLD",
+    "decimals": 18
+  },
+  "0x0F512FB543EE75245b304E4c95B9FA5533CF166f": {
+    "name": "CAROCANES - SportMeme",
+    "symbol": "CAROCANES",
+    "decimals": 18
+  },
+  "0x23f06f6e743c89029e2726Bd2143A866cA9AC3C3": {
+    "name": "NYISLANDERS - SportMeme",
+    "symbol": "NYISLANDERS",
+    "decimals": 18
+  },
+  "0xC1159335011fad2Ac00E5aC1C563Ed87EA52863e": {
+    "name": "WINJETS - SportMeme",
+    "symbol": "WINJETS",
+    "decimals": 18
+  },
+  "0xfDfd6c77963e7D16C27b8F627077A3CE07eF3653": {
+    "name": "DALLASSTARS - SportMeme",
+    "symbol": "DALLASSTARS",
+    "decimals": 18
+  },
+  "0x475e372b23D75A745bCEb431107167F2583AdA4C": {
+    "name": "Diamond",
+    "symbol": "DMND",
+    "decimals": 18
+  },
+  "0x8276810dfdf934af8f482Ab2DBa34533E1e7De54": {
+    "name": "NASHPREDS - SportMeme",
+    "symbol": "NASHPREDS",
+    "decimals": 18
+  },
+  "0x1bd223e493824Ec78cc8d4B5397B4a8B05eAFe7e": {
+    "name": "COLAVALANCHE - SportMeme",
+    "symbol": "COLAVALANCHE",
+    "decimals": 18
+  },
+  "0xD93BEC5961033342bc1649b38C8A887429dc8AdB": {
+    "name": "PWEASE",
+    "symbol": "PWEASE",
+    "decimals": 6
+  },
+  "0x0b0d475a843A94E623Ef18417cE9AE6239751d3B": {
+    "name": "Onchain World",
+    "symbol": "OCW",
+    "decimals": 18
+  },
+  "0x3155dadAF7324c79DF418a11EBDF78F926cDef91": {
+    "name": "BasedBork",
+    "symbol": "BORK",
+    "decimals": 9
+  },
+  "0x7733bb461B43bd534eC5047B93c4358A01841162": {
+    "name": "AltCoinEveryDay.com Token",
+    "symbol": "ALTY",
+    "decimals": 18
+  },
+  "0x142896E6f3A15E697E19c9bF5Ac9A26596e9AE95": {
+    "name": "AltCoinEveryDay.com Token",
+    "symbol": "ALTY",
+    "decimals": 18
+  },
+  "0x93661c6635f91fA4C1B34aE86489dD08F5BE89ee": {
+    "name": "ZOINS ™️",
+    "symbol": "ZOINS ™️",
+    "decimals": 18
+  },
+  "0x1cBfdaB74Ccf5bd6f11eb7886FdDaaf1074C1983": {
+    "name": "Baby Cocoro",
+    "symbol": "BABYCOCORO",
+    "decimals": 18
+  },
+  "0x9BE8974BfDeC68013675cA335D35887C3205E5d6": {
+    "name": "Blipi",
+    "symbol": "BLIPI",
+    "decimals": 18
+  },
+  "0x2a3036aC488693CbdA88E0615fa24528a0A0b9d9": {
+    "name": "Zidane's meme",
+    "symbol": "ZIZOU",
+    "decimals": 18
+  },
+  "0x4aDF8125c60ea1f6Ec86e33B7f2ad6219a0EABFe": {
+    "name": "Clickliding License",
+    "symbol": "XLIDE",
+    "decimals": 6
+  },
+  "0x9430A7e6283Fb704Fd1D9302868Bc39d16FE82Ba": {
+    "name": "DBXen Token on Base",
+    "symbol": "cbDXN",
+    "decimals": 18
+  },
+  "0x0744556E0A4A7648258B99e2669E18192d3a4A50": {
+    "name": "Clickliding",
+    "symbol": "LIDE",
+    "decimals": 6
+  },
+  "0x214765DadB9263394c7b501874c3d89165Cbce55": {
+    "name": "NADMI",
+    "symbol": "NDM",
+    "decimals": 18
+  },
+  "0x8afbff100c5d57A94CF954B8554EaebF299f8295": {
+    "name": "Stupid Coin",
+    "symbol": "STUPID",
+    "decimals": 18
+  },
+  "0x67027F972671E6157f0E63632d2862Fd4e96796a": {
+    "name": "Wrapped NETZ",
+    "symbol": "WNETZ",
+    "decimals": 18
+  },
+  "0x1f02e02e8836eeE3507F715c0ad41f2f496Cbb0f": {
+    "name": "b",
+    "symbol": "b",
+    "decimals": 18
+  },
+  "0x1a70fC1646Df76a1EE4535d93E29015fc4767294": {
+    "name": "jsp",
+    "symbol": "JSP",
+    "decimals": 18
+  },
+  "0x068319809Df7f7D962894FD960A05083CE909962": {
+    "name": "Maka",
+    "symbol": "MAKA",
+    "decimals": 18
+  },
+  "0xdb180cdd0Cb5485300D1c664292200B2d12d09F8": {
+    "name": "ANAHDUCKS - SportMeme",
+    "symbol": "ANAHDUCKS",
+    "decimals": 18
+  },
+  "0xec1C143a7A7C041D6a0Daec4DE67B8E1444C3d3e": {
+    "name": "Number Go Up",
+    "symbol": "NGU",
+    "decimals": 18
+  },
+  "0x06004C6Ef2599c67fF4f4bD9B6CCd3E56522259e": {
+    "name": "Joe",
+    "symbol": "Joe",
+    "decimals": 18
+  },
+  "0x125A03BB51A326925bA8938376bd05BE5370944F": {
+    "name": "evmalpha",
+    "symbol": "ALPHA",
+    "decimals": 18
+  },
+  "0x3fc446C56cBD4284bf26E97724f2953Df1cD6265": {
+    "name": "Degenomics",
+    "symbol": "DGN",
+    "decimals": 18
+  },
+  "0x049b12A052b0de0227E50f7EE91E7c3Bc183163b": {
+    "name": "CumBase",
+    "symbol": "CumBase",
+    "decimals": 18
+  },
+  "0x3156087c99F21D510A0F5B4b967B31Bb4B2850E8": {
+    "name": "SMC token",
+    "symbol": "SMC token",
+    "decimals": 18
+  },
+  "0x1ce7C2bDa12C1e5f34468150dCCCe24C516C8aAb": {
+    "name": "Toke Token",
+    "symbol": "TOKE",
+    "decimals": 18
+  },
+  "0x3C6A6D37551cb02A24e8922f96cCE945B37288F3": {
+    "name": "SKI MASK MAKA",
+    "symbol": "SKI MASK MAKA",
+    "decimals": 18
+  },
+  "0x13426E38B189E237683704088140A82Db40c8683": {
+    "name": "Bond this Bitch",
+    "symbol": "MB",
+    "decimals": 18
+  },
+  "0xD749261F5610F92B8FC4A4d03C766B791c8444aC": {
+    "name": "404Stella",
+    "symbol": "Stella",
+    "decimals": 18
+  },
+  "0x8f08F4Fd7d94ba07E83b6683faCb0FF52534cd90": {
+    "name": "DogeRocket",
+    "symbol": "DOGER",
+    "decimals": 18
+  },
+  "0x3e44e6D8B6B9F4B43817134E7F54791997AdeEfe": {
+    "name": "50/50",
+    "symbol": "FIDYFIDY",
+    "decimals": 18
+  },
+  "0x076B7f400DB552687Cb312bB7961f3B7dF4797Fc": {
+    "name": "Let's Build Liquidy",
+    "symbol": "Up",
+    "decimals": 18
+  },
+  "0x3e8F624d5a96226f1c0D7f7F7B6Ce6958E1575CF": {
+    "name": "Physical Gold",
+    "symbol": "GOLD",
+    "decimals": 18
+  },
+  "0x2aa6215b0D4b64c8A9Ab50269988da029AA557db": {
+    "name": "Pauly",
+    "symbol": "PAW",
+    "decimals": 18
+  },
+  "0x01396183f96F99e8B7Bc5eA4bBCd734E7C2343f2": {
+    "name": "RUGGPT",
+    "symbol": "RUGGPT",
+    "decimals": 18
+  },
+  "0x172064ccaaF1182A5a988126FB8C44116bAB5F97": {
+    "name": "Emperor Baoyu",
+    "symbol": "BAOYU",
+    "decimals": 18
+  },
+  "0x20b6aF54e6e54e20310507920C58cA1e2cc2b3a8": {
+    "name": "Degenomics",
+    "symbol": "DGN",
+    "decimals": 18
+  },
+  "0x05C6De611DAA996d9e9D7258A2d82A05d96080Bd": {
+    "name": "V4",
+    "symbol": "V4",
+    "decimals": 18
+  },
+  "0x45eCd9f3FCd65073C9442ff1cC55D1650c35D092": {
+    "name": "Egalitarian Core",
+    "symbol": "ECORE",
+    "decimals": 18
+  },
+  "0x24f7C4BE57a1D2b36B6Be2eB4BD415803703855b": {
+    "name": "BankrClankerDRB",
+    "symbol": "$BCD",
+    "decimals": 18
+  },
+  "0x61CAaBa7a50ba8530a541F58114b7d81cA56a569": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 6
+  },
+  "0x79Cdd704b66cA799Ef96329167BB14A11AE77a21": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 6
+  },
+  "0x3b4eE4bB733acBAa05F9FAcD1794e23796EfdA30": {
+    "name": "Bankr On Ape",
+    "symbol": "BOA",
+    "decimals": 18
+  },
+  "0x0bD4887f7D41B35CD75DFF9FfeE2856106f86670": {
+    "name": "FRIEND",
+    "symbol": "FRIEND",
+    "decimals": 18
+  },
+  "0xa986E65FB605725E7675C407d580B0D3aDc17A7B": {
+    "name": "luminous convergence",
+    "symbol": "CONVERGE",
+    "decimals": 18
+  },
+  "0xeaB5dF15c98d72DA44BdE1fA8A6247003Ef6145c": {
+    "name": "ErissAI",
+    "symbol": "EAI",
+    "decimals": 18
+  },
+  "0xf3bb8f1dfe1F50679B5F76a11B3EF1B35282774c": {
+    "name": "fun Steady Shelly",
+    "symbol": "SLOW",
+    "decimals": 18
+  },
+  "0x060cb087a9730E13aa191f31A6d86bFF8DfcdCC0": {
+    "name": "Olympus",
+    "symbol": "OHM",
+    "decimals": 9
+  },
+  "0x372eA5Ac00DA92d72b1177Fcec694F45D5B91383": {
+    "name": "FarAgent",
+    "symbol": "FA",
+    "decimals": 18
+  },
+  "0xD71552d9e08E5351AdB52163B3bbbC4d7DE53Ce1": {
+    "name": "AITECH",
+    "symbol": "AITECH",
+    "decimals": 18
+  },
+  "0x50b59F7c06313A7b322C319Bb3dd36D54f6AC520": {
+    "name": "GROKCOIN",
+    "symbol": "GROK",
+    "decimals": 18
+  },
+  "0x2F58e5c5C33E677b42d4d02E8FC7e64E53838FDb": {
+    "name": "Ducky Coco",
+    "symbol": "DUCC",
+    "decimals": 18
+  },
+  "0x02300aC24838570012027E0A90D3FEcCEF3c51d2": {
+    "name": "FOOM",
+    "symbol": "FOOM",
+    "decimals": 18
+  },
+  "0xEEc7767C65eF5703f3157DDCeA4c0De9d69cDa9a": {
+    "name": "Crazy Coin",
+    "symbol": "CRAZY",
+    "decimals": 18
+  },
+  "0x594286bB7E52c0E0B1b8e6e5631DdbEB332764B5": {
+    "name": "WACAPITALS - SportMeme",
+    "symbol": "WACAPITALS",
+    "decimals": 18
+  },
+  "0xDD1Fa7953BD24B8d9D0c78CD96338Cda578cDd35": {
+    "name": "LAKINGS - SportMeme",
+    "symbol": "LAKINGS",
+    "decimals": 18
+  },
+  "0xFa4d9c8708b16F0310C4e93918bf834602D36cCB": {
+    "name": "BOSBRUINS - SportMeme",
+    "symbol": "BOSBRUINS",
+    "decimals": 18
+  },
+  "0xCc4ADB618253ED0d4d8A188fB901d70C54735e03": {
+    "name": "Agent Zero Token",
+    "symbol": "A0T",
+    "decimals": 18
+  },
+  "0x009674501aE4C198b067bc1B2F37742f1d2548C1": {
+    "name": "NYRANGERS - SportMeme",
+    "symbol": "NYRANGERS",
+    "decimals": 18
+  },
+  "0x7cE27E9BcCA6Da8b50Fa1f4e379cc19Be8005F0C": {
+    "name": "MNWILD - SportMeme",
+    "symbol": "MNWILD",
+    "decimals": 18
+  },
+  "0x543257eF2161176D7C8cD90BA65C2d4CaEF5a796": {
+    "name": "Moonwell Frontier cbBTC",
+    "symbol": "mwcbBTC",
+    "decimals": 18
+  },
+  "0xFBe1387cE393bb520e3ED11Fb65E89484f10cF1d": {
+    "name": "CHBLACKHAWKS - SportMeme",
+    "symbol": "CHBLACKHAWKS",
+    "decimals": 18
+  },
+  "0xf24608E0CCb972b0b0f4A6446a0BBf58c701a026": {
+    "name": "Moonwell Flagship EURC",
+    "symbol": "mwEURC",
+    "decimals": 18
+  },
+  "0x38191A7453251Aa6BCb397f1601F4Ab992B854dE": {
+    "name": "billz",
+    "symbol": "BILLZ",
+    "decimals": 18
+  },
+  "0x164677d29876C35B32620Bf4742E002078fE1BC7": {
+    "name": "HYPNOTOAD",
+    "symbol": "HYPNOTOAD",
+    "decimals": 18
+  },
+  "0x6e546cCDDd99Ddf438c29EBABF5D1A823b27F9c6": {
+    "name": "OTTSENATORS - SportMeme",
+    "symbol": "OTTSENATORS",
+    "decimals": 18
+  },
+  "0x524d524B4c9366be706D3A90dcf70076ca037aE3": {
+    "name": "RMRK",
+    "symbol": "RMRK",
+    "decimals": 18
+  },
+  "0x07DDFB466ea553e20A19a59F9C01265F3BfcbcEC": {
+    "name": "Departement of propaganda",
+    "symbol": "DOPE",
+    "decimals": 18
+  },
+  "0x6eC2637b5d0C06e8F22904D423C7E7EeB4daCb02": {
+    "name": "Fukin' Elon!",
+    "symbol": "FUCKELON",
+    "decimals": 18
+  },
+  "0x6bd9F4232aA196Ea66B58CB0e81ed05ecC9Ce2de": {
+    "name": "TBLIGHTNING - SportMeme",
+    "symbol": "TBLIGHTNING",
+    "decimals": 18
+  },
+  "0x192E9dd2f95ff71338b8B8CC047B20c3CdBbD034": {
+    "name": "FCKSol",
+    "symbol": "FCKSol",
+    "decimals": 18
+  },
+  "0x0b8d3236A83f236B1F6450E16171Be2Fb26a2143": {
+    "name": "GM Poo",
+    "symbol": "GMPoo",
+    "decimals": 18
+  },
+  "0x9BBDde87Ccc166Cda4E7958F51304A321b2aE1aC": {
+    "name": "dope",
+    "symbol": "DOPE",
+    "decimals": 18
+  },
+  "0x26581eB2B68F383F4378d73E3e6F565D56AE8a1a": {
+    "name": "Shim sham",
+    "symbol": "Aristocrat",
+    "decimals": 18
+  },
+  "0xE07aDC4bAd16Be3E4F6f7511a3E0b0219C73672B": {
+    "name": "usBTC Debt",
+    "symbol": "usBTCd",
+    "decimals": 8
+  },
+  "0xB84983b16137dd94c5AB32564EC1C4d9847Ff367": {
+    "name": "DOPE",
+    "symbol": "DOPE",
+    "decimals": 18
+  },
+  "0x4780a8E21Fc150119B1b89963b8Fe5f9De6955b9": {
+    "name": "DOPE",
+    "symbol": "DOPE",
+    "decimals": 18
+  },
+  "0x879c692B028CdE1f476681A163B8Da6f216041F1": {
+    "name": "Resist AI",
+    "symbol": "RESIST",
+    "decimals": 9
+  },
+  "0x0A995aB43d292c676b999bc9d9ceEd5A1B0390CA": {
+    "name": "TRUMP AI",
+    "symbol": "TRUMP",
+    "decimals": 9
+  },
+  "0x2e54f7A819331Cc4f29092E1adb52CFC7A24a6E8": {
+    "name": "Atlas",
+    "symbol": "ATLAS",
+    "decimals": 9
+  },
+  "0xf3873eE6dde7D8F343B9EF03a43cd2d463f01A68": {
+    "name": "The Flash Cat",
+    "symbol": "RON",
+    "decimals": 18
+  },
+  "0xF73978B3A7D1d4974abAE11f696c1b4408c027A0": {
+    "name": "Everybody Needs Base",
+    "symbol": "ENB",
+    "decimals": 18
+  },
+  "0xbECbC5E567a4986ADF02a60E1d720e6C92e77417": {
+    "name": "PsyGnom",
+    "symbol": "PSG",
+    "decimals": 18
+  },
+  "0xc75D02B37A1b106BF28107c396e87653fd9fffff": {
+    "name": "Stone",
+    "symbol": "STON",
+    "decimals": 18
+  },
+  "0x3B5B2c01ad8C799aD9a6B942C94b7a1549ad875D": {
+    "name": "Magic",
+    "symbol": "MAG",
+    "decimals": 18
+  },
+  "0xAb67fD9f08eB21Eb036B274De2c9B36f235BAE58": {
+    "name": "DARK",
+    "symbol": "DAR",
+    "decimals": 18
+  },
+  "0x0ff78bAEB987E75e98AC763A2413383681F240d6": {
+    "name": "Magic 2",
+    "symbol": "MAG2",
+    "decimals": 18
+  },
+  "0xfA7ACB2447C5881231ee9FdC68be8f7cb4BDAf01": {
+    "name": "TRUST",
+    "symbol": "TRUST",
+    "decimals": 9
+  },
+  "0x7c9A167327BdE9666e3219D42E314CA8eBdD7E4C": {
+    "name": "AA ESTRADA PAINTING",
+    "symbol": "AEP",
+    "decimals": 18
+  },
+  "0xA862216D07534fCa0af406713F73F8433300B255": {
+    "name": "Tiger",
+    "symbol": "TIG",
+    "decimals": 18
+  },
+  "0x8d1b91BBFb7120206cA44F8223696DceA62a1742": {
+    "name": "Turtle",
+    "symbol": "TRTL",
+    "decimals": 18
+  },
+  "0x9cad4C14277A5f8757a50766dab93810B8a7ac60": {
+    "name": "Based Cats Coin",
+    "symbol": "MIAO",
+    "decimals": 18
+  },
+  "0x2168C44FF7D1Cdeb7d192ADe9637852c55708059": {
+    "name": "BaseWax",
+    "symbol": "BWX",
+    "decimals": 18
+  },
+  "0x22970e31e5CCF86648176898072BefC3d70dcb24": {
+    "name": "IOP",
+    "symbol": "IOP",
+    "decimals": 18
+  },
+  "0xa5C904cbfCEb9cfBAC6e917168BeF98d21Acd25B": {
+    "name": "IOPA",
+    "symbol": "IOPA",
+    "decimals": 18
+  },
+  "0xA80d386E26D1AfEF08E2453689063c9ee5242827": {
+    "name": "The Bull",
+    "symbol": "BULL",
+    "decimals": 18
+  },
+  "0xC63414979dEb7a475C15B1448c9bb09afa71D2A5": {
+    "name": "VARIAL",
+    "symbol": "VRL",
+    "decimals": 18
+  },
+  "0x491A178Dfd7A2fB8979d50B069f57eE0bd2c9864": {
+    "name": "POLI",
+    "symbol": "POLI",
+    "decimals": 18
+  },
+  "0x32f325512d7a6C64088fF14929239a492C2E81F1": {
+    "name": "WORTI AI",
+    "symbol": "WORTI AI",
+    "decimals": 18
+  },
+  "0xFB837530920AE4458a5b5e187AAf84d40D2C0996": {
+    "name": "Miao The Cat",
+    "symbol": "MIAO",
+    "decimals": 18
+  },
+  "0x11427c28dBE3E7b7D67db9b1BcB9B02dBbDC7Beb": {
+    "name": "hammie potter",
+    "symbol": "HMPTR",
+    "decimals": 18
+  },
+  "0x94B68e25b40b79518F64089627a81E06658C552d": {
+    "name": "Department of Propaganda Everywhere",
+    "symbol": "DOPE",
+    "decimals": 18
+  },
+  "0x33A486b6B5D41a83548AA9b7cC6cd314D5534511": {
+    "name": "CATO",
+    "symbol": "CATI",
+    "decimals": 18
+  },
+  "0x52220332F48F1E2cD3128025CF70bCBA5A513C57": {
+    "name": "Brett Skywalker",
+    "symbol": "BRETTSKY",
+    "decimals": 18
+  },
+  "0x8114d48a53941f06CB98331d22DbA9498c6a8D3d": {
+    "name": "WAGMI Coin",
+    "symbol": "WAC",
+    "decimals": 18
+  },
+  "0x48eDbaA06C1AD07C4D021e66F2DDd93E45CE34E1": {
+    "name": "Base Test",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "0xe1c0Fb3dc2e79361B9D0638b997bcA4826029700": {
+    "name": "POLI - PASS GUET UF!",
+    "symbol": "POLI",
+    "decimals": 18
+  },
+  "0xC9D77c3249982961C6e7500181ec351AE8cA8e25": {
+    "name": "humanoid",
+    "symbol": "HUMANOID",
+    "decimals": 18
+  },
+  "0x88b0e3df8B4877f391b36Af6C847895e52711E37": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 6
+  },
+  "0x96F96b4b667572AB79c44Db9826031A75355beb0": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 6
+  },
+  "0xb011305941EFF8AEe47408774DB832152415F54b": {
+    "name": "unrugged",
+    "symbol": "UNRUG",
+    "decimals": 18
+  },
+  "0x4ea31F3c65b57CBc7bf5F18D0AFe392CE94c3eF4": {
+    "name": "FLPANTHERS - SportMeme",
+    "symbol": "FLPANTHERS",
+    "decimals": 18
+  },
+  "0x67cB54a746DAd307a208BD082cC28D67Fe199Dd8": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 6
+  },
+  "0x8c0e7D97b24E173e92283eFcA22F2c7D852E8609": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 6
+  },
+  "0x2F8b67C6A4079fef39a9166C030ec4CEA6e0de4b": {
+    "name": "March0",
+    "symbol": "MRCH0",
+    "decimals": 6
+  },
+  "0xE3881a0946c4eeb95685763163C07B2d057E6013": {
+    "name": "March1",
+    "symbol": "MRCH1",
+    "decimals": 6
+  },
+  "0x21D4750f1546375676d8c73917BA160236A133e9": {
+    "name": "zokei",
+    "symbol": "ZOKEI",
+    "decimals": 18
+  },
+  "0x9aB5c526D58C2C97782Ea85AEb69cDb4a3012EEF": {
+    "name": "PAINTER OF AMERICA",
+    "symbol": "REX",
+    "decimals": 18
+  },
+  "0x52AB0c3471bFeCB0284bE9e26E337Ec497B85eB8": {
+    "name": "Habakuk",
+    "symbol": "חֲבַקּוּק",
+    "decimals": 18
+  },
+  "0xd7033E98faF3e8Fd4BBe6dbccA665e5B26e86EFf": {
+    "name": "$LAVE",
+    "symbol": "$LAVE",
+    "decimals": 18
+  },
+  "0x7894684f065fBfC750CedA48D78fd2510AAcD39d": {
+    "name": "Cardea",
+    "symbol": "CRD",
+    "decimals": 18
+  },
+  "0x1247e11AF137c27DB474a05774d6c4ec0539EF61": {
+    "name": "Zoo York",
+    "symbol": "ZYRK",
+    "decimals": 18
+  },
+  "0x9C298e20713daECBBCc748629Ef4337bFA98658F": {
+    "name": "MoonCat",
+    "symbol": "MC",
+    "decimals": 18
+  },
+  "0x77F99E60deB746d8125B5117dE67255fd2026a5B": {
+    "name": "Aıza Agent",
+    "symbol": "AIZA",
+    "decimals": 18
+  },
+  "0x3Cf3f2190b0eA3aE0D449d897C3A020faE771C0b": {
+    "name": "Wen???",
+    "symbol": "Wen",
+    "decimals": 18
+  },
+  "0x4028B77bFD2947a6768b210E6101c9480ffa8911": {
+    "name": "CLIZA",
+    "symbol": "CLIZA",
+    "decimals": 18
+  },
+  "0x40409d08e2c8Ed152D925A582F0723E87f084238": {
+    "name": "Optimus",
+    "symbol": "OPTIMUS",
+    "decimals": 18
+  },
+  "0x385623b4961d20661D63c8A9a3Cc66ac03119b5C": {
+    "name": "PeppaBeer",
+    "symbol": "PEBE",
+    "decimals": 18
+  },
+  "0xBAffaC25A30C5cFF0FDaCF80645e566116ADb7e8": {
+    "name": "CABAL TOKEN",
+    "symbol": "CABAL",
+    "decimals": 18
+  },
+  "0x403cA448dbFd462b8C625fAbc29EDaFEF82b44D0": {
+    "name": "Alphaca",
+    "symbol": "ALPHACA",
+    "decimals": 18
+  },
+  "0xDd162b1BFa615543b66d8907837e797a1050c23f": {
+    "name": "PNUT on Base",
+    "symbol": "PNUT",
+    "decimals": 18
+  },
+  "0xf2747245354F248bF34b0aa790FdCa8007cE8045": {
+    "name": "BALD AI",
+    "symbol": "BALD",
+    "decimals": 9
+  },
+  "0x230d0cD985b087c2c82861E87Da4E2EAD2774869": {
+    "name": "DEGEN  AI",
+    "symbol": "DEGEN",
+    "decimals": 9
+  },
+  "0x1EF3804A183d281b071E75807E1538ae79c1e0F8": {
+    "name": "BASED AI",
+    "symbol": "BASED",
+    "decimals": 9
+  },
+  "0x16707438eC6109faDdBFa2afd036517aef8EF378": {
+    "name": "Big Chungus",
+    "symbol": "CHNG",
+    "decimals": 18
+  },
+  "0x1Bb5E9F7dA217B7e570Ef4932BD620Beb6AEbc36": {
+    "name": "AERO AI",
+    "symbol": "AERO",
+    "decimals": 9
+  },
+  "0xb229e2828175c197A56a01A4a679ac5B2884f54c": {
+    "name": "CBETH AI",
+    "symbol": "CBETH",
+    "decimals": 9
+  },
+  "0x5A768A7ae7f40871B18a2Cb1AB2786311D211Ee3": {
+    "name": "Base enters the bsmnt",
+    "symbol": "B3EXPANSION01",
+    "decimals": 18
+  },
+  "0x71e7f3FB615813b6D229f4f3a8530Ed6662CBA9C": {
+    "name": "Dream",
+    "symbol": "DREAM",
+    "decimals": 18
+  },
+  "0xA0108286307E34e9Ecea184fd08F2d022A12a9C8": {
+    "name": "CAPSTILLER",
+    "symbol": "CAPs",
+    "decimals": 18
+  },
+  "0x1DcBd574b65E0BA1e54c358Ec0F85cCD1FEcF57d": {
+    "name": "RTU",
+    "symbol": "RTU",
+    "decimals": 18
+  },
+  "0x87144DafA828346e5843CdfAA1aCB046fB48E41f": {
+    "name": "RTS",
+    "symbol": "RTS",
+    "decimals": 18
+  },
+  "0xC26C9099BD3789107888c35bb41178079B282561": {
+    "name": "SolvBTC Babylon",
+    "symbol": "SolvBTC.BBN",
+    "decimals": 18
+  },
+  "0x286FC5c286931801c2F4b9D1D3205ff6659D1E81": {
+    "name": "Cliza Art",
+    "symbol": "CART",
+    "decimals": 18
+  },
+  "0x75725132eD064EEb952c4874418d00D3F31F57a5": {
+    "name": "mubarak",
+    "symbol": "MUBARAK",
+    "decimals": 18
+  },
+  "0xe46DbfB24C1C9876bb2F4a1F651543F480eB6342": {
+    "name": "R2D2",
+    "symbol": "R2D2",
+    "decimals": 18
+  },
+  "0x07C18c002E5B4196D07163F495440d7Ba59dda8e": {
+    "name": "DEGEN Z",
+    "symbol": "Z",
+    "decimals": 18
+  },
+  "0x32ABBF36900E847ef54C6aBeA15a2e8335d530A7": {
+    "name": "DEGEN ALPHA",
+    "symbol": "ALD",
+    "decimals": 18
+  },
+  "0x1696688A7828E227E64953C371aC0B57d5974B55": {
+    "name": "INEVITABLE",
+    "symbol": "NSI",
+    "decimals": 18
+  },
+  "0x3e3263A175694902265B7e7a230f28F41E318518": {
+    "name": "PI12 vs NO12",
+    "symbol": "PI12",
+    "decimals": 18
+  },
+  "0x4DdaeBe7E1fF4c11f299aB91284FcaCB8E8284D7": {
+    "name": "PI12 vs NO12",
+    "symbol": "NO12",
+    "decimals": 18
+  },
+  "0x52F3285b59801f7fd233786f1A265cfFE424B9Cd": {
+    "name": "Leveraged BNKR",
+    "symbol": "TEST_lvBNKR",
+    "decimals": 18
+  },
+  "0x311BC3dBdac5337897A1eB458787020a4D3755b6": {
+    "name": "cutiecatie",
+    "symbol": "CUTECAT",
+    "decimals": 18
+  },
+  "0x09a12Ed338A57aFcb70bFFacBa4Ca99f7D888142": {
+    "name": "ApeStoreV4",
+    "symbol": "ASV4",
+    "decimals": 18
+  },
+  "0x9e7Da66F199E83AEA6ae9985FaBDD02D3ca2fEe4": {
+    "name": "🙄 vs 😍",
+    "symbol": "🙄",
+    "decimals": 18
+  },
+  "0xa73A66770BC566FCC1D43225c50a79bB8e838394": {
+    "name": "🙄 vs 😍",
+    "symbol": "😍",
+    "decimals": 18
+  },
+  "0xA6eb65d927cb09C4b54EDD1f9C1AfB974438dcf5": {
+    "name": "Launching a cast _ ijiji !! vs oijriajijijjoijoi787$$$$iii",
+    "symbol": "Launching a cast _ ijiji !!",
+    "decimals": 18
+  },
+  "0xF9ee2De4Fd349B4FFaF373cb2b9354A8F97DB014": {
+    "name": "Launching a cast _ ijiji !! vs oijriajijijjoijoi787$$$$iii",
+    "symbol": "oijriajijijjoijoi787$$$$iii",
+    "decimals": 18
+  },
+  "0x169B8b5160c73750972F69fDBe4A506d62D07B7A": {
+    "name": "ALCOCOIN",
+    "symbol": "Alco",
+    "decimals": 18
+  },
+  "0xcade7efC1304C786251A0e38A96eA3FD4DdDb02E": {
+    "name": "Fartcoin",
+    "symbol": "FART",
+    "decimals": 18
+  },
+  "0x4Ae5012b446A9e9fBC6D76F16B0FD8e1431F6248": {
+    "name": "Notcoin",
+    "symbol": "NOTC",
+    "decimals": 18
+  },
+  "0x21BFA9636554063a7620b9178E73a79579CD8AD2": {
+    "name": "V4TEST",
+    "symbol": "V4TEST",
+    "decimals": 18
+  },
+  "0x6627B13A3DEDA5c3128932BB430bEbD650A0eF0a": {
+    "name": "MAGE by Alphakek",
+    "symbol": "MAGE",
+    "decimals": 18
+  },
+  "0x3bbb5aD4a03AC75700e9f989AAb0E08F929c1427": {
+    "name": "Black Cat",
+    "symbol": "Cat",
+    "decimals": 18
+  },
+  "0x77579cB6B82252373F6490F12110051B6F5AF42B": {
+    "name": "Pawfessor Cat",
+    "symbol": "PAWF",
+    "decimals": 18
+  },
+  "0x3D5AdA114F0238EE9011aC819b6F1A88d6B888B1": {
+    "name": "Burger on base",
+    "symbol": "BURGER",
+    "decimals": 18
+  },
+  "0x03400B6B8812e1D4ACe6BF8C5FB8f5B5a37dcA3E": {
+    "name": "TestToken1",
+    "symbol": "TT1",
+    "decimals": 6
+  },
+  "0x6A4e602Db1c222c9b5fee5AE4C3d6143F3bd092b": {
+    "name": "TestToken0",
+    "symbol": "TT0",
+    "decimals": 18
+  },
+  "0x7750C092e284e2c7366f50C8306F43c7EB2e82a2": {
+    "name": "Overtime DAO Token",
+    "symbol": "OVER",
+    "decimals": 18
+  },
+  "0x343B719a8862400Abf563D4D90a22cc4A8a46547": {
+    "name": "Based Snoop",
+    "symbol": "Snoop",
+    "decimals": 18
+  },
+  "0xA9B631ABcc4fd0bc766d7C0C8fCbf866e2bB0445": {
+    "name": "HASH Coin",
+    "symbol": "HASH",
+    "decimals": 18
+  },
+  "0xC24bc57441C7046d273aFC59512CC31F2EAFC25C": {
+    "name": "Testing",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "0x15F443De57928117Dc67648f336F8Ad542811D1d": {
+    "name": "Flinchy the white cat",
+    "symbol": "FLNC",
+    "decimals": 18
+  },
+  "0xA5d8ebe4E2785cdE4e1712A91ADdC02a73fb2d4a": {
+    "name": "Paddy",
+    "symbol": "PADDY",
+    "decimals": 18
+  },
+  "0xb2cFB7C1082b570372f6Caf5cdF47AF4590C8FaA": {
+    "name": "Fwaunchy",
+    "symbol": "FWNCY",
+    "decimals": 18
+  },
+  "0x95cE601BBa06B0DA91e9a3416A854EAf4eCb4985": {
+    "name": "SCIENCE",
+    "symbol": "SCIENCE",
+    "decimals": 18
+  },
+  "0x3a5D24aD08CC582af88Be12dA48D175a0C598fBE": {
+    "name": "Chiken Banana",
+    "symbol": "CHBN",
+    "decimals": 18
+  },
+  "0x350ece607Af350926Bd88bC97909d0350A3F70b4": {
+    "name": "Patrick Dog",
+    "symbol": "PATDOG",
+    "decimals": 18
+  },
+  "0xC29294941F2AAC05900DA4810BE07f3f91Ed999B": {
+    "name": "Flaunch Bitcoin",
+    "symbol": "FBTC",
+    "decimals": 18
+  },
+  "0x5c5164C9Cf0dB7cA7152A28EBA1c031F4DD2571D": {
+    "name": "fuzzyfox",
+    "symbol": "FOX",
+    "decimals": 18
+  },
+  "0x01B6a546Eeef218AC4E881b3Ab545F97Aaa47866": {
+    "name": "Ape David",
+    "symbol": "DAVID",
+    "decimals": 18
+  },
+  "0x7dc1dC14A62918Cd89e8D1c6204C30F4999E00F9": {
+    "name": "GMEOW",
+    "symbol": "GMEOW",
+    "decimals": 18
+  },
+  "0x20AA80a2AeA8404eDD9A566599FA3CcD36a06477": {
+    "name": "babyyuki coin",
+    "symbol": "BabyYuki",
+    "decimals": 9
+  },
+  "0x3bA71DD7f28dF637552B73F1094FCD8178915500": {
+    "name": "aicnxbt",
+    "symbol": "CNXBT",
+    "decimals": 18
+  },
+  "0x88DD7e4C184c8F8e0a50984B23181A1aB1B56aFc": {
+    "name": "KEK",
+    "symbol": "KEK",
+    "decimals": 18
+  },
+  "0x592c016115f75435760Cf950C7cEa1Dfbcc36A0c": {
+    "name": "It's a good day to Flaunch",
+    "symbol": "GOOD",
+    "decimals": 18
+  },
+  "0xaE1049D67Dd6B2748fda0641dba2F20F715e8a95": {
+    "name": "Homrstead",
+    "symbol": "HOME",
+    "decimals": 18
+  },
+  "0x8bd29Ab6fd7fB51a1a5759f6c2f68c101b177AfC": {
+    "name": "PIKACHU",
+    "symbol": "PIKACHU",
+    "decimals": 18
+  },
+  "0x1De070c27daA8709f9334Daeb93e81b64f2e63e2": {
+    "name": "Agent Bun",
+    "symbol": "aBUN",
+    "decimals": 18
+  },
+  "0xb21d83B0252Fd4f250EB176f24f4f837a71D4982": {
+    "name": "FLAUCH",
+    "symbol": "FLAUNCH",
+    "decimals": 18
+  },
+  "0xCE6fe55CEEaa65dCfEbB1aAB3F18BF28FFfEB8a7": {
+    "name": "FLAUNCHY BASED",
+    "symbol": "FB",
+    "decimals": 18
+  },
+  "0x9dE76453De60D3e3000aF9e8aFf1F4F8F4cC63a7": {
+    "name": "iyhklfvg8udeoy7gib2 e dn3w",
+    "symbol": "GHBP8YU976",
+    "decimals": 18
+  },
+  "0x3D9DC963706FC7F60C81362D9817B00871968Cb7": {
+    "name": "GrokAi",
+    "symbol": "GRAI",
+    "decimals": 18
+  },
+  "0x97C9C2f79184B8Dc29658970d4554503a9Fa08Be": {
+    "name": "Zafira-9",
+    "symbol": "ZAF9",
+    "decimals": 18
+  },
+  "0x266DCE72cB25E1F3c14374A77A515dde13C997aB": {
+    "name": "BaseRedCat",
+    "symbol": "BRC",
+    "decimals": 18
+  },
+  "0x0e98cc62796EF7996a85Ab79A9AF2b141c7f4F9E": {
+    "name": "Groks Alter Ego",
+    "symbol": "Cosmic Trailblazer",
+    "decimals": 18
+  },
+  "0x14a7Bd9fbF1Fe7D69E1134529Bd5c603e2a45d51": {
+    "name": "KING FLNCHY",
+    "symbol": "KING",
+    "decimals": 18
+  },
+  "0x9777C12d2B2992D8993Bb99E9EC13719eaC9aB7c": {
+    "name": "Valhalla",
+    "symbol": "VAL",
+    "decimals": 18
+  },
+  "0x63BA18A427127f4dc1590eda30927602CA5AF2c9": {
+    "name": "AIgents",
+    "symbol": "AIGENTS",
+    "decimals": 18
+  },
+  "0x4aBa315Cd5d405a39ffE00804Be84180B3FC6ab2": {
+    "name": "Heroes of Mavia AI",
+    "symbol": "Mavia",
+    "decimals": 9
+  },
+  "0x321Cb4fd414Dd96d08837ccCE922F27394F63ECe": {
+    "name": "BASECAT AI",
+    "symbol": "BASECAT",
+    "decimals": 9
+  },
+  "0x436624f92556616c1620aAB24da2CCf5B3a006BF": {
+    "name": "bloXmove Token",
+    "symbol": "BLXM",
+    "decimals": 18
+  },
+  "0x8351F608764c9B69b23B8e7bF8beA1C8CeFecBa7": {
+    "name": "Ziggy AI",
+    "symbol": "ZIGGY",
+    "decimals": 9
+  },
+  "0x03fF7C8956e75D743719197471752E98Bd2D56f4": {
+    "name": "The Bitch",
+    "symbol": "DANG",
+    "decimals": 18
+  },
+  "0x509d1905bC6e6EA5a7c338F8a3De4F3884ed201b": {
+    "name": "124",
+    "symbol": "124",
+    "decimals": 6
+  },
+  "0xf8f5ce4E87DC2755fCdF33459a73a6c2e35039Df": {
+    "name": "123",
+    "symbol": "123",
+    "decimals": 6
+  },
+  "0x8f3f6753a45087a58B837A3e8bBCfd1952750DE5": {
+    "name": "MockA",
+    "symbol": "MOCKA",
+    "decimals": 6
+  },
+  "0xdE9dDF27A5ec2b6220ddAC90B88B51F1151feF32": {
+    "name": "MockB",
+    "symbol": "MOCKB",
+    "decimals": 18
+  },
+  "0x1f5FFaeC369ea037fDfeb23b9601F571D276cf3e": {
+    "name": "Magic Money Computers",
+    "symbol": "MAGIC!",
+    "decimals": 18
+  },
+  "0x0C7962bA3D0FBdB41757675b427E719A53Bb8503": {
+    "name": "Magic Money Computers",
+    "symbol": "MMC",
+    "decimals": 18
+  },
+  "0x1306E1100f8aeCF5067047854c073C67928AE285": {
+    "name": "Agent Token",
+    "symbol": "AGENT",
+    "decimals": 18
+  },
+  "0x7eE4d07dAd3fFFE90Aa2169611d95B6a46111E53": {
+    "name": "DOWNONLY",
+    "symbol": "DWNLY",
+    "decimals": 18
+  },
+  "0x6a48085E96680f735C83CD6a0d37e4FC70080f88": {
+    "name": "Digital Gold",
+    "symbol": "DGOLD",
+    "decimals": 18
+  },
+  "0xa288cBc9ddAD760d570919E1068FA7f67f6daF01": {
+    "name": "Aaaaaaah",
+    "symbol": "FLAUNCH",
+    "decimals": 18
+  },
+  "0xb55c0a6624135b622a5Cb3751Ffb3348B04c26BB": {
+    "name": "SQWURREL!",
+    "symbol": "SQWRL!",
+    "decimals": 18
+  },
+  "0xbCd79FF1454348eD012E40F7192633D4a1Ef357A": {
+    "name": "Happy St.Patrick's Day",
+    "symbol": "PATDOGS",
+    "decimals": 18
+  },
+  "0x93229a6C332FEe163FDaEF2b024B2217d9Ae4cA1": {
+    "name": "Apex FC",
+    "symbol": "APXFC",
+    "decimals": 18
+  },
+  "0x01593B414F8AEBb4675F49816d0a55526A7d976D": {
+    "name": "Captain Flaunchy Hooks",
+    "symbol": "flooks",
+    "decimals": 18
+  },
+  "0xEf8057A9a8FAc7820C57CA77Aa4764a2BeDc4851": {
+    "name": "EGGS",
+    "symbol": "EGGS",
+    "decimals": 18
+  },
+  "0xB17be48563b9b4D7773d49fdB5C66b6922DF7849": {
+    "name": "F.P.F",
+    "symbol": "F.P.F",
+    "decimals": 18
+  },
+  "0x712f43B21cf3e1B189c27678C0f551c08c01D150": {
+    "name": "$EGGS",
+    "symbol": "EGGS",
+    "decimals": 18
+  },
+  "0xCa4C2E10037ac1AF9f501eCB11A710776c87d2d5": {
+    "name": "SOVRUN",
+    "symbol": "SOVRN",
+    "decimals": 18
+  },
+  "0xb335A2E789624ba9D7cda5CE7e011Fda68D5D5E0": {
+    "name": "propeller cat",
+    "symbol": "PPC",
+    "decimals": 8
+  },
+  "0xC9BE5EA8d827458Aa214A08E0134feD528FAB323": {
+    "name": "friends",
+    "symbol": "FRIENDS",
+    "decimals": 18
+  },
+  "0xdd79209f9b7991C6cd62e29Db231437240CdC439": {
+    "name": "Blue Tick Coin",
+    "symbol": "BTC",
+    "decimals": 18
+  },
+  "0x7F4293aDB6D45c7BC11A51563b769020319fA2FD": {
+    "name": "LlaMA",
+    "symbol": "LlaMA",
+    "decimals": 18
+  },
+  "0x22d988C0452825f7eA845b1A44Ac6d97167F8cA0": {
+    "name": "quantum iso coin token",
+    "symbol": "quantum iso coin token",
+    "decimals": 18
+  },
+  "0x01151eE60e04EC1b0D02e57c2E359dFD923589BF": {
+    "name": "Looploot",
+    "symbol": "LPL",
+    "decimals": 18
+  },
+  "0x1992f4Ca69De77c13ae73E7793b9818422722e3E": {
+    "name": "Doge Unchained",
+    "symbol": "DOGU",
+    "decimals": 18
+  },
+  "0x1f94d6A61973eDf53252b9E61c6250F303957b9D": {
+    "name": "Parabol USD",
+    "symbol": "paraUSD",
+    "decimals": 18
+  },
+  "0xF92e740Ad181b13A484A886Ed16aA6D32D71B19A": {
+    "name": "ENS Tools Token",
+    "symbol": "ENT",
+    "decimals": 18
+  },
+  "0x949251f383721E571EEFC34efad992353e8b723C": {
+    "name": "Coal",
+    "symbol": "COAL",
+    "decimals": 18
+  },
+  "0x8aDE48A89bE70b424785E63f992185A8336d6225": {
+    "name": "TSTOR",
+    "symbol": "TESTOR",
+    "decimals": 18
+  },
+  "0xd37a5c5D86756a53B8a27e9e6735F10285Bf6e1C": {
+    "name": "softxi888",
+    "symbol": "SFTX",
+    "decimals": 18
+  },
+  "0x8583c842d54CEdaE85f3Af0E0D1B1dbe4c6ACD22": {
+    "name": "UV4TEST",
+    "symbol": "UV4TEST",
+    "decimals": 18
+  },
+  "0xFfBe3808D2B41C432eA7371e072C2f4B2A3f6e46": {
+    "name": "snoozystray",
+    "symbol": "strayzzz",
+    "decimals": 18
+  },
+  "0x14d366cb64B840Eb8c9F7Ca47a3d416cF32699B5": {
+    "name": "Us Dog Army",
+    "symbol": "USDA",
+    "decimals": 18
+  },
+  "0x521eBB84EA82eE65154B68EcFE3a7292fb3779D6": {
+    "name": "AGNT",
+    "symbol": "AGNT",
+    "decimals": 18
+  },
+  "0x5F8e5F1d89dF6bF799485d6BC7811905D879B0ab": {
+    "name": "Migold Token",
+    "symbol": "MIGOLD",
+    "decimals": 18
+  },
+  "0x08A0210Dd23303888ed1AdF26019CE00C7C722e5": {
+    "name": "ZACHXBT 256HASH",
+    "symbol": "ZACH256",
+    "decimals": 18
+  },
+  "0x7e409F4f4D2dF4cF4DEC48CE5B64e4e000812ad1": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0x83bD7Cd49b1ebC0e2C5e684B08af3ee411476c54": {
+    "name": "wBTC",
+    "symbol": "wBTC",
+    "decimals": 18
+  },
+  "0x0FCAfb2D69cc1Acb47255350742D59ceA10C4a5B": {
+    "name": "glitch",
+    "symbol": "૭Ҩ",
+    "decimals": 18
+  },
+  "0x02383fF70A29ce8904042EE9F1E6E311a96Aa9cA": {
+    "name": "DICKINME",
+    "symbol": "DICKINME",
+    "decimals": 18
+  },
+  "0xBD3601d32AB6fa8D693ac13C4Ae245228C7eA0BB": {
+    "name": "Bitcoin Strategic Reserve",
+    "symbol": "BSR",
+    "decimals": 18
+  },
+  "0x47b363E284A95Fe32b0a8f0bE46403A434C945Db": {
+    "name": "Test deploy token uri",
+    "symbol": "Opponent A",
+    "decimals": 18
+  },
+  "0x7f00E8C06Fc48aa979279fEFA653B45975304c0F": {
+    "name": "Test deploy token uri",
+    "symbol": "Opponent B",
+    "decimals": 18
+  },
+  "0x940E85f0aCc1BF5B9B2FC65750339fB77F3f5AE9": {
+    "name": "Test deploy token uri",
+    "symbol": "Opponent A",
+    "decimals": 18
+  },
+  "0x2c8183d83c13568C510820410B2F93B8947F3460": {
+    "name": "Test deploy token uri",
+    "symbol": "Opponent B",
+    "decimals": 18
+  },
+  "0xa8702D63013665a737f554420a8b8446c44AFa17": {
+    "name": "Test deploy token uri",
+    "symbol": "Opponent A",
+    "decimals": 18
+  },
+  "0xaF5c2749c88ccd4D769cb8cd40fd998479f7719D": {
+    "name": "Test deploy token uri",
+    "symbol": "Opponent B",
+    "decimals": 18
+  },
+  "0x9e12735d77c72c5C3670636D428f2F3815d8A4cB": {
+    "name": "Functionland Fula",
+    "symbol": "FULA",
+    "decimals": 18
+  },
+  "0x8f2E6758C4D6570344bd5007DEc6301cd57590A0": {
+    "name": "SPOT",
+    "symbol": "SPOT",
+    "decimals": 9
+  },
+  "0xaB31002B190e51C15a23d3eb8491BD67ef3bfb61": {
+    "name": "Dan Romero",
+    "symbol": "DWYR",
+    "decimals": 18
+  },
+  "0x16dE0a3695b8f0Faff8F26DdD267AE91ac454057": {
+    "name": "Gold",
+    "symbol": "XAU",
+    "decimals": 18
+  },
+  "0xbf394ACc9b71b6361C41A9DC2aAE5B3F4d9bc1f7": {
+    "name": "wBTC",
+    "symbol": "wBTC",
+    "decimals": 18
+  },
+  "0xE253576f2DaA643F73843270B737cCd1e61cb0ac": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0x1894D8C33e36520AD0Df0Ac99b3602a9f25cC235": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0x1cE2A35076FbaAB912E38FF6113BF3fbc83CBD9e": {
+    "name": "wBTC",
+    "symbol": "wBTC",
+    "decimals": 18
+  },
+  "0xCA5d8F8a8d49439357d3CF46Ca2e720702F132b8": {
+    "name": "Gyro Dollar",
+    "symbol": "GYD",
+    "decimals": 18
+  },
+  "0xE578342EDDfbAf0aa778F4C2B21B789D923348DC": {
+    "name": "4 8 15 16 23 42",
+    "symbol": "LOST",
+    "decimals": 18
+  },
+  "0x685D785d77A9a4176a714D68D6fbf922084779d5": {
+    "name": "SIRYE",
+    "symbol": "YE",
+    "decimals": 18
+  },
+  "0x826C1737f455A4cc40fd3b05B64fb80F5F591881": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0x979f35dFC545186eb4330329A1B8fE10a1ad1cD3": {
+    "name": "wBTC",
+    "symbol": "wBTC",
+    "decimals": 18
+  },
+  "0xaBf06459cd4d69336c653D34Ea65a8C9b61C901E": {
+    "name": "LUNABLACK",
+    "symbol": "LUNB",
+    "decimals": 18
+  },
+  "0xBdc898F17a7C96b5FDDba5eD166FC862c66d47f1": {
+    "name": "Peanut Coin",
+    "symbol": "PEANUT",
+    "decimals": 18
+  },
+  "0x0D8762434911Aa9D8A7F15604D829009e673af2c": {
+    "name": "Golden State Warriors",
+    "symbol": "GSWARRIORS",
+    "decimals": 18
+  },
+  "0x04C0f6F973cFd90A93B3CB8dC8248A36C2b2258c": {
+    "name": "ATL_UNITED",
+    "symbol": "$$$ATLU",
+    "decimals": 18
+  },
+  "0xf0759f7EaE1982AFA12b125F3Cff48f987B2a5CD": {
+    "name": "PHAT KAT",
+    "symbol": "PHATK",
+    "decimals": 18
+  },
+  "0xCfA3Ef56d303AE4fAabA0592388F19d7C3399FB4": {
+    "name": "Electronic Dollar",
+    "symbol": "eUSD",
+    "decimals": 18
+  },
+  "0xA1d2a1C22BAf15A70EB6a02Ea7Cc2A95122cC5Df": {
+    "name": "Minty",
+    "symbol": "Minty",
+    "decimals": 9
+  },
+  "0x86e5Ece45ffCE963BF098cE5C97cE60a57bAAbFC": {
+    "name": "Baby Brett AI",
+    "symbol": "BabyBret",
+    "decimals": 9
+  },
+  "0x2E67AAcC3C21D4b6c1056b450a04BF1af07e6f0c": {
+    "name": "Bitcoin 4.0",
+    "symbol": "BTC4",
+    "decimals": 18
+  },
+  "0x3eDc909843E3E863C468EB86e245CE28e9c66945": {
+    "name": "C.O.D Coin",
+    "symbol": "COD",
+    "decimals": 18
+  },
+  "0xBfD5066E5F95E3449aD57939B57681e33B19366e": {
+    "name": "Leveraged DRB",
+    "symbol": "lvDRB",
+    "decimals": 18
+  },
+  "0xC5A2F63b5744300B84db0c6eaAA31dB7C4812963": {
+    "name": "TestToken",
+    "symbol": "TT",
+    "decimals": 18
+  },
+  "0x5Ba34caf18fAE92B775f42379c7b3AB563683E04": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0x395aD96781B155816b9c5D278e95b9bbaa7e9D8B": {
+    "name": "ETHENTOKEN2",
+    "symbol": "ETH2",
+    "decimals": 18
+  },
+  "0x8AF4B10C6Af7Fd773158f8612B5291E0ac5b5CE1": {
+    "name": "ETHENTOKEN1",
+    "symbol": "ETH1",
+    "decimals": 18
+  },
+  "0x3cEAE686D3fe352dA23e7A9b6d3F00D02aD6e7d2": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0xdc7F7Ad44f3Ed116577417017cf37a19DFf9FFe9": {
+    "name": "Clankvortex",
+    "symbol": "CLANKVTX",
+    "decimals": 18
+  },
+  "0x2e2c392c48B84CB79b776894130197e754773Fd9": {
+    "name": "Hoodi",
+    "symbol": "HOODI",
+    "decimals": 18
+  },
+  "0xA4dDF3f6525b2917E5c4776F2a8d6380b24D80DC": {
+    "name": "Pix on Base",
+    "symbol": "PXB",
+    "decimals": 18
+  },
+  "0xE9185Ee218cae427aF7B9764A011bb89FeA761B4": {
+    "name": "BRZ Token",
+    "symbol": "BRZ",
+    "decimals": 18
+  },
+  "0x94B2d5ba8C963F9B0A70E0272347B8C2A2eD48c9": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0x1824852C3f5F7c1D3F8A725f59baF0e27ddf63E3": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0x0cE08E41d0CCfc7612414Ba4ca8ea92b0dCa05af": {
+    "name": "The investment shop",
+    "symbol": "Tis",
+    "decimals": 18
+  },
+  "0x5b7491a85040f0DbD896e74Bb162d5cF277158da": {
+    "name": "BlackFlagCollective",
+    "symbol": "BFC",
+    "decimals": 18
+  },
+  "0x61f6C5E1dC322Bbc64af405D55E7083a1c4419a6": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0x302E60d314A4DfC03b01f010fc9CDB1671eB36E0": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0x04f06FC668a58Ba040C6f95B7A5602cdC870c3Ac": {
+    "name": "地位",
+    "symbol": "Yisihan7",
+    "decimals": 18
+  },
+  "0x08E820f9Aa8375C6aA145a34756b5d10AF9677AE": {
+    "name": "地位",
+    "symbol": "Yisihan7",
+    "decimals": 18
+  },
+  "0x132619F97345E29dD2E60FECB8069e5615cCDa72": {
+    "name": "SaraTest",
+    "symbol": "SCG",
+    "decimals": 18
+  },
+  "0x82610Fa02724694d3216E8f9700a9F9e1515312F": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0xe4509Db70dc6AD1757eb8A5bB7121F64FD89240B": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0x271f170bDb37329915508277C3e4a9062484B412": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0x5486fBcb754E69Fe58Fb5E3dD498F6D7E0942e5A": {
+    "name": "CrystalQuarts_Protection",
+    "symbol": "$$$HSHCQP",
+    "decimals": 18
+  },
+  "0x8d760f4fdA919A8e9F38237ee003fe8ff0ca9eF7": {
+    "name": "JACK",
+    "symbol": "JACK",
+    "decimals": 18
+  },
+  "0xC992BC155f8E149F7394BA43Fdc5c06aE9607735": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
+  },
+  "0xF51f9DcE39cf8E99c60Fa61907d7103663e770fe": {
+    "name": "MEME",
+    "symbol": "MEME",
+    "decimals": 18
   }
 }

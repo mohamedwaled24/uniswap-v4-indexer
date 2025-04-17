@@ -183,5 +183,165 @@
     "name": "MXS Games",
     "symbol": "XSEED",
     "decimals": 18
+  },
+  "0x0f669808d88B2b0b3D23214DCD2a1cc6A8B1B5cd": {
+    "name": "Blub",
+    "symbol": "BLUB",
+    "decimals": 18
+  },
+  "0x698C34Bad17193AF7E1B4eb07d1309ff6C5e715e": {
+    "name": "xAVAX",
+    "symbol": "xAVAX",
+    "decimals": 18
+  },
+  "0xDf788AD40181894dA035B827cDF55C523bf52F67": {
+    "name": "Yak Milk Suzaku Restaked sAVAX",
+    "symbol": "rsAVAX",
+    "decimals": 18
+  },
+  "0x885c3a3A4998f0b5ac367A46217E68A200737A32": {
+    "name": "ALBERT",
+    "symbol": "ALBERT",
+    "decimals": 18
+  },
+  "0x214DB107654fF987AD859F34125307783fC8e387": {
+    "name": "Frax Share",
+    "symbol": "FXS",
+    "decimals": 18
+  },
+  "0xbc78D84Ba0c46dFe32cf2895a19939c86b81a777": {
+    "name": "Solv BTC",
+    "symbol": "SolvBTC",
+    "decimals": 18
+  },
+  "0xCC0966D8418d412c599A6421b760a847eB169A8c": {
+    "name": "SolvBTC Babylon",
+    "symbol": "SolvBTC.BBN",
+    "decimals": 18
+  },
+  "0xC0C5AA69Dbe4d6DDdfBc89c0957686ec60F24389": {
+    "name": "XEN Crypto",
+    "symbol": "aXEN",
+    "decimals": 18
+  },
+  "0x9b06F3C5de42D4623D7A2Bd940EC735103c68A76": {
+    "name": "Volta Club",
+    "symbol": "Volta",
+    "decimals": 18
+  },
+  "0x5C0401e81Bc07Ca70fAD469b451682c0d747Ef1c": {
+    "name": "Benqi AVAX",
+    "symbol": "qiAVAX",
+    "decimals": 8
+  },
+  "0x1B156C5c75E9dF4CAAb2a5cc5999aC58ff4F9090": {
+    "name": "Moo Aave AVAX",
+    "symbol": "mooAaveAVAX",
+    "decimals": 18
+  },
+  "0xA67BCC0D06d7d13A13A2AE30bF30f1B434f5a28B": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "0x6145E8a910aE937913426BF32De2b26039728ACF": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "0xd586E7F844cEa2F87f50152665BCbc2C279D8d70": {
+    "name": "Dai Stablecoin",
+    "symbol": "DAI.e",
+    "decimals": 18
+  },
+  "0xfcDe4A87b8b6FA58326BB462882f1778158B02F1": {
+    "name": "Wirex Token",
+    "symbol": "WXT",
+    "decimals": 18
+  },
+  "0xc7198437980c041c805A1EDcbA50c1Ce5db95118": {
+    "name": "Tether USD",
+    "symbol": "USDT.e",
+    "decimals": 6
+  },
+  "0x5c75ef77c99D3dC90AF601Eea2a66E8962700366": {
+    "name": "Wrapped ALGO",
+    "symbol": "wALGO",
+    "decimals": 6
+  },
+  "0x22683BbaDD01473969F23709879187705a253763": {
+    "name": "Lil Coq",
+    "symbol": "LIL",
+    "decimals": 18
+  },
+  "0xc8bdD7805fAd8dc59b753FEcCCDf17b98c17465b": {
+    "name": "Test 3",
+    "symbol": "TEST3",
+    "decimals": 18
+  },
+  "0xf3E5914cA1F678E0A3a38031B5514682e3450919": {
+    "name": "InkFinance",
+    "symbol": "QUILL",
+    "decimals": 18
+  },
+  "0x130966628846BFd36ff31a822705796e8cb8C18D": {
+    "name": "Magic Internet Money",
+    "symbol": "MIM",
+    "decimals": 18
+  },
+  "0xe9d62A1dAfFaA10E4f239936972807955aD765B4": {
+    "name": "EIV Token",
+    "symbol": "EIV",
+    "decimals": 18
+  },
+  "0x0950Fc1AD509358dAeaD5eB8020a3c7d8b43b9DA": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "0x442F7f22b1EE2c842bEAFf52880d4573E9201158": {
+    "name": "Wrapped BNB",
+    "symbol": "WBNB",
+    "decimals": 18
+  },
+  "0xf2f13f0B7008ab2FA4A2418F4ccC3684E49D20Eb": {
+    "name": "Wrapped Matic",
+    "symbol": "WMATIC",
+    "decimals": 18
+  },
+  "0x2b2C81e08f1Af8835a78Bb2A90AE924ACE0eA4bE": {
+    "name": "Staked AVAX",
+    "symbol": "sAVAX",
+    "decimals": 18
+  },
+  "0xF7D9281e8e363584973F946201b82ba72C965D27": {
+    "name": "YieldYak gAVAX",
+    "symbol": "yyAVAX",
+    "decimals": 18
+  },
+  "0xc3344870d52688874b06d844E0C36cc39FC727F6": {
+    "name": "Ankr Staked AVAX",
+    "symbol": "ankrAVAX",
+    "decimals": 18
+  },
+  "0xDfDA518A1612030536bD77Fd67eAcbe90dDC52Ab": {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "0x29e38769f23701A2e4A8Ef0492e19dA4604Be62c": {
+    "name": "TetherToken-LP",
+    "symbol": "S*USDt",
+    "decimals": 6
+  },
+  "0xA25EaF2906FA1a3a13EdAc9B9657108Af7B703e3": {
+    "name": "GoGoPool Liquid Staking Token",
+    "symbol": "ggAVAX",
+    "decimals": 18
+  },
+  "0x41Df729C20fC8792Ed3687420A8666255A092e9A": {
+    "name": "3 Exponential Growth",
+    "symbol": "^3EG",
+    "decimals": 6
   }
 }
