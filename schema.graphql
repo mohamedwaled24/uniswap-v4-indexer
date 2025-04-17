@@ -115,7 +115,7 @@ type ModifyLiquidity @entity {
   chainId: BigInt!
   transaction: String! # Instead of Transaction reference
   timestamp: BigInt! @index
-  pool: String! # Instead of Pool reference
+  pool: Pool! # Instead of Pool reference
   token0: Token! # Token reference like in Swap entity
   token1: Token! # Token reference like in Swap entity
   sender: String! # Instead of Bytes
