@@ -888,5 +888,100 @@
     "name": "Synth sUSD",
     "symbol": "sUSD",
     "decimals": 18
+  },
+  "0x20BfD8F4451ddfcf0214089bFAe9082fC66DFec8": {
+    "name": "NeonVert",
+    "symbol": "NVRT",
+    "decimals": 18
+  },
+  "0x2297aEbD383787A160DD0d9F71508148769342E3": {
+    "name": "Bitcoin",
+    "symbol": "BTC.b",
+    "decimals": 8
+  },
+  "0x0000206329b97DB379d5E1Bf586BbDB969C63274": {
+    "name": "USDA",
+    "symbol": "USDA",
+    "decimals": 18
+  },
+  "0x58441E37255b09F9f545e9Dc957F1C41658ff665": {
+    "name": "ANGLE_optimism",
+    "symbol": "ANGLE",
+    "decimals": 18
+  },
+  "0x871f2F2ff935FD1eD867842FF2a7bfD051A5E527": {
+    "name": "Wootrade Network",
+    "symbol": "WOO",
+    "decimals": 18
+  },
+  "0xD3FDCb837DAfdb7C9C3eBD48FE22a53F6Dd3d7D7": {
+    "name": "QiDao",
+    "symbol": "QI",
+    "decimals": 18
+  },
+  "0x825206E1D29456337769e6f1384101E997C6A732": {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "0xB214C19d81c99E75e84706a3aa0A757319023e26": {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  "0x9923DB8d7FBAcC2E69E87fAd19b886C81cd74979": {
+    "name": "Hyperlane",
+    "symbol": "HYPER",
+    "decimals": 18
+  },
+  "0x00b2C9f31CEC2c91670cF311fCFff4894282554c": {
+    "name": "XTM Stock Token",
+    "symbol": "XTST",
+    "decimals": 18
+  },
+  "0x60D52b505b83c6aC82D1Fb199E7fe0EDb63932eA": {
+    "name": "Mascot",
+    "symbol": "PR",
+    "decimals": 18
+  },
+  "0x5189eC9F4B4af264e6feF92a23CAbc7ec8dD1F51": {
+    "name": "Zora",
+    "symbol": "ZORA",
+    "decimals": 18
+  },
+  "0x2fc4058c49826bf025B4963FEA48BD6a4D4afF41": {
+    "name": "Artistcafe Fukuoka Token",
+    "symbol": "ACFT",
+    "decimals": 18
+  },
+  "0x95ec2f4d208b886a78D240f815dCEd1357f9F09E": {
+    "name": "Artistcafe Fukuoka Token 20250424",
+    "symbol": "ACFT25",
+    "decimals": 18
+  },
+  "0x71a11Db88293af4a5D6B28C98Baf9d47eB3e8Ce9": {
+    "name": "Uryu DCB Collective Token",
+    "symbol": "UDCT",
+    "decimals": 18
+  },
+  "0x4591DBfF62656E7859Afe5e45f6f47D3669fBB28": {
+    "name": "Prisma mkUSD",
+    "symbol": "mkUSD",
+    "decimals": 18
+  },
+  "0x4b4a6356B5355630E5835F349294B3a4d3eF4b32": {
+    "name": "m0t0k1ch1",
+    "symbol": "M01",
+    "decimals": 18
+  },
+  "0x9d16374c01Cf785b6dB5B02A830E00C40c5381D8": {
+    "name": "XBURN",
+    "symbol": "XBURN",
+    "decimals": 18
+  },
+  "0x80Eede496655FB9047dd39d9f418d5483ED600df": {
+    "name": "Frax USD",
+    "symbol": "frxUSD",
+    "decimals": 18
   }
 }
