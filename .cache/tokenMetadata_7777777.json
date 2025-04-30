@@ -123,5 +123,10 @@
     "name": "CZ PASS",
     "symbol": "CZ PASS",
     "decimals": 18
+  },
+  "0x5Bb55B41322e9E14f7D6CAa6938D8B1B42de0bfc": {
+    "name": "grow",
+    "symbol": "grw",
+    "decimals": 18
   }
 }

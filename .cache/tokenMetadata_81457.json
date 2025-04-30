@@ -43,5 +43,10 @@
     "name": "Serhey",
     "symbol": "SEY",
     "decimals": 6
+  },
+  "0x092D76d6603543a5e604Ee388e50CAa3a46E4dbD": {
+    "name": "AiFrUiT Unicorn",
+    "symbol": "AIUNI",
+    "decimals": 18
   }
 }

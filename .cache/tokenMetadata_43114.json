@@ -543,5 +543,110 @@
     "name": "wrapped SANUSCOIN",
     "symbol": "wSAC",
     "decimals": 7
+  },
+  "0x3C527C056573728Ee0ca79d5fA3bf8A1AF1C72fF": {
+    "name": "PEPE",
+    "symbol": "$PEPE",
+    "decimals": 18
+  },
+  "0xcD59b3309A0a0CBD9955d7e2CD2e1dFC7e5436c3": {
+    "name": "Coop Coin",
+    "symbol": "COOP",
+    "decimals": 6
+  },
+  "0x2774f7bF2319a303EB0832Ed3999C7aD9125D281": {
+    "name": "bnb meme",
+    "symbol": "$bnb",
+    "decimals": 18
+  },
+  "0xeb7646Ff17658A765FFdf65E5C296c8894437fc6": {
+    "name": "TRYKPre",
+    "symbol": "TRYKPRE",
+    "decimals": 18
+  },
+  "0xb0b31cf020A6b5b68E529C27335B8c51a22B72D4": {
+    "name": "TRYK",
+    "symbol": "TRYK",
+    "decimals": 18
+  },
+  "0x3213d985Dd4c206099E53eF930c2C5b36332FB8B": {
+    "name": "TRYKPre",
+    "symbol": "TRYKPRE",
+    "decimals": 18
+  },
+  "0xb558d97A64DFdF2B366F38CcE7e4A950d2F1a74f": {
+    "name": "RESALCollateralTokenV2",
+    "symbol": "RCTv2",
+    "decimals": 6
+  },
+  "0x49f519002EEcEd6902F24C0BE72B6D898e4D27FC": {
+    "name": "Betswap.gg",
+    "symbol": "BSGG",
+    "decimals": 18
+  },
+  "0xAFc1D137a8F0764833d2E74eFb2F0b171BC2cd87": {
+    "name": "Red Wolf",
+    "symbol": "REDWOLF",
+    "decimals": 18
+  },
+  "0x9562a264407d26650Ecf8817CD0B125550F8a9c5": {
+    "name": "Boi The Bear",
+    "symbol": "BOI",
+    "decimals": 18
+  },
+  "0xACC95Afa65768aa74044E6f6e267AD6417CD3e55": {
+    "name": "Boi the Bear",
+    "symbol": "BOI",
+    "decimals": 18
+  },
+  "0xcB28a60ab86Da028C97512fc5137Df862362ceb5": {
+    "name": "FLOPPY",
+    "symbol": "FLOPPY",
+    "decimals": 18
+  },
+  "0x90b630991aB2fa3BFCf6e7b380830E1C3Fb4BC4A": {
+    "name": "Ripple",
+    "symbol": "XRP",
+    "decimals": 6
+  },
+  "0x24dE8771bC5DdB3362Db529Fc3358F2df3A0E346": {
+    "name": "avUSD",
+    "symbol": "avUSD",
+    "decimals": 18
+  },
+  "0x06d47F3fb376649c3A9Dafe069B3D6E35572219E": {
+    "name": "Staked avUSD",
+    "symbol": "savUSD",
+    "decimals": 18
+  },
+  "0xa257E55aa988181E5DB2A45B61E9De7837Ff246D": {
+    "name": "ナナナ Banana Republic from P",
+    "symbol": "Nanana",
+    "decimals": 18
+  },
+  "0xF362feA9659cf036792c9cb02f8ff8198E21B4cB": {
+    "name": "Benqi sAVAX",
+    "symbol": "qisAVAX",
+    "decimals": 8
+  },
+  "0x89a415b3D20098E6A6C8f7a59001C67BD3129821": {
+    "name": "Benqi BTC.b",
+    "symbol": "qiBTC.b",
+    "decimals": 8
+  },
+  "0x334AD834Cd4481BB02d09615E7c11a00579A7909": {
+    "name": "Benqi ETH",
+    "symbol": "qiETH",
+    "decimals": 8
+  },
+  "0x190D94613A09ad7931FcD17CD6A8F9B6B47ad414": {
+    "name": "Benqi AUSD",
+    "symbol": "qiAUSD",
+    "decimals": 8
+  },
+  "0xd8fcDa6ec4Bdc547C0827B8804e89aCd817d56EF": {
+    "name": "Benqi USDTn",
+    "symbol": "qiUSDTn",
+    "decimals": 8
   }
 }
