@@ -8,6 +8,9 @@ import {
 } from "../utils/liquidityMath/liquidityAmounts";
 import { convertTokenToDecimal } from "../utils";
 
+const POOL_ID =
+  "0x3258f413c7a88cda2fa8709a589d221a80f6574f63df5a5b6774485d8acc39d9";
+
 PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
   let pool = await context.Pool.get(`${event.chainId}_${event.params.id}`);
   if (!pool) return;
@@ -141,6 +144,31 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
       };
       await context.HookStats.set(hookStats);
     }
+  }
+
+  // Create a snapshot if the pool ID matches the target pool ID
+  if (event.params.id === POOL_ID) {
+    const snapshotId = `${event.chainId}_${event.params.id}_${event.block.timestamp}_${event.logIndex}`;
+    const poolSnapshot = {
+      id: snapshotId,
+      chainId: BigInt(event.chainId),
+      pool: `${event.chainId}_${event.params.id}`,
+      timestamp: BigInt(event.block.timestamp),
+      transaction: event.transaction.hash,
+      liquidity: pool.liquidity,
+      sqrtPrice: pool.sqrtPrice,
+      token0Price: pool.token0Price,
+      token1Price: pool.token1Price,
+      tick: pool.tick,
+      totalValueLockedToken0: pool.totalValueLockedToken0,
+      totalValueLockedToken1: pool.totalValueLockedToken1,
+      totalValueLockedETH: pool.totalValueLockedETH,
+      totalValueLockedUSD: pool.totalValueLockedUSD,
+      eventType: "modifyLiquidity",
+      logIndex: BigInt(event.logIndex),
+    };
+    // @ts-ignore - PoolSnapshot will be available after codegen
+    await context.PoolSnapshot.set(poolSnapshot);
   }
 
   await context.ModifyLiquidity.set(modifyLiquidity);

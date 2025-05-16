@@ -128,3 +128,22 @@ type ModifyLiquidity @entity {
   tickUpper: BigInt! # upper tick of the position
   logIndex: BigInt! # index within the txn
 }
+
+type PoolSnapshot @entity {
+  id: ID!
+  chainId: BigInt!
+  pool: String!
+  timestamp: BigInt! @index
+  transaction: String!
+  liquidity: BigInt!
+  sqrtPrice: BigInt!
+  token0Price: BigDecimal!
+  token1Price: BigDecimal!
+  tick: BigInt
+  totalValueLockedToken0: BigDecimal!
+  totalValueLockedToken1: BigDecimal!
+  totalValueLockedETH: BigDecimal!
+  totalValueLockedUSD: BigDecimal!
+  eventType: String! # "swap" or "modifyLiquidity"
+  logIndex: BigInt!
+}
