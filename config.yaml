@@ -131,13 +131,11 @@ networks:
         address:
           - 0x28e2ea090877bf75740558f6bfb36a5ffee9e9df
   - id: 130
-    hypersync_config:
-      url: https://130.hypersync.xyz
     start_block: 0
     contracts:
-      # - name: PositionManager
-      #   address:
-      #     -
+      - name: PositionManager
+        address:
+          - 0x4529a01c7a0410167c5740c487a8de60232617bf
       - name: PoolManager
         address:
           - 0x1F98400000000000000000000000000000000004
