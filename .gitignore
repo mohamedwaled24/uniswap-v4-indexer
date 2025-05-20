@@ -34,4 +34,5 @@ logs
 *.bs.mjs
 *.gen.ts
 build
+.DS_Store
 .env
