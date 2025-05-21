@@ -63,6 +63,18 @@ http://localhost:8080
 
 This will open the Hasura console where you can explore and query the indexed data using GraphQL.
 
+### RPC Configuration
+
+RPC endpoints for each chain can be customized through environment variables prefixed with `ENVIO_`.
+For example:
+
+```
+ENVIO_MAINNET_RPC_URL=https://your-mainnet-node
+ENVIO_ARBITRUM_RPC_URL=https://your-arbitrum-node
+```
+
+See `.env.example` for the complete list of variables you can set.
+
 ## Usage
 
 You can use this indexer to power your own Uniswap v4 applications and infrastructure. The indexed data is accessible via GraphQL API.
