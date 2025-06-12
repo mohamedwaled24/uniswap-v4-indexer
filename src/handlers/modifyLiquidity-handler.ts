@@ -7,7 +7,7 @@ import {
   getAmount1,
 } from "../utils/liquidityMath/liquidityAmounts";
 import { convertTokenToDecimal } from "../utils";
-import { createTick, getOrInitTick } from "../utils/tick";
+import { createTick } from "../utils/tick";
 
 PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
   let pool = await context.Pool.get(`${event.chainId}_${event.params.id}`);
@@ -124,19 +124,12 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
   };
 
   // tick entities - using getOrCreate API
-  console.log(`🎯 Starting tick processing for event:`, {
-    tickLower: event.params.tickLower.toString(),
-    tickUpper: event.params.tickUpper.toString(),
-    liquidityDelta: event.params.liquidityDelta.toString(),
-  });
-
   const lowerTickIdx = Number(event.params.tickLower);
   const upperTickIdx = Number(event.params.tickUpper);
 
   const lowerTickId = pool.id + "#" + BigInt(event.params.tickLower).toString();
   const upperTickId = pool.id + "#" + BigInt(event.params.tickUpper).toString();
 
-  console.log(`🎯 Creating lowerTick with ID: ${lowerTickId}`);
   let lowerTick = await context.Tick.getOrCreate(
     await createTick(
       lowerTickId,
@@ -148,9 +141,7 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
       context
     )
   );
-  console.log(`✅ lowerTick created/retrieved`);
 
-  console.log(`🎯 Creating upperTick with ID: ${upperTickId}`);
   let upperTick = await context.Tick.getOrCreate(
     await createTick(
       upperTickId,
@@ -162,11 +153,8 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
       context
     )
   );
-  console.log(`✅ upperTick created/retrieved`);
 
   const amount = event.params.liquidityDelta;
-  console.log(`🔢 Updating liquidity with amount: ${amount.toString()}`);
-
   lowerTick = {
     ...lowerTick,
     liquidityGross: lowerTick.liquidityGross + amount,
@@ -179,29 +167,8 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
   };
 
   // Save tick entities
-  console.log(`💾 Saving lowerTick:`, {
-    id: lowerTick.id,
-    chainId: lowerTick.chainId.toString(),
-    tickIdx: lowerTick.tickIdx.toString(),
-    price0: lowerTick.price0.toString(),
-    price1: lowerTick.price1.toString(),
-    liquidityGross: lowerTick.liquidityGross.toString(),
-    liquidityNet: lowerTick.liquidityNet.toString(),
-  });
   await context.Tick.set(lowerTick);
-  console.log(`✅ lowerTick saved successfully`);
-
-  console.log(`💾 Saving upperTick:`, {
-    id: upperTick.id,
-    chainId: upperTick.chainId.toString(),
-    tickIdx: upperTick.tickIdx.toString(),
-    price0: upperTick.price0.toString(),
-    price1: upperTick.price1.toString(),
-    liquidityGross: upperTick.liquidityGross.toString(),
-    liquidityNet: upperTick.liquidityNet.toString(),
-  });
   await context.Tick.set(upperTick);
-  console.log(`✅ upperTick saved successfully`);
 
   // Check if this is a hooked pool and update HookStats
   const isHookedPool =
