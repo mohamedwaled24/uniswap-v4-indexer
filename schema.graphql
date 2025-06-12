@@ -69,6 +69,21 @@ type Pool @entity {
   totalValueLockedUSDUntracked: BigDecimal!
   liquidityProviderCount: BigInt!
   hooks: String!
+  # derived fields
+  ticks: [Tick!]! @derivedFrom(field: "pool")
+}
+
+type Tick @entity {
+  id: ID! # <pool address>#<tickIdx>
+  chainId: BigInt!
+  pool: Pool! # Pointer back to Pool
+  tickIdx: BigInt! @index
+  liquidityGross: BigInt! # abs liquidity at this boundary
+  liquidityNet: BigInt! # delta when price crosses boundary
+  price0: BigDecimal! # Optional – 1.0001^tickIdx
+  price1: BigDecimal! # Optional inverse price
+  createdAtTimestamp: BigInt!
+  createdAtBlockNumber: BigInt!
 }
 
 type Token @entity {
