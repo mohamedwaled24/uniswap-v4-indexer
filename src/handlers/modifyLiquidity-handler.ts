@@ -9,7 +9,7 @@ import {
 import { convertTokenToDecimal } from "../utils";
 
 const POOL_ID =
-  "0x3258f413c7a88cda2fa8709a589d221a80f6574f63df5a5b6774485d8acc39d9";
+  "0x21c67e77068de97969ba93d4aab21826d33ca12bb9f565d8496e8fda8a82ca27";
 
 PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
   let pool = await context.Pool.get(`${event.chainId}_${event.params.id}`);
@@ -148,12 +148,13 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
 
   // Create a snapshot if the pool ID matches the target pool ID
   if (event.params.id === POOL_ID) {
-    const snapshotId = `${event.chainId}_${event.params.id}_${event.block.timestamp}_${event.logIndex}`;
+    const snapshotId = `${event.chainId}_${event.params.id}_${event.block.number}_${event.logIndex}`;
     const poolSnapshot = {
       id: snapshotId,
       chainId: BigInt(event.chainId),
       pool: `${event.chainId}_${event.params.id}`,
       timestamp: BigInt(event.block.timestamp),
+      blockNumber: BigInt(event.block.number),
       transaction: event.transaction.hash,
       liquidity: pool.liquidity,
       sqrtPrice: pool.sqrtPrice,

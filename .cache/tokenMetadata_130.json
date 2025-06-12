@@ -5913,5 +5913,210 @@
     "name": "unibomber",
     "symbol": "Bomb",
     "decimals": 18
+  },
+  "0x3ef89b4f8E38CBD3A2BCbD01159a3708f31c5831": {
+    "name": "Superchain OG",
+    "symbol": "Superchain",
+    "decimals": 18
+  },
+  "0x6C1cfF51d308f387a788f7724fce86a25BA148E7": {
+    "name": "jadesboi",
+    "symbol": "0.0001",
+    "decimals": 18
+  },
+  "0x2BB2A32692A07eAf3D3c6319720D45160BCdA4DE": {
+    "name": "PinkSheep",
+    "symbol": "PINKS",
+    "decimals": 18
+  },
+  "0x2175c87Bd750958d649b210ED7c64fBc8E725caF": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x570127c953c00506EBEe3FD63EBD84786f34D319": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x467284Fe0939971F8f67EDa7B4F3eCa9841CF425": {
+    "name": "MockTokenA",
+    "symbol": "MOCKA",
+    "decimals": 18
+  },
+  "0xc89B635b93C2b91680d9C7134B4A6A2fB33b2eE1": {
+    "name": "MockTokenB",
+    "symbol": "MOCKB",
+    "decimals": 18
+  },
+  "0x200E4F2eE44E774789CBd2a91E567405e6E6A13E": {
+    "name": "KRAK",
+    "symbol": "KRAK",
+    "decimals": 18
+  },
+  "0x5cad9FD8b97EFc53F5b96b0ff7c8C87d61A08DAe": {
+    "name": "Sinister Unichain",
+    "symbol": "UNI",
+    "decimals": 18
+  },
+  "0x131500B0C5Cf00407b00bD54797E092509467FCe": {
+    "name": "TTGP",
+    "symbol": "TTGP",
+    "decimals": 18
+  },
+  "0xa549352860fB7b9Ead1eE0346502EB5A3ecbE152": {
+    "name": "TTGP2",
+    "symbol": "TTGP2",
+    "decimals": 18
+  },
+  "0x7057Fa5Fdd0366611450F184F992a99091d7458c": {
+    "name": "CATX",
+    "symbol": "CATX",
+    "decimals": 18
+  },
+  "0x2Dc1fE907B1fA46E76B953809cFCB30d298989E2": {
+    "name": "TEST",
+    "symbol": "TST",
+    "decimals": 18
+  },
+  "0xDe6B4027b94f9F4a6b81EAeE8284fC73Bd129695": {
+    "name": "CATX",
+    "symbol": "CATX",
+    "decimals": 18
+  },
+  "0xFe713eA2832575D963a4d702c5554d4D8721C8f5": {
+    "name": "BitcoinBR",
+    "symbol": "BTCBR",
+    "decimals": 18
+  },
+  "0x729a3AE9173e192a4aFBEc2DbEb273F0c720AadC": {
+    "name": "CrossChainERC20",
+    "symbol": "CROSS",
+    "decimals": 18
+  },
+  "0xe5E665867c2365Aee85358B2551a3bb1D6Bd31d9": {
+    "name": "FST",
+    "symbol": "FST",
+    "decimals": 18
+  },
+  "0x0a57c54764738cCAE431160D96fC4DA1fcCFF635": {
+    "name": "FST2",
+    "symbol": "FST",
+    "decimals": 18
+  },
+  "0x7E198Da290175acd21956bbeABA44e91650f936c": {
+    "name": "TEST",
+    "symbol": "tTs",
+    "decimals": 18
+  },
+  "0x447432c00e9B031fc3A99f98BeE5406B414A32D4": {
+    "name": "Unicorn",
+    "symbol": "UNIQ",
+    "decimals": 18
+  },
+  "0x6B7C2ab9E028a52d25769bbCa0792F3b2f0E0D12": {
+    "name": "TSTH",
+    "symbol": "TSTH",
+    "decimals": 18
+  },
+  "0xAC1a7701d7BCe0030E1743f05C07Cd6EEe47aFae": {
+    "name": "TSTH2",
+    "symbol": "TSTH2",
+    "decimals": 18
+  },
+  "0xB74020ee3aCA1D3eceDe294B861C04789e9dA911": {
+    "name": "TSTH3",
+    "symbol": "TSTH3",
+    "decimals": 18
+  },
+  "0xE3B81a2F41b11D029F8291c7b13BCF9DFdd4edFc": {
+    "name": "TSTH4",
+    "symbol": "TSTH4",
+    "decimals": 18
+  },
+  "0x849F05F7cfDc4215B16A3C5a58361445C4d56C8E": {
+    "name": "Hooffather",
+    "symbol": "HOOF",
+    "decimals": 18
+  },
+  "0x66F593D0eA9049fB68aB5dBb535D0Eb078CD559d": {
+    "name": "Pink Unichain",
+    "symbol": "PINK",
+    "decimals": 18
+  },
+  "0x7a347BA97bE45C75a1C8bE0427b4854dF7Ed8713": {
+    "name": "Unichain Eagle",
+    "symbol": "UNE",
+    "decimals": 18
+  },
+  "0xE5DA648Ec676A4a302B7feD8aa231A0522Dc0a0A": {
+    "name": "Pixie",
+    "symbol": "PIXIE",
+    "decimals": 18
+  },
+  "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0xD19f5DBA8DCd7dd3d3E1414a46D942A211958E40": {
+    "name": "CornZilla",
+    "symbol": "CRNZ",
+    "decimals": 18
+  },
+  "0x4db5f494aE074C6A65F9d90ED7e19da9C9EC8CB7": {
+    "name": "Chickchen",
+    "symbol": "Chickchen",
+    "decimals": 18
+  },
+  "0xF128e714437a6E68E487EF91e83e1F237819e4b4": {
+    "name": "iviy",
+    "symbol": "ivy",
+    "decimals": 18
+  },
+  "0x0ea80AAe8e00e61410b810bD07a07fCfF7a89B2b": {
+    "name": "UNIPINK",
+    "symbol": "UNIK",
+    "decimals": 18
+  },
+  "0x663Fe7AF0A8a5645A6f09EdF5f60CdA0a6Ea02f4": {
+    "name": "GNUS",
+    "symbol": "GNUS",
+    "decimals": 18
+  },
+  "0x160b8c36DC7e9F6aBd8bAB3CD16a0f1754F04Cb3": {
+    "name": "Unimon",
+    "symbol": "Unimon",
+    "decimals": 18
+  },
+  "0x41C7c19fed37D329cB954941d1c9c5ee962411C2": {
+    "name": "TheUnicorn",
+    "symbol": "UNIC",
+    "decimals": 18
+  },
+  "0x8E1Cf3e638dAbE5e44a5783DF0Cf179976A94bcA": {
+    "name": "PhnXetH",
+    "symbol": "PHNxETH",
+    "decimals": 18
+  },
+  "0xaDD3dB177d984423DCF4D019797524c713D68DF7": {
+    "name": "dx",
+    "symbol": "dx",
+    "decimals": 18
+  },
+  "0xb1599CDE32181f48f89683d3C5Db5C5D2C7C93cc": {
+    "name": "Super DCA",
+    "symbol": "DCA",
+    "decimals": 18
+  },
+  "0x14d9143BEcC348920b68D123687045db49a016C6": {
+    "name": "Spark USDC Vault",
+    "symbol": "sUSDC",
+    "decimals": 18
+  },
+  "0xDf6bD9Da43705d821028057dAA546762E77453e2": {
+    "name": "UNIMIL",
+    "symbol": "UNIMIL",
+    "decimals": 18
   }
 }

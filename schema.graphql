@@ -134,6 +134,7 @@ type PoolSnapshot @entity {
   chainId: BigInt!
   pool: String!
   timestamp: BigInt! @index
+  blockNumber: BigInt! @index
   transaction: String!
   liquidity: BigInt!
   sqrtPrice: BigInt!
