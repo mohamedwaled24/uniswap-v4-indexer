@@ -983,5 +983,260 @@
     "name": "Frax USD",
     "symbol": "frxUSD",
     "decimals": 18
+  },
+  "0x12354dD72D52B5060b3C989f61013CBA5685cA3F": {
+    "name": "shadcn",
+    "symbol": "SHADCN",
+    "decimals": 18
+  },
+  "0x2C5aEA7D0EF8Cb55fC4170f3fE0811FA8a70b3CE": {
+    "name": "Little  yellow",
+    "symbol": "KIIROI",
+    "decimals": 18
+  },
+  "0x92Fe2A5aC21dd740847446A8Fe528e2001dD3EC1": {
+    "name": "Astro Onchain",
+    "symbol": "AO",
+    "decimals": 18
+  },
+  "0x3595ea2e4419Da20863cA8d560aB60F7f70cE9ca": {
+    "name": "POCQ",
+    "symbol": "POCQ",
+    "decimals": 6
+  },
+  "0x399c1360b7127e122d71E857899Fabc08ac273f9": {
+    "name": "POCUSD",
+    "symbol": "POCUSD",
+    "decimals": 6
+  },
+  "0xBE407E17CaDC55f0a695bfAD12a1e7edCF1d3996": {
+    "name": "Fix",
+    "symbol": "FIX",
+    "decimals": 18
+  },
+  "0xCC130DBA992c5Af9561e28c1aEC9B18cF1E4E419": {
+    "name": "quantum",
+    "symbol": "QTM",
+    "decimals": 18
+  },
+  "0x3193f5880b315F181323D93F7aFeaEAEd684A4c9": {
+    "name": "ETH STAKE",
+    "symbol": "ETHX",
+    "decimals": 18
+  },
+  "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34": {
+    "name": "USDe",
+    "symbol": "USDe",
+    "decimals": 18
+  },
+  "0xb1599CDE32181f48f89683d3C5Db5C5D2C7C93cc": {
+    "name": "Super DCA",
+    "symbol": "DCA",
+    "decimals": 18
+  },
+  "0x00F932F0FE257456b32dedA4758922E56A4F4b42": {
+    "name": "Paper",
+    "symbol": "PAPER",
+    "decimals": 18
+  },
+  "0xD20B162d45473982fFF22577AC5247F8e19324C0": {
+    "name": "POCCOP",
+    "symbol": "POCCOP",
+    "decimals": 6
+  },
+  "0x8aE125E8653821E851F12A49F7765db9a9ce7384": {
+    "name": "Dola USD Stablecoin",
+    "symbol": "DOLA",
+    "decimals": 18
+  },
+  "0x93D4f5284FFe5E65897477eD6E327a7c5ad90C7e": {
+    "name": "Lena home",
+    "symbol": "CHOCO",
+    "decimals": 18
+  },
+  "0x7D2382b1f8Af621229d33464340541Db362B4907": {
+    "name": "OP yVault",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x5B977577Eb8a480f63e11FC615D6753adB8652Ae": {
+    "name": "WETH yVault",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x58b9cB810A68a7f3e1E4f8Cb45D1B9B3c79705E8": {
+    "name": "Everclear",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0xb47bC3ed6D70F04fe759b2529c9bc7377889678f": {
+    "name": "unknown",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "0x000000000000012DeF132E61759048bE5b5C6033": {
+    "name": "Cortex",
+    "symbol": "CX",
+    "decimals": 18
+  },
+  "0xE42781d2204e6885Cc7b3B2a6CA139822B2333A3": {
+    "name": "Chubby Bear",
+    "symbol": "BEARY",
+    "decimals": 18
+  },
+  "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2": {
+    "name": "Staked USDe",
+    "symbol": "sUSDe",
+    "decimals": 18
+  },
+  "0x38d693cE1dF5AaDF7bC62595A37D667aD57922e5": {
+    "name": "Aave Optimism USDCn",
+    "symbol": "aOptUSDCn",
+    "decimals": 6
+  },
+  "0x1217BfE6c773EEC6cc4A38b5Dc45B92292B6E189": {
+    "name": "OpenUSDT",
+    "symbol": "oUSDT",
+    "decimals": 6
+  },
+  "0x528237Bc38a45d1a93F8135049ea4F0AbD14266D": {
+    "name": "King Big",
+    "symbol": "KING",
+    "decimals": 18
+  },
+  "0xc4d4500326981eacD020e20A81b1c479c161c7EF": {
+    "name": "exactly WETH",
+    "symbol": "exaWETH",
+    "decimals": 18
+  },
+  "0xdD69DB25F6D620A7baD3023c5d32761D353D3De9": {
+    "name": "Goerli ETH",
+    "symbol": "GETH",
+    "decimals": 18
+  },
+  "0x0f13FbBf8Ea3FB99c3B91873ed057F3bce9Ba8eC": {
+    "name": "keta token",
+    "symbol": "keta",
+    "decimals": 18
+  },
+  "0x599F321049b722e2AE4E5C80D72Dcb62c373324e": {
+    "name": "EZfi.finance Optimism",
+    "symbol": "EZfi",
+    "decimals": 8
+  },
+  "0x8B21e9b7dAF2c4325bf3D18c1BeB79A347fE902A": {
+    "name": "Collab.Land",
+    "symbol": "COLLAB",
+    "decimals": 18
+  },
+  "0x0fc2a55d5BD13033f1ee0cdd11f60F7eFe66f467": {
+    "name": "Lagrange",
+    "symbol": "LA",
+    "decimals": 18
+  },
+  "0xbEFC29Bd84B6272EB558C988bD80b741841e64fD": {
+    "name": "Chinken",
+    "symbol": "Chinken",
+    "decimals": 18
+  },
+  "0x2619c139e1CaA063F05Ba660799936A53830a8c9": {
+    "name": "ber4mins",
+    "symbol": "BER4",
+    "decimals": 18
+  },
+  "0x0fA03c51EC59C2E7299A27349a4b884ba9fa206B": {
+    "name": "BeyondersCoin",
+    "symbol": "BYC",
+    "decimals": 18
+  },
+  "0x4F604735c1cF31399C6E711D5962b2B3E0225AD3": {
+    "name": "Glo Dollar",
+    "symbol": "USDGLO",
+    "decimals": 18
+  },
+  "0xD8C7F4B4DB21231C27DEFEb8A2C14aBB6A2a1651": {
+    "name": "Nowhere Man : The Cheadles : Rightoken : <",
+    "symbol": "RTKN",
+    "decimals": 18
+  },
+  "0xE36A30D249f7761327fd973001A32010b521b6Fd": {
+    "name": "Compound WETH",
+    "symbol": "cWETHv3",
+    "decimals": 18
+  },
+  "0x2e44e174f7D53F0212823acC11C01A11d58c5bCB": {
+    "name": "Compound USDC",
+    "symbol": "cUSDCv3",
+    "decimals": 6
+  },
+  "0x995E394b8B2437aC8Ce61Ee0bC610D617962B214": {
+    "name": "Compound USDT",
+    "symbol": "cUSDTv3",
+    "decimals": 6
+  },
+  "0xa1CDAb15bBA75a80dF4089CaFbA013e376957cF5": {
+    "name": "BlackRock USD Institutional Digital Liquidity Fund",
+    "symbol": "BUIDL",
+    "decimals": 6
+  },
+  "0x73cb180bf0521828d8849bc8CF2B920918e23032": {
+    "name": "USD+",
+    "symbol": "USD+",
+    "decimals": 6
+  },
+  "0xA88594D404727625A9437C3f886C7643872296AE": {
+    "name": "WELL",
+    "symbol": "WELL",
+    "decimals": 18
+  },
+  "0xfB26A4947A38cb53e2D083c6490060CCCE7438c5": {
+    "name": "Staked WELL",
+    "symbol": "stkWELL",
+    "decimals": 18
+  },
+  "0xb4104C02BBf4E9be85AAa41a62974E4e28D59A33": {
+    "name": "Moonwell WETH",
+    "symbol": "mWETH",
+    "decimals": 8
+  },
+  "0x8E08617b0d66359D73Aa11E11017834C29155525": {
+    "name": "Moonwell USDC",
+    "symbol": "mUSDC",
+    "decimals": 8
+  },
+  "0xed37cD7872c6fe4020982d35104bE7919b8f8b33": {
+    "name": "Moonwell USDT0",
+    "symbol": "mUSDT0",
+    "decimals": 8
+  },
+  "0xbb3b1aB66eFB43B10923b87460c0106643B83f9d": {
+    "name": "Moonwell wstETH",
+    "symbol": "mwstETH",
+    "decimals": 8
+  },
+  "0xb8051464C8c92209C92F3a4CD9C73746C4c3CFb3": {
+    "name": "Moonwell weETH",
+    "symbol": "mweETH",
+    "decimals": 8
+  },
+  "0xDd2708eb11B90877803eDB28BA3733aF1eB59da6": {
+    "name": "PROCXXR",
+    "symbol": "PROCXXR",
+    "decimals": 18
+  },
+  "0x7D14206C937E70e19E3A5B94011fAF0d5b3928e2": {
+    "name": "VitaDAO Token",
+    "symbol": "VITA",
+    "decimals": 18
+  },
+  "0x65559aA14915a70190438eF90104769e5E890A00": {
+    "name": "Ethereum Name Service",
+    "symbol": "ENS",
+    "decimals": 18
+  },
+  "0xD42Fe55e8A43b546aA75fdA6483073be1d7EF74c": {
+    "name": "Neurolanche",
+    "symbol": "NEROX",
+    "decimals": 18
   }
 }

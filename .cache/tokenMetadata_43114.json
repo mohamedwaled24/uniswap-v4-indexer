@@ -818,5 +818,60 @@
     "name": "Wrapped Dignity Gold",
     "symbol": "WDIGAU",
     "decimals": 18
+  },
+  "0xb2722d5f1b8F3E19bf026c62C47C1C7BC1CDB04E": {
+    "name": "MORE",
+    "symbol": "MORE",
+    "decimals": 18
+  },
+  "0x32A92E494c64006d530b8aa9D9A9DD7872BF15B9": {
+    "name": "Yippee ki yay",
+    "symbol": "YIEPPE",
+    "decimals": 18
+  },
+  "0x38b991eF14290f62E3789DFb54A9eBC88a82e13f": {
+    "name": "Wink",
+    "symbol": "WINK",
+    "decimals": 18
+  },
+  "0x0447c82ed514689fF90242776138cb91c3E3f991": {
+    "name": "MCD on Avax",
+    "symbol": "MCD",
+    "decimals": 18
+  },
+  "0xe088d859D8BcE513b76Dc11C05D559254e28A336": {
+    "name": "Wife Changing Money",
+    "symbol": "WIFE",
+    "decimals": 18
+  },
+  "0x861C9bFd348D77d732d82A91Df5884AE7C0CaC30": {
+    "name": "HeyAnon Mascot",
+    "symbol": "LUNA",
+    "decimals": 18
+  },
+  "0xf7fE8bea250c0290acfBD4c036f7d97648d43F57": {
+    "name": "Frog Nation",
+    "symbol": "FROG",
+    "decimals": 18
+  },
+  "0xb06F504453032b6c2303a0108Cf374d5B3D6a5EF": {
+    "name": "AVIL",
+    "symbol": "AVIL",
+    "decimals": 18
+  },
+  "0xA80F36BA18c7f721F3F7ACDbcDEfd3a86869A036": {
+    "name": "OFFICIAL TRUMP",
+    "symbol": "TRUMP",
+    "decimals": 18
+  },
+  "0x63a72806098Bd3D9520cC43356dD78afe5D386D9": {
+    "name": "Aave Token",
+    "symbol": "AAVE.e",
+    "decimals": 18
+  },
+  "0xac6E53f1e1eBaFDA8553C0ADD8C5B32BcB5890C4": {
+    "name": "FINANCE",
+    "symbol": "FINANCE",
+    "decimals": 18
   }
 }
