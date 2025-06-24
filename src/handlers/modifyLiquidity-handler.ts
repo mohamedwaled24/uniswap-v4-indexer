@@ -14,7 +14,10 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
   // Get chain config for pools to skip
   const chainConfig = getChainConfig(Number(event.chainId));
 
-  // Check if this pool should be skipped (similar to subgraph implementation)
+  // Check if this pool should be skipped
+  // NOTE: Subgraph only has this check in Initialize handler since skipped pools
+  // are never created, but we keep it here for safety in case we switch to
+  // getOrThrow APIs in the future and don't want exceptions thrown
   if (chainConfig.poolsToSkip.includes(event.params.id)) {
     return;
   }
