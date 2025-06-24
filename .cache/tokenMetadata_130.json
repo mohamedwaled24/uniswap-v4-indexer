@@ -5578,5 +5578,695 @@
     "name": "YEAH",
     "symbol": "YEA",
     "decimals": 18
+  },
+  "0xda84708eD509ad8d37ea1D8bD8ed70F582f84431": {
+    "name": "Unichain",
+    "symbol": "Uni",
+    "decimals": 18
+  },
+  "0x9aE2d8f8ffEd64c52E501938d3e8EB718B5510F9": {
+    "name": "Toshiba",
+    "symbol": "Toshi",
+    "decimals": 18
+  },
+  "0x444C5f4e8D69703529F3a7ae08057b5C1bb9C632": {
+    "name": "success native token",
+    "symbol": "success",
+    "decimals": 18
+  },
+  "0xf840d9582B78aAaBaE912A08470031108BC28B39": {
+    "name": "success native token",
+    "symbol": "success",
+    "decimals": 18
+  },
+  "0x0D614641A38B4327c75127a5F6B3E4fa25470E51": {
+    "name": "BAKMAN",
+    "symbol": "BAK",
+    "decimals": 18
+  },
+  "0x9F48C652e6917FBA65F719E71e0eA9e9D9a5267e": {
+    "name": "UniUni",
+    "symbol": "Uwu",
+    "decimals": 18
+  },
+  "0x62Cd073AB56361B643a4368227D602e7d48116c4": {
+    "name": "WalkieTalkieSwap",
+    "symbol": "XWT",
+    "decimals": 0
+  },
+  "0xd63EA19D53DbA102fa0e6a250326B7aC50bf5050": {
+    "name": "Watt-Minutes",
+    "symbol": "XWM",
+    "decimals": 0
+  },
+  "0x01d6D345e174192373D3fB0d61A8f8f954f8b47A": {
+    "name": "KOSSKE",
+    "symbol": "KSE",
+    "decimals": 18
+  },
+  "0x566206bA0c43D110A67f118B08d5187491f62BD3": {
+    "name": "TEST",
+    "symbol": "TST",
+    "decimals": 18
+  },
+  "0x033420b3365a3D3A3880E527FF8328780f1Ef9B1": {
+    "name": "Nishin",
+    "symbol": "NSN",
+    "decimals": 18
+  },
+  "0xCa7d2a29a4713d5cC4B5Eb3A4252E4Aa9f8D44EB": {
+    "name": "Pink Unichain",
+    "symbol": "PINK",
+    "decimals": 18
+  },
+  "0xb326E205Ca273D425992DFac60AFD71dE3DFD3e5": {
+    "name": "btcrhonin",
+    "symbol": "BTCR",
+    "decimals": 18
+  },
+  "0x44C84bDe5Adc03fB4AE24515b2Fd1EaF122207F8": {
+    "name": "CRYPTO",
+    "symbol": "cPT",
+    "decimals": 18
+  },
+  "0x79AAf87dfcAAc81834E32cEFc508CBE072B9210F": {
+    "name": "ROFL",
+    "symbol": "ROFL",
+    "decimals": 18
+  },
+  "0x4DB93E42991B0DB04B082Da0aa29Ed555e0158aE": {
+    "name": "Romashka",
+    "symbol": "ROMA",
+    "decimals": 18
+  },
+  "0x968b1a07C6A21Ad1ea1EBE1342A14ECec80429Db": {
+    "name": "ETH PECTRA",
+    "symbol": "PECTRA",
+    "decimals": 18
+  },
+  "0x2c1ee799806f369ad3baC8E028b767Cd9f03a209": {
+    "name": "WEB3",
+    "symbol": "WEB",
+    "decimals": 18
+  },
+  "0xf38916A8613f10e680c7544aea90A90a9B0c54b5": {
+    "name": "Niko",
+    "symbol": "🦄",
+    "decimals": 18
+  },
+  "0x87cA30B7e80D1FCD5a75d3bd711cB97cA6D34c78": {
+    "name": "haha",
+    "symbol": "haha",
+    "decimals": 18
+  },
+  "0xF140bEDe9c8972eA29750e351bfcBE46f3db3F35": {
+    "name": "meow",
+    "symbol": "meow",
+    "decimals": 18
+  },
+  "0x4B26E7a616E18C93c2241c3DaB8D0BF26db0dDA4": {
+    "name": "HAJF",
+    "symbol": "HAJF",
+    "decimals": 18
+  },
+  "0x23f9F8C390953EB2F99a758353A5db31302f1f56": {
+    "name": "DDAS",
+    "symbol": "DDAS",
+    "decimals": 18
+  },
+  "0x450De79470B5554763C03faCd3d53E081e2f454a": {
+    "name": "Gitla",
+    "symbol": "Gitla",
+    "decimals": 18
+  },
+  "0x035c55fD43853B640cD8eB98Ee148eE6E5D156eE": {
+    "name": "FJAK",
+    "symbol": "FJAK",
+    "decimals": 18
+  },
+  "0x10426753011E02A7e1d35d88f5892094993e0709": {
+    "name": "KARABL",
+    "symbol": "KARABL",
+    "decimals": 18
+  },
+  "0x65f38B504475f940Aa1565D58a846B043cc83d22": {
+    "name": "bbrq",
+    "symbol": "bbrq",
+    "decimals": 18
+  },
+  "0xB1E68c34A1e6aff6B7488bA133fB9321cB65B8Fa": {
+    "name": "psiho",
+    "symbol": "psiho",
+    "decimals": 18
+  },
+  "0xE3Fe52DEc8E61baff807eDF9fcb3FcA8EC723F94": {
+    "name": "HSHS",
+    "symbol": "HSHS",
+    "decimals": 18
+  },
+  "0x0bdc5d1dAC1884FA9042593B79Ec76e74dC4609b": {
+    "name": "DRAGON",
+    "symbol": "DRAGON",
+    "decimals": 18
+  },
+  "0x2Ba0a58FBbebe872A0Ae0B817853F98e10e9b725": {
+    "name": "CRASH",
+    "symbol": "CRASH",
+    "decimals": 18
+  },
+  "0xB096Ab701E1cCD39A8803678c351C20704430467": {
+    "name": "unipopcorn",
+    "symbol": "upc",
+    "decimals": 18
+  },
+  "0xb81B2e6A6B1550550ca2f4f67eC6FCf3fD542735": {
+    "name": "BSNSN",
+    "symbol": "11",
+    "decimals": 18
+  },
+  "0xcaBF2f08850AC64DA6f316e4090a7Da828135D9a": {
+    "name": "Fox",
+    "symbol": "Fox",
+    "decimals": 18
+  },
+  "0xB78438d8A1CD2926379a11b8d30665aC1Ab58338": {
+    "name": "Smallfox",
+    "symbol": "Foxx",
+    "decimals": 18
+  },
+  "0x0D7EdFBF523C6e3402B05420e530649C252D597A": {
+    "name": "metawolf",
+    "symbol": "mw",
+    "decimals": 18
+  },
+  "0x2F01005C4CF06E5b8493cA70Ea7e405577543260": {
+    "name": "Groogs",
+    "symbol": "GRO",
+    "decimals": 18
+  },
+  "0x143c3fd9Cc6251b69220614559Fb7FF5cb32F1eA": {
+    "name": "Pixie",
+    "symbol": "PIXIE",
+    "decimals": 18
+  },
+  "0x3D6ce6F4E13C79708B3f545845158B00219C518e": {
+    "name": "Pope",
+    "symbol": "Pope",
+    "decimals": 18
+  },
+  "0x7B78E358DfC174A048D645fF673739671a9370Ce": {
+    "name": "uniunin",
+    "symbol": "uninu",
+    "decimals": 18
+  },
+  "0x427BF6ba22f887Ce11C0618Cb1096fa2BaCb5780": {
+    "name": "farshaduni",
+    "symbol": "funi",
+    "decimals": 18
+  },
+  "0xAec73b82220300a9988286EDe2EED353717D9Aa8": {
+    "name": "oopogul",
+    "symbol": "oopo",
+    "decimals": 18
+  },
+  "0x517838cB29EC925FdCDFD1c467F65aBeAd55b566": {
+    "name": "Ziyab",
+    "symbol": "Ziyab",
+    "decimals": 18
+  },
+  "0xf434961D7f108359C1B69Cda1e1Ac4831CFc9A72": {
+    "name": "Unigold",
+    "symbol": "UNG",
+    "decimals": 18
+  },
+  "0xD639033da8F13B60783815e875d164b611cb57c6": {
+    "name": "UNIMON",
+    "symbol": "unimon",
+    "decimals": 18
+  },
+  "0xB6b4e2088Aa016Ba3cc342194b2B45784D253EdA": {
+    "name": "cryptoflexxx",
+    "symbol": "CFX",
+    "decimals": 18
+  },
+  "0x4bD9979e83A7232351C78704938a855ad4C9B9cE": {
+    "name": "Gopro",
+    "symbol": "GOPA",
+    "decimals": 18
+  },
+  "0xA77eac96D302873e37A560feC666f75fb737ec8F": {
+    "name": "Moglisa",
+    "symbol": "Moglisa",
+    "decimals": 18
+  },
+  "0x506165BE551e392f732Fe1d63B563c9C7025526B": {
+    "name": "GHOSTBUSTERS",
+    "symbol": "GST",
+    "decimals": 18
+  },
+  "0x2F30E34C9Bf37A6d03E8792236763e38135dD281": {
+    "name": "AIRDROPACTUAL",
+    "symbol": "DROP",
+    "decimals": 18
+  },
+  "0x875B4eB635B9dA143b39dE8C80B8a8b7Bb64259D": {
+    "name": "Elon Mushk",
+    "symbol": "MUSHK",
+    "decimals": 18
+  },
+  "0x5b73C1AD85C568030c921229f2A0d271efB7B14f": {
+    "name": "schnoz",
+    "symbol": "schnoz",
+    "decimals": 18
+  },
+  "0xe8d580Eb7637D3B8257Af1e38CF9Ea17F2B1BaF0": {
+    "name": "Xi Jinping Meme coin",
+    "symbol": "ping",
+    "decimals": 18
+  },
+  "0x04CB4ab7584C2548fA2A3F740B64Dbfc5c2B3aB9": {
+    "name": "Strawberry In Bloom",
+    "symbol": "BERRY",
+    "decimals": 18
+  },
+  "0xCEa2DF58f23d35b71f088AC12eD6Ec1fEF016392": {
+    "name": "MOLIC",
+    "symbol": "0.0001",
+    "decimals": 18
+  },
+  "0xdFdCd552b146476e9F5e05708fA9b0f8637590Dd": {
+    "name": "Pinkycat",
+    "symbol": "Pcat",
+    "decimals": 18
+  },
+  "0xDB1bCff6daB1A59c44Bd70de872B126c22De6D63": {
+    "name": "MEME SZN",
+    "symbol": "MEMESZN",
+    "decimals": 18
+  },
+  "0x9E06DB8820B26CF4d031c8Ff991E2B59cC243D95": {
+    "name": "sindoor",
+    "symbol": "sdr",
+    "decimals": 18
+  },
+  "0x3f4703D81CBC08589244f21A899f28133999BcA9": {
+    "name": "Cow",
+    "symbol": "Cow",
+    "decimals": 18
+  },
+  "0x57D7C89a2386Eb9E2F8bF806A86942699838f0Db": {
+    "name": "pokechog",
+    "symbol": "pkc",
+    "decimals": 18
+  },
+  "0x90D7995b4C0021bef19D3712c09D6F9dc9640819": {
+    "name": "UniFartcoin",
+    "symbol": "UNIFART",
+    "decimals": 18
+  },
+  "0xEF5e705279687c75815D8839b3503311d3766fcf": {
+    "name": "windy-mindy",
+    "symbol": "WM",
+    "decimals": 18
+  },
+  "0x67c62EF831B6160eFACc2a648a1d59a4C8E01A92": {
+    "name": "First L2 to build inside a TEE ✅",
+    "symbol": "TEE",
+    "decimals": 18
+  },
+  "0x3477E7fEA383FC22bd24af5EFeA50d8c9912ca64": {
+    "name": "unidrep",
+    "symbol": "unidrep",
+    "decimals": 18
+  },
+  "0x0fe16C393125CF94777666A477EE232214FD68b7": {
+    "name": "BUDEZ",
+    "symbol": "BUDEZ",
+    "decimals": 18
+  },
+  "0x7225c490D28aa33CFa9Fc2aEB762f6CcD723F49B": {
+    "name": "Store of Value",
+    "symbol": "SCARCE",
+    "decimals": 18
+  },
+  "0x08Dd8506C5c6ab8E63647A1120D37fBAC71c49B4": {
+    "name": "unibomber",
+    "symbol": "Bomb",
+    "decimals": 18
+  },
+  "0x3ef89b4f8E38CBD3A2BCbD01159a3708f31c5831": {
+    "name": "Superchain OG",
+    "symbol": "Superchain",
+    "decimals": 18
+  },
+  "0x6C1cfF51d308f387a788f7724fce86a25BA148E7": {
+    "name": "jadesboi",
+    "symbol": "0.0001",
+    "decimals": 18
+  },
+  "0x2BB2A32692A07eAf3D3c6319720D45160BCdA4DE": {
+    "name": "PinkSheep",
+    "symbol": "PINKS",
+    "decimals": 18
+  },
+  "0x2175c87Bd750958d649b210ED7c64fBc8E725caF": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x570127c953c00506EBEe3FD63EBD84786f34D319": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x467284Fe0939971F8f67EDa7B4F3eCa9841CF425": {
+    "name": "MockTokenA",
+    "symbol": "MOCKA",
+    "decimals": 18
+  },
+  "0xc89B635b93C2b91680d9C7134B4A6A2fB33b2eE1": {
+    "name": "MockTokenB",
+    "symbol": "MOCKB",
+    "decimals": 18
+  },
+  "0x200E4F2eE44E774789CBd2a91E567405e6E6A13E": {
+    "name": "KRAK",
+    "symbol": "KRAK",
+    "decimals": 18
+  },
+  "0x5cad9FD8b97EFc53F5b96b0ff7c8C87d61A08DAe": {
+    "name": "Sinister Unichain",
+    "symbol": "UNI",
+    "decimals": 18
+  },
+  "0x131500B0C5Cf00407b00bD54797E092509467FCe": {
+    "name": "TTGP",
+    "symbol": "TTGP",
+    "decimals": 18
+  },
+  "0xa549352860fB7b9Ead1eE0346502EB5A3ecbE152": {
+    "name": "TTGP2",
+    "symbol": "TTGP2",
+    "decimals": 18
+  },
+  "0x7057Fa5Fdd0366611450F184F992a99091d7458c": {
+    "name": "CATX",
+    "symbol": "CATX",
+    "decimals": 18
+  },
+  "0x2Dc1fE907B1fA46E76B953809cFCB30d298989E2": {
+    "name": "TEST",
+    "symbol": "TST",
+    "decimals": 18
+  },
+  "0xDe6B4027b94f9F4a6b81EAeE8284fC73Bd129695": {
+    "name": "CATX",
+    "symbol": "CATX",
+    "decimals": 18
+  },
+  "0xFe713eA2832575D963a4d702c5554d4D8721C8f5": {
+    "name": "BitcoinBR",
+    "symbol": "BTCBR",
+    "decimals": 18
+  },
+  "0x729a3AE9173e192a4aFBEc2DbEb273F0c720AadC": {
+    "name": "CrossChainERC20",
+    "symbol": "CROSS",
+    "decimals": 18
+  },
+  "0xe5E665867c2365Aee85358B2551a3bb1D6Bd31d9": {
+    "name": "FST",
+    "symbol": "FST",
+    "decimals": 18
+  },
+  "0x0a57c54764738cCAE431160D96fC4DA1fcCFF635": {
+    "name": "FST2",
+    "symbol": "FST",
+    "decimals": 18
+  },
+  "0x7E198Da290175acd21956bbeABA44e91650f936c": {
+    "name": "TEST",
+    "symbol": "tTs",
+    "decimals": 18
+  },
+  "0x447432c00e9B031fc3A99f98BeE5406B414A32D4": {
+    "name": "Unicorn",
+    "symbol": "UNIQ",
+    "decimals": 18
+  },
+  "0x6B7C2ab9E028a52d25769bbCa0792F3b2f0E0D12": {
+    "name": "TSTH",
+    "symbol": "TSTH",
+    "decimals": 18
+  },
+  "0xAC1a7701d7BCe0030E1743f05C07Cd6EEe47aFae": {
+    "name": "TSTH2",
+    "symbol": "TSTH2",
+    "decimals": 18
+  },
+  "0xB74020ee3aCA1D3eceDe294B861C04789e9dA911": {
+    "name": "TSTH3",
+    "symbol": "TSTH3",
+    "decimals": 18
+  },
+  "0xE3B81a2F41b11D029F8291c7b13BCF9DFdd4edFc": {
+    "name": "TSTH4",
+    "symbol": "TSTH4",
+    "decimals": 18
+  },
+  "0x849F05F7cfDc4215B16A3C5a58361445C4d56C8E": {
+    "name": "Hooffather",
+    "symbol": "HOOF",
+    "decimals": 18
+  },
+  "0x66F593D0eA9049fB68aB5dBb535D0Eb078CD559d": {
+    "name": "Pink Unichain",
+    "symbol": "PINK",
+    "decimals": 18
+  },
+  "0x7a347BA97bE45C75a1C8bE0427b4854dF7Ed8713": {
+    "name": "Unichain Eagle",
+    "symbol": "UNE",
+    "decimals": 18
+  },
+  "0xE5DA648Ec676A4a302B7feD8aa231A0522Dc0a0A": {
+    "name": "Pixie",
+    "symbol": "PIXIE",
+    "decimals": 18
+  },
+  "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0xD19f5DBA8DCd7dd3d3E1414a46D942A211958E40": {
+    "name": "CornZilla",
+    "symbol": "CRNZ",
+    "decimals": 18
+  },
+  "0x4db5f494aE074C6A65F9d90ED7e19da9C9EC8CB7": {
+    "name": "Chickchen",
+    "symbol": "Chickchen",
+    "decimals": 18
+  },
+  "0xF128e714437a6E68E487EF91e83e1F237819e4b4": {
+    "name": "iviy",
+    "symbol": "ivy",
+    "decimals": 18
+  },
+  "0x0ea80AAe8e00e61410b810bD07a07fCfF7a89B2b": {
+    "name": "UNIPINK",
+    "symbol": "UNIK",
+    "decimals": 18
+  },
+  "0x663Fe7AF0A8a5645A6f09EdF5f60CdA0a6Ea02f4": {
+    "name": "GNUS",
+    "symbol": "GNUS",
+    "decimals": 18
+  },
+  "0x160b8c36DC7e9F6aBd8bAB3CD16a0f1754F04Cb3": {
+    "name": "Unimon",
+    "symbol": "Unimon",
+    "decimals": 18
+  },
+  "0x41C7c19fed37D329cB954941d1c9c5ee962411C2": {
+    "name": "TheUnicorn",
+    "symbol": "UNIC",
+    "decimals": 18
+  },
+  "0x8E1Cf3e638dAbE5e44a5783DF0Cf179976A94bcA": {
+    "name": "PhnXetH",
+    "symbol": "PHNxETH",
+    "decimals": 18
+  },
+  "0xaDD3dB177d984423DCF4D019797524c713D68DF7": {
+    "name": "dx",
+    "symbol": "dx",
+    "decimals": 18
+  },
+  "0xb1599CDE32181f48f89683d3C5Db5C5D2C7C93cc": {
+    "name": "Super DCA",
+    "symbol": "DCA",
+    "decimals": 18
+  },
+  "0x14d9143BEcC348920b68D123687045db49a016C6": {
+    "name": "Spark USDC Vault",
+    "symbol": "sUSDC",
+    "decimals": 18
+  },
+  "0xDf6bD9Da43705d821028057dAA546762E77453e2": {
+    "name": "UNIMIL",
+    "symbol": "UNIMIL",
+    "decimals": 18
+  },
+  "0xbceC197F0Edd405082831c16791C2DA24DD049B5": {
+    "name": "lilly",
+    "symbol": "lilly",
+    "decimals": 18
+  },
+  "0xD49181c522eCDB265f0D9C175Cf26FFACE64eAD3": {
+    "name": "EVK Vault eUSD₮0-1",
+    "symbol": "eUSD₮0-1",
+    "decimals": 6
+  },
+  "0x6eAe95ee783e4D862867C4e0E4c3f4B95AA682Ba": {
+    "name": "EVK Vault eUSDC-1",
+    "symbol": "eUSDC-1",
+    "decimals": 6
+  },
+  "0x2c7118c4C88B9841FCF839074c26Ae8f035f2921": {
+    "name": "Compound USDC",
+    "symbol": "cUSDCv3",
+    "decimals": 6
+  },
+  "0xe36DA4Ea4D07E54B1029eF26A896A656A3729f86": {
+    "name": "EVK Vault eweETH-1",
+    "symbol": "eweETH-1",
+    "decimals": 18
+  },
+  "0x1f3134C3f3f8AdD904B9635acBeFC0eA0D0E1ffC": {
+    "name": "EVK Vault eWETH-1",
+    "symbol": "eWETH-1",
+    "decimals": 18
+  },
+  "0x854B183023c1f80685A4C2ea8AB7b302E051Fa20": {
+    "name": "Coolha",
+    "symbol": "COOL",
+    "decimals": 18
+  },
+  "0x9dB2CA8c6F147059e4744c800975fb9390572527": {
+    "name": "good",
+    "symbol": "gm",
+    "decimals": 18
+  },
+  "0xf8b3EB7F0B24A9E4458160305cbfBc051ecf5525": {
+    "name": "Wynn Piggy",
+    "symbol": "WYNNPIG",
+    "decimals": 18
+  },
+  "0x055Ae069C2577A3CA7bBA88300Aa91a5F1E9D43e": {
+    "name": "Wynn Piggy",
+    "symbol": "WYNNPIG",
+    "decimals": 18
+  },
+  "0x2ab1fc7aF114253f4065Ed35A2E67aFB82f5970E": {
+    "name": "MeoPass",
+    "symbol": "MPS",
+    "decimals": 18
+  },
+  "0xF5B604Ea4fA945b377c8E2C28F1702e4A5c1389b": {
+    "name": "Unichain Procrastination Token",
+    "symbol": "L8R",
+    "decimals": 18
+  },
+  "0x6cca770fE80e3e8B843Ed4fDB03E7d86b7754B62": {
+    "name": "ер",
+    "symbol": "EP",
+    "decimals": 18
+  },
+  "0xb933b6fF1FCa74279eF811608baA006Ae0d36635": {
+    "name": "UCF Finance",
+    "symbol": "UCF",
+    "decimals": 18
+  },
+  "0x27c28A977489442543aB3c0E1c40c78f804D5058": {
+    "name": "I REGRET",
+    "symbol": "GRET",
+    "decimals": 18
+  },
+  "0xA65f0d3EEE7E96a04FaC6773d89BBEBcD445F07d": {
+    "name": "Argentine Coin",
+    "symbol": "ARSC",
+    "decimals": 18
+  },
+  "0xD0cA4312B52949694D9c6b7252515dBe3C1a185E": {
+    "name": "kkkfdsf",
+    "symbol": "ggd",
+    "decimals": 18
+  },
+  "0x6376F64701d4947e6f7b8aC8cB8D54dB625D0bbd": {
+    "name": "Degen Arena",
+    "symbol": "DEGEN",
+    "decimals": 9
+  },
+  "0xe4c80cE3D5c8a4D2D2F7DC9f12A0AD466A23BF89": {
+    "name": "pirate",
+    "symbol": "pir",
+    "decimals": 18
+  },
+  "0x3F8f1b6c051D336f6324C0eAD5BDcA71649dDC5f": {
+    "name": "CHICKEN CUTE",
+    "symbol": "CHICK",
+    "decimals": 18
+  },
+  "0xd635Ad27A0355d3F1957d3f38B755B20e5b605da": {
+    "name": "LION KING",
+    "symbol": "LION",
+    "decimals": 18
+  },
+  "0x95bd8D3406C898794E7b87ACA3904c568B30CF99": {
+    "name": "DOGE ON UNI",
+    "symbol": "DOGE",
+    "decimals": 18
+  },
+  "0xC6C8756bf64Ff0bF8183EECC4B20160b0B6833B2": {
+    "name": "Candy Unicorn",
+    "symbol": "CANDY",
+    "decimals": 18
+  },
+  "0xee3fecB390b8E2649312F1659099bcB2DEB94BF3": {
+    "name": "EGG",
+    "symbol": "EGG",
+    "decimals": 18
+  },
+  "0x7f80e6aA6fa3d8602Ac960659C17d0414383B54A": {
+    "name": "serilux",
+    "symbol": "SERILUX",
+    "decimals": 18
+  },
+  "0x1f18cF3c13daf9735154B4bF9305Bb0c5b235986": {
+    "name": "Cash Coin",
+    "symbol": "CASH",
+    "decimals": 18
+  },
+  "0x7d2992Df5d40683E6a5b51Dc912D5B73986762B0": {
+    "name": "Good Times",
+    "symbol": "GT",
+    "decimals": 18
+  },
+  "0x27183CA95744921d6E4C8bE073C400D32Ce3B550": {
+    "name": "Test Token",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "0x2718b4a402285d8DD6601B56c6aB79103258d812": {
+    "name": "Another Test",
+    "symbol": "TEST2",
+    "decimals": 18
+  },
+  "0x2718199693293ea98c8E60Ee1Fc8CAdB8c5F850C": {
+    "name": "Test Token",
+    "symbol": "TEST3",
+    "decimals": 18
   }
 }

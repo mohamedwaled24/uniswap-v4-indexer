@@ -1238,5 +1238,10 @@
     "name": "Neurolanche",
     "symbol": "NEROX",
     "decimals": 18
+  },
+  "0x23ee2343B892b1BB63503a4FAbc840E0e2C6810f": {
+    "name": "Axelar",
+    "symbol": "AXL",
+    "decimals": 6
   }
 }

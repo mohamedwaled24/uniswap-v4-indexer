@@ -873,5 +873,20 @@
     "name": "FINANCE",
     "symbol": "FINANCE",
     "decimals": 18
+  },
+  "0x1e2F7593cd528bD468Dc7135fb36E1e025568D64": {
+    "name": "Bear Bread",
+    "symbol": "BEEB",
+    "decimals": 18
+  },
+  "0xe53b917551079cA11e3C34D1C8cf1644e9bB7b15": {
+    "name": "Wink Tax",
+    "symbol": "WINKTAX",
+    "decimals": 18
+  },
+  "0x80f0C1c49891dcFDD40b6e0F960F84E6042bcB6F": {
+    "name": "DBXen Token on Avalanche",
+    "symbol": "aDXN",
+    "decimals": 18
   }
 }
