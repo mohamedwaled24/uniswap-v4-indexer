@@ -8,8 +8,17 @@ import {
 } from "../utils/liquidityMath/liquidityAmounts";
 import { convertTokenToDecimal } from "../utils";
 import { createTick } from "../utils/tick";
+import { getChainConfig } from "../utils/chains";
 
 PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
+  // Get chain config for pools to skip
+  const chainConfig = getChainConfig(Number(event.chainId));
+
+  // Check if this pool should be skipped (similar to subgraph implementation)
+  if (chainConfig.poolsToSkip.includes(event.params.id)) {
+    return;
+  }
+
   let pool = await context.Pool.get(`${event.chainId}_${event.params.id}`);
   if (!pool) return;
   let token0 = await context.Token.get(pool.token0);

@@ -79,7 +79,9 @@ export const CHAIN_CONFIGS: { [chainId: number]: ChainConfig } = {
         decimals: BigInt(9),
       },
     ],
-    poolsToSkip: [],
+    poolsToSkip: [
+      "0xdfd5c2e5eca762ad4839fe581de3afa0788a220220cf8741c845e2fc099a5996", // ETH/CLUSSY way inflated values
+    ],
     nativeTokenDetails: {
       symbol: "ETH",
       name: "Ethereum",

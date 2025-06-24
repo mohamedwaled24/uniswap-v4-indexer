@@ -48,6 +48,11 @@ PoolManager.Swap.handlerWithLoader({
 
     const chainConfig = getChainConfig(event.chainId);
 
+    // Check if this pool should be skipped (similar to subgraph implementation)
+    if (chainConfig.poolsToSkip.includes(event.params.id)) {
+      return;
+    }
+
     // Update tokens' derivedETH values first
     token0 = {
       ...token0,
