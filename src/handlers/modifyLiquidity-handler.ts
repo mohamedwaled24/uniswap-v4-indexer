@@ -8,8 +8,20 @@ import {
 } from "../utils/liquidityMath/liquidityAmounts";
 import { convertTokenToDecimal } from "../utils";
 import { createTick } from "../utils/tick";
+import { getChainConfig } from "../utils/chains";
 
 PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
+  // Get chain config for pools to skip
+  const chainConfig = getChainConfig(Number(event.chainId));
+
+  // Check if this pool should be skipped
+  // NOTE: Subgraph only has this check in Initialize handler since skipped pools
+  // are never created, but we keep it here for safety in case we switch to
+  // getOrThrow APIs in the future and don't want exceptions thrown
+  if (chainConfig.poolsToSkip.includes(event.params.id)) {
+    return;
+  }
+
   let pool = await context.Pool.get(`${event.chainId}_${event.params.id}`);
   if (!pool) return;
   let token0 = await context.Token.get(pool.token0);
