@@ -48,5 +48,40 @@
     "name": "AiFrUiT Unicorn",
     "symbol": "AIUNI",
     "decimals": 18
+  },
+  "0xBA91a7840315872C7E7F3A8B9110689016845fFB": {
+    "name": "UCF Finance",
+    "symbol": "UCF",
+    "decimals": 18
+  },
+  "0xE070B87c4d88826D4cD1b85BAbE186fdB14CD321": {
+    "name": "Cyberblast Token",
+    "symbol": "CBR",
+    "decimals": 18
+  },
+  "0xF7bc58b8D8f97ADC129cfC4c9f45Ce3C0E1D2692": {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  "0x25F233C3E3676f9e900a89644a3FE5404d643c84": {
+    "name": "Ring Governance Token",
+    "symbol": "RING",
+    "decimals": 18
+  },
+  "0xE36072DD051Ce26261BF50CD966311cab62C596e": {
+    "name": "Thruster",
+    "symbol": "THRUST",
+    "decimals": 18
+  },
+  "0x569FcbDa292f1a69AB14e401bAD13Cc0E1DEC790": {
+    "name": "Hyper Thrust",
+    "symbol": "hyperTHRUST",
+    "decimals": 18
+  },
+  "0xb5A86030b64AfAa75c42c0D28f8d5ce5f9f61401": {
+    "name": "bWOOL",
+    "symbol": "bWOOL",
+    "decimals": 18
   }
 }

@@ -8,8 +8,13 @@ import { getTokenMetadata } from "../utils/tokenMetadata";
 import { findNativePerToken } from "../utils/pricing";
 
 PoolManager.Initialize.handler(async ({ event, context }) => {
-  // Get chain config for whitelist tokens
+  // Get chain config for whitelist tokens and pools to skip
   const chainConfig = getChainConfig(Number(event.chainId));
+
+  // Check if this pool should be skipped (similar to subgraph implementation)
+  if (chainConfig.poolsToSkip.includes(event.params.id)) {
+    return;
+  }
 
   // Define isHookedPool at the start
   const isHookedPool =

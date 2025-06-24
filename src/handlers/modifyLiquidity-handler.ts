@@ -7,8 +7,21 @@ import {
   getAmount1,
 } from "../utils/liquidityMath/liquidityAmounts";
 import { convertTokenToDecimal } from "../utils";
+import { createTick } from "../utils/tick";
+import { getChainConfig } from "../utils/chains";
 
 PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
+  // Get chain config for pools to skip
+  const chainConfig = getChainConfig(Number(event.chainId));
+
+  // Check if this pool should be skipped
+  // NOTE: Subgraph only has this check in Initialize handler since skipped pools
+  // are never created, but we keep it here for safety in case we switch to
+  // getOrThrow APIs in the future and don't want exceptions thrown
+  if (chainConfig.poolsToSkip.includes(event.params.id)) {
+    return;
+  }
+
   let pool = await context.Pool.get(`${event.chainId}_${event.params.id}`);
   if (!pool) return;
   let token0 = await context.Token.get(pool.token0);
@@ -83,10 +96,9 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
     totalValueLockedUSD: pool.totalValueLockedETH.times(bundle.ethPriceUSD),
   };
   // Update PoolManager
-  let poolManager = await context.PoolManager.get(
+  let poolManager = await context.PoolManager.getOrThrow(
     `${event.chainId}_${event.srcAddress}`
   );
-  if (!poolManager) return;
   poolManager = {
     ...poolManager,
     txCount: poolManager.txCount + 1n,
@@ -122,6 +134,53 @@ PoolManager.ModifyLiquidity.handler(async ({ event, context }) => {
     tickUpper: BigInt(event.params.tickUpper),
     logIndex: BigInt(event.logIndex),
   };
+
+  // tick entities - using getOrCreate API
+  const lowerTickIdx = Number(event.params.tickLower);
+  const upperTickIdx = Number(event.params.tickUpper);
+
+  const lowerTickId = pool.id + "#" + BigInt(event.params.tickLower).toString();
+  const upperTickId = pool.id + "#" + BigInt(event.params.tickUpper).toString();
+
+  let lowerTick = await context.Tick.getOrCreate(
+    await createTick(
+      lowerTickId,
+      lowerTickIdx,
+      pool.id,
+      BigInt(event.chainId),
+      BigInt(event.block.timestamp),
+      BigInt(event.block.number),
+      context
+    )
+  );
+
+  let upperTick = await context.Tick.getOrCreate(
+    await createTick(
+      upperTickId,
+      upperTickIdx,
+      pool.id,
+      BigInt(event.chainId),
+      BigInt(event.block.timestamp),
+      BigInt(event.block.number),
+      context
+    )
+  );
+
+  const amount = event.params.liquidityDelta;
+  lowerTick = {
+    ...lowerTick,
+    liquidityGross: lowerTick.liquidityGross + amount,
+    liquidityNet: lowerTick.liquidityNet + amount,
+  };
+  upperTick = {
+    ...upperTick,
+    liquidityGross: upperTick.liquidityGross + amount,
+    liquidityNet: upperTick.liquidityNet - amount,
+  };
+
+  // Save tick entities
+  await context.Tick.set(lowerTick);
+  await context.Tick.set(upperTick);
 
   // Check if this is a hooked pool and update HookStats
   const isHookedPool =

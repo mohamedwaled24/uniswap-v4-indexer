@@ -128,5 +128,20 @@
     "name": "grow",
     "symbol": "grw",
     "decimals": 18
+  },
+  "0x8c251AC24a0fA114BE973baa80B7Fe1eeF1bfb78": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x24A6311bcd36989c50d6c1542F853B3B39441FAb": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0xb60965BED75365D551C628203fe407ED84FB5CD3": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
   }
 }
