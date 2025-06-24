@@ -139,3 +139,12 @@ networks:
       - name: PoolManager
         address:
           - 0x1F98400000000000000000000000000000000004
+  - id: 480
+    start_block: 0
+    contracts:
+      - name: PositionManager
+        address:
+          - 0xc585e0f504613b5fbf874f21af14c65260fb41fa
+      - name: PoolManager
+        address:
+          - 0xb1860d529182ac3bc1f51fa2abd56662b7d13f33
