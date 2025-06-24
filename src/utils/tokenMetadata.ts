@@ -75,7 +75,9 @@ const getRpcUrl = (chainId: number): string => {
     case 137:
       return process.env.ENVIO_POLYGON_RPC_URL || "https://polygon.drpc.org";
     case 43114:
-      return process.env.ENVIO_AVALANCHE_RPC_URL || "https://avalanche.drpc.org";
+      return (
+        process.env.ENVIO_AVALANCHE_RPC_URL || "https://avalanche.drpc.org"
+      );
     case 56:
       return process.env.ENVIO_BSC_RPC_URL || "https://bsc.drpc.org";
     case 81457:
@@ -88,6 +90,10 @@ const getRpcUrl = (chainId: number): string => {
       return process.env.ENVIO_UNICHAIN_RPC_URL || "https://unichain.drpc.org";
     case 57073:
       return process.env.ENVIO_INK_RPC_URL || "https://ink.drpc.org";
+    case 480:
+      return (
+        process.env.ENVIO_WORLDCHAIN_RPC_URL || "https://worldchain.drpc.org"
+      );
     // Add generic fallback for any chain
     default:
       throw new Error(`No RPC URL configured for chainId ${chainId}`);

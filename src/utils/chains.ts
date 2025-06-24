@@ -11,7 +11,7 @@ export enum ChainId {
   AVALANCHE = 43114,
   BLAST = 81457,
   ZORA = 7777777,
-  WORLD = 59144,
+  WORLD = 480,
   UNICHAIN = 130,
   SONEIUM = 1868,
 }
