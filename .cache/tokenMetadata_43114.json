@@ -648,5 +648,230 @@
     "name": "Benqi USDTn",
     "symbol": "qiUSDTn",
     "decimals": 8
+  },
+  "0xD4caA098aD7D28C439d0A808c6Bd5436424dBf56": {
+    "name": "TRYK",
+    "symbol": "TRYK",
+    "decimals": 18
+  },
+  "0x806cc7A21BD85E960857aC1e097802fAbaD6F594": {
+    "name": "HOLD",
+    "symbol": "EARN",
+    "decimals": 18
+  },
+  "0xD92a45E2007c4E284E71e99a475c1bE1d17d5953": {
+    "name": "mjadra bro",
+    "symbol": "MJDRA",
+    "decimals": 18
+  },
+  "0x5eb941f679D5097c59469b2B3822E33eAA0eB1bd": {
+    "name": "BISKIT TOKEN",
+    "symbol": "BISKIT",
+    "decimals": 18
+  },
+  "0x34a528Da3b2EA5c6Ad1796Eba756445D1299a577": {
+    "name": "Integrity DAO",
+    "symbol": "ID",
+    "decimals": 18
+  },
+  "0x2Da3998cD517194aAd5A9E1b9BbfCd4c270774a6": {
+    "name": "Dai on Avalanche",
+    "symbol": "DAI",
+    "decimals": 18
+  },
+  "0x5E0E90E268BC247Cc850c789A0DB0d5c7621fb59": {
+    "name": "NXPC",
+    "symbol": "NXPC",
+    "decimals": 18
+  },
+  "0xE9Eb40d52CE4744322204d4a29Af63C30f0260a4": {
+    "name": "Staked Snowbank",
+    "symbol": "sSB",
+    "decimals": 9
+  },
+  "0xcc9b1F919282c255eB9AD2C0757E8036165e0cAd": {
+    "name": "USD Coin",
+    "symbol": "anyUSDC",
+    "decimals": 6
+  },
+  "0x8fd95d817FC7ca7C7791aBC7D7D3BADA53618414": {
+    "name": "Tether USD Bridged ZED20",
+    "symbol": "USDT.z",
+    "decimals": 18
+  },
+  "0xfaB550568C688d5D8A52C7d794cb93Edc26eC0eC": {
+    "name": "Axelar Wrapped USDC",
+    "symbol": "axlUSDC",
+    "decimals": 6
+  },
+  "0x9c72C48c12CE4d7f50d819565DD9495619308a28": {
+    "name": "Bear Mochi",
+    "symbol": "BEAR",
+    "decimals": 18
+  },
+  "0x000000000000012DeF132E61759048bE5b5C6033": {
+    "name": "Cortex",
+    "symbol": "CX",
+    "decimals": 18
+  },
+  "0x15a262F376e328354AaE7232d55f1C8906d6869f": {
+    "name": "Gorchii",
+    "symbol": "GORC",
+    "decimals": 18
+  },
+  "0xE2D8836925B8684F47CaD8A90fbC27868f5B3922": {
+    "name": "XBURN",
+    "symbol": "XBURN",
+    "decimals": 18
+  },
+  "0x53B4bc09deAf9c3bC519621BDe291C90C6C447B4": {
+    "name": "fight international hunger",
+    "symbol": "FIH",
+    "decimals": 18
+  },
+  "0x48f88A3fE843ccb0b5003e70B4192c1d7448bEf0": {
+    "name": "Colony Avalanche Index",
+    "symbol": "CAI",
+    "decimals": 18
+  },
+  "0xc868f9AaD48213160b07A09825106bB6c3b5b1Ff": {
+    "name": "OUTSYDE GLOBAL BVI CORP",
+    "symbol": "OUTSYDE",
+    "decimals": 6
+  },
+  "0xd1c3f94DE7e5B45fa4eDBBA472491a9f4B166FC4": {
+    "name": "Avalaunch",
+    "symbol": "XAVA",
+    "decimals": 18
+  },
+  "0x769bfeb9fAacD6Eb2746979a8dD0b7e9920aC2A4": {
+    "name": "zJoe",
+    "symbol": "zJoe",
+    "decimals": 18
+  },
+  "0x5b67e9e44F8330BFff3f66658B59ea9bdD0765B8": {
+    "name": "Igbo Amaka",
+    "symbol": "$IGA",
+    "decimals": 18
+  },
+  "0x6cF3CBeC7B93b7d0514735f5FeE3f3378925405D": {
+    "name": "Roma Mania",
+    "symbol": "MANIA",
+    "decimals": 18
+  },
+  "0xB57B25851fE2311CC3fE511c8F10E868932e0680": {
+    "name": "deUSD",
+    "symbol": "deUSD",
+    "decimals": 18
+  },
+  "0x68088C91446c7bEa49ea7Dbd3B96Ce62B272DC96": {
+    "name": "Staked deUSD",
+    "symbol": "sdeUSD",
+    "decimals": 18
+  },
+  "0x62edc0692BD897D2295872a9FFCac5425011c661": {
+    "name": "GMX",
+    "symbol": "GMX",
+    "decimals": 18
+  },
+  "0xb2F85b7AB3c2b6f62DF06dE6aE7D09c010a5096E": {
+    "name": "XSGD",
+    "symbol": "XSGD",
+    "decimals": 6
+  },
+  "0x6ab707Aca953eDAeFBc4fD23bA73294241490620": {
+    "name": "Aave Avalanche USDT",
+    "symbol": "aAvaUSDT",
+    "decimals": 6
+  },
+  "0x333000333b26eE30214B4af6419D9ab07a450400": {
+    "name": "Meld",
+    "symbol": "MELD",
+    "decimals": 18
+  },
+  "0xb9A98894FfBfA98c73a818B5B044E5b1C8666f56": {
+    "name": "Kepler",
+    "symbol": "AVIA",
+    "decimals": 18
+  },
+  "0x0692e5E3B768F96A54ad19689602bAD30EED3418": {
+    "name": "BobrCoin",
+    "symbol": "BOBR",
+    "decimals": 18
+  },
+  "0x1B0e2320dEb5CF93ca9f72CA47703E2674ee58F2": {
+    "name": "BRX Gold",
+    "symbol": "BRXGLD",
+    "decimals": 18
+  },
+  "0x669F82F96eA80a736Adb55C3756B973ee91EdDa6": {
+    "name": "BRX",
+    "symbol": "Black XXoR",
+    "decimals": 18
+  },
+  "0xB1D14821b4e54570A12E9d0dB16528B3f96C827A": {
+    "name": "V Bonk",
+    "symbol": "VBONK",
+    "decimals": 18
+  },
+  "0x2c3Bb3A01bd6de443DD052102Cf3acb7cd37f41A": {
+    "name": "Wrapped Dignity Gold",
+    "symbol": "WDIGAU",
+    "decimals": 18
+  },
+  "0xb2722d5f1b8F3E19bf026c62C47C1C7BC1CDB04E": {
+    "name": "MORE",
+    "symbol": "MORE",
+    "decimals": 18
+  },
+  "0x32A92E494c64006d530b8aa9D9A9DD7872BF15B9": {
+    "name": "Yippee ki yay",
+    "symbol": "YIEPPE",
+    "decimals": 18
+  },
+  "0x38b991eF14290f62E3789DFb54A9eBC88a82e13f": {
+    "name": "Wink",
+    "symbol": "WINK",
+    "decimals": 18
+  },
+  "0x0447c82ed514689fF90242776138cb91c3E3f991": {
+    "name": "MCD on Avax",
+    "symbol": "MCD",
+    "decimals": 18
+  },
+  "0xe088d859D8BcE513b76Dc11C05D559254e28A336": {
+    "name": "Wife Changing Money",
+    "symbol": "WIFE",
+    "decimals": 18
+  },
+  "0x861C9bFd348D77d732d82A91Df5884AE7C0CaC30": {
+    "name": "HeyAnon Mascot",
+    "symbol": "LUNA",
+    "decimals": 18
+  },
+  "0xf7fE8bea250c0290acfBD4c036f7d97648d43F57": {
+    "name": "Frog Nation",
+    "symbol": "FROG",
+    "decimals": 18
+  },
+  "0xb06F504453032b6c2303a0108Cf374d5B3D6a5EF": {
+    "name": "AVIL",
+    "symbol": "AVIL",
+    "decimals": 18
+  },
+  "0xA80F36BA18c7f721F3F7ACDbcDEfd3a86869A036": {
+    "name": "OFFICIAL TRUMP",
+    "symbol": "TRUMP",
+    "decimals": 18
+  },
+  "0x63a72806098Bd3D9520cC43356dD78afe5D386D9": {
+    "name": "Aave Token",
+    "symbol": "AAVE.e",
+    "decimals": 18
+  },
+  "0xac6E53f1e1eBaFDA8553C0ADD8C5B32BcB5890C4": {
+    "name": "FINANCE",
+    "symbol": "FINANCE",
+    "decimals": 18
   }
 }
