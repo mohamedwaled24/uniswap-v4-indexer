@@ -888,5 +888,115 @@
     "name": "DBXen Token on Avalanche",
     "symbol": "aDXN",
     "decimals": 18
+  },
+  "0xF5F02001b1B1D068F6d1CB3CA5904778fB024D99": {
+    "name": "Triple O Gems",
+    "symbol": "OOO",
+    "decimals": 6
+  },
+  "0x7761E2338B35bCEB6BdA6ce477EF012bde7aE611": {
+    "name": "chikn egg",
+    "symbol": "EGG",
+    "decimals": 18
+  },
+  "0x81AC790e06296420529315aeFc101Db56Bb06a45": {
+    "name": "DIGITAL DETOX",
+    "symbol": "LOGOFF",
+    "decimals": 18
+  },
+  "0x296Ff1fb2C8DD9BfA7C87110fbE9EBF7Fb481F2b": {
+    "name": "Mock USDC",
+    "symbol": "USDC",
+    "decimals": 18
+  },
+  "0x7cf2eEB65083D18325e957927Ff93B772243ef91": {
+    "name": "Yolo USD",
+    "symbol": "USY",
+    "decimals": 18
+  },
+  "0x6Cf1c00c0fE85e63bf8068f77a72a8e264ef8F09": {
+    "name": "Yolo JPY",
+    "symbol": "yJPY",
+    "decimals": 18
+  },
+  "0xFa0337dB79F1a02Ce1C438c90D091749B95181Dd": {
+    "name": "Yolo KRW",
+    "symbol": "yKRW",
+    "decimals": 18
+  },
+  "0xD38A68510CB16da21455304905f2C1Ef4C0DC2B6": {
+    "name": "Yolo Gold",
+    "symbol": "yXAU",
+    "decimals": 18
+  },
+  "0xe6F11C405Eed9a1073e93C4031b81b5389E95F4B": {
+    "name": "Yolo NVDIA",
+    "symbol": "yNVDA",
+    "decimals": 18
+  },
+  "0x56cC676F58e3fd7e8b1E5E9195E35Bbf7cAda6d5": {
+    "name": "Yolo TESLA",
+    "symbol": "yTSLA",
+    "decimals": 18
+  },
+  "0x26899C7aC9e54ee40b2fD192A6a914ABEdD807a7": {
+    "name": "Testosterone",
+    "symbol": "TEST",
+    "decimals": 18
+  },
+  "0x27B325291BaE3273bD952d11253240D2b126A4de": {
+    "name": "RAXZ",
+    "symbol": "RAXZ",
+    "decimals": 18
+  },
+  "0x23a01780F8e8E95D26C159Ac4cBBd8116Cdf5e3f": {
+    "name": "Done",
+    "symbol": "BONDED",
+    "decimals": 18
+  },
+  "0xd8538898D89Ef1cF2c2eF8259C6Aa36Bc598B363": {
+    "name": "redacted",
+    "symbol": "RED",
+    "decimals": 18
+  },
+  "0x40Dbe9Fb6624B97c2C17a83415b5DD085FA2c891": {
+    "name": "Pure Vibrance",
+    "symbol": "VIBE",
+    "decimals": 18
+  },
+  "0x9261330c6A2b472C58Dbc149ca9Dfc20E6861d66": {
+    "name": "SUMMIT",
+    "symbol": "SUMMIT",
+    "decimals": 18
+  },
+  "0x5a3534720A4f29FA0dc53cE474Db88973A95f65C": {
+    "name": "Undead Blocks",
+    "symbol": "UNDEAD",
+    "decimals": 18
+  },
+  "0xfA873AE9B800Ae55BaB2B126D4429aa4aa63Ec8B": {
+    "name": "BonkAvax",
+    "symbol": "BONK",
+    "decimals": 18
+  },
+  "0x77EEe23630deC10e96C5A8F731A9cF46FCC8CD6f": {
+    "name": "Silo Token",
+    "symbol": "SILO",
+    "decimals": 18
+  },
+  "0xbB4287da728532C78bAF246B12A10be3ace2Dc70": {
+    "name": "xSILO",
+    "symbol": "xSILO",
+    "decimals": 18
+  },
+  "0xe061Aa40Be525A13296CB4Bf69f513242349D708": {
+    "name": "XVGAVA",
+    "symbol": "XVGAVA",
+    "decimals": 18
+  },
+  "0x5Ac34C53A04B9aaA0BF047e7291fb4e8A48f2A18": {
+    "name": "Nuklai Token",
+    "symbol": "NAI",
+    "decimals": 18
   }
 }

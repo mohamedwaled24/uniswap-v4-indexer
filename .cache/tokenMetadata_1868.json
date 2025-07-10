@@ -43,5 +43,10 @@
     "name": "unknown",
     "symbol": "UNKNOWN",
     "decimals": 18
+  },
+  "0x651076B543c4F084E8B595818C371904FE742352": {
+    "name": "HotBriquettedIron",
+    "symbol": "HBI",
+    "decimals": 18
   }
 }
