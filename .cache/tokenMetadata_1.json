@@ -19743,5 +19743,60 @@
     "name": "Tether USD",
     "symbol": "USDT",
     "decimals": 18
+  },
+  "0xEe5F2C9b655dc234574eEd71E6eaA7A127C76FB7": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  "0x149aF500734056B98572b66E6C771E57408e12e4": {
+    "name": "Horizon",
+    "symbol": "HRZ",
+    "decimals": 9
+  },
+  "0xd05a65dfD84a302A4AA8e41b7f44DEC74bAd863C": {
+    "name": "WICKDOG",
+    "symbol": "WICKD",
+    "decimals": 18
+  },
+  "0x553ED72C0f00aE005A0d6Aa2fE7d8e9E5395DC16": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  "0xc4D68AcfdF0160cB8f21f50Ea2c05926Dd2b9d1D": {
+    "name": "Useless Ethereum Token",
+    "symbol": "UET",
+    "decimals": 18
+  },
+  "0xBEA65FD00fE14877C393f79171563Cda4087C439": {
+    "name": "USDT-ERC20",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "0xcf5104D094e3864CfCBDa43B82e1cEFD26A016eB": {
+    "name": "Humanity",
+    "symbol": "H",
+    "decimals": 18
+  },
+  "0x46A3069302EBFBd711919BB8669A322c41D31E54": {
+    "name": "VetCoin",
+    "symbol": "VETC",
+    "decimals": 18
+  },
+  "0x7d7Ba71f30528C9f50Da8Ac08AB47A98ab10857C": {
+    "name": "Evntual Token",
+    "symbol": "EVNT",
+    "decimals": 18
+  },
+  "0xecc5f868AdD75F4ff9FD00bbBDE12C35BA2C9C89": {
+    "name": "BOB",
+    "symbol": "BOB",
+    "decimals": 8
+  },
+  "0x64684f4978F8ad9E67c2e19ca98d1F9B00CFE3A1": {
+    "name": "Quantum",
+    "symbol": "qUSDT",
+    "decimals": 18
   }
 }
