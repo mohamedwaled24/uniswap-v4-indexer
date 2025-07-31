@@ -83,5 +83,10 @@
     "name": "bWOOL",
     "symbol": "bWOOL",
     "decimals": 18
+  },
+  "0x963eec23618BbC8e1766661d5f263f18094Ae4d5": {
+    "name": "Cybro Token",
+    "symbol": "CYBRO",
+    "decimals": 18
   }
 }

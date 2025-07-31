@@ -1243,5 +1243,125 @@
     "name": "Axelar",
     "symbol": "AXL",
     "decimals": 6
+  },
+  "0x7E1053581Fe603f8B99FBDbe9E1D0f0dc8DFAD8d": {
+    "name": "awacoin",
+    "symbol": "AWAC",
+    "decimals": 18
+  },
+  "0xf1E02Caa785177d80bA04D2f4b08554e3fE1b26F": {
+    "name": "DeathBox",
+    "symbol": "DBXT",
+    "decimals": 18
+  },
+  "0xb7bafDc79039d0fB4A20004bd046D40810475222": {
+    "name": "0xe014d2a4da6e450f21b5050120d291e63c8940fd",
+    "symbol": "SOGNI",
+    "decimals": 18
+  },
+  "0xfB230248FBc84D1490697A02Ae13229003FD4c6D": {
+    "name": "ART",
+    "symbol": "ART",
+    "decimals": 18
+  },
+  "0x667c4e3667F9c46B3f9C7ee8938F17aFA61d55C7": {
+    "name": "DEEP`o",
+    "symbol": "BRO",
+    "decimals": 18
+  },
+  "0x50Db0168c4E7F74831170552c2D81a2B1420BF40": {
+    "name": "Xinc",
+    "symbol": "XNC",
+    "decimals": 18
+  },
+  "0x2e2250CBfEDDF09a52f2A079621ACf5d2348Cf4e": {
+    "name": "testInterest",
+    "symbol": "TI",
+    "decimals": 18
+  },
+  "0xF5Ff651375B2b5F1b9531061de71781D58533dEE": {
+    "name": "GASH Token",
+    "symbol": "GASH",
+    "decimals": 18
+  },
+  "0xe0B08Fc062FB662E7A311d7E96971A83974BAC71": {
+    "name": "Baby Doge",
+    "symbol": "Doge",
+    "decimals": 18
+  },
+  "0xE573084D164Da0be1f9712C079d967F08605769c": {
+    "name": "SMOLTAG",
+    "symbol": "SMOL",
+    "decimals": 18
+  },
+  "0xe061Aa40Be525A13296CB4Bf69f513242349D708": {
+    "name": "XVGOPT",
+    "symbol": "XVGOPT",
+    "decimals": 18
+  },
+  "0x9999999907974Edf1a454741aadcFe608433363C": {
+    "name": "CO2E CHAIN",
+    "symbol": "CO2E",
+    "decimals": 18
+  },
+  "0xF4fEfEe4730Cf174608766877911F8D33735f9D7": {
+    "name": "REC TOKEN",
+    "symbol": "REC",
+    "decimals": 18
+  },
+  "0xcB59a0A753fDB7491d5F3D794316F1adE197B21E": {
+    "name": "TrueUSD",
+    "symbol": "TUSD",
+    "decimals": 18
+  },
+  "0x50c5725949A6F0c72E6C4a641F24049A917DB0Cb": {
+    "name": "Lyra Token",
+    "symbol": "LYRA",
+    "decimals": 18
+  },
+  "0x3A18dcC9745eDcD1Ef33ecB93b0b6eBA5671e7Ca": {
+    "name": "Kujira native asset",
+    "symbol": "KUJI",
+    "decimals": 6
+  },
+  "0xa00E3A3511aAC35cA78530c85007AFCd31753819": {
+    "name": "Kyber Network Crystal v2",
+    "symbol": "KNC",
+    "decimals": 18
+  },
+  "0xc6BDFC4f2E90196738873E824a9eFa03F7c64176": {
+    "name": "ViciCoin",
+    "symbol": "VCNT",
+    "decimals": 18
+  },
+  "0x10398AbC267496E49106B07dd6BE13364D10dC71": {
+    "name": "HAI Index Token",
+    "symbol": "HAI",
+    "decimals": 18
+  },
+  "0x77469EEb563a6035b7B898f6A392284371918045": {
+    "name": "cipherdolls",
+    "symbol": "LOV",
+    "decimals": 18
+  },
+  "0xa2016b2Eb1F8d32DA388625dBB73814cC45341BF": {
+    "name": "FNCB",
+    "symbol": "FNCB",
+    "decimals": 18
+  },
+  "0x70f3713512089736661F928B291d1443C8b1BB6A": {
+    "name": "haiVELO",
+    "symbol": "haiVELO",
+    "decimals": 18
+  },
+  "0x19776a497a8D56E70629e6082702b6A093F666Af": {
+    "name": "RAREGRV",
+    "symbol": "GRV",
+    "decimals": 18
+  },
+  "0xfD389Dc9533717239856190F42475d3f263a270d": {
+    "name": "Granary Token",
+    "symbol": "GRAIN",
+    "decimals": 18
   }
 }

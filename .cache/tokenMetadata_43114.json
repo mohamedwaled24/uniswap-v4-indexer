@@ -1003,5 +1003,35 @@
     "name": "BLACKHOLE",
     "symbol": "BLACK",
     "decimals": 18
+  },
+  "0x803f5E3d74E17e3bE3f2A2BFbd5D9F9B44E9488B": {
+    "name": "Just Woot",
+    "symbol": "WOOT",
+    "decimals": 18
+  },
+  "0x8242872E052ba7d894789Aa1929E9c6080868595": {
+    "name": "Chaos Token",
+    "symbol": "Chaos Token",
+    "decimals": 18
+  },
+  "0x443bf6AA6cdDD4dC6a817627c82624eEf149aeaB": {
+    "name": "AXR Test",
+    "symbol": "AXR",
+    "decimals": 18
+  },
+  "0xAafE46fB108dbf914C10005b0Cb1997c8C27a99d": {
+    "name": "Chaos Coin",
+    "symbol": "Chaos",
+    "decimals": 18
+  },
+  "0x3D75F2BB8aBcDBd1e27443cB5CBCE8A668046C81": {
+    "name": "HLP0",
+    "symbol": "HLP0",
+    "decimals": 6
+  },
+  "0xCec3668738D7BC4B4d50Fc725D181A65758579aA": {
+    "name": "Thetanut Index USDC",
+    "symbol": "indexUSDC",
+    "decimals": 6
   }
 }
