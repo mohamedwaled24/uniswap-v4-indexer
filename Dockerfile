@@ -10,15 +10,18 @@ RUN npm install -g pnpm@9.7.1
 
 WORKDIR /envio-indexer
 
-# Copy only necessary files for install phase
+# Step 1: install deps
 COPY package.json pnpm-lock.yaml ./
 RUN pnpm install --frozen-lockfile
 
-# Copy files needed for codegen
-COPY config.yaml schema.graphql ./
-RUN pnpm envio codegen
-
-# Copy the rest of the project
+# Step 2: copy full project (including src/, config, etc)
 COPY . .
 
+# Step 3: run codegen after all files are present
+RUN pnpm envio codegen
+
+# Optional: if you're building (for example, if you're using tsc)
+RUN pnpm run build
+
+# Step 4: start the indexer
 CMD ["pnpm", "envio", "start"]
