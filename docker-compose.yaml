@@ -3,13 +3,13 @@ services:
     image: postgres:17.5
     restart: always
     ports:
-      - "${ENVIO_PG_PORT:-5434}:5432"
+      - "${ENVIO_PG_PORT:-5432}:5432"
     volumes:
       - envio-indexer-storage:/var/lib/postgresql/data
     environment:
-      POSTGRES_PASSWORD: ${ENVIO_PG_PASSWORD:-testing}
-      POSTGRES_USER: ${ENVIO_PG_USER:-postgres}
-      POSTGRES_DB: ${ENVIO_PG_DATABASE:-envio-dev}
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: envio-dev
     networks:
       - envio-indexer-network
   graphql-engine:
@@ -21,7 +21,7 @@ services:
       - "envio-postgres"
     restart: always
     environment:
-      HASURA_GRAPHQL_DATABASE_URL: postgres://${ENVIO_PG_USER:-postgres}:${ENVIO_PG_PASSWORD:-testing}@envio-postgres:5432/${ENVIO_PG_DATABASE:-envio-dev}
+      HASURA_GRAPHQL_DATABASE_URL: postgres://postgres:postgres@envio-postgres:5432/envio-dev
       HASURA_GRAPHQL_ENABLE_CONSOLE: ${HASURA_GRAPHQL_ENABLE_CONSOLE:-true} # can make this default to false once we are further in our development.
       HASURA_GRAPHQL_ENABLED_LOG_TYPES:
         startup, http-log, webhook-log, websocket-log,
