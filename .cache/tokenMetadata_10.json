@@ -1,0 +1,182 @@
+{
+  "0x0b2C639c533813f4Aa9D7837CAf62653d097Ff85": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "0x4200000000000000000000000000000000000006": {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "0x4200000000000000000000000000000000000042": {
+    "name": "Optimism",
+    "symbol": "OP",
+    "decimals": 18
+  },
+  "0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1": {
+    "name": "Dai Stablecoin",
+    "symbol": "DAI",
+    "decimals": 18
+  },
+  "0x6fd9d7AD17242c41f7131d257212c54A0e816691": {
+    "name": "Uniswap",
+    "symbol": "UNI",
+    "decimals": 18
+  },
+  "0x296F55F8Fb28E498B858d0BcDA06D955B2Cb3f97": {
+    "name": "StargateToken",
+    "symbol": "STG",
+    "decimals": 18
+  },
+  "0x7F5c764cBc14f9669B88837ca1490cCa17c31607": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "0x76FB31fb4af56892A25e32cFC43De717950c9278": {
+    "name": "Aave Token",
+    "symbol": "AAVE",
+    "decimals": 18
+  },
+  "0x68f180fcCe6836688e9084f035309E29Bf0A2095": {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  "0x94b008aA00579c1307B0EF2c499aD98a8ce58e58": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  "0xdC6fF44d5d932Cbd77B52E5612Ba0529DC6226F1": {
+    "name": "Worldcoin",
+    "symbol": "WLD",
+    "decimals": 18
+  },
+  "0x33800De7E817A70A694F31476313A7c572BBa100": {
+    "name": "Derive",
+    "symbol": "DRV",
+    "decimals": 18
+  },
+  "0x1D1498166DDCEeE616a6d99868e1E0677300056f": {
+    "name": "xSpace Token",
+    "symbol": "xSPACE",
+    "decimals": 18
+  },
+  "0x9560e827aF36c94D2Ac33a39bCE1Fe78631088Db": {
+    "name": "VelodromeV2",
+    "symbol": "VELO",
+    "decimals": 18
+  },
+  "0xe85d2c93f7E26B99a46A8bB9350cBfB965FA4F82": {
+    "name": "DHK",
+    "symbol": "DHK",
+    "decimals": 18
+  },
+  "0xFf733b2A3557a7ed6697007ab5D11B79FdD1b76B": {
+    "name": "Across Protocol Token",
+    "symbol": "ACX",
+    "decimals": 18
+  },
+  "0xEcF46257ed31c329F204Eb43E254C609dee143B3": {
+    "name": "Rigo Token",
+    "symbol": "GRG",
+    "decimals": 18
+  },
+  "0xF5158039BB52B1f417D10518Ce302147C3DD4cC4": {
+    "name": "TV4",
+    "symbol": "TV4",
+    "decimals": 18
+  },
+  "0xad984fBd3Fb10d0B47D561bE7295685aF726fDb3": {
+    "name": "LARRY TALBOT",
+    "symbol": "LARRY",
+    "decimals": 18
+  },
+  "0x33485aBF8fc55cA7d56684c559B727BF98384120": {
+    "name": "DEEPSEEK",
+    "symbol": "DEEPSEEK",
+    "decimals": 18
+  },
+  "0xc1b4487e6abEA1eA85797E27A88CFbA33dFdc604": {
+    "name": "HeatRide",
+    "symbol": "HTR",
+    "decimals": 18
+  },
+  "0x350a791Bfc2C21F9Ed5d10980Dad2e2638ffa7f6": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x6985884C4392D348587B19cb9eAAf157F13271cd": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0xDc499C85a296db2CA1494Ccb8839b228db22CBbA": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x5173718C3A6F19A3c978095CC2244b28a6F208b2": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x93919784C523f39CACaa98Ee0a9d96c3F32b593e": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x0ea010dCB1DfBE5c9d1AC475901a59642bad90f4": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x9B004A50dEAC75E8cEDb4d67D9fE8670C3680c46": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x0994206dfE8De6Ec6920FF4D779B0d950605Fb53": {
+    "name": "unknown",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0xB4c308EfeB2DE9eCfb4de92d2CE4c342c7cf0acC": {
+    "name": "SUP",
+    "symbol": "SUP",
+    "decimals": 18
+  },
+  "0x815362512166dBE7816d33044AB56DAFE97AB496": {
+    "name": "arsc",
+    "symbol": "arsc",
+    "decimals": 18
+  },
+  "0xE46251c01Fe8028E37A263fB8287578758f6b0b1": {
+    "name": "Cannon",
+    "symbol": "CAN",
+    "decimals": 18
+  },
+  "0xE71bDfE1Df69284f00EE185cf0d95d0c7680c0d4": {
+    "name": "Sepolia ETH",
+    "symbol": "SETH",
+    "decimals": 18
+  },
+  "0x21Aba8E16c7C60b4c168ACEC8C3e57924bFFDBE8": {
+    "name": "Eaglecoin",
+    "symbol": "ECOIN",
+    "decimals": 18
+  },
+  "0x161C6c279d57fB32D3b414d79cE1fd4cA0b2f2c4": {
+    "name": "GJ",
+    "symbol": "GJ",
+    "decimals": 18
+  },
+  "0x7e7d4467112689329f7E06571eD0E8CbAd4910eE": {
+    "name": "Compound",
+    "symbol": "COMP",
+    "decimals": 18
+  }
+}

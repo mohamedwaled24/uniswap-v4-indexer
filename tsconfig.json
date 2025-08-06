@@ -1,10 +1,7 @@
-// @ts-nocheck
 {
   "compilerOptions": {
-    "target": "es2020", //required for use with BigInt types
-    "lib": [
-      "es2020"
-    ],
+    "target": "es2020",
+    "lib": ["es2020"],
     "allowJs": true,
     "checkJs": false,
     "outDir": "build",
@@ -15,11 +12,8 @@
     "skipLibCheck": true,
     "module": "CommonJS",
     "noEmit": true,
-    "isolatedModules": true,
+    "isolatedModules": true
   },
-  "include": [
-    "src",
-    "test"
-  ]
+  "include": ["src", "test"],
+  "exclude": ["node_modules", "build"]
 }
-

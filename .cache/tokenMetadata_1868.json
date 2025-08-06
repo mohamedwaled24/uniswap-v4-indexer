@@ -1,0 +1,47 @@
+{
+  "0x3A337a6adA9d885b6Ad95ec48F9b75f197b5AE35": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 6
+  },
+  "0xbA9986D2381edf1DA03B0B9c1f8b00dc4AacC369": {
+    "name": "Bridged USDC (Soneium)",
+    "symbol": "USDC.e",
+    "decimals": 6
+  },
+  "0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441": {
+    "name": "Astar Token",
+    "symbol": "ASTR",
+    "decimals": 18
+  },
+  "0x102d758f688a4C1C5a80b116bD945d4455460282": {
+    "name": "Stargate USD₮0 (Bridged)",
+    "symbol": "USD₮0",
+    "decimals": 6
+  },
+  "0xc67476893C166c537afd9bc6bc87b3f228b44337": {
+    "name": "Neemo Staked Astar",
+    "symbol": "nsASTR",
+    "decimals": 18
+  },
+  "0x0555E30da8f98308EdB960aa94C0Db47230d2B9c": {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  "0xaA9BD8c957D803466FA92504BDd728cC140f8941": {
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wstETH",
+    "decimals": 18
+  },
+  "0x7dd57858b11e76c031efc324a96dC3236Da242Fa": {
+    "name": "SHIROKE",
+    "symbol": "SHRK",
+    "decimals": 18
+  },
+  "0x541FD749419CA806a8bc7da8ac23D346f2dF8B77": {
+    "name": "Solv BTC",
+    "symbol": "SolvBTC",
+    "decimals": 18
+  }
+}

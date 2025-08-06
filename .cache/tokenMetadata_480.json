@@ -1,0 +1,122 @@
+{
+  "0x4200000000000000000000000000000000000006": {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "0x79A02482A880bCE3F13e09Da970dC34db4CD24d1": {
+    "name": "USDC",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "0x03C7054BCB39f7b2e5B2c7AcB37583e32D70Cfa3": {
+    "name": "Wrapped BTC",
+    "symbol": "WBTC",
+    "decimals": 8
+  },
+  "0x2cFc85d8E48F8EAB294be644d9E25C3030863003": {
+    "name": "Worldcoin",
+    "symbol": "WLD",
+    "decimals": 18
+  },
+  "0xE5bb09bBc41e4644Ee384F2435F169aCbD07D60E": {
+    "name": "Safe Andromeda",
+    "symbol": "SFA",
+    "decimals": 18
+  },
+  "0xF3F92A60e6004f3982F0FdE0d43602fC0a30a0dB": {
+    "name": "Orb",
+    "symbol": "ORB",
+    "decimals": 18
+  },
+  "0xcd1E32B86953D79a6AC58e813D2EA7a1790cAb63": {
+    "name": "ORO",
+    "symbol": "ORO",
+    "decimals": 18
+  },
+  "0x9A4636A1ad34aa90351c1786365a937eB672F12b": {
+    "name": "EYEBALL",
+    "symbol": "EYE",
+    "decimals": 18
+  },
+  "0x1aE3498f1B417fe31BE544B04B711F27Ba437bd3": {
+    "name": "PUF",
+    "symbol": "PUF",
+    "decimals": 18
+  },
+  "0x361990637F68f2E52B6E38194330BB3964B0E908": {
+    "name": "Common Egg",
+    "symbol": "EGG",
+    "decimals": 18
+  },
+  "0x80E46BA4486f005f51Ed9e31E2E479286Edc6877": {
+    "name": "The Cat Boss",
+    "symbol": "MEOW",
+    "decimals": 18
+  },
+  "0x5D02f39D9F2eF372464fFeD28892DdaCB1034Ffd": {
+    "name": "PIKA TOKEN",
+    "symbol": "$PIKA",
+    "decimals": 18
+  },
+  "0xE63728C7673C98F5403796F161F4E65EFA03ac93": {
+    "name": "WorLdDoGe",
+    "symbol": "$WLDG",
+    "decimals": 18
+  },
+  "0xAAC7d5E9011Fc0fC80bF707DDcC3D56DdfDa9084": {
+    "name": "Drachma",
+    "symbol": "WDD",
+    "decimals": 18
+  },
+  "0x998e211ECf67E09C53b2D95805d735135ac50A5a": {
+    "name": "Rare Egg",
+    "symbol": "EGG",
+    "decimals": 18
+  },
+  "0x57268aFa4E496684611aAFB1E20D2116283C487e": {
+    "name": "Golden Otter",
+    "symbol": "GOTR",
+    "decimals": 18
+  },
+  "0xE6287e4f053b01Fa229629AAFbb9848b1f4a4eB9": {
+    "name": "MONEDA DIGITAL",
+    "symbol": "MD",
+    "decimals": 18
+  },
+  "0xEdE54d9c024ee80C85ec0a75eD2d8774c7Fbac9B": {
+    "name": "Drachma",
+    "symbol": "WDD",
+    "decimals": 18
+  },
+  "0x6335c1F2967A85e98cCc89dA0c87e672715284dB": {
+    "name": "Mundo Didactico",
+    "symbol": "MD",
+    "decimals": 18
+  },
+  "0x7a8892E9687704F7BE8C26dfC5e51B6A86c8098B": {
+    "name": "Billboard",
+    "symbol": "BILLBOARD",
+    "decimals": 18
+  },
+  "0xbf51be4d6b1F880Bf86d16dE958b6565096B8b12": {
+    "name": "Libra",
+    "symbol": "LIBRA",
+    "decimals": 18
+  },
+  "0x5371bcEa5D091f51bD03782F083945Be922031c4": {
+    "name": "RocketRide",
+    "symbol": "RKT",
+    "decimals": 18
+  },
+  "0x90aC15B9FaDc4656DCE25C8dA0D2bce6a16e605C": {
+    "name": "WorldTrade",
+    "symbol": "WTD",
+    "decimals": 18
+  },
+  "0x0258b8656A60F60F493B4951cda37a74900b83A2": {
+    "name": "Tether USD (USDT)",
+    "symbol": "USDT",
+    "decimals": 18
+  }
+}

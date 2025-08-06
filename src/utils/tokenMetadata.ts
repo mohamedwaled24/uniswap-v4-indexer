@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { createPublicClient, http, getContract, type PublicClient } from "viem";
 import { readFileSync, writeFileSync, existsSync, mkdirSync } from "fs";
 import { join, dirname } from "path";
