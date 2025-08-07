@@ -15,9 +15,10 @@ services:
       - envio-indexer-network
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U postgres -d envio-dev"]
-      interval: 10s
+      interval: 5s
       timeout: 5s
-      retries: 5
+      retries: 12
+      start_period: 30s
 
   graphql-engine:
     image: hasura/graphql-engine:v2.43.0
@@ -54,6 +55,8 @@ services:
     ports:
       - "9898:9898"  # Removed localhost binding for external access
     depends_on:
+      envio-postgres:
+        condition: service_healthy
       graphql-engine:
         condition: service_healthy
     deploy:
@@ -123,3 +126,6 @@ volumes:
 networks:
   envio-indexer-network:
     driver: bridge
+    ipam:
+      config:
+        - subnet: 172.20.0.0/16
