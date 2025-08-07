@@ -2,8 +2,7 @@ services:
   envio-postgres:
     image: postgres:17.5
     restart: always
-    ports:
-      - "5432:5432"  # Exposed for external access if needed
+    # Remove port binding - internal only
     volumes:
       - envio-indexer-storage:/var/lib/postgresql/data
     environment:
@@ -22,8 +21,9 @@ services:
 
   graphql-engine:
     image: hasura/graphql-engine:v2.43.0
-    ports:
-      - "8080:8080"  # Removed localhost binding for external access
+    # Remove port binding - let Coolify handle it
+    expose:
+      - "8080"
     depends_on:
       envio-postgres:
         condition: service_healthy
@@ -52,8 +52,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    ports:
-      - "9898:9898"  # Removed localhost binding for external access
+    # Remove port binding - let Coolify handle it  
+    expose:
+      - "9898"
     depends_on:
       envio-postgres:
         condition: service_healthy
@@ -126,6 +127,3 @@ volumes:
 networks:
   envio-indexer-network:
     driver: bridge
-    ipam:
-      config:
-        - subnet: 172.20.0.0/16
