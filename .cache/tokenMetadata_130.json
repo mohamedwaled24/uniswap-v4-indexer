@@ -1918,5 +1918,100 @@
     "name": "PepeThePope",
     "symbol": "Pepepope",
     "decimals": 18
+  },
+  "0x2964B7ED5685544C203876B9c72673FF082A1002": {
+    "name": "Dog",
+    "symbol": "Dog",
+    "decimals": 18
+  },
+  "0xB6CcA3030301a3257289fa90dA6523829B912E78": {
+    "name": "Jp",
+    "symbol": "Jpp",
+    "decimals": 18
+  },
+  "0x58DF30625ebf811913b87e5F640C461f96b7d3B8": {
+    "name": "zora",
+    "symbol": "zora",
+    "decimals": 18
+  },
+  "0x6b0F432da3E5282DeE22ec5a698702AC32675dB1": {
+    "name": "aran",
+    "symbol": "aran",
+    "decimals": 18
+  },
+  "0x7127972B674C285840f7b605d18f6B3Fcb781585": {
+    "name": "kayes",
+    "symbol": "kys",
+    "decimals": 18
+  },
+  "0x46d4B868501aCdCb4B61AbaBe2F8B9E41BdB42D2": {
+    "name": "duceros1368",
+    "symbol": "DRSS",
+    "decimals": 18
+  },
+  "0x06bD6bf38D25F2c5529590Bbb174ab5124Cf3cC3": {
+    "name": "blah",
+    "symbol": "blah",
+    "decimals": 18
+  },
+  "0x0E755C765dbB33581C3bB4aCa08dB030e62103B7": {
+    "name": "blah",
+    "symbol": "blah",
+    "decimals": 18
+  },
+  "0x1115d9bE57E58e2E16BE8BE5e2fbF6b533705B95": {
+    "name": "bigcoin",
+    "symbol": "big",
+    "decimals": 18
+  },
+  "0x51CB4bFEa369a139C0B318940076705643E826EA": {
+    "name": "Just Buy $1",
+    "symbol": "Buy$1",
+    "decimals": 18
+  },
+  "0xEaac2ddffB9A43715f8150530AF5496Bb1D5f055": {
+    "name": "Corps AI",
+    "symbol": "Corps",
+    "decimals": 18
+  },
+  "0x3367f07B3E26F67D13823E94991B88c6F523B0bA": {
+    "name": "Ganondorf",
+    "symbol": "Ganon",
+    "decimals": 18
+  },
+  "0x14317c805Fe718f0bcAEB53B607d9Bef4761d972": {
+    "name": "PepeAI",
+    "symbol": "Pepeai",
+    "decimals": 18
+  },
+  "0xe2F0CA22aADF8412B26364961c3df980a8f37eA7": {
+    "name": "BRICK BY BRICK",
+    "symbol": "Brick",
+    "decimals": 18
+  },
+  "0x01E9E011ed5ed5fB6323edBB4B8B35f20CcDfE6d": {
+    "name": "PUNCH CAT",
+    "symbol": "PC",
+    "decimals": 18
+  },
+  "0x0457B5Ca52911C2d97a34A991217f3eCfDce5238": {
+    "name": "Bombardiro Crocodillo",
+    "symbol": "BOCRO",
+    "decimals": 18
+  },
+  "0xC5E96F327C516A37755F13B65e8654B977f90d18": {
+    "name": "hihi",
+    "symbol": "hihi",
+    "decimals": 18
+  },
+  "0xB74e0A994F49e98A937Ab04543d460E6f8EaDAD4": {
+    "name": "kucluk",
+    "symbol": "100000000000000",
+    "decimals": 18
+  },
+  "0xdD227C5E7057EB92323CA92f0c43Ba6aCc8C23b2": {
+    "name": "Unichan Bear",
+    "symbol": "UBER",
+    "decimals": 18
   }
 }

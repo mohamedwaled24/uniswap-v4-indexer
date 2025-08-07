@@ -4328,5 +4328,30 @@
     "name": "SHARKOIN.com",
     "symbol": "SHARKOIN",
     "decimals": 18
+  },
+  "0xd67B5f3258534FA13B7a3cb9B7D0C28C43Cb8D0D": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "0xc08a1971D96D4d32AEaDBdFceFf9D8582c863003": {
+    "name": "VLOEI COIN",
+    "symbol": "VLOEI",
+    "decimals": 18
+  },
+  "0xbbC1A5463266E4c074902E20e2821A3A71F6d8d1": {
+    "name": "HatsuneMiku",
+    "symbol": "MIKU",
+    "decimals": 18
+  },
+  "0xbd9982596E3D6F9D7FC3904Aef8171020d431Daa": {
+    "name": "VLoeiCoin",
+    "symbol": "VLOEI",
+    "decimals": 18
+  },
+  "0x417eE3220A0D3A710b3a843aCFbE297755F3655F": {
+    "name": "Apple",
+    "symbol": "A",
+    "decimals": 18
   }
 }
