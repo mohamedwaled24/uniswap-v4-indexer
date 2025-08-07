@@ -1828,5 +1828,95 @@
     "name": "Khaos",
     "symbol": "KHAOS",
     "decimals": 18
+  },
+  "0x39538C45f6fD0B0Dd3e595ED1C2671875feE9F17": {
+    "name": "Hooffather",
+    "symbol": "HOOF",
+    "decimals": 18
+  },
+  "0xBeE05f2fA8ba7dD4cbF1674D0344f45366c443a8": {
+    "name": "Knight",
+    "symbol": "YOLO",
+    "decimals": 18
+  },
+  "0x2cE3f1317815C4071B79B533aD91660056F8cd70": {
+    "name": "LKCOIN",
+    "symbol": "LKC",
+    "decimals": 18
+  },
+  "0xE531d569b7e28f2C445435daC030e3Aae50A3C5F": {
+    "name": "PumPME",
+    "symbol": "Pmp",
+    "decimals": 18
+  },
+  "0xCb8a587A40C15586d1dB95Caf28621f24C2566e8": {
+    "name": "Alice",
+    "symbol": "ALICE",
+    "decimals": 18
+  },
+  "0x57138eFfF1C6CC2f55Dd67C755382736710CCFA0": {
+    "name": "University",
+    "symbol": "UVS",
+    "decimals": 18
+  },
+  "0xeb24C98fCf97173AC706b37cb96ecCE78fAd19a2": {
+    "name": "xwallet",
+    "symbol": "xw",
+    "decimals": 18
+  },
+  "0xf6031eD440f21282736C3cF7887a7DC21B213Cf7": {
+    "name": "Lifef",
+    "symbol": "Lffs",
+    "decimals": 18
+  },
+  "0xB172B1954B7CEd6Ffa323895b24daD61dd4B94ee": {
+    "name": "Pepe Uni",
+    "symbol": "PEPE$",
+    "decimals": 18
+  },
+  "0xbE93cB2506e08b9BD7a29008EDE3B19587a42d03": {
+    "name": "WAR COIN",
+    "symbol": "WRC",
+    "decimals": 18
+  },
+  "0x7872C237C3CbBdd31074D1FfEa3f4fE4EEbbF88c": {
+    "name": "jubile",
+    "symbol": "jub",
+    "decimals": 18
+  },
+  "0x00A12A1e84bA8F8F8a8a7658dC6D339Bb8195ff4": {
+    "name": "Pepe unichan",
+    "symbol": "Pumpepe",
+    "decimals": 18
+  },
+  "0x2276f8f1A4c6902c471f6Bd49f1A05E6594899B4": {
+    "name": "Eat EGGs",
+    "symbol": "EGG",
+    "decimals": 18
+  },
+  "0x1072ac27daac702048839B512A67aDf16039AefF": {
+    "name": "sui",
+    "symbol": "sui",
+    "decimals": 18
+  },
+  "0x4A7B82c827e49282fec48E2475C495488F0049F3": {
+    "name": "Dragon Boar",
+    "symbol": "DGBR",
+    "decimals": 18
+  },
+  "0x21E0D8E324669F7352771E53d195625eE41A215D": {
+    "name": "ZeddOne",
+    "symbol": "ZNE",
+    "decimals": 18
+  },
+  "0x51d82E7CAd2326D86cacEf8Eb0DD4bDC2839e495": {
+    "name": "AirdropShogun",
+    "symbol": "SHOGUN",
+    "decimals": 18
+  },
+  "0xe6b574F220aE98fbA3911fA6ED69656F0E988F80": {
+    "name": "PepeThePope",
+    "symbol": "Pepepope",
+    "decimals": 18
   }
 }

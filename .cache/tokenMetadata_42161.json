@@ -1498,5 +1498,130 @@
     "name": "test",
     "symbol": "test",
     "decimals": 18
+  },
+  "0x5B904f19fb9ccf493b623e5c8cE91603665788b0": {
+    "name": "Moo Gmx GMX",
+    "symbol": "mooGmxGMX",
+    "decimals": 18
+  },
+  "0x147FF11D9B9Ae284c271B2fAaE7068f4CA9BB619": {
+    "name": "gmdBTC",
+    "symbol": "gmdBTC",
+    "decimals": 18
+  },
+  "0x565609fAF65B92F7be02468acF86f8979423e514": {
+    "name": "Wrapped AVAX",
+    "symbol": "WAVAX",
+    "decimals": 18
+  },
+  "0x1E95A37Be8A17328fbf4b25b9ce3cE81e271BeB3": {
+    "name": "gmdETH",
+    "symbol": "gmdETH",
+    "decimals": 18
+  },
+  "0x6533afac2E7BCCB20dca161449A13A32D391fb00": {
+    "name": "Aave Arbitrum ARB",
+    "symbol": "aArbARB",
+    "decimals": 18
+  },
+  "0xCF79d86B8a830030aF6D835737d6eac3bE823fD7": {
+    "name": "Sui",
+    "symbol": "SUI",
+    "decimals": 9
+  },
+  "0xA2Ec98baFE52f6b0134F6378eb52aD69Eb7af359": {
+    "name": "Cybertruck",
+    "symbol": "TRUCK",
+    "decimals": 18
+  },
+  "0xd42785D323e608B9E99fa542bd8b1000D4c2Df37": {
+    "name": "Fantom Token",
+    "symbol": "FTM",
+    "decimals": 18
+  },
+  "0x078f358208685046a11C85e8ad32895DED33A249": {
+    "name": "Aave Arbitrum WBTC",
+    "symbol": "aArbWBTC",
+    "decimals": 8
+  },
+  "0xa0b862F60edEf4452F25B4160F177db44DeB6Cf1": {
+    "name": "Gnosis Token",
+    "symbol": "GNO",
+    "decimals": 18
+  },
+  "0xC96F2715E2a242d50D1b0bC923dbe1740b8eCf18": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "0xD8369C2EDA18dD6518eABb1F85BD60606dEb39Ec": {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "0x3870546cfd600ba87e4180686d29dC993A45d3B7": {
+    "name": "USD Coin",
+    "symbol": "USDC",
+    "decimals": 6
+  },
+  "0x3ab0E28C3F56616aD7061b4db38aE337E3809AEA": {
+    "name": "Wrapped Matic",
+    "symbol": "WMATIC",
+    "decimals": 18
+  },
+  "0xBAfbCB010D920e0Dab9DFdcF634De1B777028a85": {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "0xd825c815C9b9bB8113Fb9cAA8690De2D5C1D5958": {
+    "name": "Tony",
+    "symbol": "TONY",
+    "decimals": 18
+  },
+  "0x299142a6370e1912156E53fBD4f25D7ba49DdcC5": {
+    "name": "AI Meta Coin",
+    "symbol": "AMC",
+    "decimals": 18
+  },
+  "0xAFccb724e3aec1657fC9514E3e53A0E71e80622D": {
+    "name": "VKA",
+    "symbol": "VKA",
+    "decimals": 18
+  },
+  "0xCDD81f1FA5636D50c8F2cd42F6032E43a8B34DB5": {
+    "name": "eUSD",
+    "symbol": "eUSD",
+    "decimals": 8
+  },
+  "0x41650567fC37DEFA3EF02Bb6ff4dD8A565365fB2": {
+    "name": "MyToken",
+    "symbol": "MTK",
+    "decimals": 18
+  },
+  "0xD56734d7f9979dD94FAE3d67C7e928234e71cD4C": {
+    "name": "TIA",
+    "symbol": "TIA.n",
+    "decimals": 6
+  },
+  "0xcF985abA4647a432E60efcEeB8054BBd64244305": {
+    "name": "EUROe Stablecoin",
+    "symbol": "EUROe",
+    "decimals": 6
+  },
+  "0x40b937388cc6044Dd47132b0Db3ec1F504D3691c": {
+    "name": "TASMANIA DE",
+    "symbol": "TASX",
+    "decimals": 18
+  },
+  "0xCd78914Cc83642Ce8372C5aA7AfdcA1c7CCf6393": {
+    "name": "Cucked by CSGO",
+    "symbol": "CSGO",
+    "decimals": 18
+  },
+  "0xECEd2b8302b240878E1177bfBD443eCca9948e42": {
+    "name": "Cherry Pie",
+    "symbol": "chpi",
+    "decimals": 18
   }
 }

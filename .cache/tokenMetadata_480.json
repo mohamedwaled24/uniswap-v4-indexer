@@ -473,5 +473,20 @@
     "name": "Bowser",
     "symbol": "BOWSER",
     "decimals": 9
+  },
+  "0x10A115DBC188B5217Cf914FDfa1B39104f203868": {
+    "name": "Worldle",
+    "symbol": "DLY",
+    "decimals": 18
+  },
+  "0xd5D4f51a426bdb649fBaf08a7B0103285773459C": {
+    "name": "Broccoli",
+    "symbol": "Broccoli",
+    "decimals": 18
+  },
+  "0xA8Bbc9bAcf337596E2e992eCf5B9947FD1a7F062": {
+    "name": "Human Choice",
+    "symbol": "HC",
+    "decimals": 18
   }
 }

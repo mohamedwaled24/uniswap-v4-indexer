@@ -3813,5 +3813,55 @@
     "name": "Tether USD",
     "symbol": "TUSDT",
     "decimals": 18
+  },
+  "0xf1bE8ecC990cBcb90e166b71E368299f0116d421": {
+    "name": "Interest Bearing ALPACA",
+    "symbol": "ibALPACA",
+    "decimals": 18
+  },
+  "0x55ad16Bd573B3365f43A9dAeB0Cc66A73821b4a5": {
+    "name": "OKZOO",
+    "symbol": "AIOT",
+    "decimals": 18
+  },
+  "0x8Ea43e15b1a616a19903F6A87498F7dCa1efae0f": {
+    "name": "xAI",
+    "symbol": "xAI",
+    "decimals": 9
+  },
+  "0x71c3131470C447A3Ed63CBE299472b4Eb2313257": {
+    "name": "Violet",
+    "symbol": "VTC",
+    "decimals": 9
+  },
+  "0xecC9A1d97FF88f5a786C521Bf4a14A2D3F6c50f7": {
+    "name": "Binance Hat",
+    "symbol": "BH",
+    "decimals": 18
+  },
+  "0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F": {
+    "name": "AlpacaToken",
+    "symbol": "ALPACA",
+    "decimals": 18
+  },
+  "0xC41dD553125ca202D9fbE133c38CfD1fFD0C2444": {
+    "name": "wabucu",
+    "symbol": "WBC",
+    "decimals": 18
+  },
+  "0xFb29A8894a0B0c52334a00a47521682ea9Cac093": {
+    "name": "ナナナ Banana Republic from P",
+    "symbol": "Nanana",
+    "decimals": 18
+  },
+  "0x868FCEd65edBF0056c4163515dD840e9f287A4c3": {
+    "name": "Sign",
+    "symbol": "SIGN",
+    "decimals": 18
+  },
+  "0xD16Ea217678eC31Be4a720E18d26dfFd6C1b9755": {
+    "name": "USDT.z",
+    "symbol": "USDTz",
+    "decimals": 18
   }
 }

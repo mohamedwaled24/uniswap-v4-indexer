@@ -1008,5 +1008,35 @@
     "name": "POCUSD",
     "symbol": "POCUSD",
     "decimals": 6
+  },
+  "0xBE407E17CaDC55f0a695bfAD12a1e7edCF1d3996": {
+    "name": "Fix",
+    "symbol": "FIX",
+    "decimals": 18
+  },
+  "0xCC130DBA992c5Af9561e28c1aEC9B18cF1E4E419": {
+    "name": "quantum",
+    "symbol": "QTM",
+    "decimals": 18
+  },
+  "0x3193f5880b315F181323D93F7aFeaEAEd684A4c9": {
+    "name": "ETH STAKE",
+    "symbol": "ETHX",
+    "decimals": 18
+  },
+  "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34": {
+    "name": "USDe",
+    "symbol": "USDe",
+    "decimals": 18
+  },
+  "0xb1599CDE32181f48f89683d3C5Db5C5D2C7C93cc": {
+    "name": "Super DCA",
+    "symbol": "DCA",
+    "decimals": 18
+  },
+  "0x00F932F0FE257456b32dedA4758922E56A4F4b42": {
+    "name": "Paper",
+    "symbol": "PAPER",
+    "decimals": 18
   }
 }

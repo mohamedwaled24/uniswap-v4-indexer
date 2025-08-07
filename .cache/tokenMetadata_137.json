@@ -4083,5 +4083,250 @@
     "name": "Lunaris",
     "symbol": "LNRS",
     "decimals": 18
+  },
+  "0x9d6432b17Bf74b3645b85760be95F7bCB550AB60": {
+    "name": "RICE CRACKER GOD COIN",
+    "symbol": "RCGC",
+    "decimals": 18
+  },
+  "0xbE030E1Ab742fadb74774760b0557D0C7294EA4F": {
+    "name": "wincoins1",
+    "symbol": "WINS1",
+    "decimals": 18
+  },
+  "0xa06C6CB87cD1F5cF56142896c5aD5e44e3701022": {
+    "name": "Community Token",
+    "symbol": "$COTO",
+    "decimals": 18
+  },
+  "0x53f88adf9B10F29be4414f48A2FdB4FB96CF9CBe": {
+    "name": "4545",
+    "symbol": "5454",
+    "decimals": 18
+  },
+  "0x43636e633D037Bd1c87Ae93419076A885cE5b714": {
+    "name": "KmonCoin",
+    "symbol": "KMON",
+    "decimals": 18
+  },
+  "0x2c9d233914f46B88e9ae08326fA60e40Ea3FaA12": {
+    "name": "Spheroid (PoS)",
+    "symbol": "SPH",
+    "decimals": 18
+  },
+  "0x21cFd016FD6fB2020dFca7667766EDf76280F105": {
+    "name": "Bilion",
+    "symbol": "BLN",
+    "decimals": 18
+  },
+  "0x3C0Bd2118a5E61C41d2aDeEBCb8B7567FDE1cBaF": {
+    "name": "Cookie",
+    "symbol": "CKIE",
+    "decimals": 18
+  },
+  "0x1d734A02eF1e1f5886e66b0673b71Af5B53ffA94": {
+    "name": "Stader (PoS)",
+    "symbol": "SD",
+    "decimals": 18
+  },
+  "0x47DD60FA40A050c0677dE19921Eb4cc512947729": {
+    "name": "DBXen Token on Polygon",
+    "symbol": "mDXN",
+    "decimals": 18
+  },
+  "0xC5C817d007c0d1aAAB4704aD48A8C07b09A61aD5": {
+    "name": "MorroKota",
+    "symbol": "MKT",
+    "decimals": 18
+  },
+  "0xcdDbd374A9dF30BbBE4Bc4c008fA229CB3587511": {
+    "name": "DDM Deutsche Mark",
+    "symbol": "DDM",
+    "decimals": 18
+  },
+  "0xdb6DC240087A29187dC34F91aF95f627ccf3003f": {
+    "name": "Uniswap V2",
+    "symbol": "UNI-V2",
+    "decimals": 18
+  },
+  "0x6d80113e533a2C0fe82EaBD35f1875DcEA89Ea97": {
+    "name": "Aave Polygon WMATIC",
+    "symbol": "aPolWMATIC",
+    "decimals": 18
+  },
+  "0x7644De069860F94BF79B0EF6B7a6Fd6893930297": {
+    "name": "komoney",
+    "symbol": "KOIN",
+    "decimals": 18
+  },
+  "0xFf44a67a4C75dA0382a7A16A392bc10cD03cEFa9": {
+    "name": "MAAX Coin",
+    "symbol": "MAAX",
+    "decimals": 18
+  },
+  "0xB013A2cA198050650659472d4540345AD6F7F7f6": {
+    "name": "Pudding Coin",
+    "symbol": "PDC",
+    "decimals": 18
+  },
+  "0xdFFfe0C33b4011C4218acD61E68a62a32eaf9a8B": {
+    "name": "Axelar Wrapped REGEN",
+    "symbol": "axlREGEN",
+    "decimals": 6
+  },
+  "0xb34B0D9251Aa20AB0A093E4F6a0D910344442650": {
+    "name": "Conticoin",
+    "symbol": "Conti",
+    "decimals": 18
+  },
+  "0xb6BE230086a5aE7302b6ED54e1E10a22ff1E754D": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 18
+  },
+  "0xB5E4BB50daDFe6Cd88bDd8958961749380958456": {
+    "name": "Jungle Apes",
+    "symbol": "Jungle",
+    "decimals": 18
+  },
+  "0x2df1cEB103e37866eF20a940D73A3edC1B23C920": {
+    "name": "CoinCase",
+    "symbol": "CNC",
+    "decimals": 18
+  },
+  "0x181112f29410d729faEe8553654BFe0b82DD6878": {
+    "name": "Polmoon",
+    "symbol": "PMOON",
+    "decimals": 8
+  },
+  "0xA73527746FbF60dE720b5a8AeFFB1724656C3311": {
+    "name": "POLSHIT",
+    "symbol": "PS",
+    "decimals": 18
+  },
+  "0xc708D6F2153933DAA50B2D0758955Be0A93A8FEc": {
+    "name": "Verse (FXERC20)",
+    "symbol": "fxVERSE",
+    "decimals": 18
+  },
+  "0x9945C9f5Db4e6f2fc5B7c0d74de604483829040F": {
+    "name": "STREET MONEY",
+    "symbol": "STREET",
+    "decimals": 18
+  },
+  "0xafDA0eaF3D16aEDC3CE631111338F438804301d0": {
+    "name": "X.COM",
+    "symbol": "X",
+    "decimals": 18
+  },
+  "0x023375Acb641c1c8b3EF0f7Ec1b3b7CD64A0168d": {
+    "name": "GooseCoin",
+    "symbol": "GOOSE",
+    "decimals": 18
+  },
+  "0x15AeCd2cd14D816a439701ADF602b869a843E2E8": {
+    "name": "Aiz Bot",
+    "symbol": "AIZB",
+    "decimals": 18
+  },
+  "0xB07cd7A48Ec6dF17039d0124eB2eFF100DA658e9": {
+    "name": "Anti Social Game",
+    "symbol": "ASG",
+    "decimals": 18
+  },
+  "0x62F166844ECF38E6b06DbA517183b30f68E009ff": {
+    "name": "Polypunkz",
+    "symbol": "PUNK",
+    "decimals": 18
+  },
+  "0x0fF725e9aa72C00E100b8c849c35e114381C400b": {
+    "name": "Monad",
+    "symbol": "MON",
+    "decimals": 18
+  },
+  "0x99C6065DBBC41b91aA42894889e765C6e567fF1A": {
+    "name": "Goopia",
+    "symbol": "GT",
+    "decimals": 18
+  },
+  "0xa02dD3ddEcF584af57E88B4E254c877538f1B75a": {
+    "name": "AniPlay",
+    "symbol": "ANI",
+    "decimals": 18
+  },
+  "0x1Ec961190caDf1ae6c9488580cb9b8d09Ff75C79": {
+    "name": "ZeroCoin",
+    "symbol": "ZRC",
+    "decimals": 8
+  },
+  "0xB042bc7915a5E17E1b847e3d54D78F147509CA77": {
+    "name": "Euro",
+    "symbol": "EUR",
+    "decimals": 18
+  },
+  "0xcb1eb0E0b5D4672EcFCCDE7dc679F6851d842180": {
+    "name": "Peso",
+    "symbol": "ARS",
+    "decimals": 18
+  },
+  "0x24AF413d0Bd7da5548211A2766fa6b4bCe43DDE3": {
+    "name": "PUT IN COIN",
+    "symbol": "PUTIN",
+    "decimals": 18
+  },
+  "0x24d84aB1fd4159920084deB1D1B8F129AfF97505": {
+    "name": "BNLCoin",
+    "symbol": "BNL",
+    "decimals": 18
+  },
+  "0x127A3d0CAF5D13003eda8d2739627A66389F97Be": {
+    "name": "SevenColorTea",
+    "symbol": "SCT",
+    "decimals": 18
+  },
+  "0xFbdd194376de19a88118e84E279b977f165d01b8": {
+    "name": "beefy.finance",
+    "symbol": "BIFI",
+    "decimals": 18
+  },
+  "0x30d3D659DCfb9620ACDe64605068718f270fdA6D": {
+    "name": "Digital Asset Rights Token (PoS)",
+    "symbol": "DAR",
+    "decimals": 18
+  },
+  "0x407DB3CcA761Ecbcdd03f4532Ae71744691E6E4f": {
+    "name": "TestESX",
+    "symbol": "tESX",
+    "decimals": 18
+  },
+  "0x5798e6134C623104856F92f3b5A669030Ba158e8": {
+    "name": "PYRAMID",
+    "symbol": "PYRAMID",
+    "decimals": 18
+  },
+  "0x40fdDdC7475B645F983DD69DC489442a46BF2464": {
+    "name": "Novara",
+    "symbol": "NVA",
+    "decimals": 18
+  },
+  "0x10eD5A807fE5b11cF77aA78905C4324e2efEb6BB": {
+    "name": "PYRAMID",
+    "symbol": "PYRAMID",
+    "decimals": 18
+  },
+  "0xe67A2b4D7bef08a2A00C4E205fc7D1A8a6cBE6B8": {
+    "name": "DinaKart",
+    "symbol": "DAN",
+    "decimals": 18
+  },
+  "0xF225CCcFC66a82e5632DbAB5A772BCFF0557d944": {
+    "name": "TFT",
+    "symbol": "TFT",
+    "decimals": 10
+  },
+  "0x51b2D8BC71DCA480A32Ea14A2115F0B44f95DF7F": {
+    "name": "SHARKOIN.com",
+    "symbol": "SHARKOIN",
+    "decimals": 18
   }
 }
