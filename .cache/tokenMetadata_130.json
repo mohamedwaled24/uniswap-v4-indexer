@@ -588,5 +588,290 @@
     "name": "400588",
     "symbol": "9737522",
     "decimals": 18
+  },
+  "0xb661Fd9608Ec1B80b0744fA82B5f233e188b176f": {
+    "name": "Unicorn Capital",
+    "symbol": "UNIC",
+    "decimals": 18
+  },
+  "0x7e7a430729BEe8386daeb5480D061Dc81EE04727": {
+    "name": "Broccoli",
+    "symbol": "Broccoli",
+    "decimals": 18
+  },
+  "0xbf84EBA2b4e7FA112AdF96650A3EA7641ABE2Cd6": {
+    "name": "Uni Bertadax",
+    "symbol": "UBX",
+    "decimals": 18
+  },
+  "0xe7420140E0BE34161aB3deB486378a2813bAbbB8": {
+    "name": "UniMemeMaker",
+    "symbol": "UMM",
+    "decimals": 18
+  },
+  "0xbA1F939e340cfB512083f52035Ae31A885a487Fa": {
+    "name": "UNIROCKET",
+    "symbol": "ROCKET",
+    "decimals": 18
+  },
+  "0x5E49Acdf91a0B352B1634076715820CBc34C0E48": {
+    "name": "JEETS",
+    "symbol": "JEETS",
+    "decimals": 18
+  },
+  "0x5DF451b03681efCD622CC4e330b1Cc5Fb0393aC9": {
+    "name": "UNIDUCK",
+    "symbol": "UNIDUCK",
+    "decimals": 18
+  },
+  "0xE1CbD36FD2ccB091C93A62Cf4a7261C3D7817965": {
+    "name": "UNICHAN AI",
+    "symbol": "UNICHAN",
+    "decimals": 18
+  },
+  "0x0C34Bf933d63Ea4AAa9462717000411793092d1e": {
+    "name": "Unitos.net • Uni Dollar",
+    "symbol": "USD.uni",
+    "decimals": 18
+  },
+  "0x32Dcde291Ca88BA29D8dd7df80d126EDdBb1eF64": {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "0x513cDAbb37Da5bce41d4D8Cc3d6C46607E72ea9B": {
+    "name": "UNIDOLLAR",
+    "symbol": "UNIUSD",
+    "decimals": 18
+  },
+  "0xB4451Ac1d2AAEEBBeE3823e8998Eb16c4b9a9216": {
+    "name": "My 2 Satoshis",
+    "symbol": "2SATS",
+    "decimals": 18
+  },
+  "0x5C7c9833E26DdaC496E569c380Cc1Db2712348eD": {
+    "name": "YB",
+    "symbol": "YB",
+    "decimals": 18
+  },
+  "0xF9a297a8f01203DdA4999ecD8E9b310409670b97": {
+    "name": "UniLegitMeme",
+    "symbol": "ULM",
+    "decimals": 18
+  },
+  "0xF33E232c450e29DBf0A5abeD089Af46fD919B501": {
+    "name": "Ustar",
+    "symbol": "USTAR",
+    "decimals": 18
+  },
+  "0x5F54E0fbACB932981AEaD873ac6094943F6EC4Ca": {
+    "name": "Team Grimoire & Laur®",
+    "symbol": "TGL®",
+    "decimals": 18
+  },
+  "0x5b108c778914aEa740c5dFF42738B72084987Ff6": {
+    "name": "web3bilibili",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x2C1a5d0957FeFc5aA3de57277D065AbE2DF7B66e": {
+    "name": "Honesty",
+    "symbol": "ONEST",
+    "decimals": 18
+  },
+  "0x5b46642be292B973E905D8254B4326fa6C8f24F1": {
+    "name": "SQUARE PACTS",
+    "symbol": "SPH",
+    "decimals": 18
+  },
+  "0xEE5b7A7A80f0296F61382cB9a91a822a05B4d072": {
+    "name": "TestToken",
+    "symbol": "TST",
+    "decimals": 18
+  },
+  "0x34dF9466bc5525166E44Ff55E63d2DDa770bD2f6": {
+    "name": "QIGONG",
+    "symbol": "QI",
+    "decimals": 18
+  },
+  "0xbFc42Bc0E73bC64E2aD78c7F787c24C6439401F3": {
+    "name": "STEFANIA",
+    "symbol": "STHESHA",
+    "decimals": 18
+  },
+  "0xe5a3dc3D3b329c31567EFe8aE6137ff25cb2E87F": {
+    "name": "kuk",
+    "symbol": "kook",
+    "decimals": 18
+  },
+  "0x1e8381c9bc6565Cc9D71b472def57Edeb567C6F4": {
+    "name": "KP0R",
+    "symbol": "KP0R",
+    "decimals": 18
+  },
+  "0x5Ea0fcd56e5e7b555B258dE71D99dFd19F2Cc7f6": {
+    "name": "pipironi",
+    "symbol": "pipi",
+    "decimals": 18
+  },
+  "0x975ACF17F116444a991c3b164C56194E987ea68f": {
+    "name": "Airdrop For All Token",
+    "symbol": "AFA",
+    "decimals": 18
+  },
+  "0x8083866423D584004d2db2FB2b28538E92C5c840": {
+    "name": "Uni",
+    "symbol": "UNI",
+    "decimals": 18
+  },
+  "0x1e36DdfB4883d23e1eaeD6a706c9B059166869FE": {
+    "name": "FARTCOIN",
+    "symbol": "FARTCOIN",
+    "decimals": 18
+  },
+  "0xf3357128e4fc0B30A9F646E62E403B8673d764F3": {
+    "name": "The Ascott Limited",
+    "symbol": "ASCOTT",
+    "decimals": 18
+  },
+  "0x9Bb7D4Ca1c161DAA0993D5F9D56e79113B58c745": {
+    "name": "Uni Tango Chain",
+    "symbol": "UTC",
+    "decimals": 18
+  },
+  "0xD353Da949B044E886a8F74CBCbb3535Cc0c99e9e": {
+    "name": "Ai Universe",
+    "symbol": "AUE",
+    "decimals": 18
+  },
+  "0x81908BBaad3f6fC74093540Ab2E9B749BB62aA0d": {
+    "name": "Venus XVS",
+    "symbol": "XVS",
+    "decimals": 18
+  },
+  "0x444ee1e651AbEb610564EBDB8b7224B259bc8978": {
+    "name": "catwithcigar",
+    "symbol": "CWR",
+    "decimals": 18
+  },
+  "0x8654B1E3399547f2B7AFb436ce88c86A43d4E1c3": {
+    "name": "HelloTaiwan",
+    "symbol": "HiTWN",
+    "decimals": 18
+  },
+  "0xFd866e773aD0969e5233078251be737481744DCa": {
+    "name": "Accountant",
+    "symbol": "ATG",
+    "decimals": 18
+  },
+  "0x4200000000000000000000000000000000000006": {
+    "name": "Wrapped Ether",
+    "symbol": "WETH",
+    "decimals": 18
+  },
+  "0xd87834F35398bD6c56eAEDE65a68dcA0D124fc47": {
+    "name": "AUSTIN",
+    "symbol": "AUSTIN",
+    "decimals": 18
+  },
+  "0xb709b786953b46bDbaB3E13B3ee954Ffd6192af9": {
+    "name": "TizulToken",
+    "symbol": "TZT",
+    "decimals": 18
+  },
+  "0xb3df9258731398Ae1Af90e209a11D41E45Fe5b3a": {
+    "name": "HayCoin",
+    "symbol": "HAY",
+    "decimals": 18
+  },
+  "0x86C87667B7DDC194b5B948075F984868891b4C22": {
+    "name": "(0G)uni",
+    "symbol": "UNKNOWN",
+    "decimals": 18
+  },
+  "0x380ED97716073C092AB046E6ADec7C0A69da0F23": {
+    "name": "Unity",
+    "symbol": "Unity",
+    "decimals": 18
+  },
+  "0x3A90380ceC95d6b2A00B09cA7E79112c52e9fc3A": {
+    "name": "Unisex",
+    "symbol": "UNS",
+    "decimals": 18
+  },
+  "0x5a53B6D19D8EDCb7923F0D840EeBB3f09BBeEfB7": {
+    "name": "ChainLink Token",
+    "symbol": "LINK",
+    "decimals": 18
+  },
+  "0xeA29e6E01D8fbB2E53a3056Acda65ec24690087d": {
+    "name": "SQUIGGLE",
+    "symbol": "SQGL",
+    "decimals": 18
+  },
+  "0xd6966A43dBb2B665C0957359c7C32F7BfdcBE7A1": {
+    "name": "AI CHAIN",
+    "symbol": "AIC",
+    "decimals": 18
+  },
+  "0xAAf21D4c3D1E204456cf6C1172A380c1e20fE3f6": {
+    "name": "AI Robert",
+    "symbol": "AIR",
+    "decimals": 18
+  },
+  "0x37De48ed6FB8bb39d6EfB6f9d077f22E9Bd85031": {
+    "name": "Bitcoin mining robots robot 🤖",
+    "symbol": "BMR robot 🤖",
+    "decimals": 18
+  },
+  "0x98d0709457A1Db7321B52bfEabf054C6Ecf33Ef7": {
+    "name": "Virtual Bitcoin",
+    "symbol": "VBTC",
+    "decimals": 18
+  },
+  "0x1c48458a3CeEBfa76620073E82979b28eb8bdAdA": {
+    "name": "Shally",
+    "symbol": "SHL",
+    "decimals": 18
+  },
+  "0x0ccAab5a7e3C0490269fDdE4be03D3686c189B67": {
+    "name": "MONADODON",
+    "symbol": "MND",
+    "decimals": 18
+  },
+  "0xd205756c2D4a82412d6D103f3A9cBe159d2f4775": {
+    "name": "MMS",
+    "symbol": "MMS",
+    "decimals": 18
+  },
+  "0x61176aB1C1e6e80c666d097d5990A979b7643E5A": {
+    "name": "Ai Bitcoin",
+    "symbol": "AIBTC",
+    "decimals": 18
+  },
+  "0x32129Ae17f39EDbd688b4917972202dCDd169DBe": {
+    "name": "AI cloud",
+    "symbol": "AIC",
+    "decimals": 18
+  },
+  "0xF39aCa427fbFA547CDA737D41266AC7B81FEc82e": {
+    "name": "Bitcoin virtual",
+    "symbol": "BTCV",
+    "decimals": 18
+  },
+  "0x6472F33948521300A243E5dd50Ec260087808aEc": {
+    "name": "Charlie The Unicorn",
+    "symbol": "CTU",
+    "decimals": 18
+  },
+  "0x80eF05cAB1AF365Cc2B763a9bC56413e547e50A9": {
+    "name": "Tree",
+    "symbol": "TRE",
+    "decimals": 18
+  },
+  "0xb6A3E8e5715fd4c99EcEDaaAe121bDe4Ab6a1Ef1": {
+    "name": "Coinbase Wrapped BTC",
+    "symbol": "cbBTC",
+    "decimals": 8
   }
 }

@@ -118,5 +118,55 @@
     "name": "Tether USD (USDT)",
     "symbol": "USDT",
     "decimals": 18
+  },
+  "0xa608d4089647A4b7d996612F89751DfF16f1DBA6": {
+    "name": "T-Rex",
+    "symbol": "TREX",
+    "decimals": 18
+  },
+  "0x41f42A577D557c4dEAd70230BC654A52584053a5": {
+    "name": "Mythic Egg",
+    "symbol": "EGG",
+    "decimals": 18
+  },
+  "0x9B8Df6E244526ab5F6e6400d331DB28C8fdDdb55": {
+    "name": "Solana (Universal)",
+    "symbol": "uSOL",
+    "decimals": 18
+  },
+  "0x12E96C2BFEA6E835CF8Dd38a5834fa61Cf723736": {
+    "name": "Dogecoin (Universal)",
+    "symbol": "uDOGE",
+    "decimals": 18
+  },
+  "0xd403D1624DAEF243FbcBd4A80d8A6F36afFe32b2": {
+    "name": "Chainlink (Universal)",
+    "symbol": "uLINK",
+    "decimals": 18
+  },
+  "0x1449f562FD186FC2eA1014055Ebc1f17DA22a198": {
+    "name": "Gems",
+    "symbol": "GEMS",
+    "decimals": 18
+  },
+  "0xE894775A317E231Cd4e52DF54a7D190f06B11f6C": {
+    "name": "WorldBridge",
+    "symbol": "WBridge",
+    "decimals": 18
+  },
+  "0xAD3eE0342CB753C2B39579F9dB292A9Ae94b153E": {
+    "name": "Gems",
+    "symbol": "GEMS",
+    "decimals": 18
+  },
+  "0x859DBE24b90C9f2f7742083d3cf59cA41f55Be5d": {
+    "name": "Savings Dai",
+    "symbol": "sDAI",
+    "decimals": 18
+  },
+  "0x5Dd208326B0b625f2DA8b956848C0BF18d3F8278": {
+    "name": "TradePulse Token",
+    "symbol": "TPT",
+    "decimals": 18
   }
 }

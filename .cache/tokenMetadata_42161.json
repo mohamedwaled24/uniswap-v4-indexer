@@ -323,5 +323,215 @@
     "name": "Pear",
     "symbol": "PEAR",
     "decimals": 18
+  },
+  "0xc87B37a581ec3257B734886d9d3a581F5A9d056c": {
+    "name": "Aethir Token",
+    "symbol": "ATH",
+    "decimals": 18
+  },
+  "0x221A0f68770658C15B525d0F89F5da2baAB5f321": {
+    "name": "Open Dollar",
+    "symbol": "OD",
+    "decimals": 18
+  },
+  "0x74885b4D524d497261259B38900f54e6dbAd2210": {
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "decimals": 18
+  },
+  "0x772598E9e62155D7fDFe65FdF01EB5a53a8465BE": {
+    "name": "Empyreal",
+    "symbol": "EMP",
+    "decimals": 18
+  },
+  "0x94025780a1aB58868D9B2dBBB775f44b32e8E6e5": {
+    "name": "BetSwirl v2",
+    "symbol": "BETS",
+    "decimals": 18
+  },
+  "0xC760F9782F8ceA5B06D862574464729537159966": {
+    "name": "Contango",
+    "symbol": "TANGO",
+    "decimals": 18
+  },
+  "0xcAFcD85D8ca7Ad1e1C6F82F651fA15E33AEfD07b": {
+    "name": "Wootrade Network",
+    "symbol": "WOO",
+    "decimals": 18
+  },
+  "0x8C0878f2Ee94c9dB70351DAe964B2193ed1455FB": {
+    "name": "HoodieChicken",
+    "symbol": "HCT",
+    "decimals": 18
+  },
+  "0x9623063377AD1B27544C965cCd7342f7EA7e88C7": {
+    "name": "Graph Token",
+    "symbol": "GRT",
+    "decimals": 18
+  },
+  "0x1E0aa9B3345727979665FcC838d76324cBA22253": {
+    "name": "USD Molten",
+    "symbol": "USDM",
+    "decimals": 18
+  },
+  "0xcDbc17A6B383C9C51AA699BE82373290784768ff": {
+    "name": "Incar DAO",
+    "symbol": "INC",
+    "decimals": 18
+  },
+  "0xE71bDfE1Df69284f00EE185cf0d95d0c7680c0d4": {
+    "name": "Sepolia ETH",
+    "symbol": "SETH",
+    "decimals": 18
+  },
+  "0xDd1Ddd4D978ac0BaEF4bfa9C7E91853bFcE90F11": {
+    "name": "The Lux Network",
+    "symbol": "TLN",
+    "decimals": 18
+  },
+  "0x3E6648C5a70A150A88bCE65F4aD4d506Fe15d2AF": {
+    "name": "Spell Token",
+    "symbol": "SPELL",
+    "decimals": 18
+  },
+  "0x600661d94b0eaD6be4B52dE84951984B54750e9E": {
+    "name": "Silas.org",
+    "symbol": "SLS",
+    "decimals": 18
+  },
+  "0x4Cb9a7AE498CEDcBb5EAe9f25736aE7d428C9D66": {
+    "name": "Xai",
+    "symbol": "XAI",
+    "decimals": 18
+  },
+  "0x00000000ea00F3F4000e7Ed5Ed91965b19f1009B": {
+    "name": "Maia",
+    "symbol": "MAIA",
+    "decimals": 18
+  },
+  "0xf8173a39c56a554837C4C7f104153A005D284D11": {
+    "name": "EDU Coin",
+    "symbol": "EDU",
+    "decimals": 18
+  },
+  "0x000000C396558ffbAB5Ea628f39658Bdf61345b3": {
+    "name": "Bunni",
+    "symbol": "BUNNI",
+    "decimals": 18
+  },
+  "0xE48F2Ed54cAE2605b7Aa54C2A207d340b9DeB8B2": {
+    "name": "CATIORO COIN",
+    "symbol": "CATIORO",
+    "decimals": 18
+  },
+  "0xa542D9800D1884Ac8E92D1BD9f62327cdd7bB364": {
+    "name": "USDA",
+    "symbol": "USDA",
+    "decimals": 18
+  },
+  "0xd879c72309924D296168d96A440201994D4d0bBB": {
+    "name": "Uqinzen",
+    "symbol": "UQn",
+    "decimals": 2
+  },
+  "0x50A88E22fBcC9b5B313496C41dfFBF78A0729465": {
+    "name": "Fly",
+    "symbol": "FLY",
+    "decimals": 18
+  },
+  "0x35E6A59F786d9266c7961eA28c7b768B33959cbB": {
+    "name": "Pepe",
+    "symbol": "PEPE",
+    "decimals": 18
+  },
+  "0xdf8F0c63D9335A0AbD89F9F752d293A98EA977d8": {
+    "name": "ENA",
+    "symbol": "ENA",
+    "decimals": 18
+  },
+  "0x539bdE0d7Dbd336b79148AA742883198BBF60342": {
+    "name": "MAGIC",
+    "symbol": "MAGIC",
+    "decimals": 18
+  },
+  "0xAAA6C1E32C55A7Bfa8066A6FAE9b42650F262418": {
+    "name": "Ramses",
+    "symbol": "RAM",
+    "decimals": 18
+  },
+  "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34": {
+    "name": "USDe",
+    "symbol": "USDe",
+    "decimals": 18
+  },
+  "0xf3527ef8dE265eAa3716FB312c12847bFBA66Cef": {
+    "name": "USDX",
+    "symbol": "USDX",
+    "decimals": 18
+  },
+  "0x6dAF586B7370B14163171544fca24AbcC0862ac5": {
+    "name": "BPET",
+    "symbol": "BPET",
+    "decimals": 18
+  },
+  "0x7f9FBf9bDd3F4105C478b996B648FE6e828a1e98": {
+    "name": "ApeCoin",
+    "symbol": "APE",
+    "decimals": 18
+  },
+  "0x2e9a6Df78E42a30712c10a9Dc4b1C8656f8F2879": {
+    "name": "4d616b6572000000000000000000000000000000000000000000000000000000",
+    "symbol": "4d4b520000000000000000000000000000000000000000000000000000000000",
+    "decimals": 18
+  },
+  "0x5575552988A3A80504bBaeB1311674fCFd40aD4B": {
+    "name": "Sperax",
+    "symbol": "SPA",
+    "decimals": 18
+  },
+  "0x1d1cd90a11CFBAc0f851782D0E36c32f4C43e55f": {
+    "name": "XTERRA",
+    "symbol": "XTR",
+    "decimals": 18
+  },
+  "0x93E6244fC5ef3e8Da46d39F49ffa281c9f1aaCAc": {
+    "name": "my_utra_giga_omega_token",
+    "symbol": "OMEGA",
+    "decimals": 18
+  },
+  "0xFD47e9004564596D06AbbE95C0AFDfa1D3352e5E": {
+    "name": "Astrinea Gold",
+    "symbol": "ASTGO",
+    "decimals": 18
+  },
+  "0xa7A6a8F7Fc0D749fBE4E77C5E5c9c8aB9F3BCcD6": {
+    "name": "Skol!",
+    "symbol": "SKOL",
+    "decimals": 18
+  },
+  "0xF65247B6ED3E7FDbAC313959B3f62475FBB5F8E4": {
+    "name": "BrightPool Exchange Token",
+    "symbol": "BRIX",
+    "decimals": 9
+  },
+  "0x155f0DD04424939368972f4e1838687d6a831151": {
+    "name": "ArbiDoge",
+    "symbol": "ADoge",
+    "decimals": 18
+  },
+  "0xb08D8BeCAB1bf76A9Ce3d2d5fa946F65EC1d3e83": {
+    "name": "GammaSwap",
+    "symbol": "GS",
+    "decimals": 18
+  },
+  "0x55678cd083fcDC2947a0Df635c93C838C89454A3": {
+    "name": "Tokenlon",
+    "symbol": "LON",
+    "decimals": 18
+  },
+  "0x7788A3538C5fc7F9c7C8A74EAC4c898fC8d87d92": {
+    "name": "Staked USDX",
+    "symbol": "sUSDX",
+    "decimals": 18
   }
 }

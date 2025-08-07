@@ -178,5 +178,130 @@
     "name": "Compound",
     "symbol": "COMP",
     "decimals": 18
+  },
+  "0xD9cC3D70E730503E7f28c1B407389198c4B75FA2": {
+    "name": "TLX DAO Token",
+    "symbol": "TLX",
+    "decimals": 18
+  },
+  "0xc35457E32E6fCD8d32019D3A46bc2ECC25FAAb87": {
+    "name": "OPTIMISTIC DOGE",
+    "symbol": "OPDOGE",
+    "decimals": 6
+  },
+  "0xaf20f5f19698f1D19351028cd7103B63D30DE7d7": {
+    "name": "Wagmi",
+    "symbol": "WAGMI",
+    "decimals": 18
+  },
+  "0x2416092f143378750bb29b79eD961ab195CcEea5": {
+    "name": "Renzo Restaked ETH",
+    "symbol": "ezETH",
+    "decimals": 18
+  },
+  "0x8216bB0dbcc9251dA5790ecD2c75E392461A227a": {
+    "name": "Fly",
+    "symbol": "FLY",
+    "decimals": 18
+  },
+  "0x2dAD3a13ef0C6366220f989157009e501e7938F8": {
+    "name": "Extra Finance",
+    "symbol": "EXTRA",
+    "decimals": 18
+  },
+  "0xDFDd58D0B4626D7410dBF3D4aA10387DD17662b1": {
+    "name": "Bono",
+    "symbol": "Bono",
+    "decimals": 18
+  },
+  "0x50Bce64397C75488465253c0A034b8097FeA6578": {
+    "name": "HanChain",
+    "symbol": "HAN",
+    "decimals": 18
+  },
+  "0x87eEE96D50Fb761AD85B1c982d28A042169d61b1": {
+    "name": "rsETHWrapper",
+    "symbol": "wrsETH",
+    "decimals": 18
+  },
+  "0x5A7fACB970D094B6C7FF1df0eA68D99E6e73CBFF": {
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "decimals": 18
+  },
+  "0x1F32b1c2345538c0c6f582fCB022739c4A194Ebb": {
+    "name": "Wrapped liquid staked Ether 2.0",
+    "symbol": "wstETH",
+    "decimals": 18
+  },
+  "0x9Bcef72be871e61ED4fBbc7630889beE758eb81D": {
+    "name": "Rocket Pool ETH",
+    "symbol": "rETH",
+    "decimals": 18
+  },
+  "0x3c8B650257cFb5f272f799F5e2b4e65093a11a05": {
+    "name": "Velodrome",
+    "symbol": "VELO",
+    "decimals": 18
+  },
+  "0xe50fA9b3c56FfB159cB0FCA61F5c9D750e8128c8": {
+    "name": "Aave Optimism WETH",
+    "symbol": "aOptWETH",
+    "decimals": 18
+  },
+  "0x8700dAec35aF8Ff88c16BdF0418774CB3D7599B4": {
+    "name": "Synthetix Network Token",
+    "symbol": "SNX",
+    "decimals": 18
+  },
+  "0x346e03F8Cce9fE01dCB3d0Da3e9D00dC2c0E08f0": {
+    "name": "Wrapped eETH",
+    "symbol": "weETH",
+    "decimals": 18
+  },
+  "0xE53280d257bE3A5b36B68F559Bf1D1E9032749BD": {
+    "name": "V4Test",
+    "symbol": "V4T",
+    "decimals": 18
+  },
+  "0xBBF88F780072F5141dE94E0A711bD2ad2c1f83BB": {
+    "name": "BTB Finance",
+    "symbol": "BTB",
+    "decimals": 18
+  },
+  "0x747e42Eb0591547a0ab429B3627816208c734EA7": {
+    "name": "Threshold Network Token",
+    "symbol": "T",
+    "decimals": 18
+  },
+  "0x2b830f8e213d3D3fEceC3A755a813104a43a501A": {
+    "name": "ARTFUL CASH",
+    "symbol": "CASH",
+    "decimals": 18
+  },
+  "0x6c84a8f1c29108F47a79964b5Fe888D4f4D0dE40": {
+    "name": "Optimism tBTC v2",
+    "symbol": "tBTC",
+    "decimals": 18
+  },
+  "0x62491b39c9680C5a199689B6AE9A5d0873b1F7B5": {
+    "name": "Token XEN Crypto V1",
+    "symbol": "opXEN",
+    "decimals": 18
+  },
+  "0xeB585163DEbB1E637c6D617de3bEF99347cd75c8": {
+    "name": "XEN Crypto",
+    "symbol": "opXEN",
+    "decimals": 18
+  },
+  "0xaB100633792dC72F4B466E412B65f5B21E3Abd45": {
+    "name": "Overdrive",
+    "symbol": "Over",
+    "decimals": 18
+  },
+  "0x108A2d30F15db1419C512083fC5EC53F3fB39a4C": {
+    "name": "Tether USD",
+    "symbol": "USDT",
+    "decimals": 18
   }
 }
