@@ -773,5 +773,40 @@
     "name": "SWISSSPD",
     "symbol": "SPD",
     "decimals": 18
+  },
+  "0x2c5f7f1F091af04EDfd5f7Ffd150aA6746834199": {
+    "name": "Mrbeast",
+    "symbol": "MRBEAST",
+    "decimals": 18
+  },
+  "0x6d7A450ec5c8a98eEA59dBE7C9d791EB6f8F8745": {
+    "name": "Jelly",
+    "symbol": "JELLY",
+    "decimals": 18
+  },
+  "0x6A818a39C79A84E6Bb809a2C5c10628e7f3DF7AB": {
+    "name": "CifraoCoin",
+    "symbol": "CFC",
+    "decimals": 18
+  },
+  "0x47882e66e1fd198D223FB40947bb29427F1dBF5E": {
+    "name": "UBI4ALL EUROPA",
+    "symbol": "UB4",
+    "decimals": 18
+  },
+  "0x7568ab74686256796EcCd5e33AB83273a19b177c": {
+    "name": "vETH",
+    "symbol": "vETH",
+    "decimals": 18
+  },
+  "0x77395802Eff21F5641447b6bF51826Fd873bE318": {
+    "name": "vUSDT",
+    "symbol": "vUSDT",
+    "decimals": 18
+  },
+  "0xEAAad8DFEa28BCBf2eD7D43481547FAF7f314159": {
+    "name": "POC Network",
+    "symbol": "POC",
+    "decimals": 18
   }
 }

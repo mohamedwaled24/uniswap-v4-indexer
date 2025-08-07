@@ -478,5 +478,115 @@
     "name": "Hailo",
     "symbol": "HAILO",
     "decimals": 18
+  },
+  "0xA6ad5aa8D4D6F17c373922c24c109578b28D1E68": {
+    "name": "Tea",
+    "symbol": "TEA",
+    "decimals": 18
+  },
+  "0x1956Ee5c05CE9b9D88bD9711b0D24a9cd10e25b2": {
+    "name": "417828325",
+    "symbol": "03805479",
+    "decimals": 18
+  },
+  "0xaA9b9fbF01f4783A355e55A8395A83C307477040": {
+    "name": "268000779",
+    "symbol": "21960078",
+    "decimals": 18
+  },
+  "0x94E296b57901e0a3dC9C4D4acAf9c3a504aB7729": {
+    "name": "579134248",
+    "symbol": "50117616",
+    "decimals": 18
+  },
+  "0x4bc5174b9cB4B009170C35A028f82e0703c90Da0": {
+    "name": "95786875",
+    "symbol": "98259151",
+    "decimals": 18
+  },
+  "0x8C6002555238B1a8BE96937e2Ac1dA7B7F943F91": {
+    "name": "707611498",
+    "symbol": "62505254",
+    "decimals": 18
+  },
+  "0x5cB32B19BCCC6792E75d62d0CC984D232B0F79dd": {
+    "name": "UniPony",
+    "symbol": "PONY",
+    "decimals": 18
+  },
+  "0xb1AC4B5A2E24d5e535Cc4A5C9f6250A46aE301Ae": {
+    "name": "638424",
+    "symbol": "6370597",
+    "decimals": 18
+  },
+  "0x91928E022c69bB9187dDc88500cD2C91Eb1605fC": {
+    "name": "27948",
+    "symbol": "8259996",
+    "decimals": 18
+  },
+  "0x4F237004826D758cBAa7C6C14480f9D59D8CFd87": {
+    "name": "608081",
+    "symbol": "384791",
+    "decimals": 18
+  },
+  "0x115990E52A220BeD260a6fB65ac83b4Cf2565E03": {
+    "name": "568369",
+    "symbol": "0884411",
+    "decimals": 18
+  },
+  "0xD80DF285486C78D957717a71C575C38c21ae27f2": {
+    "name": "161368",
+    "symbol": "739622",
+    "decimals": 18
+  },
+  "0x5467d9D33f8b1c246bC0160B3C4dBD27ec3Ee4aF": {
+    "name": "425082865",
+    "symbol": "575266554",
+    "decimals": 18
+  },
+  "0xb99F8a49173A38CC74f20cc27Aa8b06ec97a660E": {
+    "name": "268469783",
+    "symbol": "900814023",
+    "decimals": 18
+  },
+  "0x1F05A0392Dd7074a9570fcd548299FF5f5Da1470": {
+    "name": "40460129",
+    "symbol": "148879271",
+    "decimals": 18
+  },
+  "0x648245700043866f7860981803B71885CC6Cbaa8": {
+    "name": "735648696",
+    "symbol": "093192871",
+    "decimals": 18
+  },
+  "0xdB33D9816D77702ab17fc93D27168346b4ce82EE": {
+    "name": "388929621",
+    "symbol": "799508606",
+    "decimals": 18
+  },
+  "0xCf269AC89510Ec857792678Ff436D914e4d9D18F": {
+    "name": "226303",
+    "symbol": "55780767",
+    "decimals": 18
+  },
+  "0xA6db7B1D07ab7cc0F69573e103dd3B2683E39B74": {
+    "name": "995969",
+    "symbol": "5800188",
+    "decimals": 18
+  },
+  "0xc9Ad687525970fBf826e977104e8df652E400EB1": {
+    "name": "27206",
+    "symbol": "05725495",
+    "decimals": 18
+  },
+  "0x8096c880650aa839C857F8f8F1d6FE265115Cb93": {
+    "name": "737229",
+    "symbol": "4474676",
+    "decimals": 18
+  },
+  "0xD6c7cc38215F5993E5E276146977c8D8B411d739": {
+    "name": "400588",
+    "symbol": "9737522",
+    "decimals": 18
   }
 }
